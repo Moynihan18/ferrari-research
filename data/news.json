@@ -1,0 +1,2708 @@
+{
+  "generated_at": "2026-07-21T21:23:09.629Z",
+  "companies": [
+    {
+      "id": "deepseek",
+      "news": [
+        {
+          "date": "2026-07-01",
+          "category": "funding",
+          "title": "DeepSeek in talks for follow-on round at ~$71B pre-money valuation",
+          "source": "Reuters/various (via PitchBook, Seeking Alpha coverage)",
+          "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+          "summary": "After closing its first-ever external funding round in May 2026 (~$7.4B, valuation $52-59B) with investors including Tencent, CATL, JD.com and IDG Capital, DeepSeek began preliminary talks in July 2026 for a follow-on round at roughly $71B pre-money, with a possible 2027 IPO.",
+          "sales_relevance": "A well-capitalized DeepSeek pursuing an IPO is likely to keep scaling inference serving infrastructure and could be evaluating vendors beyond its historically self-hosted stack."
+        },
+        {
+          "date": "2026-04-24",
+          "category": "product_launch",
+          "title": "DeepSeek previews V4 (Flash and Pro)",
+          "source": "TechCrunch / MIT Technology Review",
+          "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+          "summary": "DeepSeek released preview versions of V4 Flash and V4 Pro, both mixture-of-experts models with 1M-token context windows and upgraded reasoning/agentic capabilities, marking its most significant release since R1.",
+          "sales_relevance": "A major new flagship model release signals fresh inference-serving demand and optimization needs around MoE architectures, a good hook for MAX engine positioning."
+        },
+        {
+          "date": "2026-04-28",
+          "category": "other",
+          "title": "DeepSeek V4 technical report reveals R&D staff departures",
+          "source": "TechNode",
+          "url": "https://technode.com/2026/04/28/deepseek-v4-report-shows-multiple-rd-staff-departures/",
+          "summary": "The V4 technical report showed roughly 10 contributors, including at least five core R&D staff working on base models, reasoning, OCR and multimodal research, had left the company since the second half of 2025.",
+          "sales_relevance": "Research team turnover could create openings for new infra/tooling vendors as replacement staff re-evaluate the serving stack."
+        }
+      ]
+    },
+    {
+      "id": "minimax",
+      "news": [
+        {
+          "date": "2026-01-09",
+          "category": "funding",
+          "title": "MiniMax completes Hong Kong IPO, raising ~$619M",
+          "source": "SiliconANGLE / CNBC",
+          "url": "https://siliconangle.com/2026/01/08/minimax-raises-619m-hong-kong-ipo-investor-appetite-generative-ai-remains-strong/",
+          "summary": "MiniMax priced its Hong Kong IPO at the top of its range, raising roughly $619M (HK$4.82B), and its shares doubled on debut, edging out rival Zhipu AI's first-day gains.",
+          "sales_relevance": "Fresh public-market capital gives MiniMax more budget to scale inference infrastructure, making it a live prospect for vendor evaluations."
+        },
+        {
+          "date": "2026-05-31",
+          "category": "product_launch",
+          "title": "MiniMax ships M3 with 1M-token context and sparse attention",
+          "source": "OpenRouter listing / industry coverage",
+          "url": "https://myclaw.ai/blog/minimax-m2-vs-m3",
+          "summary": "MiniMax released M3, featuring a 1M-token context window, multimodal input, and MiniMax Sparse Attention, continuing rapid iteration after M2 and M2.5/M2.7.",
+          "sales_relevance": "Frequent large-model releases with long-context/sparse-attention demands increase serving complexity and cost, a direct opening for MAX inference optimization."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "product_launch",
+          "title": "MiniMax launches M2.7, a self-evolving agentic model",
+          "source": "WaveSpeed blog / Medium (Maxime Labonne)",
+          "url": "https://wavespeed.ai/blog/posts/minimax-m2-7-self-evolving-agent-model-features-benchmarks-2026/",
+          "summary": "MiniMax released M2.7, billed as its first self-evolving model, having run 100+ autonomous RL optimization loops and written its own agent scaffolding, targeting agentic workflows and software engineering.",
+          "sales_relevance": "Heavy agentic/RL workloads typically require substantial serving throughput, making cost-per-token efficiency a likely purchasing driver."
+        },
+        {
+          "date": "2026-06-15",
+          "category": "product_launch",
+          "title": "MiniMax upgrades its Agent product (\"Mavis\") with Agent Teams",
+          "source": "MiniMax News",
+          "url": "https://www.minimax.io/news/minimax-m2",
+          "summary": "MiniMax introduced an upgraded Agent product, Mavis, adding Agent Teams for parallel multi-agent collaboration and merging its TokenPlan and Agent Plan into a single subscription with shared credits across CLI, API, and Agent.",
+          "sales_relevance": "A unified multi-agent product implies growing, unpredictable inference load across surfaces — a good angle for discussing elastic/efficient serving."
+        }
+      ]
+    },
+    {
+      "id": "zhipu-ai-z-ai",
+      "news": [
+        {
+          "date": "2026-06-16",
+          "category": "product_launch",
+          "title": "Z.ai releases GLM-5.2",
+          "source": "NIST CAISI assessment / industry coverage",
+          "url": "https://www.nist.gov/news-events/news/2026/07/caisi-assessment-zais-glm-52",
+          "summary": "Z.ai released GLM-5.2 as an open-weight model under an MIT license, featuring a 1-million-token context window and selectable reasoning modes.",
+          "sales_relevance": "A fast open-weight release cadence with huge context windows creates real serving-cost pressure that MAX's inference efficiency pitch can address."
+        },
+        {
+          "date": "2026-04-08",
+          "category": "product_launch",
+          "title": "Z.ai releases GLM-5.1",
+          "source": "Presenc AI research note",
+          "url": "https://presenc.ai/research/zhipu-glm-model-lineage-2026",
+          "summary": "Z.ai open-sourced GLM-5.1, continuing rapid iteration on its GLM-5 line roughly two months after the original GLM-5 launch.",
+          "sales_relevance": "Rapid point-release cadence signals an active model-serving pipeline that needs to support multiple concurrent model versions efficiently."
+        },
+        {
+          "date": "2026-02-11",
+          "category": "product_launch",
+          "title": "Z.ai launches GLM-5 frontier model",
+          "source": "Hugging Face blog (Maxime Labonne) / llm-stats.com",
+          "url": "https://huggingface.co/blog/mlabonne/glm-5",
+          "summary": "Z.ai released GLM-5, a 744B-parameter MoE model (40B active) using DeepSeek Sparse Attention for 200K-token context, becoming the #1 open-weight model on Artificial Analysis and LMArena's Text Arena.",
+          "sales_relevance": "Topping open-weight leaderboards drives inbound developer traffic and usage, increasing the urgency of an efficient serving stack."
+        },
+        {
+          "date": "2026-01-08",
+          "category": "funding",
+          "title": "Z.ai (Zhipu AI) lists on Hong Kong Stock Exchange",
+          "source": "Yahoo Finance / CNBC",
+          "url": "https://sg.finance.yahoo.com/news/chinas-agi-pioneer-leader-z-084700183.html",
+          "summary": "Z.ai became the first listed large language model company, debuting on the HKEX with an IPO priced at HK$116.20/share and a market cap of roughly HK$52.83 billion ($7.1B valuation).",
+          "sales_relevance": "Newly public status brings fresh capital and investor scrutiny on unit economics, making inference cost efficiency a boardroom-visible topic."
+        }
+      ]
+    },
+    {
+      "id": "moonshot-ai",
+      "news": [
+        {
+          "date": "2026-07-16",
+          "category": "product_launch",
+          "title": "Moonshot AI launches flagship Kimi K3",
+          "source": "The AI Rankings / industry coverage",
+          "url": "https://theairankings.com/moonshot/",
+          "summary": "Moonshot AI released Kimi K3, its new flagship model, becoming the first Chinese model to reach the frontier pack on independent testing (4th overall on the Artificial Analysis Intelligence Index).",
+          "sales_relevance": "A frontier-class launch driving a reported infrastructure crunch is a strong, timely opening to discuss inference capacity and cost efficiency."
+        },
+        {
+          "date": "2026-05-07",
+          "category": "funding",
+          "title": "Moonshot AI closes $2B round at $20B valuation",
+          "source": "The AI Insider",
+          "url": "https://theaiinsider.tech/2026/05/08/moonshot-ai-closes-2b-funding-round-at-20b-valuation-as-kimi-models-rival-openai-and-anthropic/",
+          "summary": "Moonshot AI closed a $2 billion round valuing the company at roughly $20 billion (up from ~$4.3B six months earlier), with ARR reportedly crossing $200M by April 2026 and plans for an IPO filing in H2 2026.",
+          "sales_relevance": "Rapid revenue and valuation growth plus an approaching IPO make this a well-funded account actively scaling serving infrastructure and vendor relationships."
+        },
+        {
+          "date": "2026-06-12",
+          "category": "product_launch",
+          "title": "Moonshot ships Kimi K2.7-Code",
+          "source": "DevOps.com",
+          "url": "https://devops.com/moonshot-ais-kimi-k2-7-code-targets-token-efficiency-in-agentic-coding/",
+          "summary": "Moonshot released Kimi K2.7-Code, its fifth major Kimi release in under a year, improving coding benchmark performance by 21.8% and cutting reasoning token usage by 30% versus K2.6.",
+          "sales_relevance": "Explicit focus on reducing token/inference cost suggests active internal work on serving efficiency — a natural conversation starter for MAX."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "other",
+          "title": "Moonshot AI targets IPO filing in H2 2026",
+          "source": "SCMP / theaiinsider.tech",
+          "url": "https://www.scmp.com/tech/article/3356348/moonshot-ai-eyes-us30-billion-valuation-chinas-ai-race-intensifies",
+          "summary": "Moonshot AI is reportedly targeting a Hong Kong IPO filing in the second half of 2026 following its rapid valuation growth and Kimi K3 launch.",
+          "sales_relevance": "Pre-IPO companies often formalize vendor procurement and infra cost controls, a good timing signal for enterprise outreach."
+        }
+      ]
+    },
+    {
+      "id": "cohere-aleph-alpha",
+      "news": [
+        {
+          "date": "2026-04-24",
+          "category": "acquisition",
+          "title": "Cohere to acquire/merge with Aleph Alpha, forming $20B \"transatlantic AI powerhouse\"",
+          "source": "TechCrunch / CNBC / BNN Bloomberg",
+          "url": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+          "summary": "Cohere announced it will acquire Germany's Aleph Alpha in a deal structured as a merger (Cohere shareholders retaining ~90%), valuing the combined company at $20B, with dual headquarters in Toronto and Berlin; the deal has not yet closed pending regulatory approval.",
+          "sales_relevance": "A major acquisition means Cohere will be consolidating two infrastructure stacks and re-evaluating vendors across both entities — a prime moment to engage before decisions solidify."
+        },
+        {
+          "date": "2026-01-15",
+          "category": "funding",
+          "title": "Cohere's valuation reaches $7B after $100M round extension",
+          "source": "BetaKit",
+          "url": "https://betakit.com/coheres-valuation-hits-7-billion-usd-following-100-million-round-extension/",
+          "summary": "Cohere raised an additional $100M, extending prior financing and pushing its valuation to $7B; the Aleph Alpha deal separately includes a planned $600M investment from Schwarz Group into Cohere's upcoming Series E.",
+          "sales_relevance": "Continued fundraising ahead of a Series E signals available capital for infrastructure spend as the company scales enterprise deployments."
+        },
+        {
+          "date": "2026-02-01",
+          "category": "leadership",
+          "title": "Cohere reshuffles leadership: President departs, new CAI/CFO/CTO named",
+          "source": "The Logic / Constellation Research",
+          "url": "https://thelogic.co/news/exclusive/cohere-martin-kon-president-depature/",
+          "summary": "Cohere President Martin Kon stepped down into an advisory board role; the company hired ex-Meta research head Joelle Pineau as Chief AI Officer and former Uber executive Francois Chadwick as CFO, and promoted Phil Blunsom to CTO.",
+          "sales_relevance": "New CTO and Chief AI Officer are likely reviewing technical infrastructure decisions, creating a fresh window to pitch inference vendor alternatives."
+        },
+        {
+          "date": "2026-02-15",
+          "category": "other",
+          "title": "Cohere's ARR reportedly hits $240M, beating $200M target",
+          "source": "FNEX",
+          "url": "https://fnex.com/coheres-240m-arr-highlight/",
+          "summary": "Cohere reached approximately $240M in annual recurring revenue, exceeding an internal $200M target set for February 2026, amid intensifying enterprise AI competition.",
+          "sales_relevance": "Revenue growth ahead of plan, combined with a 866-role hiring signal in Reo, suggests scaling production inference workloads that need cost-efficient serving."
+        }
+      ]
+    },
+    {
+      "id": "thinking-machines-lab",
+      "news": [
+        {
+          "date": "2026-07-15",
+          "category": "product_launch",
+          "title": "Thinking Machines Lab ships Inkling, its first broadly available model",
+          "source": "Bloomberg / Axios / Fortune",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-15/murati-s-thinking-machines-releases-first-ai-model-for-broad-use",
+          "summary": "Mira Murati's Thinking Machines Lab released Inkling, an open-weight AI model designed to process queries across media types while balancing cost and performance, its first product for general use following earlier developer tool Tinker.",
+          "sales_relevance": "A first public model launch means Thinking Machines is standing up production inference serving for the first time — an ideal early-stage vendor conversation."
+        },
+        {
+          "date": "2026-06-04",
+          "category": "funding",
+          "title": "Thinking Machines valued at $12B; earlier $50B talks stalled",
+          "source": "StartupHub.ai / HPCwire",
+          "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-mira-murati-company-financial-breakdown-2026-06-02",
+          "summary": "Following its record $2B seed round, Thinking Machines Lab was in talks for a $50B valuation in late 2025, but as of June 2026 its confirmed valuation stands at $12B after that round did not close as reported.",
+          "sales_relevance": "Despite the stalled mega-round, the company still holds a large war chest from its seed and is now shipping product, implying real infra budget in play."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "partnership",
+          "title": "Nvidia signs multiyear chip supply deal with Thinking Machines",
+          "source": "Bloomberg / Axios coverage",
+          "url": "https://www.axios.com/2026/07/15/mira-murati-thinking-machines-open-weight-model-inkling",
+          "summary": "Nvidia announced a multiyear agreement to supply Thinking Machines Lab with its upcoming Vera Rubin accelerators as the startup builds out low-latency \"interaction model\" infrastructure targeting ~200ms response times.",
+          "sales_relevance": "A dedicated multiyear compute deal signals imminent large-scale inference deployment where serving-layer software choice (e.g., MAX vs. vLLM-based stacks) will matter."
+        },
+        {
+          "date": "2026-01-20",
+          "category": "leadership",
+          "title": "Thinking Machines co-founder and CTO Barret Zoph departs",
+          "source": "Substack (Brendon Beebe) / HPCwire",
+          "url": "https://www.hpcwire.com/aiwire/2026/01/27/the-thinking-machines-lab-saga-and-a-changing-ai-market/",
+          "summary": "Thinking Machines Lab announced the departure of co-founder and CTO Barret Zoph in January 2026, amid broader turnover following the 2025 OpenAI exodus that formed the company.",
+          "sales_relevance": "Loss of a founding CTO can reopen technical infrastructure decisions under new engineering leadership."
+        }
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "news": [
+        {
+          "date": "2026-07-21",
+          "category": "partnership",
+          "title": "Microsoft and Mistral expand strategic partnership",
+          "source": "Microsoft Source / TechCrunch",
+          "url": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+          "summary": "Microsoft and Mistral announced an expanded multibillion-dollar strategic partnership (announced the same day as this research) to bring Mistral's Medium 3.5 and OCR 4 models into Microsoft Foundry and fund European AI infrastructure expansion.",
+          "sales_relevance": "A deepened hyperscaler partnership and infra investment signal Mistral is actively negotiating serving/infrastructure arrangements right now — timely to engage."
+        },
+        {
+          "date": "2026-06-12",
+          "category": "funding",
+          "title": "Mistral in talks to raise ~€3B at ~€20B valuation",
+          "source": "Bloomberg / TechCrunch",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-12/france-s-mistral-in-funding-talks-at-about-20-billion-valuation",
+          "summary": "Mistral AI is reportedly in early-stage talks to raise about €3 billion at a roughly €20 billion valuation, nearly doubling its September 2025 €11.7B Series C valuation.",
+          "sales_relevance": "A near-doubling funding round would give Mistral significant fresh capital to invest in compute and inference infrastructure."
+        },
+        {
+          "date": "2026-07-08",
+          "category": "product_launch",
+          "title": "Mistral releases Robostral Navigate robotics model",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-08/mistral-ai-releases-robotics-model-to-support-physical-ai-push",
+          "summary": "Mistral launched Robostral Navigate, a robotics navigation model letting robots navigate environments using a single camera and basic language prompts, alongside a new open-weight MoE model family entering early access in July 2026.",
+          "sales_relevance": "Expansion into new model categories (robotics, new MoE family) broadens the range of workloads Mistral needs to serve efficiently in production."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "other",
+          "title": "Mistral raises $830M in debt to fund new Nvidia-powered data center",
+          "source": "Industry coverage",
+          "url": "https://serenitiesai.com/articles/mistral-ai-models-2026-complete-guide",
+          "summary": "Mistral secured $830 million in debt financing in March 2026 to purchase roughly 13,800 Nvidia chips for a new data center near Paris, part of its broader Mistral Compute infrastructure buildout.",
+          "sales_relevance": "Direct evidence of large-scale in-house compute buildout — a key moment to pitch inference-serving software that maximizes utilization of that new hardware."
+        }
+      ]
+    },
+    {
+      "id": "poolside-ai",
+      "news": [
+        {
+          "date": "2026-04-02",
+          "category": "partnership",
+          "title": "Poolside's $2B Series C collapses as CoreWeave exits anchor role",
+          "source": "DataCenterDynamics / Financial Times (via tech-insider.org)",
+          "url": "https://tech-insider.org/poolside-ai-project-horizon-coreweave-2gw-texas-collapse-2026/",
+          "summary": "Poolside's planned $2 billion Series C at a $14 billion pre-money valuation fell apart after CoreWeave exited as anchor tenant on the \"Project Horizon\" data-center partnership, amid investor concerns about Poolside's ability to compete at the frontier with Anthropic, OpenAI, and Google DeepMind.",
+          "sales_relevance": "With its CoreWeave-anchored compute/infra plan collapsed and a funding round stalled, Poolside is actively reassessing its infrastructure strategy — a strong opening for alternative serving/infra vendors."
+        },
+        {
+          "date": "2026-04-28",
+          "category": "acquisition",
+          "title": "Poolside acquires Fern Labs",
+          "source": "Industry coverage",
+          "url": "https://aiwiki.ai/wiki/poolside",
+          "summary": "Poolside acquired Fern Labs, a London-based forward-deployed research engineering firm behind Bridge, a multi-agent orchestration layer built for high-stakes production environments.",
+          "sales_relevance": "Absorbing a new engineering team building production agent orchestration adds serving complexity that may need a more efficient inference backend."
+        },
+        {
+          "date": "2026-04-29",
+          "category": "product_launch",
+          "title": "Poolside launches Laguna M.1 and Laguna XS.2 models",
+          "source": "Poolside blog",
+          "url": "https://poolside.ai/blog",
+          "summary": "Poolside released the first models in its Laguna family (M.1 and XS.2) along with a runtime for training and operating coding agents, available in research preview; Laguna XS.2 is positioned as a free, high-performing local agentic coding model.",
+          "sales_relevance": "New model family plus a dedicated agent runtime signals fresh internal investment in inference serving infrastructure to support this launch."
+        },
+        {
+          "date": "2025-11-18",
+          "category": "partnership",
+          "title": "Poolside becomes a first-party AWS offering",
+          "source": "Business Wire (via financialcontent.com)",
+          "url": "https://markets.financialcontent.com/pennwell.pennenergy/article/bizwire-2025-10-15-coreweave-announces-partnership-with-foundation-model-company-poolside-to-deliver-ai-cloud-services",
+          "summary": "Poolside announced a partnership establishing it as a first-party AWS offering, prior to the later collapse of its separate CoreWeave-anchored compute deal.",
+          "sales_relevance": "Multi-cloud/first-party positioning on AWS alongside the collapsed CoreWeave deal suggests Poolside's infra vendor mix is actively in flux."
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "news": [
+        {
+          "date": "2026-07-02",
+          "category": "funding",
+          "title": "ElevenLabs in talks for tender offer at $22B valuation",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation",
+          "summary": "ElevenLabs has held early talks with investors about a tender offer letting employees sell shares at a valuation of roughly $22 billion, double its February 2026 $11B Series D valuation, with the tender expected by September 2026.",
+          "sales_relevance": "Rapidly compounding valuation and revenue ($500M ARR) point to a company scaling voice-AI inference volume fast, making serving efficiency a growing cost concern."
+        },
+        {
+          "date": "2026-05-05",
+          "category": "funding",
+          "title": "ElevenLabs closes third tranche of Series D with major institutional/strategic investors",
+          "source": "Let's Data Science / company disclosures",
+          "url": "https://letsdatascience.com/news/elevenlabs-secures-new-investors-after-500m-arr-34b32788",
+          "summary": "ElevenLabs added BlackRock, Wellington, D.E. Shaw and Schroders plus strategic investors including Nvidia (NVentures), Salesforce, Santander, KPN and Deutsche Telekom to its Series D, building on its February 2026 $500M/$11B round.",
+          "sales_relevance": "New strategic investors like Nvidia and major telcos suggest deepening infrastructure and distribution partnerships worth understanding before outreach."
+        },
+        {
+          "date": "2026-05-01",
+          "category": "partnership",
+          "title": "Spotify partners with ElevenLabs on AI audiobook production",
+          "source": "Industry coverage",
+          "url": "https://texttolab.com/blog/elevenlabs-news",
+          "summary": "Spotify announced a partnership with ElevenLabs to let authors produce AI-generated audiobooks directly through Spotify, targeting $100M in incremental audiobook revenue.",
+          "sales_relevance": "A high-volume consumer distribution partnership (Spotify) will significantly increase ElevenLabs' inference request volume for audio generation."
+        },
+        {
+          "date": "2026-05-15",
+          "category": "product_launch",
+          "title": "ElevenReader expands into a full audiobook platform",
+          "source": "TextToLab",
+          "url": "https://texttolab.com/blog/elevenlabs-news",
+          "summary": "ElevenLabs' ElevenReader app grew from a read-aloud tool into a full audiobook platform with 200,000 human-narrated titles licensed from major publishers.",
+          "sales_relevance": "Launching a large consumer content platform built on ElevenLabs' voice models adds sustained, high-scale inference load that needs cost-efficient serving."
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "news": [
+        {
+          "date": "2026-07-07",
+          "category": "other",
+          "title": "Disney, Universal and Warner Bros. pursue consolidated copyright lawsuit against Midjourney",
+          "source": "techweez.com / Georgetown Law tech institute",
+          "url": "https://techweez.com/2026/07/07/midjourney-disney-universal-warner-copyright-lawsuit/",
+          "summary": "The consolidated copyright lawsuit by Disney, Universal/DreamWorks and Warner Bros. against Midjourney over AI image/video training and outputs is proceeding, with expert discovery scheduled through November 2026.",
+          "sales_relevance": "Major litigation risk may make Midjourney cautious about vendor relationships and public technical partnerships, but doesn't reduce its need for efficient serving infrastructure."
+        },
+        {
+          "date": "2026-04-29",
+          "category": "product_launch",
+          "title": "Midjourney ships V8.1, replacing V8",
+          "source": "Releasebot / industry coverage",
+          "url": "https://releasebot.io/updates/midjourney",
+          "summary": "Midjourney replaced V8 with V8.1, adding a 3x faster HD mode at one-third the cost, plus stable moodboards and V7-style references, as the new default model.",
+          "sales_relevance": "A model update explicitly focused on cutting generation cost and improving speed suggests Midjourney is actively optimizing its inference cost structure — relevant to MAX's value proposition."
+        },
+        {
+          "date": "2025-08-22",
+          "category": "partnership",
+          "title": "Meta licenses Midjourney's image/video technology",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models",
+          "summary": "Meta AI announced a partnership licensing Midjourney's image and video generation technology, shortly after Midjourney was sued by Disney and NBCUniversal.",
+          "sales_relevance": "A licensing deal with Meta implies Midjourney's models are being served at even larger scale/distribution, increasing infra throughput needs (older item, included for lack of more recent partnership news)."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "other",
+          "title": "Midjourney invests $74M+ to launch ultrasound screening venture",
+          "source": "Radiology Business",
+          "url": "https://radiologybusiness.com/topics/healthcare-management/healthcare-economics/ai-lab-midjourney-investing-over-74m-launch-whole-body-ultrasound-screening-business",
+          "summary": "Midjourney, still self-funded with no outside investors, is investing over $74M to launch a whole-body ultrasound screening healthcare business, a significant diversification from its core image-generation product.",
+          "sales_relevance": "Diversifying into a capital-intensive new business line while remaining self-funded shows Midjourney has real cash reserves to deploy toward new AI infrastructure needs."
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "news": [
+        {
+          "date": "2026-02-10",
+          "category": "funding",
+          "title": "Runway raises $315M Series E at $5.3B valuation, pivots toward world models",
+          "source": "Bloomberg / TechCrunch",
+          "url": "https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/",
+          "summary": "Runway closed a $315M Series E led by General Atlantic (with Nvidia, Fidelity, AllianceBernstein and Mirae participating), valuing the company at $5.3B and funding its strategic pivot from video generation toward more general \"world models.\"",
+          "sales_relevance": "Fresh, large funding earmarked for next-gen world-model compute makes Runway a strong near-term prospect for inference infrastructure spend given its Reo STRONG fit score."
+        },
+        {
+          "date": "2026-02-01",
+          "category": "product_launch",
+          "title": "Runway rolls out Gen-4.5 video model",
+          "source": "Stocktwits / seczine.com",
+          "url": "https://seczine.com/technology/2026/02/runway-announces-315m-to-power-nextgen-world-model/",
+          "summary": "Runway's Gen 4.5 video generation model topped the Artificial Analysis Text-to-Video benchmark with 1,247 Elo points, outperforming competitors on fidelity, consistency and controllability, and is being rolled out to all users.",
+          "sales_relevance": "A benchmark-leading new model driving broader rollout implies rising inference volume and a need for efficient large-scale video-model serving."
+        },
+        {
+          "date": "2025-12-18",
+          "category": "partnership",
+          "title": "Runway and Adobe form multi-year strategic partnership; Lionsgate takes equity stake",
+          "source": "Business Wire / Variety",
+          "url": "https://variety.com/2026/film/news/lionsgate-equity-stake-runway-ai-franchises-for-ai-show-1236775590/",
+          "summary": "Adobe became Runway's preferred API creativity partner with early access to Gen-4.5, while separately Lionsgate took an equity stake in Runway to co-develop AI-generated short-form content from its franchises.",
+          "sales_relevance": "Two major distribution partnerships (Adobe, Lionsgate) will materially increase Runway's production inference traffic across new customer surfaces."
+        },
+        {
+          "date": "2026-02-10",
+          "category": "leadership",
+          "title": "Anastasis Germanidis becomes co-CEO alongside Cristóbal Valenzuela",
+          "source": "Runway News",
+          "url": "https://runwayml.com/news/new-leaders-to-support-next-phase-of-growth",
+          "summary": "Co-founder Anastasis Germanidis, previously leading research, was formally elevated to co-CEO alongside Cristóbal Valenzuela as part of Runway's next phase of growth, coinciding with the Series E announcement.",
+          "sales_relevance": "A research-focused co-CEO taking on broader leadership may re-open technical infrastructure and vendor decisions as the company scales toward world models."
+        }
+      ]
+    },
+    {
+      "id": "black-forest-labs",
+      "news": [
+        {
+          "date": "2025-12-01",
+          "category": "funding",
+          "title": "Black Forest Labs raises $300M Series B at $3.25B valuation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation",
+          "summary": "Black Forest Labs closed a $300M Series B co-led by Salesforce Ventures and Anjney Midha (AMP), with a16z, NVIDIA, General Catalyst and Temasek participating, to expand FLUX model development, compute infrastructure, and commercial operations.",
+          "sales_relevance": "A fresh $300M raise earmarked partly for compute infrastructure signals active budget and vendor evaluation for inference/serving at scale."
+        },
+        {
+          "date": "2026-01-16",
+          "category": "product_launch",
+          "title": "Black Forest Labs releases FLUX.2 [klein]",
+          "source": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/01/16/black-forest-labs-releases-flux-2-klein-compact-flow-models-for-interactive-visual-intelligence/",
+          "summary": "BFL launched FLUX.2 [klein], a compact pair of flow-based image models optimized for sub-second generation and reduced hardware requirements, including on-device deployment with ASUS/NVIDIA.",
+          "sales_relevance": "A push toward lightweight, low-latency, self-hostable image models is a direct fit for Modular's MAX inference engine pitch on cost/latency efficiency."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "product_launch",
+          "title": "FLUX.2 [klein] 9B-KV with KV-cache optimization released",
+          "source": "startuphub.ai / bfl.ai blog",
+          "url": "https://bfl.ai/blog",
+          "summary": "BFL shipped FLUX.2 [klein] 9B-KV and an FP8 variant incorporating KV-cache optimization for faster, cheaper inference.",
+          "sales_relevance": "Active investment in inference-side optimization (KV-cache, FP8) suggests engineering pain points around serving cost that Modular's MAX engine directly addresses."
+        },
+        {
+          "date": "2025-09-01",
+          "category": "partnership",
+          "title": "Black Forest Labs signs $140M multi-year Meta contract",
+          "source": "Dakota / Vestbee coverage",
+          "url": "https://www.dakota.com/resources/blog/black-forest-labs-raises-300m-at-3.25b",
+          "summary": "BFL signed a multi-year contract with Meta worth roughly $140M for use of its generative image technology, part of ~$300M in total contract value across partners including Adobe, Canva, and Snap.",
+          "sales_relevance": "Large enterprise licensing deals imply BFL must serve FLUX models at significant scale and reliability for major platform partners, raising the stakes on inference infrastructure choices."
+        }
+      ]
+    },
+    {
+      "id": "sakana-ai",
+      "news": [
+        {
+          "date": "2026-06-22",
+          "category": "product_launch",
+          "title": "Sakana AI launches Fugu / Fugu Ultra orchestration model",
+          "source": "MarkTechPost / sakana.ai",
+          "url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
+          "summary": "Sakana AI released Fugu and Fugu Ultra, a multi-agent orchestration model that dynamically routes tasks across a swappable pool of frontier LLMs (including its own and third-party models) via a single API.",
+          "sales_relevance": "A model-routing/orchestration product that swaps between many backing models implies Sakana needs flexible, multi-model serving infrastructure — a strong fit for a multi-model inference platform pitch."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "Sakana AI partners with NVIDIA on open model stack",
+          "source": "sakana.ai / StartupHub.ai",
+          "url": "https://sakana.ai/nvidia-open-model-innovation/",
+          "summary": "Sakana AI is integrating NVIDIA's open model stack (including Nemotron) into its Fugu orchestration system, combining NVIDIA compute with Sakana's collective-intelligence approach.",
+          "sales_relevance": "Deepening NVIDIA hardware/model ties suggests active infrastructure decisions are underway, a window to position Modular's engine as the serving layer on top of that hardware."
+        },
+        {
+          "date": "2026-03-25",
+          "category": "funding",
+          "title": "Mitsubishi Electric invests in Sakana AI",
+          "source": "Mitsubishi Electric press release",
+          "url": "https://www.mitsubishielectric.com/en/pr/2026/0325-b/",
+          "summary": "Mitsubishi Electric Corporation announced a strategic investment in Sakana AI to collaborate on next-generation foundation models.",
+          "sales_relevance": "New strategic corporate investors often bring new use-case demands (e.g., industrial deployment) that increase inference workload diversity and serving requirements."
+        },
+        {
+          "date": "2025-11-17",
+          "category": "funding",
+          "title": "Sakana AI raises $135M Series B at $2.65B valuation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/11/17/sakana-ai-raises-135m-series-b-at-a-2-65b-valuation-to-continue-building-ai-models-for-japan",
+          "summary": "Sakana AI raised $135M in a Series B led by a mix of Japanese (MUFG) and global investors (Khosla Ventures, Macquarie, NEA, Lux Capital, In-Q-Tel), becoming Japan's most valuable AI startup, with plans to expand into industrial, manufacturing and government sectors.",
+          "sales_relevance": "Fresh capital plus planned expansion into new verticals (industrial, government) signals growing inference volume and new deployment environments to support."
+        }
+      ]
+    },
+    {
+      "id": "writer",
+      "news": [
+        {
+          "date": "2026-04-30",
+          "category": "product_launch",
+          "title": "WRITER launches event-based triggers for enterprise AI agents",
+          "source": "VentureBeat / Businesswire",
+          "url": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce",
+          "summary": "WRITER announced event-based triggers for WRITER Agent, letting enterprise AI agents autonomously execute multi-step workflows across Gmail, Slack, SharePoint, Gong and other systems without manual initiation, plus new connectors like Adobe Experience Manager.",
+          "sales_relevance": "Expanding always-on, event-triggered agent workloads across many enterprise systems will meaningfully increase Writer's inference volume and uptime/latency requirements."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "product_launch",
+          "title": "WRITER releases Agent Skills creator and enhanced Playbook builder",
+          "source": "WRITER newsroom",
+          "url": "https://writer.com/newsroom/",
+          "summary": "WRITER shipped a no-code Skills creator and improved Playbook builder allowing non-technical employees to generate production-ready agent capabilities from natural-language descriptions.",
+          "sales_relevance": "Lowering the barrier for non-engineers to spin up new agents likely multiplies the number and diversity of models/workloads Writer must serve in production."
+        },
+        {
+          "date": "2025-10-01",
+          "category": "funding",
+          "title": "Salesforce Ventures invests in Writer",
+          "source": "Coverage of Salesforce Ventures $1B AI fund deployment",
+          "url": null,
+          "summary": "Salesforce Ventures disclosed a new investment in Writer as part of its broader $1B AI fund deployment in October 2025.",
+          "sales_relevance": "New strategic investor with a Salesforce ecosystem tie-in may push Writer toward deeper enterprise integrations, growing scale and infra needs."
+        },
+        {
+          "date": "undated",
+          "category": "product_launch",
+          "title": "WRITER Agent platform positioned against Amazon, Microsoft, Salesforce",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/writers-ai-agents-can-actually-do-your-work-not-just-chat-about-it",
+          "summary": "VentureBeat coverage frames WRITER's agent platform as directly competing with hyperscaler and Salesforce agent offerings by actually executing multi-step work rather than just chatting.",
+          "sales_relevance": "Competing head-on with hyperscaler agent platforms means Writer needs cost-efficient, differentiated inference infrastructure to keep unit economics competitive."
+        }
+      ]
+    },
+    {
+      "id": "sarvam-ai",
+      "news": [
+        {
+          "date": "2026-06-15",
+          "category": "funding",
+          "title": "Sarvam becomes India's newest AI unicorn with $234M raise",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "summary": "Sarvam raised $234M as the first close of a targeted $300M Series B at a $1.5B post-money valuation, with HCLTech investing $150M as lead strategic investor alongside Bessemer, Khosla Ventures and Peak XV.",
+          "sales_relevance": "A large new war chest plus a strategic IT-services investor (HCLTech) signals aggressive scaling of model serving and likely new enterprise deployment demands — good timing for infra vendor outreach."
+        },
+        {
+          "date": "2026-02-18",
+          "category": "product_launch",
+          "title": "Sarvam launches 30B and 105B parameter sovereign LLMs",
+          "source": "Business Standard",
+          "url": "https://www.business-standard.com/technology/tech-news/sarvam-105b-model-sovereign-ai-india-foundation-model-launch-impact-summit-126021900551_1.html",
+          "summary": "Sarvam released two India-focused LLMs (30B and 105B parameters) trained from scratch on domestic compute under the government's IndiaAI Mission, targeting real-time conversation and complex reasoning/coding use cases.",
+          "sales_relevance": "Newly trained large foundation models needing production serving at national scale represent a concrete near-term inference infrastructure decision point."
+        },
+        {
+          "date": "2026-02-07",
+          "category": "partnership",
+          "title": "Sarvam partners with Odisha and Tamil Nadu governments on sovereign AI infrastructure",
+          "source": "VarIndia",
+          "url": "https://www.varindia.com/news/sarvam-ai-partners-with-odisha-and-tamil-nadu-to-build-sovereign-ai-infrastructure",
+          "summary": "Sarvam signed MoUs with Indian state governments, including a deal with Odisha to build a 50-megawatt AI-optimized data facility.",
+          "sales_relevance": "Building dedicated sovereign data-center capacity creates a fresh greenfield infrastructure decision where an inference engine vendor could be evaluated early."
+        }
+      ]
+    },
+    {
+      "id": "ai21-labs",
+      "news": [
+        {
+          "date": "2026-04-09",
+          "category": "acquisition",
+          "title": "Nebius in talks to acquire AI21 Labs",
+          "source": "The Information / Calcalist",
+          "url": "https://www.theinformation.com/articles/nebius-talks-buy-israeli-ai-startup-ai21-nvidia-deal-fizzles",
+          "summary": "Dutch AI cloud provider Nebius Group entered acquisition talks for AI21 Labs after an earlier Nvidia deal fell through; a deal would combine Nebius's AI infrastructure with AI21's language models and Maestro agent platform.",
+          "sales_relevance": "AI21 is actively in M&A discussions — any vendor outreach should account for likely near-term ownership change and possible freeze on new infrastructure commitments until the deal resolves."
+        },
+        {
+          "date": "2025-12-01",
+          "category": "acquisition",
+          "title": "Nvidia in advanced talks to acquire AI21 Labs (talks later collapsed)",
+          "source": "Calcalist",
+          "url": "https://www.idnfinancials.com/news/60021/nvidia-to-acquihire-israeli-ai-startup-with-200-talent-for-us3-bn",
+          "summary": "Calcalist reported Nvidia was in advanced talks to acquire AI21 Labs for $2-3B in late December 2025; those negotiations subsequently fell through in early 2026, paving the way for the Nebius talks.",
+          "sales_relevance": "Confirms AI21 has been an active acquisition target for months — outreach should be sensitive to leadership bandwidth being consumed by deal discussions rather than vendor evaluations."
+        }
+      ]
+    },
+    {
+      "id": "stability-ai",
+      "news": [
+        {
+          "date": "2026-07-01",
+          "category": "partnership",
+          "title": "EA and Stability AI partner on generative AI tools for game development",
+          "source": "ea.com",
+          "url": "https://www.ea.com/news/ea-partners-with-stability-ai",
+          "summary": "Electronic Arts announced a partnership with Stability AI to co-develop AI models, tools and workflows for EA's artists, designers, and developers.",
+          "sales_relevance": "A major new enterprise gaming partner adds a large, latency-sensitive production workload, increasing pressure on Stability AI's inference cost and performance — timely context given they're already engaging with Modular's own content per Reo."
+        }
+      ]
+    },
+    {
+      "id": "upstage",
+      "news": [
+        {
+          "date": "2026-07-15",
+          "category": "partnership",
+          "title": "Upstage and FuriosaAI power Daum's AI search with a domestic stack",
+          "source": "Korea Times",
+          "url": "https://www.koreatimes.co.kr/amp/business/tech-science/20260715/upstage-furiosaai-team-up-to-power-daums-ai-search-with-homegrown-stack",
+          "summary": "Upstage's Solar LLM now runs on FuriosaAI's RNGD NPU to power Daum's AI Summary search feature, described as Korea's first commercial AI stack built entirely from domestic technologies.",
+          "sales_relevance": "Upstage is actively selecting inference hardware/software stacks for production search traffic — evidence they are open to alternative serving stacks beyond the usual GPU cloud defaults."
+        },
+        {
+          "date": "2026-03-24",
+          "category": "product_launch",
+          "title": "Upstage unveils Solar Pro3, a 102B-parameter agent-specialized LLM",
+          "source": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/news/2026/03/24/upstage-unveils-agent-specialized-llm-solar-pro3",
+          "summary": "Upstage released Solar Pro3, a 102-billion parameter model for AI agents with more than double the benchmark performance of its predecessor via proprietary SnapPO reinforcement learning.",
+          "sales_relevance": "A new, much larger flagship model (102B vs prior 31B) significantly raises Upstage's inference compute and serving cost, a natural trigger to discuss efficiency gains from Modular's engine."
+        },
+        {
+          "date": "2025-12-02",
+          "category": "other",
+          "title": "Upstage hires KB Securities and Mirae Asset for Korea IPO",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2025-12-02/ai-startup-upstage-hires-kb-securities-mirae-for-korea-ipo",
+          "summary": "Upstage engaged KB Securities and Mirae Asset Securities to prepare for a Korean IPO as early as H2 2026, aiming to be the first post-ChatGPT generative AI startup to go public domestically.",
+          "sales_relevance": "Pre-IPO companies often tighten cost scrutiny and infrastructure due diligence, making a compelling window to pitch efficiency/cost savings from switching inference platforms."
+        },
+        {
+          "date": "2025-08-01",
+          "category": "funding",
+          "title": "Upstage completes $45M Series B bridge round",
+          "source": "Upstage press release",
+          "url": "https://www.upstage.ai/news/upstage-series-b-bridge",
+          "summary": "Upstage raised a $45M Series B bridge backed by Korea Development Bank, Amazon and AMD to accelerate enterprise GenAI and global expansion.",
+          "sales_relevance": "AMD as an investor/partner suggests Upstage is diversifying compute hardware, which increases the value of a hardware-portable inference engine like MAX."
+        }
+      ]
+    },
+    {
+      "id": "arcee-ai",
+      "news": [
+        {
+          "date": "2026-04-01",
+          "category": "funding",
+          "title": "Arcee AI announces new strategic funding round",
+          "source": "Arcee AI blog",
+          "url": "https://www.arcee.ai/blog/arcee-ai-announces-new-strategic-funding-round",
+          "summary": "Arcee AI raised a strategic round led by Prosperity7 Ventures and Microsoft's M12 fund, with Hitachi Ventures, Wipro, Samsung Next and others participating, reportedly targeting up to $200M at a $1B valuation.",
+          "sales_relevance": "Fresh capital and strategic investors (Microsoft, Hitachi, Wipro, Samsung) suggest Arcee is scaling enterprise deployments of its small language models, growing inference volume."
+        },
+        {
+          "date": "2026-04-07",
+          "category": "product_launch",
+          "title": "Arcee releases Trinity Large Thinking, a 400B-parameter open-source model",
+          "source": "GAB News / National Today",
+          "url": "https://gab.ae/news/arcees-open-source-ai-aims-to-rival-chinese-models-2026",
+          "summary": "Arcee, a ~26-person startup, released Trinity Large Thinking, a 400B-parameter open-source reasoning model built on a reported $20M budget, alongside Trinity Mini and Trinity Nano for balanced and edge workloads.",
+          "sales_relevance": "A jump from small models to a 400B-parameter flagship dramatically increases serving cost/complexity, a strong opening to discuss efficient inference for large open models."
+        },
+        {
+          "date": "undated",
+          "category": "partnership",
+          "title": "Arcee AI small language models now available on Together.ai and OpenRouter",
+          "source": "Arcee AI blog",
+          "url": "https://www.arcee.ai/blog/arcee-ai-small-language-models-on-together-ai-and-openrouter",
+          "summary": "Arcee AI made its small language models available for inference through Together.ai and OpenRouter.",
+          "sales_relevance": "Arcee is currently distributing models via a direct Modular competitor (Together AI) — important competitive context, and a potential opening to pitch Modular as an alternative or additional serving option."
+        },
+        {
+          "date": "undated",
+          "category": "product_launch",
+          "title": "Arcee launches Arcee Orchestra, a no-code SLM workflow platform",
+          "source": "Arcee AI blog",
+          "url": "https://www.arcee.ai/blog/arcee-ai-from-small-language-model-pioneer-to-pioneering-slm-powered-agentic-ai-workflows",
+          "summary": "Arcee introduced Orchestra, a no-code platform for building custom AI workflows powered by its small language models.",
+          "sales_relevance": "A workflow/agent platform built on many small models multiplies concurrent inference jobs, increasing the value of efficient multi-model serving infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "heygen",
+      "news": [
+        {
+          "date": "2026-04-08",
+          "category": "product_launch",
+          "title": "HeyGen launches Avatar V",
+          "source": "WaveSpeed Blog / heygen.com",
+          "url": "https://wavespeed.ai/blog/posts/heygen-avatar-iv-complete-guide-2026/",
+          "summary": "HeyGen released Avatar V, described as its most advanced and realistic AI avatar model, generating studio-quality video with multi-angle stability from a short 15-second source recording.",
+          "sales_relevance": "A step-change in avatar model quality/realism typically comes with heavier compute per generation, raising the importance of efficient video-model inference serving."
+        },
+        {
+          "date": "2026-05-01",
+          "category": "product_launch",
+          "title": "HeyGen May 2026 product updates: HyperFrames, LiveAvatar, Android",
+          "source": "heygen.com",
+          "url": "https://www.heygen.com/blog/heygen-may-2026-release",
+          "summary": "HeyGen shipped a bundle of updates including HyperFrames, Avatar V refinements, LiveAvatar, and new Android and workflow integrations.",
+          "sales_relevance": "Expansion into real-time (LiveAvatar) and mobile use cases suggests growing low-latency inference demands across more surfaces."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "product_launch",
+          "title": "HeyGen extends video generation to 30 continuous minutes",
+          "source": "heygen.com June 2026 release notes",
+          "url": "https://www.heygen.com/blog/heygen-june-2026-release",
+          "summary": "HeyGen announced it can now generate 30 minutes of continuous talking-head video in a single pass, 6x longer than the prior industry ceiling and 10x its own previous maximum.",
+          "sales_relevance": "Sharply longer generation runs implies much higher per-job compute and duration, a concrete efficiency/cost conversation opener for an inference vendor."
+        },
+        {
+          "date": "2025-09-16",
+          "category": "acquisition",
+          "title": "HeyGen acquires Genova Labs",
+          "source": "Tracxn / Crunchbase",
+          "url": "https://tracxn.com/d/companies/heygen/__P9ntSZJZGrYxYW3EjY13X-Z2YEpHcCPx1Glu86tKclA",
+          "summary": "HeyGen completed an acquisition of Genova Labs, expanding its technology and/or talent base.",
+          "sales_relevance": "Post-acquisition integration often triggers infrastructure consolidation decisions, an opening to discuss unifying inference serving across newly combined teams."
+        }
+      ]
+    },
+    {
+      "id": "krea",
+      "news": [
+        {
+          "date": "2026-05-12",
+          "category": "product_launch",
+          "title": "Krea releases Krea 2, a from-scratch foundation image model",
+          "source": "krea.ai",
+          "url": "https://www.krea.ai/index/krea-2-is-here",
+          "summary": "Krea launched Krea 2, its first foundation image model built entirely in-house, a 12.9B-parameter DiT model released in Raw (fine-tunable) and Turbo (2-second, 2K image) variants.",
+          "sales_relevance": "Moving from wrapping third-party models to operating its own 12.9B-parameter foundation model is a major new inference-serving responsibility for Krea, and a natural point to introduce Modular's engine."
+        },
+        {
+          "date": "2026-06-04",
+          "category": "product_launch",
+          "title": "Krea 2 Turbo enables 2-second high-quality image generation",
+          "source": "Krea blog",
+          "url": "https://www.krea.ai/blog",
+          "summary": "Krea introduced Krea 2 Turbo, generating high-quality images in about 2 seconds on consumer hardware, compatible with style references and LoRAs.",
+          "sales_relevance": "Aggressive latency targets (2-second generation) put direct pressure on Krea's inference stack, making low-latency serving performance a live evaluation criterion."
+        },
+        {
+          "date": "2026-06-11",
+          "category": "product_launch",
+          "title": "Krea adds Generative Sliders to Krea 2",
+          "source": "Krea release notes",
+          "url": "https://www.krea.ai/news/release-notes",
+          "summary": "Krea added Generative Sliders, letting users adjust intensity, complexity, movement and prompt creativity while generating images.",
+          "sales_relevance": "Interactive, real-time control features increase the number of inference calls per user session, adding to serving cost and throughput requirements."
+        },
+        {
+          "date": "2025-04-07",
+          "category": "funding",
+          "title": "Krea raises $47M Series B at $500M valuation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/",
+          "summary": "Krea raised a $47M Series B led by Bain Capital Ventures, bringing total funding to $83M at a $500M post-money valuation.",
+          "sales_relevance": "Capital raised for a generative-creative platform historically fuels compute spend growth; still the most recent funding data point available on Krea."
+        }
+      ]
+    },
+    {
+      "id": "h-company",
+      "news": [
+        {
+          "date": "2026-07-16",
+          "category": "product_launch",
+          "title": "H Company launches Computer-use Agents",
+          "source": "Mirage News / hcompany.ai",
+          "url": "https://www.miragenews.com/h-company-unveils-next-gen-ai-agents-for-1471359/",
+          "summary": "H Company launched fully managed Computer-use Agents that take autonomous actions on computers, built on its Runner H orchestration platform which claims a 92.2% success rate and up to 5.5x lower cost than OpenAI, Anthropic, and Google alternatives.",
+          "sales_relevance": "A newly public, cost-focused agent product built on proprietary vision-language models is a strong signal H Company is actively optimizing inference cost/efficiency — a direct match for Modular's value proposition."
+        },
+        {
+          "date": "undated",
+          "category": "product_launch",
+          "title": "Runner H orchestration platform detailed by FirstMark and Sifted",
+          "source": "FirstMark / Sifted",
+          "url": "https://firstmark.com/story/powering-the-agentic-ai-era-three-major-launches-from-h-company/",
+          "summary": "Coverage describes Runner H as an orchestration platform deploying specialist AI sub-agents across apps, browsers, and documents, integrating with Slack, Google Workspace, Notion and Zapier.",
+          "sales_relevance": "Multi-sub-agent orchestration across many enterprise integrations implies significant concurrent inference load that needs efficient serving at scale."
+        },
+        {
+          "date": "2025-05-01",
+          "category": "acquisition",
+          "title": "H Company acquires Mithril Security",
+          "source": "Tracxn",
+          "url": "https://tracxn.com/d/companies/h-company/__YVYUkH859DojHjoaBdy6njhzP_PuhOhaKyM4Y6A7NyI",
+          "summary": "H Company acquired Mithril Security, a security-focused AI startup.",
+          "sales_relevance": "Post-acquisition integration of security/infra tooling can open a broader infrastructure and vendor review, a useful hook for outreach."
+        },
+        {
+          "date": "2024-05-21",
+          "category": "funding",
+          "title": "H Company raises $220M in inaugural funding round",
+          "source": "Tracxn / press coverage",
+          "url": "https://startupintros.com/orgs/h-company",
+          "summary": "Paris-based H Company raised $220M in its first funding round, backed by investors including Eric Schmidt, Amazon, Accel, UiPath, Bernard Arnault, Bpifrance, Eurazeo and Samsung.",
+          "sales_relevance": "Large early capital from strategic tech investors (Amazon, Samsung, UiPath) gives H Company substantial runway to invest in its own inference infrastructure choices."
+        }
+      ]
+    },
+    {
+      "id": "cartesia",
+      "news": [
+        {
+          "date": "2026-06-16",
+          "category": "product_launch",
+          "title": "Cartesia releases Sonic 3.5 and Ink 2, a unified real-time TTS/ASR offering",
+          "source": "Cartesia blog / changelog",
+          "url": "https://docs.cartesia.ai/changelog/2026",
+          "summary": "Cartesia launched Sonic 3.5 (text-to-speech) and Ink 2 (speech-to-text) as a combined real-time voice model offering, following earlier Sonic-3 and multilingual expansion work.",
+          "sales_relevance": "New flagship model releases mean Cartesia is actively pushing inference performance and latency, making them a strong prospect for evaluating faster/cheaper serving infrastructure like MAX."
+        },
+        {
+          "date": "undated",
+          "category": "funding",
+          "title": "Cartesia raises ~$100M, unveils Sonic-3 voice AI model",
+          "source": "LinkedIn (via The Left Shift)",
+          "url": "https://www.linkedin.com/posts/the-left-shift_cartesia-raises-100-million-launches-sonic-activity-7389201900191068162-0eUs",
+          "summary": "Cartesia announced roughly $100M in new funding alongside the unveiling of its Sonic-3 voice model, adding to a prior $64M Series A (March 2025) and bringing total disclosed funding to roughly $191M.",
+          "sales_relevance": "Fresh capital plus a growing 122-person team likely means expanding GPU/inference budget and openness to evaluating alternative serving stacks as they scale real-time voice workloads."
+        }
+      ]
+    },
+    {
+      "id": "hedra",
+      "news": [
+        {
+          "date": "2026-06-30",
+          "category": "partnership",
+          "title": "The 66th and Hedra report strong organic revenue growth via distribution partnership",
+          "source": "EIN Presswire",
+          "url": "https://www.einpresswire.com/article/923095811/the-66th-and-hedra-196-organic-revenue-and-1-150-chatgpt-revenue-growth-in-four-months",
+          "summary": "A marketing partner reported 196% organic revenue growth and over 1,000% growth in ChatGPT- and Gemini-referred revenue for Hedra's AI video product over a four-month period.",
+          "sales_relevance": "Rapid usage growth across surfaces implies rising inference volume for Hedra's video generation models, a good trigger to discuss cost/throughput of model serving."
+        },
+        {
+          "date": "2026-02",
+          "category": "product_launch",
+          "title": "Hedra launches Omnia, a unified omnimodal character video foundation model",
+          "source": "Hedra blog / press coverage",
+          "url": "https://www.aimiracle.ai/ai-news/hedra-ai-funding/",
+          "summary": "Hedra released Omnia, transitioning from a lip-sync tool to a full 'Visual Creative Intelligence' platform capable of full-body and facial animation from a single image, followed by API/agent access.",
+          "sales_relevance": "A new, heavier multimodal foundation model typically raises inference cost and latency pressure, creating an opening to pitch MAX for video-generation serving efficiency."
+        },
+        {
+          "date": "2026-03",
+          "category": "product_launch",
+          "title": "Hedra launches Live Avatars with LiveKit",
+          "source": "Hedra blog",
+          "url": "https://www.hedra.com/blog",
+          "summary": "Hedra partnered with LiveKit to deliver real-time AI character avatars at low latency and cost, extending its product beyond asynchronous video generation.",
+          "sales_relevance": "Real-time avatar delivery is extremely latency-sensitive, which plays directly to MAX's low-latency inference pitch versus incumbent vLLM-based stacks."
+        },
+        {
+          "date": "2025-05-19",
+          "category": "funding",
+          "title": "Hedra raises $32M Series A led by Andreessen Horowitz",
+          "source": "TechCrunch / The SaaS News",
+          "url": "https://www.thesaasnews.com/news/hedra-raises-32-million-in-series-a",
+          "summary": "Hedra raised a $32M Series A led by a16z's Infrastructure fund at a ~$200M valuation, with plans to triple headcount and scale its Character-3 video model.",
+          "sales_relevance": "Though slightly outside the 4-month window, this is the most recent disclosed funding and explains the current engineering hiring push and infra investment."
+        }
+      ]
+    },
+    {
+      "id": "rime",
+      "news": [
+        {
+          "date": "2026-07-15",
+          "category": "funding",
+          "title": "Rime raises $24M Series A led by M13 to build enterprise speech-to-speech AI",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+          "summary": "Voice AI startup Rime raised a $24M Series A led by M13, with Twilio Ventures and Corazon Capital participating, to invest roughly 10x more in its proprietary conversational dataset and scale infrastructure for enterprise speech-to-speech models.",
+          "sales_relevance": "Fresh Series A capital earmarked explicitly for scaling infrastructure and research hires makes this a timely moment to pitch inference infrastructure before they lock in a vendor."
+        },
+        {
+          "date": "2026-07-15",
+          "category": "leadership",
+          "title": "Rime appoints Rafael Valle as Chief Science Officer",
+          "source": "TechCrunch / CMSWire",
+          "url": "https://www.cmswire.com/customer-experience/rime-lands-24m-series-a-to-scale-voice-ai/",
+          "summary": "Alongside its Series A, Rime announced Rafael Valle as Chief Science Officer and added M13 partner Morgan Blumberg to its board.",
+          "sales_relevance": "A new Chief Science Officer typically re-evaluates modeling and serving stack decisions, making this a good window to reach research/infra leadership."
+        }
+      ]
+    },
+    {
+      "id": "canopy-labs",
+      "news": [
+        {
+          "date": "2026-04-23",
+          "category": "product_launch",
+          "title": "Canopy Labs releases Orpheus 3B text-to-speech model",
+          "source": "Hugging Face / Hackster.io",
+          "url": "https://huggingface.co/canopylabs/orpheus-3b-0.1-ft",
+          "summary": "Canopy Labs released Orpheus 3B, a permissively-licensed English TTS model fine-tuned for natural prosody with 7 preset voices, aimed at narration, voice assistants, and interactive apps.",
+          "sales_relevance": "An open, permissively-licensed model release signals Canopy Labs cares about self-hostable inference, making them a good fit to evaluate MAX for serving Orpheus efficiently."
+        },
+        {
+          "date": "2026-01-13",
+          "category": "partnership",
+          "title": "Groq deploys Canopy Labs' Orpheus TTS models on GroqCloud",
+          "source": "Groq blog",
+          "url": "https://groq.com/blog/canopy-labs-orpheus-tts-is-live-on-groqcloud",
+          "summary": "Groq announced hosting of Canopy Labs' Orpheus TTS models on GroqCloud infrastructure, including an English variant and a Saudi Arabic dialect variant for real-time voice synthesis.",
+          "sales_relevance": "Canopy Labs is already working with an alternative inference/hardware provider (Groq) for hosting its models, indicating an active multi-vendor serving strategy worth engaging on."
+        }
+      ]
+    },
+    {
+      "id": "leonardo-ai",
+      "news": [
+        {
+          "date": "2026-02",
+          "category": "product_launch",
+          "title": "Leonardo.Ai rebrands and launches Creative Engine API",
+          "source": "EdTech Innovation Hub / Coherent Market Insights",
+          "url": "https://www.edtechinnovationhub.com/news/leonardoai-launches-new-brand-and-creative-engine-api-under-canva-ownership",
+          "summary": "Leonardo.Ai unveiled a new brand identity and its Creative Engine API, its first major update since being acquired by Canva, letting developers embed Leonardo's generative models into their own products.",
+          "sales_relevance": "Launching a developer-facing API under Canva likely increases inference volume and API-serving requirements, a relevant hook for infra/vendor conversations."
+        },
+        {
+          "date": "2026-04",
+          "category": "product_launch",
+          "title": "Leonardo launches Pro Upscaler for AI-generated images",
+          "source": "B&T / company blog",
+          "url": "https://www.bandt.com.au/canvas-previously-benched-leonardo-rolls-out-new-products/",
+          "summary": "Leonardo released Pro Upscaler, an image upscaler purpose-built for AI-generated images capable of up to 105-megapixel production-ready output.",
+          "sales_relevance": "New heavyweight image-generation features add inference load, useful context when discussing throughput/cost efficiency for image model serving."
+        },
+        {
+          "date": "2026-01/02",
+          "category": "other",
+          "title": "Canva accelerates Leonardo integration; denies job losses",
+          "source": "Startup Daily / SmartCompany",
+          "url": "https://www.smartcompany.com.au/startupsmart/canva-refutes-job-loss-reports-amid-leonardo-ai-integration/",
+          "summary": "Canva moved up its planned integration of Leonardo into its broader AI product and research organization, with a small team keeping Leonardo running as a standalone product; Canva denied reports of redundancies.",
+          "sales_relevance": "Organizational integration into Canva means infra/vendor decisions for Leonardo's models may now route through Canva's central platform team rather than a standalone buyer."
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "news": [
+        {
+          "date": "2026-06-03",
+          "category": "funding",
+          "title": "Suno raises $400M Series D at $5.4B valuation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
+          "summary": "AI music generator Suno raised a $400M Series D, valuing the company at $5.4B, even as it continues to face copyright litigation from major labels.",
+          "sales_relevance": "A massive new war chest plus 113 open roles points to significant scaling of model training/serving spend, a strong outbound trigger for inference infrastructure."
+        },
+        {
+          "date": "2026-07-07",
+          "category": "leadership",
+          "title": "Suno hires former Atlantic Records and YouTube music executives",
+          "source": "Variety",
+          "url": "https://variety.com/2026/music/news/suno-hires-grace-james-christian-bowne-executives-1236802750/",
+          "summary": "Suno hired Grace James (ex-Atlantic Records EVP of Creative Marketing) as VP/Head of Artist Marketing and Editorial, and Christian Bowne (ex-YouTube) as Director/Head of Music Business Development.",
+          "sales_relevance": "These are label-facing hires rather than infra hires, but they signal Suno is professionalizing rapidly across the org as it scales, consistent with growing platform/compute needs."
+        },
+        {
+          "date": "2026-02",
+          "category": "leadership",
+          "title": "Suno appoints Jeremy Sirota as Chief Commercial Officer",
+          "source": "Music In Africa",
+          "url": "https://musicinafrica.net/magazine/suno-appoints-jeremy-sirota-chief-commercial-officer/",
+          "summary": "Suno named former Merlin CEO Jeremy Sirota as its Chief Commercial Officer, reporting directly to CEO Mikey Shulman.",
+          "sales_relevance": "New commercial leadership often coincides with broader vendor and infrastructure reviews as go-to-market scales."
+        },
+        {
+          "date": "2026-06/07",
+          "category": "other",
+          "title": "Suno faces escalating copyright litigation from UMG, Sony, and Jamendo",
+          "source": "Digital Music News / Billboard",
+          "url": "https://www.digitalmusicnews.com/2026/05/26/suno-sony-music-and-umg-lawsuit/",
+          "summary": "Suno's copyright litigation with Sony Music and UMG intensified with amended claims covering 61,000+ additional songs, and production music firm Jamendo filed a new copyright suit in late June 2026.",
+          "sales_relevance": "Ongoing legal risk is worth being aware of in outreach tone, though it does not directly affect infrastructure buying; the company's underlying compute scale remains large regardless."
+        }
+      ]
+    },
+    {
+      "id": "hume-ai",
+      "news": [
+        {
+          "date": "2026-Q1",
+          "category": "partnership",
+          "title": "Google DeepMind enters licensing agreement with Hume AI; founder and engineers join DeepMind",
+          "source": "Contrary Research",
+          "url": "https://research.contrary.com/company/hume-ai",
+          "summary": "In early 2026, Google DeepMind entered a major licensing agreement with Hume AI, with Hume's Dr. Cowen and several engineers joining DeepMind while Hume projects roughly $100M in 2026 revenue.",
+          "sales_relevance": "A licensing tie-up with DeepMind plus a projected $100M revenue year suggests Hume is scaling its empathic-voice (EVI) inference significantly, a relevant infra-spend signal, though some technical talent departing to DeepMind may create uncertainty in their engineering org."
+        }
+      ]
+    },
+    {
+      "id": "contextual-ai",
+      "news": [
+        {
+          "date": "2026-01-27",
+          "category": "product_launch",
+          "title": "Contextual AI launches Agent Composer for enterprise RAG-to-agent workflows",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/technology/contextual-ai-launches-agent-composer-to-turn-enterprise-rag-into-production",
+          "summary": "Contextual AI launched Agent Composer, an enterprise agent/RAG orchestration platform aimed at knowledge-intensive workflows in aerospace, semiconductor manufacturing, and other technical industries.",
+          "sales_relevance": "A new production-agent platform for enterprise customers implies growing inference volume across regulated/technical verticals, a solid opening for an infrastructure efficiency conversation."
+        }
+      ]
+    },
+    {
+      "id": "chai-discovery",
+      "news": [
+        {
+          "date": "2026-07-14",
+          "category": "funding",
+          "title": "Chai Discovery raises $400M Series C at $3.8B valuation",
+          "source": "Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer",
+          "summary": "AI protein/drug discovery startup Chai Discovery raised a $400M Series C led by Index Ventures, Kleiner Perkins, Sequoia, and Dimension (with OpenAI participating), nearly tripling its valuation to $3.8B just months after a $130M Series B.",
+          "sales_relevance": "A huge, fresh war chest with OpenAI as an investor makes Chai Discovery a high-priority target for inference infrastructure spend as it scales its molecule-design models."
+        },
+        {
+          "date": "2026-06",
+          "category": "partnership",
+          "title": "Pfizer licenses early access to Chai-3 model",
+          "source": "Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/chai-brews-400m-series-c-fuel-ai-used-lilly-novartis-and-pfizer",
+          "summary": "Chai Discovery signed a license agreement granting Pfizer early access to Chai-3, the company's most advanced biomolecular AI model.",
+          "sales_relevance": "Enterprise pharma licensing deals typically come with strict latency/throughput and reliability SLAs, a good angle for pitching production-grade inference serving."
+        },
+        {
+          "date": "2026-07-13",
+          "category": "partnership",
+          "title": "Novartis collaboration with Chai Discovery disclosed",
+          "source": "Fierce Biotech / BioXconomy",
+          "url": "https://www.bioxconomy.com/investment/chai-bags-400m-for-ai-powered-drug-discovery",
+          "summary": "The day before its Series C announcement, Chai Discovery disclosed a new collaboration with Novartis, adding to existing pharma partnerships.",
+          "sales_relevance": "Growing roster of top-tier pharma partners (Lilly, Pfizer, Novartis) means increasing production inference workloads that need to scale reliably."
+        },
+        {
+          "date": "2026-01-09",
+          "category": "partnership",
+          "title": "Chai Discovery and Eli Lilly disclose biologics discovery collaboration",
+          "source": "IntuitionLabs",
+          "url": "https://intuitionlabs.ai/articles/ai-biologics-design-chai-discovery-eli-lilly",
+          "summary": "Chai Discovery and Eli Lilly disclosed a collaboration to use Chai's AI platform to accelerate discovery of novel biologic therapeutics against multiple Lilly targets.",
+          "sales_relevance": "Confirms Chai Discovery serves large pharma production workloads, reinforcing the case for discussing dedicated inference infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "figure-ai",
+      "news": [
+        {
+          "date": "2026-07-03",
+          "category": "funding",
+          "title": "Figure AI reportedly in talks to raise up to $500M led by Microsoft and OpenAI",
+          "source": "Bloomberg (via aggregated coverage)",
+          "url": "https://stockanalysis.com/private/figure-ai/",
+          "summary": "Humanoid robotics company Figure AI is reportedly in discussions to raise as much as $500M in a new round led by Microsoft and OpenAI.",
+          "sales_relevance": "Backing from Microsoft and OpenAI signals Figure is deepening ties with major AI/cloud players, making this an important moment to differentiate MAX for on-robot and cloud inference before vendor relationships solidify."
+        },
+        {
+          "date": "2025-09/10",
+          "category": "funding",
+          "title": "Figure AI closed $1B+ Series C at ~$39B valuation",
+          "source": "Sacra / PitchBook",
+          "url": "https://sacra.com/c/figure-ai/",
+          "summary": "Figure AI closed a Series C of over $1B at a valuation approaching $39B, led by Parkway Venture Capital with NVIDIA, Brookfield, Intel Capital, Salesforce, Qualcomm Ventures and others participating, followed by the Figure 03 robot launch and BotQ manufacturing scale-up.",
+          "sales_relevance": "Though slightly outside the 4-month window, this funding underpins Figure's current buildout of BotQ production and Helix AI, both of which depend heavily on inference infrastructure for real-time robot control."
+        }
+      ]
+    },
+    {
+      "id": "physical-intelligence-pi",
+      "news": [
+        {
+          "date": "2026-03-27",
+          "category": "funding",
+          "title": "Physical Intelligence in talks to raise ~$1B at $11B+ valuation",
+          "source": "Bloomberg / TechCrunch",
+          "url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/",
+          "summary": "Robotics foundation-model startup Physical Intelligence is reportedly in discussions to raise about $1B at a valuation exceeding $11B (nearly double its $5.6B valuation four months earlier), with Founders Fund and Lightspeed in talks to invest; as of July 2026 the round had not been confirmed as closed.",
+          "sales_relevance": "A near-doubling valuation and huge prospective raise signals rapid scaling of its pi (VLA) robot foundation models, making infrastructure spend for training/serving a timely conversation even before the round formally closes."
+        },
+        {
+          "date": "2026",
+          "category": "partnership",
+          "title": "Physical Intelligence deploys pi models on Nvidia Blackwell production lines at Foxconn",
+          "source": "Tokenring / Financial Content",
+          "url": "https://markets.financialcontent.com/observerreporter/article/tokenring-2026-1-14-the-brain-for-every-machine-physical-intelligence-unleashes-world-models-to-decouple-ai-from-hardware",
+          "summary": "Physical Intelligence strengthened its partnership with Nvidia, deploying its pi robot foundation models on Nvidia Blackwell hardware in Foxconn's Houston assembly facility.",
+          "sales_relevance": "Deep Nvidia hardware integration for production deployment is a relevant data point for positioning MAX as a hardware-portable inference layer alongside or instead of the incumbent stack."
+        }
+      ]
+    },
+    {
+      "id": "helsing",
+      "news": [
+        {
+          "date": "2026-07-13",
+          "category": "funding",
+          "title": "Helsing raises $1.8B Series E at $18B valuation",
+          "source": "Defense News / TechCrunch / Helsing newsroom",
+          "url": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/",
+          "summary": "Munich-based defense AI company Helsing closed a $1.8B Series E, Europe's largest-ever defense-tech round, valuing the company at $18B, with new and existing investors including Lightspeed, Dragoneer, Goldman Sachs Alternatives, JPMorganChase, and CPP Investments.",
+          "sales_relevance": "A fresh $1.8B war chest at an $18B valuation means Helsing is well-funded to scale AI/ML and platform infrastructure spend, making this a strong time to pitch inference infrastructure for their expanding defense AI systems."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "partnership",
+          "title": "Mistral AI and Helsing partner on next-gen defense AI systems",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4405478-mistral-helsing-team-up-to-develop-ai-systems-for-defense",
+          "summary": "French model lab Mistral AI and Helsing announced a collaboration to jointly develop next-generation AI systems for European defense.",
+          "sales_relevance": "A model-lab partnership signals Helsing is actively building out model deployment/serving capacity, an opening to discuss inference engine choices for defense-grade workloads."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "other",
+          "title": "Helsing opens Stockholm office for Nordic defense push",
+          "source": "Helsing newsroom",
+          "url": "https://helsing.ai/newsroom/helsing-opens-stockholm-presence-to-deepen-its-commitment-to-swedish-and-nordic-defence",
+          "summary": "Helsing opened a new Stockholm presence to deepen engagement with Swedish and Nordic defense customers.",
+          "sales_relevance": "Geographic expansion into new markets often accompanies new infrastructure/compute buildouts worth tracking."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "partnership",
+          "title": "Helsing and OHB form KIRK joint venture for space reconnaissance",
+          "source": "Helsing newsroom",
+          "url": "https://helsing.ai/newsroom",
+          "summary": "Helsing and OHB established a joint venture named KIRK focused on tactical space-based reconnaissance systems.",
+          "sales_relevance": "New JV likely requires standing up new AI/ML infrastructure from scratch, a greenfield opportunity for inference tooling."
+        }
+      ]
+    },
+    {
+      "id": "wayve",
+      "news": [
+        {
+          "date": "2026-06-30",
+          "category": "funding",
+          "title": "Wayve employee tender offer values company at $8.5B",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+          "summary": "Wayve launched an $85M employee tender offer valuing the autonomous-driving company at roughly $8.5B, following its February 2026 Series D.",
+          "sales_relevance": "Confirms sustained high valuation and liquidity event, indicating financial stability and continued willingness to invest in scaling infrastructure."
+        },
+        {
+          "date": "2026-02-25",
+          "category": "funding",
+          "title": "Wayve raises $1.2-1.5B Series D at $8.6B valuation, including $300M from Uber",
+          "source": "CleanTechnica / TechCrunch",
+          "url": "https://wayve.ai/press/series-d/",
+          "summary": "Wayve closed a Series D led by Eclipse, Balderton, and SoftBank Vision Fund 2 with participation from Microsoft, NVIDIA, Uber, Mercedes-Benz, Nissan, and Stellantis, bringing post-money valuation to $8.6B; Uber separately committed $300M for robotaxi deployment.",
+          "sales_relevance": "Massive new capital plus NVIDIA/Microsoft as investors signals significant planned compute/inference spend as Wayve scales its embodied AI driving models across new automaker and robotaxi deployments."
+        },
+        {
+          "date": "2026-07-01",
+          "category": "partnership",
+          "title": "Wayve, Uber, and Nissan target Tokyo robotaxi pilot",
+          "source": "Claims Journal",
+          "url": "https://www.claimsjournal.com/news/national/2026/07/01/338559.htm",
+          "summary": "Wayve, Uber, and Nissan signed an MOU to pursue a robotaxi pilot in Tokyo by late 2026 using the Nissan LEAF powered by the Wayve AI Driver, alongside plans for a London commercial robotaxi launch.",
+          "sales_relevance": "Multiple simultaneous international deployments (London, Tokyo, 10+ markets planned) implies growing real-time inference workloads at the edge and in the cloud that need efficient serving infrastructure."
+        },
+        {
+          "date": "2026-02-01",
+          "category": "leadership",
+          "title": "Wayve strengthens engineering leadership with new VP appointments",
+          "source": "Wayve press",
+          "url": "https://wayve.ai/press/wayve-strengthens-engineering-leadership/",
+          "summary": "Wayve appointed Girish Venkataramani as VP of AI Platform and Brandon Basso as VP of AI for Simulation, Data, Evaluation and Validation.",
+          "sales_relevance": "New VP of AI Platform is a fresh decision-maker likely evaluating model-serving and inference infrastructure choices as the company moves from research to deployment."
+        }
+      ]
+    },
+    {
+      "id": "safe-superintelligence-ssi",
+      "news": [
+        {
+          "date": "2025-04-14",
+          "category": "funding",
+          "title": "SSI raises ~$2B at $32B valuation",
+          "source": "The AI Insider / StartupHub.ai",
+          "url": "https://theaiinsider.tech/2025/04/14/safe-superintelligence-reportedly-raises-2b-at-32b-valuation-in-pursuit-of-ai-safety-breakthrough/",
+          "summary": "Ilya Sutskever's Safe Superintelligence raised approximately $2B at a $32B valuation, led by Greenoaks Capital; the round closed in April 2025 and remains SSI's most recent disclosed raise as of mid-2026.",
+          "sales_relevance": "Although not within the last 4 months, this remains the most recent material funding event; SSI has no commercial product yet, so it is a longer-term / research-relationship prospect rather than an immediate inference-infra buyer."
+        },
+        {
+          "date": "2026-06-06",
+          "category": "other",
+          "title": "SSI maintains no-product, research-only posture through 2026",
+          "source": "StartupHub.ai",
+          "url": "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-ilya-sutskever-ssi-financial-breakdown-2026-06-06",
+          "summary": "As of mid-2026, SSI (roughly 20-50 researchers) remains in a research-only mode with no commercial product, API, or published papers, entirely focused on its long-term superintelligence research agenda.",
+          "sales_relevance": "No commercial deployment means minimal near-term inference-serving spend; outreach should focus on research/training compute relationships rather than production inference, and expect a long sales cycle."
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "news": [
+        {
+          "date": "2026-05-27",
+          "category": "funding",
+          "title": "Cognition raises $1B+ Series D at $26B valuation",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+          "summary": "Cognition AI, maker of the Devin coding agent, raised over $1B at a $26B post-money valuation (up from $10.2B just 8 months earlier), co-led by Lux Capital, General Catalyst, and 8VC; Devin's ARR grew from $37M to $492M year-over-year.",
+          "sales_relevance": "Explosive revenue growth (1,230% YoY) and a huge new funding round mean Cognition is rapidly scaling Devin's inference workloads across enterprise customers (Mercedes-Benz, NASA, Goldman Sachs, Santander) — a prime target for high-throughput inference infrastructure."
+        },
+        {
+          "date": "2025-12-01",
+          "category": "acquisition",
+          "title": "Cognition closes $250M acquisition of Windsurf",
+          "source": "InfoWorld / NxCode",
+          "url": "https://www.infoworld.com/article/4023030/cognition-agrees-to-buy-whats-left-of-windsurf.html",
+          "summary": "Cognition quietly closed a $250M acquisition of AI coding IDE startup Windsurf in December 2025, integrating it through early 2026 to ship SWE-1.5, Codemaps, and embedded Devin inside the IDE.",
+          "sales_relevance": "Post-acquisition product integration (new proprietary model SWE-1.5, embedded agents) means Cognition is actively re-architecting its model-serving stack — a timely moment to discuss inference engine alternatives."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "product_launch",
+          "title": "Cognition ships SWE-1.5 and Codemaps in integrated Windsurf IDE",
+          "source": "NxCode",
+          "url": "https://www.nxcode.io/resources/news/cognition-windsurf-acquisition-swe-1-5-codemaps-2026",
+          "summary": "Cognition released SWE-1.5, a proprietary coding model claimed to run 13x faster than Claude Sonnet 4.5, along with Codemaps visual code navigation and a new $15/month Pro tier.",
+          "sales_relevance": "Launching a proprietary, latency-sensitive coding model at claimed 13x speed implies heavy investment in inference optimization — directly relevant to Modular's MAX engine value proposition."
+        }
+      ]
+    },
+    {
+      "id": "captions",
+      "news": [
+        {
+          "date": "2026-03-24",
+          "category": "funding",
+          "title": "Mirage (formerly Captions) raises $75M growth round from General Catalyst",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/",
+          "summary": "Captions rebranded its parent company to Mirage and raised $75M from General Catalyst's Customer Value Fund, bringing total funding to over $175M, to fund model development and expansion into Asian markets; the platform has over 20M users and 200M+ videos created, with customers including HubSpot and CoreWeave.",
+          "sales_relevance": "New capital earmarked specifically for building proprietary video-generation models signals rising training and inference compute needs as Mirage/Captions positions itself as a model-building AI lab rather than just an app."
+        },
+        {
+          "date": "2026-03-24",
+          "category": "other",
+          "title": "Captions rebrands parent company to Mirage, repositions as AI lab",
+          "source": "Captions blog",
+          "url": "https://captions.ai/blog/announcing-mirages-usd75m-growth-financing-with-general-catalyst",
+          "summary": "The company rebranded its corporate entity from Captions to Mirage to reflect a broader ambition of producing multiple AI models for creative/marketing industries, while keeping the Captions consumer app brand.",
+          "sales_relevance": "A strategic pivot from single-app to multi-model AI lab typically requires new model-serving infrastructure decisions, a good hook for an infra conversation."
+        }
+      ]
+    },
+    {
+      "id": "krutrim",
+      "news": [
+        {
+          "date": "2026-05-05",
+          "category": "other",
+          "title": "Krutrim pivots from chips/foundation models to AI cloud services",
+          "source": "TechCrunch / MediaNama",
+          "url": "https://techcrunch.com/2026/05/05/indias-first-genai-unicorn-shifts-to-cloud-services-as-ai-model-ambitions-face-reality/",
+          "summary": "Ola founder Bhavish Aggarwal's Krutrim paused its custom chip design and foundation model efforts in late 2025 and redirected capital and staff toward building an AI cloud/GPU services business, reporting its first annual profit with revenue nearly tripling to ~Rs 300 crore in FY26.",
+          "sales_relevance": "A pivot to selling AI cloud/GPU infrastructure to 25+ enterprise customers means Krutrim itself needs a strong, efficient inference-serving stack to run on top of its GPU capacity — a direct fit for Modular's MAX engine as a platform-level differentiator."
+        },
+        {
+          "date": "2026-07-01",
+          "category": "other",
+          "title": "Krutrim showcases AI computing stack at India AI Impact Summit 2026",
+          "source": "LinkedIn / company presence",
+          "url": null,
+          "summary": "Krutrim exhibited its AI computing infrastructure, AI Cloud, and foundational model capabilities at the India AI Impact Summit 2026 in New Delhi.",
+          "sales_relevance": "Public positioning around its AI Cloud stack suggests Krutrim is actively marketing infrastructure services and may be evaluating or showcasing underlying inference technology partners."
+        }
+      ]
+    },
+    {
+      "id": "isomorphic-labs",
+      "news": [
+        {
+          "date": "2026-05-12",
+          "category": "funding",
+          "title": "Isomorphic Labs raises $2.1B Series B",
+          "source": "PR Newswire / BioPharm International",
+          "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
+          "summary": "The Alphabet/DeepMind-spinout AI drug discovery company raised $2.1B in a Series B led by Thrive Capital with Alphabet, GV, MGX, Temasek, CapitalG, and the UK Sovereign AI Fund participating, bringing total funding to ~$2.6B; funds will scale its IsoDDE drug design engine and push candidates to clinical trials by end of 2026.",
+          "sales_relevance": "A massive new war chest earmarked specifically to scale its AI drug-design engine (IsoDDE) implies significant new inference/compute infrastructure investment ahead, making this a well-timed and well-funded target for Modular's inference engine."
+        },
+        {
+          "date": "2026-05-12",
+          "category": "partnership",
+          "title": "Isomorphic Labs' active pharma partnerships with Novartis, Lilly, J&J",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
+          "summary": "Isomorphic Labs continues joint drug-design programs with Novartis, Eli Lilly (with up to $1.7B in potential milestone payments), and Johnson & Johnson.",
+          "sales_relevance": "Multiple concurrent enterprise pharma partnerships each running AI drug-design workloads suggest substantial and growing production inference volume that needs to scale efficiently and cost-effectively."
+        }
+      ]
+    },
+    {
+      "id": "ideogram",
+      "news": [
+        {
+          "date": "2026-06-05",
+          "category": "product_launch",
+          "title": "Ideogram launches Ideogram 4.0, an open-source image generation model",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/ideogram-4-open-image-model-launch/",
+          "summary": "Ideogram released Ideogram 4.0, billed as the world's strongest open-source image generation model, allowing users to download and self-host the full model.",
+          "sales_relevance": "Releasing a large open-weight image model that users can self-host creates immediate demand for efficient local/self-hosted inference tooling — directly relevant to Modular's MAX engine for image-generation workloads, both for Ideogram's own serving and for downstream self-hosters."
+        }
+      ]
+    },
+    {
+      "id": "higgsfield-ai",
+      "news": [
+        {
+          "date": "2026-07-01",
+          "category": "funding",
+          "title": "Higgsfield in talks to raise $300-500M at $5B valuation",
+          "source": "The Information / AI Weekly",
+          "url": "https://aiweekly.co/node/4693",
+          "summary": "AI video startup Higgsfield is reportedly in talks to raise $300M-$500M at a roughly $5B pre-money valuation, with DST Global among the investors in discussion; the round has not yet closed.",
+          "sales_relevance": "A pending mega-round at a 4x valuation jump (from $1.3B in January) signals Higgsfield is scaling fast and will need to justify heavy inference spend to new investors — a good moment to pitch cost/performance efficiency."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "other",
+          "title": "Higgsfield crosses $500M annualized revenue run-rate",
+          "source": "MasterNodeAI",
+          "url": "https://www.masternodeai.com/en/news/higgsfield-ai-5bn-valuation-funding-talks",
+          "summary": "Higgsfield's revenue run-rate reportedly grew from $200M at the end of 2025 to over $500M by June 2026, alongside reports of 25 million users and 850 million generations.",
+          "sales_relevance": "Rapid revenue and generation-volume growth at this scale implies a fast-growing, likely cost-sensitive inference bill, making Higgsfield a strong candidate for an efficiency-focused inference engine pitch."
+        },
+        {
+          "date": "2026-05-14",
+          "category": "product_launch",
+          "title": "Higgsfield launches the Higgsfield Supercomputer / Supercomputer 2.0",
+          "source": "PR Newswire / ExplainX",
+          "url": "https://explainx.ai/blog/higgsfield-ai-supercomputer-hermes-agent-2026",
+          "summary": "Higgsfield introduced the Higgsfield Supercomputer in May 2026, then shipped Supercomputer 2.0 in June 2026 as an enterprise marketing agent built on NVIDIA's Agent Toolkit.",
+          "sales_relevance": "Branding its own 'Supercomputer' infrastructure and building on NVIDIA's toolkit suggests active infrastructure decisions are being made now around serving and orchestration — a timely window for an inference-engine conversation."
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "news": [
+        {
+          "date": "2026-04-18",
+          "category": "funding",
+          "title": "Pika raises $80M Series B, valuation ~$900M",
+          "source": "AI for Automation",
+          "url": "https://aiforautomation.io/news/2026-04-18-pika-80m-series-b-video-ai-stanford-dropouts",
+          "summary": "AI video generation startup Pika closed an $80M Series B led by Spark Capital, reaching a valuation of roughly $900M; total funding to date is about $135M.",
+          "sales_relevance": "New capital for a consumer AI video generator with a 500,000-user community generating millions of videos weekly signals ongoing investment in scaling video-generation inference capacity."
+        },
+        {
+          "date": "2025-07-01",
+          "category": "acquisition",
+          "title": "Meta held (unconsummated) acquisition talks with Pika",
+          "source": "Daily CyberSecurity / mashdigi",
+          "url": "https://securityonline.info/meta-eyes-pika-labs-a-potential-500m-acquisition-to-accelerate-ai-video-generation/",
+          "summary": "Meta reportedly held preliminary talks in mid-2025 to acquire Pika for around $500M; as of mid-2026 no deal has closed and Pika continues to operate independently, expanding distribution via Adobe Firefly.",
+          "sales_relevance": "Although dated, this remains the most notable strategic-interest signal for Pika and indicates the company is viewed as a valuable, standalone AI video asset actively fielding partnership/distribution deals (e.g., Adobe Firefly) that require reliable inference serving."
+        }
+      ]
+    },
+    {
+      "id": "hippocratic-ai",
+      "news": [
+        {
+          "date": "2026-01-12",
+          "category": "acquisition",
+          "title": "Hippocratic AI acquires Grove AI, launches Life Sciences Division",
+          "source": "Business Wire / Fierce Healthcare",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/jpm26-hippocratic-ai-acquires-grove-ai-taps-life-sciences-leaders-focus",
+          "summary": "Hippocratic AI acquired clinical-trial management AI startup Grove AI and launched a dedicated Life Sciences Division with new executive appointments, alongside a strategic collaboration with Boston Consulting Group (BCG X) targeting pharma and medtech clients.",
+          "sales_relevance": "New Life Sciences Division and BCG partnership open a fresh line of business (clinical trials/pharma R&D agents) likely requiring new inference infrastructure builds, and new executives are fresh points of contact for vendor conversations."
+        },
+        {
+          "date": "2026-05-14",
+          "category": "leadership",
+          "title": "Hippocratic AI announces new senior executive appointments",
+          "source": "PR Newswire / Morningstar",
+          "url": "https://www.prnewswire.com/news-releases/hippocratic-ai-announces-new-senior-executive-appointments-302772561.html",
+          "summary": "Hippocratic AI announced a round of new senior executive appointments as part of continued expansion across healthcare verticals following its Series C.",
+          "sales_relevance": "New senior leadership hires often revisit vendor and infrastructure decisions, creating an opening for renewed outreach on inference tooling."
+        },
+        {
+          "date": "2025-11-07",
+          "category": "funding",
+          "title": "Hippocratic AI raises $126M Series C at $3.5B valuation",
+          "source": "Fierce Healthcare / HLTH",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/hippocratic-ai-lands-126m-series-c-expand-patient-facing-ai-agents-fuel-ma",
+          "summary": "Hippocratic AI closed a $126M Series C at a $3.5B valuation, led by Avenir Growth with CapitalG, General Catalyst, a16z, Kleiner Perkins and health-system investors participating; funds are earmarked partly for M&A. The company has completed 115M+ clinical patient interactions across 50+ health system/payor/pharma partners in 6 countries.",
+          "sales_relevance": "115M+ real-time clinical voice/agent interactions across 50+ enterprise health system partners represents massive, safety-critical, latency-sensitive inference volume — a strong fit for Modular's high-performance inference engine."
+        }
+      ]
+    },
+    {
+      "id": "tavus",
+      "news": [
+        {
+          "date": "2025-11-12",
+          "category": "funding",
+          "title": "Tavus Raises $40M Series B",
+          "source": "BusinessWire / VentureBeat",
+          "url": "https://www.businesswire.com/news/home/20251111507298/en/Tavus-Raises-$40M-to-Build-the-Next-Frontier-of-Intelligence-Human-Computing",
+          "summary": "Tavus raised a $40M Series B led by CRV, with Scale Venture Partners, Sequoia, Y Combinator, HubSpot Ventures and Flex Capital participating, to build 'emotionally intelligent AI humans' (PALs).",
+          "sales_relevance": "Fresh capital for a real-time conversational AI video company likely means increased inference spend and an active vendor evaluation window for low-latency model serving."
+        },
+        {
+          "date": "2026-02-19",
+          "category": "product_launch",
+          "title": "Tavus Launches Phoenix-4 real-time human rendering model",
+          "source": "BusinessWire / MarkTechPost",
+          "url": "https://www.businesswire.com/news/home/20260218278213/en/Tavus-Launches-Phoenix-4-the-First-Real-Time-Human-Rendering-Model-with-Emotional-Intelligence",
+          "summary": "Tavus launched Phoenix-4, a real-time Gaussian-diffusion behavior generation model with sub-600ms latency, paired with its Raven-1 perception and Sparrow-1 conversational-timing models.",
+          "sales_relevance": "A new low-latency real-time video/behavior model in production is a strong entry point to pitch MAX for latency-critical inference serving of proprietary models."
+        }
+      ]
+    },
+    {
+      "id": "moonvalley",
+      "news": [
+        {
+          "date": "2026-05-10",
+          "category": "acquisition",
+          "title": "Reka AI acquires Moonvalley",
+          "source": "PR Newswire / reka.ai",
+          "url": "https://www.prnewswire.com/news-releases/reka-and-moonvalley-join-forces-to-advance-models-and-infrastructure-for-physical-ai-302797869.html",
+          "summary": "Reka AI acquired Moonvalley in an all-share exchange deal, combining teams to advance foundation models and infrastructure for 'physical AI,' bringing former DeepMind/Google/Runway researchers into Reka's research leadership.",
+          "sales_relevance": "A newly merged entity is actively consolidating model/infrastructure strategy, creating a timely window to pitch a unified inference stack across the combined org before vendor decisions solidify."
+        },
+        {
+          "date": "2025-07-14",
+          "category": "funding",
+          "title": "Moonvalley raises additional $84M",
+          "source": "Variety / BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20250714518340/en/Moonvalley-Raises-Additional-$84-Million-to-Scale-Ambitious-Vision-for-Licensed-AI-Video-Model",
+          "summary": "Moonvalley raised $84M led by General Catalyst with CAA, Comcast Ventures, CoreWeave, Khosla Ventures and Y Combinator participating, bringing total funding to $154M to scale its licensed AI video model Marey.",
+          "sales_relevance": "Additional capital earmarked for API scaling and studio-workflow integration signals near-term investment in inference infrastructure for a production video model."
+        }
+      ]
+    },
+    {
+      "id": "decart",
+      "news": [
+        {
+          "date": "2026-05-18",
+          "category": "funding",
+          "title": "Decart raises $300M Series B at ~$4B valuation",
+          "source": "SiliconANGLE / CTech",
+          "url": "https://siliconangle.com/2026/05/18/decart-raises-300m-ai-optimization-software-world-models/",
+          "summary": "Decart raised $300M led by Radical Ventures with Nvidia, Adobe Ventures, Sequoia, Benchmark and others (plus angels including Andrej Karpathy), bringing total funding to $450M, to expand its 'Decart Optimization Stack' (DOS) and Lucy/Oasis world-model platforms.",
+          "sales_relevance": "Decart is explicitly building its own inference/optimization stack (DOS) for real-time world models - this is both a potential MAX prospect for underlying inference infra and a competitive signal worth monitoring."
+        }
+      ]
+    },
+    {
+      "id": "sesame-ai",
+      "news": [
+        {
+          "date": "2026-06-17",
+          "category": "acquisition",
+          "title": "Sesame acquires Synthetic Media Processing Laboratory (SMPL)",
+          "source": "Crunchbase / PitchBook",
+          "url": "https://www.crunchbase.com/organization/synthetic-media-processing-laboratory",
+          "summary": "Sesame AI acquired SMPL, a San Francisco startup building audio-quality enhancement software for calls and meetings that adapts to network, device and acoustic conditions.",
+          "sales_relevance": "Acquiring an audio-processing team to embed in its voice-agent/smart-glasses stack suggests Sesame is expanding real-time audio inference workloads that will need serving infrastructure."
+        },
+        {
+          "date": "2026-05-28",
+          "category": "product_launch",
+          "title": "Sesame launches public iOS app",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+          "summary": "Sesame released a public preview of its conversational AI voice agents via a new iOS app, aiming to move beyond the traditional chatbot UX with more natural, flowing conversation.",
+          "sales_relevance": "A public consumer app launch implies a jump in real-time inference volume/latency requirements, a good hook for discussing MAX's low-latency serving for voice workloads."
+        },
+        {
+          "date": "2025-10-21",
+          "category": "funding",
+          "title": "Sesame raises $250M Series B",
+          "source": "TechCrunch / SiliconANGLE",
+          "url": "https://techcrunch.com/2025/10/21/sesame-the-conversational-ai-startup-from-oculus-founders-raises-250m-and-launches-beta/",
+          "summary": "Sesame, the conversational AI and smart-glasses startup from Oculus co-founders Brendan Iribe and Ankit Kumar, raised $250M led by Spark Capital and Sequoia, bringing total funding to ~$308M.",
+          "sales_relevance": "Large war chest for a voice-first hardware+AI company scaling toward always-on wearable inference is a strong fit for outreach on cost-efficient real-time serving."
+        }
+      ]
+    },
+    {
+      "id": "pixverse-aisphere",
+      "news": [
+        {
+          "date": "2026-07-13",
+          "category": "funding",
+          "title": "PixVerse (AISphere) closes $439M Series C, valuation tops $2B, Alibaba joins as investor and customer",
+          "source": "TechCrunch / DealStreetAsia",
+          "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+          "summary": "AISphere's PixVerse closed an extended Series C totaling $439M (initial $300M tranche in March plus a July extension), with Alibaba joining both as an investor and via a commercial deployment agreement.",
+          "sales_relevance": "Very fresh, very large round plus a new enterprise deployment deal (Alibaba) signals rapid scaling of video-generation inference volume and an active infrastructure vendor conversation."
+        },
+        {
+          "date": "2026-03-30",
+          "category": "product_launch",
+          "title": "PixVerse launches V6",
+          "source": "PixVerse / PR Newswire",
+          "url": "https://pixverse.ai/en/blog/pixverse-launches-v6-advancing-ai-video-generation",
+          "summary": "PixVerse launched V6, its latest flagship video-generation model, adding per-second billing, native audio, and multi-shot generation with improved camera and character consistency.",
+          "sales_relevance": "A new flagship model with usage-based (per-second) billing implies active cost/latency optimization work on the serving side - a natural MAX conversation."
+        },
+        {
+          "date": "2026-01-13",
+          "category": "product_launch",
+          "title": "PixVerse launches R1 real-time world model",
+          "source": "TechFundingNews / PixVerse",
+          "url": "https://theaiinsider.tech/2026/03/17/aisphere-raises-300m-to-scale-pixverse-ai-video-platform-and-global-expansion/",
+          "summary": "AISphere launched PixVerse R1, described as the first general-purpose real-time world model supporting up to 1080p resolution, turning video generation into an interactive stream.",
+          "sales_relevance": "A real-time interactive world model is extremely latency-sensitive, making PixVerse a strong candidate for MAX's real-time inference performance pitch."
+        }
+      ]
+    },
+    {
+      "id": "luma-ai",
+      "news": [
+        {
+          "date": "2025-11-19",
+          "category": "funding",
+          "title": "Luma AI raises $900M Series C, partners with HUMAIN on 2GW Saudi supercluster",
+          "source": "CNBC / BusinessWire",
+          "url": "https://www.cnbc.com/2025/11/19/luma-ai-raises-900-million-in-funding-led-by-saudi-ai-firm-humain",
+          "summary": "Luma AI raised a $900M Series C led by Saudi Arabia's HUMAIN (with AWS and AMD Ventures participating) at a ~$4B valuation, and announced 'Project Halo,' a 2-gigawatt AI supercluster for training and inference.",
+          "sales_relevance": "A massive new compute buildout (Project Halo) for training and inference is precisely the moment to engage on inference-serving efficiency and vendor choice before infrastructure decisions lock in."
+        },
+        {
+          "date": "2026-06-09",
+          "category": "product_launch",
+          "title": "Luma launches Ray3.2",
+          "source": "Luma AI",
+          "url": "https://www.cnbc.com/2026/05/19/luma-ai-cnbc-disruptor-50-ranking.html",
+          "summary": "Luma introduced Ray3.2, an update to its Ray3 'reasoning video model' family adding frame-level control (up to 16 keyframes), native 1080p up to 20 seconds, and HDR/16-bit EXR export.",
+          "sales_relevance": "Continued rapid iteration on a flagship video model means ongoing need for efficient, low-latency serving infrastructure as feature complexity and output resolution grow."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "Luma partners with Publicis Groupe on MENA ad campaigns",
+          "source": "startupresearcher.com",
+          "url": "https://www.startupresearcher.com/news/luma-ai-to-build-ai-infrastructure-in-saudi-arabia-with-humain",
+          "summary": "Luma announced a partnership with advertising agency Publicis Groupe to integrate its AI video tools into large-scale brand campaigns across the Middle East and North Africa.",
+          "sales_relevance": "Expanding enterprise/agency usage of Luma's video generation tools increases production-inference volume, another angle for an infra-cost conversation."
+        }
+      ]
+    },
+    {
+      "id": "reflection-ai",
+      "news": [
+        {
+          "date": "2026-03-01",
+          "category": "funding",
+          "title": "Reflection AI in talks for $2.5B round at $25B+ valuation",
+          "source": "Yahoo Finance / TechFundingNews",
+          "url": "https://techfundingnews.com/reflection-ai-25-billion-valuation-nvidia-deepseek/",
+          "summary": "Reflection AI, an open-model frontier lab founded by ex-DeepMind/Google researchers, was reported in discussions to raise $2.5B at a $25B pre-money valuation (reportedly closing near $27.5B), up sharply from an $8B valuation just months earlier.",
+          "sales_relevance": "Explosive valuation growth aimed at countering DeepSeek and building open frontier models implies enormous, rapidly scaling training and inference compute needs and active infra vendor decisions."
+        },
+        {
+          "date": "2025-10-01",
+          "category": "funding",
+          "title": "Reflection AI raises $2B at $8B valuation",
+          "source": "Reflection AI / press coverage",
+          "url": "https://en.wikipedia.org/wiki/Reflection_AI",
+          "summary": "Reflection AI raised a $2B round valuing the company at $8B, with investors including Nvidia, Citigroup, Lightspeed Venture Partners, Sequoia Capital and Eric Schmidt.",
+          "sales_relevance": "A well-capitalized frontier-model lab building compute-heavy infrastructure is a high-value target for inference-engine partnership conversations."
+        },
+        {
+          "date": "2025-07-01",
+          "category": "product_launch",
+          "title": "Reflection AI launches Asimov code-comprehension agent",
+          "source": "Sequoia Capital",
+          "url": "https://sequoiacap.com/article/reflection-ai-asimov/",
+          "summary": "Reflection AI launched Asimov, a multi-agent research tool that indexes codebases, docs, and communications (GitHub, Slack, Jira) to answer engineering questions; as of early 2026 it remains on a waitlist.",
+          "sales_relevance": "Asimov is Reflection's first shipped product and a live inference workload - useful context for a technical conversation about serving costs at scale as it exits waitlist."
+        }
+      ]
+    },
+    {
+      "id": "magic-dev",
+      "news": [
+        {
+          "date": "2024-08-29",
+          "category": "partnership",
+          "title": "Magic partners with Google Cloud, raises $320M",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2024/08/29/generative-ai-coding-startup-magic-lands-320m-investment-from-eric-schmidt-atlassian-and-others/",
+          "summary": "AI coding startup Magic raised $320M (led by Eric Schmidt, with CapitalG, Atlassian, Jane Street, Sequoia and others) and partnered with Google Cloud to build the Magic-G4 and Magic-G5 GPU supercomputers, bringing total funding to $465M.",
+          "sales_relevance": "This remains the most recent major public news for Magic; no newer funding, leadership, or product announcements were found in the last several months despite continued AI/ML and DevOps hiring, suggesting outreach may need to lead with a discovery conversation rather than a specific news hook."
+        }
+      ]
+    },
+    {
+      "id": "reka-ai",
+      "news": [
+        {
+          "date": "2026-05-10",
+          "category": "acquisition",
+          "title": "Reka acquires Moonvalley",
+          "source": "PR Newswire / reka.ai",
+          "url": "https://reka.ai/news/reka-and-moonvalley-join-forces-to-advance-models-and-infrastructure-for-physical-ai",
+          "summary": "Reka AI acquired Moonvalley in an all-share deal, adding former DeepMind/Google/Runway researchers (including Veo contributors Mateusz Malinowski and Mikołaj Bińkowski) to build models and infrastructure for 'physical AI.'",
+          "sales_relevance": "A freshly combined research org is actively re-architecting its model and infrastructure roadmap, an ideal window to introduce MAX before the merged team locks in a serving stack."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "partnership",
+          "title": "Reka partners with Turing on agentic video surveillance platform",
+          "source": "reka.ai",
+          "url": "https://reka.ai/news/reka-and-turing-partner-to-pioneer-agentic-video-surveillance-platform",
+          "summary": "Reka partnered with Turing to build an agentic video-surveillance platform featuring natural-language search, smarter alerts, and real-time visual analysis powered by Reka's multimodal models.",
+          "sales_relevance": "A new real-time multimodal enterprise deployment adds production inference volume that needs efficient serving infrastructure."
+        },
+        {
+          "date": "2025-07-22",
+          "category": "funding",
+          "title": "Reka raises $110M Series B, reaches unicorn status",
+          "source": "TechFundingNews / reka.ai",
+          "url": "https://techfundingnews.com/reka-110-million-funding-multimodal-ai-enterprise/",
+          "summary": "Reka raised $110M backed by Nvidia and DST Global, crossing a $1B valuation and bringing total funding to $168M to accelerate adoption of its multimodal AI platforms.",
+          "sales_relevance": "Capital earmarked for enterprise platform adoption typically drives increased production inference spend and vendor evaluation."
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "news": [
+        {
+          "date": "2026-01-26",
+          "category": "funding",
+          "title": "Synthesia raises $200M Series E at $4B valuation",
+          "source": "CNBC / Bloomberg",
+          "url": "https://www.cnbc.com/2026/01/26/nvidia-alphabet-vc-arms-back-synthesia.html",
+          "summary": "Synthesia raised $200M led by Google Ventures (with NVIDIA's VC arm, Accel, and Kleiner Perkins participating), nearly doubling its valuation to $4B and reporting $150M+ ARR heading toward $200M in 2026.",
+          "sales_relevance": "Rapid ARR growth and a doubled valuation on the back of AI-avatar video generation signals rising production inference volume and budget for infrastructure investment."
+        },
+        {
+          "date": "2026-01-26",
+          "category": "product_launch",
+          "title": "Synthesia expands into conversational, agent-driven avatars",
+          "source": "Synthesia / CNBC",
+          "url": "https://www.synthesia.io/post/series-e-200-million-4-billion-valuation-future-work",
+          "summary": "Alongside its Series E, Synthesia announced plans to move beyond passive video training into interactive AI 'agents' that hold real-time conversations, starting with sales training before expanding to recruiting and other functions.",
+          "sales_relevance": "The shift from pre-rendered video to real-time conversational agents is a major latency/throughput step-change that makes MAX's real-time inference story directly relevant."
+        }
+      ]
+    },
+    {
+      "id": "udio",
+      "news": [
+        {
+          "date": "2026-04-09",
+          "category": "partnership",
+          "title": "Udio strikes licensing deal with Kobalt ahead of new platform launch",
+          "source": "Digital Music News",
+          "url": "https://www.digitalmusicnews.com/2026/04/09/udio-kobalt-deal/",
+          "summary": "Udio signed a music licensing agreement with Kobalt, adding to prior deals with Merlin, Universal Music Group and Warner Music, ahead of the planned 2026 launch of its licensed AI music platform.",
+          "sales_relevance": "As Udio moves from litigation to a licensed commercial product launch, it will need to scale legitimate production-grade music-generation inference, a timely infrastructure conversation."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "Merlin partners with Udio for AI training licensing",
+          "source": "Music Business Worldwide",
+          "url": "https://www.musicbusinessworldwide.com/udio-strikes-ai-licensing-deal-with-merlin-after-umg-and-warner-music-settlements/",
+          "summary": "Independent music licensing group Merlin signed a deal with Udio to license recordings for AI model training, following Udio's settlements with Universal Music Group and Warner Music Group.",
+          "sales_relevance": "Broader licensed catalog access supports retraining/fine-tuning of Udio's generative model, indicating upcoming inference capacity needs for a relaunched product."
+        },
+        {
+          "date": "2025-10-29",
+          "category": "partnership",
+          "title": "UMG settles lawsuit with Udio, plans licensed AI music platform",
+          "source": "Digital Music News / Music Ally",
+          "url": "https://www.digitalmusicnews.com/2025/10/29/umg-udio-ink-ai-licensing-agreement/",
+          "summary": "Universal Music Group settled its copyright infringement litigation against Udio and agreed to collaborate on a new commercial AI music platform launching in 2026, trained on licensed music.",
+          "sales_relevance": "This settlement clears the legal path for Udio to commercialize and scale a licensed product, likely triggering renewed investment in serving infrastructure as it rebuilds around licensed training data."
+        }
+      ]
+    },
+    {
+      "id": "recraft",
+      "news": [
+        {
+          "date": "undated",
+          "category": "funding",
+          "title": "Recraft extends Series B with NVIDIA as new investor",
+          "source": "Recraft blog / TechFundingNews",
+          "url": "https://www.recraft.ai/press-releases/welcoming-new-investors-series-b",
+          "summary": "Recraft announced an extension to its $30M Series B (originally led by Accel), adding NVIDIA and Slack SVP Design Ethan Eismann as new investors; the company now serves over 4M users with $5M+ ARR.",
+          "sales_relevance": "New strategic investor NVIDIA suggests Recraft may be deepening its GPU/inference infrastructure relationships, a window to discuss MAX as an alternative or complementary serving layer."
+        },
+        {
+          "date": "2026-06-07",
+          "category": "other",
+          "title": "Recraft hosts Midnight Code Cup competitive programming event",
+          "source": "Recraft LinkedIn",
+          "url": null,
+          "summary": "Recraft ran a coding competition (Midnight Code Cup) with 300+ teams from 68 countries, with a final held June 7-8, 2026 in Belgrade.",
+          "sales_relevance": "Signals community/developer marketing investment and engineering brand-building, useful as a rapport-building talking point but not a strong buying signal on its own."
+        }
+      ]
+    },
+    {
+      "id": "world-labs",
+      "news": [
+        {
+          "date": "2026-02-18",
+          "category": "funding",
+          "title": "World Labs raises $1B at ~$5.4B valuation",
+          "source": "TechCrunch / Bloomberg",
+          "url": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/",
+          "summary": "Fei-Fei Li's World Labs closed a $1B round (including $200M from Autodesk) at a roughly $5.4B post-money valuation, bringing total funding to $1.23B, with AMD, NVIDIA, Fidelity, Sea and Emerson Collective also participating.",
+          "sales_relevance": "A flush $1B war chest earmarked for scaling 3D/world-model generation is a strong signal they will need to massively expand inference capacity and may be evaluating serving infrastructure vendors."
+        },
+        {
+          "date": "2026-02-18",
+          "category": "product_launch",
+          "title": "World Labs launches Marble world-model product",
+          "source": "TechCrunch / PYMNTS",
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2026/world-labs-raises-1-billion-to-scale-spatial-ai/",
+          "summary": "World Labs formally launched Marble, a large world model that turns text, images, video or rough 3D layouts into persistent, navigable 3D environments, shipping in four paid tiers ($20-$95/mo).",
+          "sales_relevance": "A newly GA'd, compute-intensive generative 3D product is a prime candidate for inference cost optimization conversations with Modular's MAX engine."
+        },
+        {
+          "date": "2026-06-30",
+          "category": "other",
+          "title": "World Labs cited as leader of a $3B 'world models' VC wave",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/josipamajic/2026/06/30/world-model-startups-raise-3-billion-vcs-bet-beyond-ljms/",
+          "summary": "Forbes coverage frames World Labs as leading a broader surge of VC investment (~$3B) into 'world model' startups as the next major AI infrastructure bet after LLMs.",
+          "sales_relevance": "Sector-wide momentum in world models implies growing compute/inference demand industry-wide, useful framing for outreach around scaling inference economics."
+        }
+      ]
+    },
+    {
+      "id": "character-ai",
+      "news": [
+        {
+          "date": "2026-06-20",
+          "category": "leadership",
+          "title": "Character.AI names Karandeep Anand as CEO",
+          "source": "Character.AI blog / The AI Software Report",
+          "url": "https://blog.character.ai/character-ai-names-karandeep-anand-as-ceo/",
+          "summary": "Character.AI named Karandeep Anand (former Meta VP of Business Products, ex-President of Brex, prior board advisor) as its new CEO, positioning the company as an 'AI entertainment' platform (20M+ MAU).",
+          "sales_relevance": "A new CEO often reopens strategic and vendor decisions, including infrastructure and inference cost/perf priorities, making this a timely entry point for outreach."
+        },
+        {
+          "date": "2026-07-09",
+          "category": "product_launch",
+          "title": "Character.AI launches microdrama short-form video series (c.ai Series)",
+          "source": "Variety / Forbes / Hollywood Reporter",
+          "url": "https://variety.com/2026/digital/news/character-ai-introduces-suite-of-microseries-1236804864/",
+          "summary": "Character.AI launched original AI-generated vertical microdrama series written by Hollywood writers, expanding beyond chat into video entertainment content.",
+          "sales_relevance": "Expansion into generative video is far more compute-intensive than text chat, likely driving a step-change in inference infrastructure needs."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "product_launch",
+          "title": "Character.AI launches 'Books' interactive fiction feature",
+          "source": "Variety",
+          "url": "https://variety.com/2026/gaming/news/character-ai-launches-ai-powered-books-feature-1236722570/",
+          "summary": "Character.AI rolled out c.ai Books, letting users step inside and interact with classic novels via AI characters.",
+          "sales_relevance": "New always-on interactive product surfaces add sustained inference load, relevant to conversations about serving cost efficiency."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "product_launch",
+          "title": "Character.AI adds Imagine Gallery image generator",
+          "source": "Autoppt / StartupHub.ai",
+          "url": null,
+          "summary": "Character.AI added an Imagine Gallery image-generation feature for c.ai+ subscribers, alongside new Story Memory and Facts features for longer-running chats.",
+          "sales_relevance": "Adding multimodal image generation on top of chat further diversifies and increases inference workload types, a good hook for discussing a unified serving layer."
+        }
+      ]
+    },
+    {
+      "id": "skild-ai",
+      "news": [
+        {
+          "date": "2026-01-14",
+          "category": "funding",
+          "title": "Skild AI raises $1.4B Series C at $14B+ valuation",
+          "source": "Bloomberg / TechCrunch",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
+          "summary": "Skild AI closed a $1.4B round led by SoftBank (with NVIDIA, Jeff Bezos, Samsung, LG and others participating), tripling its valuation to over $14B in seven months.",
+          "sales_relevance": "A massive capital infusion earmarked for scaling its 'omni-bodied' robotics foundation model implies rapidly growing inference/training compute needs and vendor evaluations."
+        },
+        {
+          "date": "2026-04-15",
+          "category": "acquisition",
+          "title": "Skild AI acquires Zebra Technologies' robotics automation business",
+          "source": "MarketScreener / Tracxn",
+          "url": "https://www.marketscreener.com/news/skild-ai-inc-announced-that-it-has-received-1-4-billion-in-funding-from-a-group-of-investors-ce7e58d9d98ef725",
+          "summary": "Skild AI's most recent recorded deal was an acquisition involving Zebra Technologies' robotics automation business, dated April 15, 2026.",
+          "sales_relevance": "Absorbing an established robotics automation business likely adds new deployed fleets and workloads that need model-serving infrastructure at scale."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "product_launch",
+          "title": "Skild AI launches 'Skild Brain' universal robot foundation model",
+          "source": "The Robot Report / AIBusiness",
+          "url": "https://www.therobotreport.com/skild-ai-raises-1-4b-building-omni-bodied-robot-skild-brain/",
+          "summary": "Skild AI unveiled Skild Brain, an omni-bodied foundation model that can control diverse robot forms (quadrupeds, humanoids, arms, mobile manipulators) without prior knowledge of exact body form.",
+          "sales_relevance": "A single foundation model intended to serve many robot form factors in production (security, delivery, warehouses, manufacturing) is a strong candidate for optimized real-time inference serving."
+        }
+      ]
+    },
+    {
+      "id": "tabnine",
+      "news": [
+        {
+          "date": "2026-05-01",
+          "category": "other",
+          "title": "Tabnine named a Visionary in 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents",
+          "source": "Yahoo Finance / Futurum Group",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/tabnine-named-visionary-2026-gartner-120000409.html",
+          "summary": "Tabnine was placed in the Visionary quadrant of Gartner's 2026 Magic Quadrant for Enterprise AI Coding Agents for the second consecutive year.",
+          "sales_relevance": "Analyst recognition often precedes enterprise sales pushes and scaling, a reasonable trigger to check in on their inference infrastructure roadmap."
+        },
+        {
+          "date": "undated",
+          "category": "product_launch",
+          "title": "Tabnine expands platform with Enterprise Context Engine",
+          "source": "Tabnine blog",
+          "url": "https://www.tabnine.com/blog/",
+          "summary": "Tabnine introduced an Enterprise Context Engine designed to give coding agents shared, governed organizational context across a company's codebase.",
+          "sales_relevance": "A new context-sharing layer for multi-agent systems likely increases model invocation volume and could strain existing serving infrastructure."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "other",
+          "title": "Tabnine recognized as 'AI-Native' company at NVIDIA GTC 2026",
+          "source": "Tabnine blog",
+          "url": null,
+          "summary": "At NVIDIA's GTC 2026 conference, Tabnine was recognized in the AI-Native category for software development.",
+          "sales_relevance": "Close NVIDIA/GTC visibility suggests active GPU infrastructure conversations are already happening, a natural segue to discuss Modular's MAX engine on NVIDIA hardware."
+        }
+      ]
+    },
+    {
+      "id": "anysphere-cursor",
+      "news": [
+        {
+          "date": "2026-06-16",
+          "category": "acquisition",
+          "title": "SpaceX agrees to acquire Anysphere (Cursor) for $60B",
+          "source": "TechCrunch coverage / The Motley Fool",
+          "url": "https://techfundingnews.com/spacex-buys-anysphere-cursor-60b-all-stock-xai-enterprise-ai/",
+          "summary": "SpaceX agreed to acquire Cursor-maker Anysphere in an all-stock deal valuing it at $60B, described as the largest acquisition of a venture-backed startup ever; the deal gives xAI (merged with SpaceX) its first major AI developer-tools asset, with close expected Q3 2026.",
+          "sales_relevance": "A pending acquisition by SpaceX/xAI means Cursor's infrastructure decisions may soon be influenced by xAI's own stack, a time-sensitive window to engage before vendor decisions potentially consolidate."
+        },
+        {
+          "date": "2025-11-13",
+          "category": "funding",
+          "title": "Cursor (Anysphere) raises $2.3B Series D at $29.3B valuation",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2025/11/13/cursor-ai-startup-funding-round-valuation.html",
+          "summary": "Anysphere closed a $2.3B Series D at a $29.3B post-money valuation, with investors including Accel, Thrive, a16z, DST Global, Coatue, NVIDIA and Google, shortly before reaching roughly $4B in ARR by mid-2026.",
+          "sales_relevance": "Even before the SpaceX deal, Cursor's capital and revenue scale (approaching $4B ARR, ~75% enterprise) point to very large inference spend that a serving-efficiency pitch could target."
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "news": [
+        {
+          "date": "2026-01-09",
+          "category": "funding",
+          "title": "Perplexity valuation hits ~$23B",
+          "source": "Multiple (valueaddvc, industry trackers)",
+          "url": "https://valueaddvc.com/blog/perplexity-ai-valuation-revenue-2026-23b-450m-arr",
+          "summary": "Perplexity's valuation reached roughly $22.6-23B in January 2026 on $450M+ ARR, continuing its rapid climb from $9B in December 2024.",
+          "sales_relevance": "Rapidly rising valuation and ARR typically comes with rapidly rising inference spend, a strong opening for a cost/performance conversation."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "partnership",
+          "title": "CoreWeave to power Perplexity's AI inference workloads",
+          "source": "CoreWeave investor relations",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Agreement-to-Power-Perplexitys-AI-Inference-Workloads/default.aspx",
+          "summary": "CoreWeave announced a multi-year strategic partnership to support Perplexity's AI inference workloads on CoreWeave Cloud.",
+          "sales_relevance": "Direct evidence Perplexity is actively expanding and re-architecting its inference infrastructure right now, precisely the moment to position MAX as a serving-layer option regardless of underlying cloud/GPU provider."
+        },
+        {
+          "date": "2026-01-29",
+          "category": "partnership",
+          "title": "Perplexity signs $750M Microsoft Azure cloud deal amid Amazon dispute",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-29/perplexity-inks-microsoft-ai-cloud-deal-amid-dispute-with-amazon",
+          "summary": "Perplexity signed a $750M deal to use Microsoft Azure cloud infrastructure, reported amid a dispute with Amazon (a prior infrastructure partner).",
+          "sales_relevance": "An infrastructure vendor shakeup (moving/adding cloud relationships) signals an open window to introduce Modular's inference engine as part of a multi-cloud serving strategy."
+        },
+        {
+          "date": "undated",
+          "category": "acquisition",
+          "title": "Apple reportedly weighs acquiring Perplexity",
+          "source": "Let's Data Science / press aggregators",
+          "url": "https://letsdatascience.com/news/apple-weighs-acquisition-of-perplexity-ai-startup-f24e0f15",
+          "summary": "Reports indicate Apple executives (Adrian Perica, Eddy Cue) held early-stage internal discussions about a possible bid for Perplexity, though talks may not lead to an offer.",
+          "sales_relevance": "An unresolved acquisition rumor is a reason to move quickly on any active infra/vendor conversation before ownership and technical direction potentially change."
+        }
+      ]
+    },
+    {
+      "id": "sourcegraph-amp",
+      "news": [
+        {
+          "date": "2025-12-01",
+          "category": "other",
+          "title": "Sourcegraph spins out Amp as an independent company",
+          "source": "Sourcegraph blog / ainativedev.io",
+          "url": "https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies",
+          "summary": "Sourcegraph announced it is splitting into two independent companies: Sourcegraph (code search/understanding) and Amp Inc. (an independent AI coding agent research lab led by Quinn Slack and Beyang Liu), with shared board investors including Sequoia and a16z.",
+          "sales_relevance": "Amp becoming its own company means it will likely make independent infrastructure and vendor decisions going forward, worth engaging Amp Inc. directly rather than through Sourcegraph."
+        },
+        {
+          "date": "2026-07-01",
+          "category": "product_launch",
+          "title": "Amp ships multi-agent orchestration, Slack integration, and Puck meta-agent",
+          "source": "Sourcegraph/Amp changelog",
+          "url": "https://ampcode.com/news/amp-inc",
+          "summary": "Amp released new capabilities in July 2026 including the 'Puck' meta-agent/helper, the ability to summon Amp from Slack, agents that can spawn and message other agents across threads, and OIDC support for workload identity ('Orbs').",
+          "sales_relevance": "Multi-agent orchestration features meaningfully increase the number and complexity of model calls Amp needs to serve, a good technical hook for an inference-efficiency conversation."
+        }
+      ]
+    },
+    {
+      "id": "cresta",
+      "news": [
+        {
+          "date": "2026-06-01",
+          "category": "partnership",
+          "title": "Cresta and TELUS Digital partner on enterprise contact-center AI",
+          "source": "Cresta press release",
+          "url": "https://cresta.com/press/cresta-telus-digital-partnership",
+          "summary": "Cresta and TELUS Digital announced a partnership to bring unified customer experience AI agents into enterprise contact centers.",
+          "sales_relevance": "New enterprise-scale deployments through a BPO partner will meaningfully increase Cresta's real-time inference volume across many client contact centers."
+        },
+        {
+          "date": "2026-07-01",
+          "category": "partnership",
+          "title": "Cresta powers AI for the New York Mets",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/video/2026/06/26/cresta-ceo-ping-wu-on-the-company-s-ai-partnership-with-the-new-york-mets.html",
+          "summary": "Cresta CEO Ping Wu discussed a new AI partnership with the New York Mets to support fan service and ticketing operations.",
+          "sales_relevance": "Expansion into new high-profile verticals (sports/consumer) broadens Cresta's real-time inference workloads beyond its core contact-center use case."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "leadership",
+          "title": "Cresta names Doug Leone board chair; Carl Eschenbach rejoins board",
+          "source": "Cresta press release",
+          "url": "https://cresta.com/press/cresta-names-sequoias-doug-leone-as-board-chair-carl-eschenbach-rejoins-board-as-growth-accelerates",
+          "summary": "Cresta named Sequoia partner and longtime board member Doug Leone as Board Chair, with former Workday CEO Carl Eschenbach (also a Sequoia partner) rejoining the board as growth accelerates.",
+          "sales_relevance": "Board strengthening around a 'growth accelerates' narrative often precedes larger infrastructure investment and vendor re-evaluation."
+        },
+        {
+          "date": "2026-04-30",
+          "category": "other",
+          "title": "Cresta surpasses $100M ARR",
+          "source": "Cresta / industry trackers",
+          "url": null,
+          "summary": "Cresta reported surpassing $100 million in annual recurring revenue as of April 30, 2026, with roughly 693 employees as of May 2026.",
+          "sales_relevance": "Crossing the $100M ARR milestone typically correlates with rising inference costs at scale, a good data point to reference when discussing serving efficiency."
+        }
+      ]
+    },
+    {
+      "id": "liner",
+      "news": [
+        {
+          "date": "2026-01-01",
+          "category": "other",
+          "title": "Liner ranked No. 2 in Education on Fast Company's Most Innovative Companies 2026 list",
+          "source": "Fast Company (via GetLatka summary)",
+          "url": "https://getlatka.com/companies/getliner.com",
+          "summary": "Liner, an AI research/study assistant, was ranked No. 2 in the Education category on Fast Company's 2026 Most Innovative Companies list.",
+          "sales_relevance": "Rising industry visibility for an education-AI product with growing usage is a reasonable opener, though no other recent funding, leadership, or infra news was found for this account."
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "news": [
+        {
+          "date": "2026-01-28",
+          "category": "funding",
+          "title": "Decagon raises $250M Series D, valuation triples to $4.5B",
+          "source": "Bloomberg / SiliconANGLE",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-28/ai-customer-support-startup-decagon-valued-at-4-5-billion",
+          "summary": "Decagon closed a $250M Series D led by Coatue and Index Ventures (with Chemistry, Definition Capital, Starwood, a16z, Accel and Bain Capital Ventures), tripling its valuation to $4.5B and bringing total funding to ~$481M.",
+          "sales_relevance": "A tripled valuation and fresh $250M war chest for an AI customer-support agent platform strongly suggests scaling inference spend and active vendor evaluation."
+        },
+        {
+          "date": "undated",
+          "category": "partnership",
+          "title": "TaskUs partners with Decagon and Regal on AI customer support",
+          "source": "Industry press",
+          "url": null,
+          "summary": "TaskUs announced strategic partnerships with Decagon and Regal to further automate and transform customer support operations.",
+          "sales_relevance": "A BPO integration expands the volume and breadth of enterprise deployments running on Decagon's models, increasing real-time inference demand."
+        },
+        {
+          "date": "undated",
+          "category": "partnership",
+          "title": "Decagon partners with ElevenLabs",
+          "source": "Industry press",
+          "url": null,
+          "summary": "Decagon has an integration/partnership with ElevenLabs, reportedly to add voice capabilities to its conversational agents.",
+          "sales_relevance": "Adding voice AI alongside text agents adds new, latency-sensitive inference workloads that could benefit from an optimized serving engine like MAX."
+        }
+      ]
+    },
+    {
+      "id": "jasper",
+      "news": [
+        {
+          "date": "2026-06-16",
+          "category": "product_launch",
+          "title": "Jasper launches end-to-end GEO Agent and GEO Hub",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/jasper-launches-end-to-end-geo-agent-for-enterprise-marketers-302800957.html",
+          "summary": "Jasper launched an autonomous GEO (generative-engine-optimization) Agent plus a GEO Hub command center that continuously analyzes and improves how a brand appears across AI search platforms.",
+          "sales_relevance": "A new agentic, always-on product line likely increases Jasper's inference volume and makes inference cost/latency/throughput a more active concern for its infra team."
+        },
+        {
+          "date": "2026-05-01",
+          "category": "product_launch",
+          "title": "Jasper Slack Agent launched",
+          "source": "Jasper Blog",
+          "url": "https://www.jasper.ai/blog/may-2026-product-update",
+          "summary": "Jasper introduced a Slack-native agent that lets marketing teams brainstorm, summarize, and draft content directly inside Slack using Jasper IQ context.",
+          "sales_relevance": "Expanding into new interactive surfaces (Slack) adds real-time inference workloads, a good hook for discussing serving latency/cost with MAX."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "product_launch",
+          "title": "AI Visibility Workflows launched in Grid",
+          "source": "Jasper Blog",
+          "url": "https://www.jasper.ai/blog/april-2026-product-update",
+          "summary": "Jasper added AI Visibility Workflows to its Grid product, giving marketers a structured process for creating and competing with AI-native discovery content.",
+          "sales_relevance": "Continued rapid feature shipping suggests growing model-serving surface area and an active infra/ML platform team worth engaging."
+        },
+        {
+          "date": "2026-01-28",
+          "category": "other",
+          "title": "Jasper publishes 2026 State of AI in Marketing report",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/new-jasper-research-shows-ai-is-now-core-to-marketing-with-scale-and-governance-emerging-as-top-barriers-302671894.html",
+          "summary": "Jasper's survey of 1,400 marketers found AI adoption near-universal but scale and governance are now the top barriers to further AI use.",
+          "sales_relevance": "Jasper is positioning itself as a thought leader on AI-at-scale challenges, which can be used to frame a conversation about inference cost/scale as a shared pain point."
+        }
+      ]
+    },
+    {
+      "id": "openevidence",
+      "news": [
+        {
+          "date": "2026-01-21",
+          "category": "funding",
+          "title": "OpenEvidence raises $250M Series D, doubling valuation to $12B",
+          "source": "TechCrunch / CNBC",
+          "url": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/",
+          "summary": "OpenEvidence closed a $250M Series D co-led by Thrive Capital and DST Global, doubling its valuation from an October 2025 round to $12 billion and bringing total funding to nearly $700M.",
+          "sales_relevance": "Explicitly earmarked new capital for R&D and compute costs tied to its multi-agent architecture — a strong signal of active inference infrastructure spend and vendor evaluation."
+        },
+        {
+          "date": "2026-07-09",
+          "category": "funding",
+          "title": "OpenEvidence reportedly weighing $200M raise at $20B valuation",
+          "source": "PYMNTS / Becker's Hospital Review",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/medical-ai-startup-openevidence-weighs-200-million-funding-round/",
+          "summary": "OpenEvidence is reportedly considering another raise, this time at roughly a $20B valuation, though it may not proceed due to founder dilution concerns; the company is generating about $300M in annualized revenue.",
+          "sales_relevance": "Continued explosive revenue growth (now ~$300M ARR) implies rapidly scaling query/inference volume, a good timing signal for an infra-cost conversation."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "acquisition",
+          "title": "OpenEvidence reportedly held acquisition talks with a large tech company",
+          "source": "Multiple (via TechCrunch/PYMNTS coverage)",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/medical-ai-startup-openevidence-weighs-200-million-funding-round/",
+          "summary": "Reports indicate OpenEvidence held acquisition discussions with an unnamed large tech company in recent months, though no deal has been confirmed.",
+          "sales_relevance": "A pending acquisition could change infra decision-makers and budget authority quickly — worth tracking before committing to a long sales cycle."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "OpenEvidence deepens EHR and clinical-trial partnerships (Epic/Sutter, Veeva)",
+          "source": "Industry coverage",
+          "url": null,
+          "summary": "OpenEvidence's 2026 strategy centers on deeper EHR integration (e.g., Sutter Health/Epic) and a new Open Vista product with Veeva for clinical trial matching.",
+          "sales_relevance": "Embedding directly into clinical workflows at scale increases real-time inference demands, relevant to a pitch around low-latency serving."
+        }
+      ]
+    },
+    {
+      "id": "mercor",
+      "news": [
+        {
+          "date": "2026-07-09",
+          "category": "acquisition",
+          "title": "Mercor acquires Deeptune",
+          "source": "Fortune / TechFundingNews",
+          "url": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/",
+          "summary": "Mercor acquired Deeptune, a reinforcement-learning-environments startup, to strengthen its AI training/agent-reliability capabilities; the deal drew scrutiny since CEO Brendan Foody had personally invested in Deeptune months earlier.",
+          "sales_relevance": "Acquisition to build out RL training environments suggests growing internal model training/eval infrastructure needs, a potential entry point for inference tooling discussions."
+        },
+        {
+          "date": "2026-07-09",
+          "category": "funding",
+          "title": "Mercor in talks to raise $500M at a $20B valuation",
+          "source": "Bloomberg / Forbes",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-09/ai-training-startup-mercor-discusses-20-billion-valuation",
+          "summary": "Mercor is reportedly discussing a $500M raise at roughly a $20B valuation, doubling its worth less than a year after an October 2025 $350M Series C at $10B.",
+          "sales_relevance": "Rapid valuation growth and fresh capital signal a scaling infrastructure budget and likely active vendor evaluations across the AI stack."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "other",
+          "title": "Mercor data breach exposes 4TB of data; Meta pauses work with the company",
+          "source": "TechFundingNews / AOL",
+          "url": "https://techfundingnews.com/mercor-20b-valuation-talks-deeptune-acquisition/",
+          "summary": "A supply-chain flaw in LiteLLM led to a breach exposing an estimated 4TB of Mercor data, including contractor SSNs and internal Anthropic safety-labeling records; Meta paused all work with Mercor as a result.",
+          "sales_relevance": "A security incident tied to their LLM infra stack (LiteLLM) makes infrastructure security/reliability a live, sensitive topic — approach with care but it may open a door to discuss a more robust serving stack."
+        }
+      ]
+    },
+    {
+      "id": "abridge",
+      "news": [
+        {
+          "date": "2026-06-11",
+          "category": "partnership",
+          "title": "Abridge expands NVIDIA collaboration to build a clinical-conversation foundation model",
+          "source": "PYMNTS / HLTH",
+          "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-taps-abridge-to-train-ai-on-real-doctor-visits/",
+          "summary": "NVIDIA and Abridge are collaborating on multilingual generative AI for clinical documentation, including a foundation model purpose-built for clinical conversations, with NVIDIA providing compute and models.",
+          "sales_relevance": "A named compute/model partner (NVIDIA) suggests Abridge's inference stack decisions are actively in play — a timely moment to position MAX as complementary/competitive serving infrastructure."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "partnership",
+          "title": "Abridge rolls out partnership with Eli Lilly",
+          "source": "Healthcare Dive",
+          "url": "https://www.healthcaredive.com/news/abridge-nvidia-eli-lilly-investment-ai-platform-expands-payer-provider-collaboration/822783/",
+          "summary": "Abridge announced an expanded platform push including a partnership/investment with Eli Lilly as it extends beyond documentation into payer and life-sciences connectivity.",
+          "sales_relevance": "Expansion into new verticals (life sciences) likely multiplies inference workloads and integration surfaces needing reliable, cost-efficient serving."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "Abridge and Availity launch real-time prior-authorization collaboration",
+          "source": "FierceHealthcare",
+          "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/jpm26-abridge-teams-availity-scale-real-time-prior-authorization",
+          "summary": "Abridge partnered with Availity, the largest real-time health information network, to launch an AI-powered prior-authorization experience for providers.",
+          "sales_relevance": "Real-time authorization workflows require low-latency inference at scale, directly relevant to MAX's performance pitch."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "funding",
+          "title": "Abridge raises $316M Series E extension",
+          "source": "PitchBook / Sacra",
+          "url": "https://sacra.com/c/abridge/",
+          "summary": "Abridge closed an additional $316M Series E extension in April 2026, following its $300M Series E at a $5.3B valuation in mid-2025.",
+          "sales_relevance": "Continued heavy capital inflow supports sustained infra investment and gives a rep budget confidence for an enterprise inference deal."
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "news": [
+        {
+          "date": "2026-01-28",
+          "category": "funding",
+          "title": "Clay announces second employee tender offer in nine months at $5B valuation",
+          "source": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20260128514638/en/Clay-Announces-Second-Employee-Tender-Offer-in-Nine-Months-at-a-$5B-Valuation",
+          "summary": "Clay's valuation jumped from $1.5B to $5B in under a year via a DST Global-led tender offer, with revenue up 3.5x and ARR crossing $100M in December 2025.",
+          "sales_relevance": "Extremely fast growth in ARR and valuation signals rapidly scaling AI/enrichment workloads and a growing infra budget to support them."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "Clay adds data partnerships (Lusha, Beauhurst, Ocean)",
+          "source": "Clay Blog / company coverage",
+          "url": "https://www.clay.com/blog/ai-in-marketing-and-sales",
+          "summary": "Clay expanded its data-provider ecosystem with new partnerships for contact enrichment (Lusha), UK/Germany funding data (Beauhurst), and lookalike discovery (Ocean).",
+          "sales_relevance": "Growing data-provider integrations increase the volume and diversity of AI enrichment calls Clay's platform must serve, a relevant infra scaling signal."
+        },
+        {
+          "date": "2025-08-08",
+          "category": "product_launch",
+          "title": "Clay AI Agents move to general availability",
+          "source": "Built In NYC",
+          "url": "https://www.builtinnyc.com/articles/clay-secures-100m-20250808",
+          "summary": "Clay's AI Agents feature, previously in preview, became a first-class production capability used by 10,000+ customers including OpenAI, Anthropic, and Canva.",
+          "sales_relevance": "Production AI agents at high customer volume represent a meaningful, ongoing inference workload that could benefit from a more cost-efficient serving engine."
+        }
+      ]
+    },
+    {
+      "id": "eliseai",
+      "news": [
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "OpenAI names EliseAI its trusted VoiceAI partner for healthcare",
+          "source": "EliseAI Blog",
+          "url": "https://eliseai.com/blog/openai-names-eliseai-as-a-trusted-partner",
+          "summary": "As part of the January 2026 launch of 'OpenAI for Healthcare,' OpenAI named EliseAI as the only patient-facing VoiceAI solution featured for automating patient scheduling and communications.",
+          "sales_relevance": "Being showcased by OpenAI as a healthcare voice-AI partner substantially raises EliseAI's expected inference volume and visibility, a strong outreach hook."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "other",
+          "title": "EliseAI surpasses $200M ARR, five straight years of 100% growth",
+          "source": "EliseAI Blog",
+          "url": "https://eliseai.com/blog/eliseai-hits-200m-arr-after-five-consecutive-years-of-100-growth-across-housing-and-healthcare",
+          "summary": "EliseAI announced it crossed $200M in annual recurring revenue with continued 100% YoY growth across its housing and healthcare product lines, and now has 550+ employees.",
+          "sales_relevance": "Sustained hyper-growth across two verticals implies a rapidly expanding AI serving footprint that inference cost optimization could meaningfully impact."
+        }
+      ]
+    },
+    {
+      "id": "gamma",
+      "news": [
+        {
+          "date": "2026-03-01",
+          "category": "product_launch",
+          "title": "Gamma launches 'Gamma Imagine'",
+          "source": "Industry coverage",
+          "url": "https://www.techbuzz.ai/articles/gamma-hits-2-1b-valuation-with-100m-arr-in-ai-presentation-race",
+          "summary": "Gamma launched Gamma Imagine, expanding beyond presentations into AI-generated marketing assets like charts, social graphics, and infographics.",
+          "sales_relevance": "New generative-image/asset capability adds a new, likely compute-heavy inference workload beyond Gamma's original text/deck generation."
+        },
+        {
+          "date": "2025-11-10",
+          "category": "funding",
+          "title": "Gamma raises $68M Series B at $2.1B valuation",
+          "source": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20251110805751/en/Gamma-Surpasses-$100M-ARR-Raises-at-$2.1B-Valuation-as-It-Replaces-PowerPoint-for-the-AI-Era",
+          "summary": "Gamma raised $68M led by a16z at a $2.1B valuation after surpassing $100M ARR, becoming a unicorn five years after founding.",
+          "sales_relevance": "Fresh capital plus rapid ARR growth (~21x revenue multiple) signals room and appetite to invest in more efficient inference infrastructure at scale."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "product_launch",
+          "title": "Gamma's Generate API reaches general availability",
+          "source": "Gamma.app",
+          "url": "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
+          "summary": "Gamma's Generate API moved from preview to general availability, enabling programmatic, at-scale content generation for partners and customers.",
+          "sales_relevance": "An API for programmatic generation at scale directly increases the volume/consistency requirements on Gamma's inference backend, a good fit for a MAX pitch on throughput/cost."
+        }
+      ]
+    },
+    {
+      "id": "hebbia",
+      "news": [
+        {
+          "date": "2026-03-05",
+          "category": "leadership",
+          "title": "Hebbia expands UK/EMEA team with new regional leadership hires",
+          "source": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20260305987183/en/Hebbia-Expands-U.K.-and-EMEA-Team-Amid-Accelerating-Customer-Adoption",
+          "summary": "Hebbia named Rob Huckin as Regional VP and Paul Boland as Head of Content for its UK/EMEA expansion, reporting 373% YoY EMEA revenue growth.",
+          "sales_relevance": "New regional leadership plus fast growth abroad may create fresh infra/vendor conversations as Hebbia scales serving to new geographies."
+        },
+        {
+          "date": "2026-02-24",
+          "category": "funding",
+          "title": "Hebbia valued at $700M in recent funding",
+          "source": "PitchBook / VC Beast",
+          "url": "https://vcbeast.com/companies/hebbia",
+          "summary": "Hebbia's valuation stood at $700M as of late February 2026, following a $130M raise reported earlier, bringing total funding to roughly $161M.",
+          "sales_relevance": "A well-capitalized enterprise AI search vendor with growing valuation is a plausible candidate for investing in inference cost/performance improvements."
+        }
+      ]
+    },
+    {
+      "id": "descript",
+      "news": [
+        {
+          "date": "2026-05-01",
+          "category": "product_launch",
+          "title": "Descript launches API in open beta",
+          "source": "Newsfile Corp",
+          "url": "https://www.newsfilecorp.com/release/297461/Descript-Launches-API-in-Open-Beta-with-Editing-and-Workflow-Updates",
+          "summary": "Descript opened its API in beta, letting users connect the platform to external tools (including Claude and custom GPTs) and automate audio/video workflows.",
+          "sales_relevance": "A public API expands third-party programmatic usage of Descript's AI editing features, likely increasing and diversifying inference load."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "product_launch",
+          "title": "Descript adds Media Library and new AI model integrations",
+          "source": "Newsfile Corp",
+          "url": "https://www.newsfilecorp.com/release/293946/Descript-Adds-Media-Library-and-AI-Integrations-to-Streamline-AINative-Video-Editing-Workflows",
+          "summary": "Descript's March update added a media library for asset reuse and new AI model integrations, plus a model picker for its Underlord AI co-editor (including Claude Sonnet 4.5).",
+          "sales_relevance": "Adding a multi-model picker to Underlord suggests Descript is actively managing multiple model providers/backends, a relevant opening to discuss unified inference serving."
+        },
+        {
+          "date": "2026-01-01",
+          "category": "product_launch",
+          "title": "Descript adds generative video and AI avatars",
+          "source": "Company/product coverage",
+          "url": "https://framesurfer.com/blogs/descript-ai-video-editor",
+          "summary": "Descript introduced text-to-video generation and custom AI avatars (from photo upload or gallery) as part of its 2026 feature set.",
+          "sales_relevance": "Generative video is compute-intensive; this is a strong signal of growing GPU/inference spend that a more efficient serving stack could offset."
+        }
+      ]
+    },
+    {
+      "id": "ambience-healthcare",
+      "news": [
+        {
+          "date": "2026-02-17",
+          "category": "partnership",
+          "title": "Houston Methodist deploys Ambience system-wide, expands into ED and inpatient care",
+          "source": "HIT Consultant / Becker's Hospital Review",
+          "url": "https://hitconsultant.net/2026/02/17/houston-methodist-ambience-healthcare-enterprise-ai-rollout/",
+          "summary": "Houston Methodist completed an enterprise-wide rollout of Ambience Healthcare's ambient AI, expanding it into emergency and inpatient care with reported 40% documentation time reduction and 80% utilization across specialties.",
+          "sales_relevance": "A large enterprise-wide health-system rollout into high-acuity settings signals significant, latency-sensitive inference volume growth at Ambience."
+        },
+        {
+          "date": "2025-07-30",
+          "category": "funding",
+          "title": "Ambience Healthcare raises $243M Series C at $1.25B valuation",
+          "source": "FierceHealthcare / MobiHealthNews",
+          "url": "https://www.fiercehealthcare.com/health-tech/ambience-banks-243m-series-c-investors-continue-bet-big-ambient-ai",
+          "summary": "Ambience Healthcare closed a $243M Series C co-led by Oak HC/FT and a16z, becoming a unicorn at a $1.25B valuation, with the OpenAI Startup Fund among participants.",
+          "sales_relevance": "Large war chest plus OpenAI Startup Fund backing suggests continued heavy investment in its AI/inference stack across multiple hospital deployments."
+        }
+      ]
+    },
+    {
+      "id": "bland",
+      "news": [
+        {
+          "date": "2026-06-16",
+          "category": "funding",
+          "title": "Bland raises $50M Series C, surpassing $100M total funding",
+          "source": "PR Newswire / SiliconANGLE / Fortune",
+          "url": "https://www.prnewswire.com/news-releases/bland-surpasses-100m-funding-with-new-series-c-to-advance-voice-ai-for-complex-high-stakes-conversations-302801583.html",
+          "summary": "Bland closed a $50M Series C led by Dell Technologies Capital (with HubSpot Ventures, Archerman Capital, Tribeca Venture Partners and existing investors participating), crossing $100M in total funding; the round reportedly came after being turned down by 180 other investors.",
+          "sales_relevance": "Bland builds its own voice models rather than wrapping third-party foundation models and handles 3.5M+ calls/week — a company running self-hosted inference at real scale is a strong-fit prospect for MAX."
+        }
+      ]
+    },
+    {
+      "id": "wispr-flow",
+      "news": [
+        {
+          "date": "2026-05-12",
+          "category": "funding",
+          "title": "Wispr AI in talks to raise ~$260M Series B at ~$2B valuation",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-12/ai-dictation-startup-wispr-in-talks-at-2-billion-value",
+          "summary": "Wispr AI, maker of the Wispr Flow voice dictation app, was reported to be in funding talks led by Menlo Ventures that would roughly triple its ~$700M valuation from November 2025 to about $2 billion.",
+          "sales_relevance": "A near-3x valuation jump and large raise signals rapid scaling of usage and infra spend, making this a good time to pitch inference cost/performance for their voice-AI pipeline."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "product_launch",
+          "title": "Apple unveils systemwide dictation at WWDC 2026, competing directly with Wispr Flow",
+          "source": "TechBuzz AI",
+          "url": "https://www.techbuzz.ai/articles/apple-takes-aim-at-wispr-flow-with-systemwide-dictation",
+          "summary": "At WWDC 2026 Apple introduced an on-device systemwide dictation feature for Mac and iOS, positioned as a direct competitor to third-party tools like Wispr Flow.",
+          "sales_relevance": "Competitive pressure from Apple's on-device dictation may push Wispr to differentiate on latency/quality of its cloud AI layers, an opening to discuss inference optimization with Modular."
+        },
+        {
+          "date": "2026-04-01",
+          "category": "product_launch",
+          "title": "Wispr Flow expands to full cross-platform coverage (Mac, Windows, iPhone, Android)",
+          "source": "Company blog / press coverage",
+          "url": null,
+          "summary": "As of April 2026 Wispr Flow became available on Mac, Windows, iPhone and Android, giving it full-device coverage among AI dictation apps, alongside a new Personalized Style feature.",
+          "sales_relevance": "Expanding to mobile and cross-platform multiplies inference volume and latency sensitivity, increasing the need for efficient serving infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "zed-industries",
+      "news": [
+        {
+          "date": "2026-04-29",
+          "category": "product_launch",
+          "title": "Zed reaches 1.0",
+          "source": "AlternativeTo / press coverage",
+          "url": "https://alternativeto.net/news/2026/4/zed-the-ai-native-code-editor-from-the-creators-of-atom-has-finally-reached-version-1-0/",
+          "summary": "Zed, the Rust-based, GPU-accelerated, open-source multiplayer code editor from the creators of Atom, shipped its 1.0 release after five years of development and over a million lines of Rust.",
+          "sales_relevance": "A major 1.0 milestone with hundreds of thousands of daily developers signals growing scale of Zed's AI-agent features, which depend on model inference."
+        },
+        {
+          "date": "2026-04-22",
+          "category": "product_launch",
+          "title": "Zed launches Parallel Agents and grows Agent Client Protocol (ACP) adoption",
+          "source": "Builder.io / ChatForest coverage",
+          "url": "https://www.builder.io/blog/zed-ai-2026",
+          "summary": "Zed launched native Parallel Agents support (running multiple AI coding agents simultaneously in one editor window) and its open Agent Client Protocol has been adopted by JetBrains, Google's Gemini CLI, GitHub Copilot CLI and 25+ other agents.",
+          "sales_relevance": "Parallel agent execution and broad ACP adoption implies rising, diverse model-inference traffic through Zed's platform, a relevant wedge for a MAX inference engine conversation."
+        },
+        {
+          "date": "2025-08-20",
+          "category": "funding",
+          "title": "Zed raises $32M Series B led by Sequoia",
+          "source": "BusinessWire",
+          "url": "https://www.businesswire.com/news/home/20250820782241/en/Zed-Raises-$32M-Series-B-Led-by-Sequoia-to-Scale-Collaborative-AI-Coding-Vision",
+          "summary": "Zed Industries raised a $32M Series B led by Sequoia Capital (with Redpoint, Root Ventures, Matchstick, V1.VC and angels including Dylan Field and Tom Preston-Werner), bringing total funding to over $42M, to build real-time collaboration between developers and AI agents.",
+          "sales_relevance": "Fresh capital earmarked for AI-agent collaboration features suggests continued/growing investment in model-serving infrastructure, though this round predates the last-4-months window."
+        }
+      ]
+    },
+    {
+      "id": "retool",
+      "news": [
+        {
+          "date": "2026-06-01",
+          "category": "partnership",
+          "title": "Retool becomes launch partner for Databricks Agent Bricks",
+          "source": "Retool Blog",
+          "url": "https://retool.com/blog/retool-databricks-data-ai-summit-2026",
+          "summary": "At Databricks' Data + AI Summit 2026, Retool announced it is a launch partner for Agent Bricks, integrating Document Intelligence, Genie Agent Mode, and Custom Agents so joint customers can act on data signals directly inside Retool.",
+          "sales_relevance": "Deepening ties to enterprise agent/AI workflows with Databricks signals Retool is scaling agentic AI features, a candidate use case for Modular's inference engine underneath those agents."
+        },
+        {
+          "date": "2026-07-01",
+          "category": "product_launch",
+          "title": "Retool adds workflow-triggering from functions in new app builder",
+          "source": "Retool changelog",
+          "url": "https://docs.retool.com/changelog",
+          "summary": "In July 2026 Retool added the ability to trigger workflows from functions in its newer app builder, continuing to expand its AI-driven AppGen and Agents product lines launched in 2025.",
+          "sales_relevance": "Continued investment in AI app-building/agent tooling means growing internal model-inference usage that a competing or complementary inference vendor could engage on."
+        },
+        {
+          "date": "2025-10-01",
+          "category": "other",
+          "title": "Retool crosses $120M ARR",
+          "source": "Sacra / Latka",
+          "url": "https://sacra.com/c/retool/",
+          "summary": "Retool reported hitting $120M in annual recurring revenue in October 2025, up from $90M at the end of 2024, driven partly by its AppGen (April 2025) and Agents (May 2025) launches.",
+          "sales_relevance": "Strong revenue growth tied to AI features suggests healthy budget for infrastructure investment, though this is slightly outside the 4-month recency window."
+        }
+      ]
+    },
+    {
+      "id": "picnichealth",
+      "news": [
+        {
+          "date": "2026-04-28",
+          "category": "other",
+          "title": "PicnicHealth rebrands as PicnicAI",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/picnichealth-rebrands-as-picnicai-building-intelligence-to-accelerate-human-health-302755731.html",
+          "summary": "PicnicHealth rebranded its parent company as PicnicAI, introducing two distinct product brands: PicnicResearch for sponsors/research orgs and PicnicHealth for patients, with co-founder/CTO Troy Astorino framing the move around accelerating AI-driven health research.",
+          "sales_relevance": "An AI-forward rebrand signals a strategic push to embed more AI/LLM capability across its research and patient products, a timely reason to open an infrastructure conversation."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "leadership",
+          "title": "Luna Federici named CEO of PicnicAI",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/picnicai-names-luna-federici-ceo-to-lead-next-chapter-of-ai-powered-health-research-302806854.html",
+          "summary": "Following her February 2026 promotion to President, Luna Federici (previously 5-year COO) was named CEO of PicnicAI to lead the company's next chapter of AI-powered health research.",
+          "sales_relevance": "New CEO transitions often revisit vendor and infrastructure strategy as part of setting a new agenda, making this a good moment for outreach."
+        },
+        {
+          "date": "2026-02-26",
+          "category": "leadership",
+          "title": "PicnicHealth promotes Luna Federici to President",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/picnichealth-promotes-luna-federici-to-president-302697595.html",
+          "summary": "PicnicHealth promoted longtime COO Luna Federici to President, giving her oversight of operating strategy and business management ahead of her later CEO appointment.",
+          "sales_relevance": "Leadership consolidation ahead of the AI rebrand suggests organizational change that could reopen technology vendor conversations."
+        }
+      ]
+    },
+    {
+      "id": "sully-ai",
+      "news": [
+        {
+          "date": "2026-01-01",
+          "category": "partnership",
+          "title": "Sully.ai partners with Speechmatics to scale healthcare AI infrastructure",
+          "source": "Web coverage",
+          "url": null,
+          "summary": "Speechmatics and Sully.ai announced a partnership in January 2026 aimed at scaling healthcare AI/voice infrastructure globally for Sully's AI medical staff products.",
+          "sales_relevance": "A named infrastructure/voice-AI partnership indicates Sully is actively assembling its AI stack, a window to introduce Modular's inference layer as a complementary or alternative component."
+        },
+        {
+          "date": "2025-01-24",
+          "category": "funding",
+          "title": "Sully.ai raises ~$22M Series A",
+          "source": "Crunchbase / Tracxn",
+          "url": "https://tracxn.com/d/companies/sully/__RiNIbjwEu0IAxVWZeOw8ljtABK18Tko2XkidRYgM5w8/funding-and-investors",
+          "summary": "Sully.ai, a provider of AI-powered 'AI medical employee' software for doctors founded by Ahmed Omar, Ahmed Nasser and Chaitanya Gharpure, closed a roughly $22M Series A round, bringing total funding to about $30-35M.",
+          "sales_relevance": "Though outside the strict 4-month window, this is the most recent verifiable funding event and shows continued investor backing for scaling its clinical AI products, which run on LLM inference."
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "news": [
+        {
+          "date": "2026-07-08",
+          "category": "funding",
+          "title": "Lovable reportedly in talks to double valuation to $13.2B",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+          "summary": "Lovable is reportedly in talks to raise roughly $300M at a $13.2B valuation, double its $6.6B valuation from its December 2025 Series B; Menlo Ventures is expected to lead, though terms are not final.",
+          "sales_relevance": "An imminent mega-round at a doubled valuation signals massive scale-up in usage of Lovable's AI app-generation product, meaning rapidly growing inference/compute needs and active vendor evaluation likely underway."
+        },
+        {
+          "date": "2026-06-01",
+          "category": "other",
+          "title": "Lovable revenue hits $500M ARR",
+          "source": "Latka / Growth Index",
+          "url": "https://getlatka.com/companies/lovable.dev",
+          "summary": "Lovable's annualized revenue reportedly reached $500M ARR in 2026, up from about $200M in 2025, reflecting explosive growth of its AI 'vibe-coding' platform.",
+          "sales_relevance": "2.5x revenue growth in a year implies proportionally growing inference cost/scale, a strong trigger to pitch cost-efficient serving infrastructure."
+        },
+        {
+          "date": "2026-04-28",
+          "category": "product_launch",
+          "title": "Lovable launches mobile app on iOS and Android",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+          "summary": "Lovable released a mobile version of its AI app-builder on iOS and Android, letting users build apps via voice or text prompts and sync work between devices, amid tighter Apple App Store scrutiny of AI coding apps.",
+          "sales_relevance": "Expanding to mobile broadens Lovable's user base and real-time inference demands, increasing the surface area for infrastructure/vendor discussions."
+        },
+        {
+          "date": "2026-03-19",
+          "category": "product_launch",
+          "title": "Lovable expands beyond app building into general-purpose AI tasks",
+          "source": "Company announcement",
+          "url": null,
+          "summary": "Lovable announced expansion of its platform to handle general-purpose tasks such as data analysis, business intelligence, presentation decks, and marketing workflows, beyond its original app-building use case.",
+          "sales_relevance": "Broadening product scope multiplies model types and workloads served, increasing the complexity/cost of inference infrastructure Lovable must manage."
+        }
+      ]
+    },
+    {
+      "id": "reducto",
+      "news": [
+        {
+          "date": "2026-05-07",
+          "category": "acquisition",
+          "title": "Reducto acquires Opennote",
+          "source": "Reducto Blog / BetaKit",
+          "url": "https://reducto.ai/blog/reducto-acquires-opennote",
+          "summary": "Document-intelligence startup Reducto acquired Opennote, an AI notebook/study-tools startup with 50,000+ student users, to strengthen its 'document agents' capability for interpreting and acting on unstructured information.",
+          "sales_relevance": "An acquisition to expand document-agent AI capability signals growing model/inference workloads and integration work, a good trigger for an infra vendor conversation."
+        },
+        {
+          "date": "2025-10-14",
+          "category": "funding",
+          "title": "Reducto raises $75M Series B led by a16z",
+          "source": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/reducto-raises-75m-series-b-to-define-the-future-of-ai-document-intelligence-302581462.html",
+          "summary": "Reducto closed a $75M Series B led by Andreessen Horowitz (with Benchmark, First Round, BoxGroup, YC), bringing total funding to over $108M, to build out its AI document-intelligence and parsing platform.",
+          "sales_relevance": "Large capital infusion for a document-AI infra company gives it budget to invest in better/cheaper inference serving as it scales parsing workloads, even though the round itself predates the 4-month window."
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "news": [
+        {
+          "date": "2026-06-04",
+          "category": "funding",
+          "title": "Ramp raises $750M at $44B valuation",
+          "source": "TechCrunch / Bloomberg",
+          "url": "https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/",
+          "summary": "Ramp raised $750M co-led by ICONIQ, GIC and Ontario Teachers' Pension Plan (with Goldman Sachs, Morgan Stanley and Founders Fund participating) at a $44B valuation, nearly tripling its valuation within a year as its run-rate revenue surpassed $1.5B.",
+          "sales_relevance": "A huge new war chest plus an explicit 'AI story' framing for the raise means Ramp has both budget and strategic motivation to invest further in AI/inference infrastructure -- and Reo shows their devs already viewing Modular's inference handbook."
+        },
+        {
+          "date": "2026-03-13",
+          "category": "acquisition",
+          "title": "Ramp acquires Billhop to expand into UK/Europe",
+          "source": "Bloomberg / Fintech Global",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-13/ramp-acquires-billhop-plans-expansion-across-europe-and-uk",
+          "summary": "Ramp acquired Stockholm/London-based B2B payments platform Billhop to gain licensed payments infrastructure in the UK and Sweden, enabling direct onboarding of European businesses for the first time.",
+          "sales_relevance": "International expansion via acquisition adds infrastructure complexity and scale, another data point supporting active infra investment."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "acquisition",
+          "title": "Ramp acquires Juno Travel",
+          "source": "Tracxn acquisitions list",
+          "url": "https://tracxn.com/d/acquisitions/acquisitions-by-ramp/__mMFluFx9yKyt9DXRq5KzSGK2frbsYq5y9jc9XK9-g9E",
+          "summary": "Ramp acquired Juno Travel, a guest travel and expense management platform, continuing a string of bolt-on acquisitions (following Venue and Billhop) to broaden its financial operations platform.",
+          "sales_relevance": "Continued M&A activity signals a fast-growing, well-capitalized platform likely consolidating and modernizing its tech stack, including AI-driven expense/spend features."
+        }
+      ]
+    },
+    {
+      "id": "genspark",
+      "news": [
+        {
+          "date": "2026-06-11",
+          "category": "funding",
+          "title": "Genspark extends Series B to $485M at $2.6B valuation",
+          "source": "BusinessWire / Axios",
+          "url": "https://www.businesswire.com/news/home/20260617758937/en/Genspark.ai-Extends-Series-B-to-$485M-at-$2.6B-Post-Money-Valuation-Appoints-Jamison-Powell-as-Chief-Revenue-Officer",
+          "summary": "Genspark, an agentic AI workplace platform, extended its Series B with a $100M add-on to $485M total, reaching a $2.6B valuation -- up 63% from $1.6B just three months earlier -- backed by Sozo Ventures, Korea Mirae Asset and others.",
+          "sales_relevance": "Extremely fast valuation growth (63% in 3 months) driven by agentic AI adoption implies fast-scaling inference workloads and fresh capital to spend on infrastructure vendors."
+        },
+        {
+          "date": "2026-06-17",
+          "category": "leadership",
+          "title": "Genspark appoints Jamison Powell as first Chief Revenue Officer",
+          "source": "BusinessWire",
+          "url": "https://finance.yahoo.com/technology/ai/articles/genspark-ai-extends-series-b-131000248.html",
+          "summary": "Genspark named Jamison Powell, formerly monday.com's first SVP of Sales/GM North America, as its first-ever Chief Revenue Officer to scale enterprise go-to-market as part of the Series B extension announcement.",
+          "sales_relevance": "A new CRO focused on enterprise expansion suggests Genspark is entering a more formal enterprise sales motion, which often coincides with hardening its production infra/vendor stack."
+        },
+        {
+          "date": "2026-03-01",
+          "category": "other",
+          "title": "Genspark revenue growth: $250M ARR, up from $50M",
+          "source": "Latka",
+          "url": "https://getlatka.com/companies/genspark.ai",
+          "summary": "Genspark's annualized revenue reportedly grew to $250M ARR in 2026 from $50M in 2025, adding roughly $150M in new ARR in Q1 2026 alone.",
+          "sales_relevance": "5x revenue growth in a year signals dramatically increased inference volume for its agentic AI products, a strong efficiency/cost pitch angle."
+        }
+      ]
+    },
+    {
+      "id": "lmarena",
+      "news": [
+        {
+          "date": "2026-01-07",
+          "category": "funding",
+          "title": "LMArena raises $150M Series A at $1.7B valuation",
+          "source": "PR Newswire / TechCrunch",
+          "url": "https://techcrunch.com/2026/01/06/lmarena-lands-1-7b-valuation-four-months-after-launching-its-product/",
+          "summary": "LMArena, the AI model evaluation platform that grew out of UC Berkeley research, raised $150M in Series A funding led by Felicis and UC Investments at a $1.7B valuation, nearly tripling its $600M seed valuation from May 2025.",
+          "sales_relevance": "As a platform that runs massive numbers of live model comparisons (60M+ conversations/month) for labs like OpenAI, Google and xAI, LMArena has enormous multi-model inference needs -- a strong structural fit for Modular's inference engine."
+        },
+        {
+          "date": "2026-01-07",
+          "category": "other",
+          "title": "LMArena reports $30M+ annualized consumption run rate and 5M+ monthly users",
+          "source": "TheAIInsider / press coverage",
+          "url": "https://theaiinsider.tech/2026/01/07/lmarena-secures-150m-to-build-the-worlds-most-trusted-ai-evaluation-platform/",
+          "summary": "Alongside its funding announcement, LMArena disclosed an annualized consumption run rate surpassing $30M and more than 5 million monthly users across 150 countries generating over 60 million conversations per month.",
+          "sales_relevance": "High-volume, multi-model serving at global scale makes LMArena a prime candidate for an efficient, model-agnostic inference layer like Modular's MAX."
+        }
+      ]
+    }
+  ]
+}

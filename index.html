@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sales Research Dashboard — AI Model Labs &amp; Inference Accounts</title>
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">◆</span>
+        <div class="brand-text">
+          <h1>Sales Research Dashboard</h1>
+          <p class="subtitle">AI model labs &amp; competitor inference customers · refreshes every Monday</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <div class="meta" id="lastRefreshed">Last refreshed: —</div>
+        <button class="btn btn-primary" id="outreachBtn">Outreach Plan</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="filters">
+      <div class="filter-group">
+        <label for="search">Search</label>
+        <input type="text" id="search" placeholder="Company, domain, CEO…" />
+      </div>
+
+      <div class="filter-group">
+        <label>Account type</label>
+        <div class="chip-row" id="filterTab"></div>
+      </div>
+
+      <div class="filter-group">
+        <label>News category</label>
+        <div class="chip-row" id="filterCategory"></div>
+      </div>
+
+      <div class="filter-group">
+        <label>Region</label>
+        <div class="chip-row" id="filterRegion"></div>
+      </div>
+
+      <div class="filter-group">
+        <label>Reo.dev signal</label>
+        <div class="chip-row" id="filterReo"></div>
+      </div>
+
+      <div class="filter-group">
+        <label class="checkbox-row">
+          <input type="checkbox" id="onlyNews" />
+          Only show accounts with recent news
+        </label>
+      </div>
+
+      <div class="stat-block" id="statBlock"></div>
+    </aside>
+
+    <section class="content">
+      <div class="content-header">
+        <div id="resultCount" class="result-count"></div>
+        <div class="sort-row">
+          <label for="sortBy">Sort by</label>
+          <select id="sortBy">
+            <option value="news">Most recent news</option>
+            <option value="reo">Reo activity</option>
+            <option value="name">Company name (A–Z)</option>
+          </select>
+        </div>
+      </div>
+      <div id="cards" class="cards"></div>
+      <div id="emptyState" class="empty-state" hidden>No accounts match these filters.</div>
+    </section>
+  </main>
+
+  <div id="outreachOverlay" class="overlay" hidden>
+    <div class="overlay-panel">
+      <div class="overlay-header">
+        <div>
+          <h2>Weekly Outreach Plan</h2>
+          <p class="subtitle" id="outreachGenerated"></p>
+        </div>
+        <button class="btn btn-ghost" id="closeOutreach" aria-label="Close">✕</button>
+      </div>
+      <div class="overlay-body" id="outreachBody"></div>
+    </div>
+  </div>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title">
+          <h3 class="card-name"></h3>
+          <span class="card-domain"></span>
+        </div>
+        <div class="card-badges"></div>
+      </div>
+      <div class="card-meta"></div>
+      <div class="card-reo"></div>
+      <div class="card-news"></div>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

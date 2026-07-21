@@ -1,0 +1,1223 @@
+{
+  "generated_at": "2026-07-21T21:23:09.629Z",
+  "companies": [
+    {
+      "id": "deepseek",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "deepseek.com has no firmographic profile or customer-fit score in Reo; engagement and hiring signals are all zero, though Reo lists a few C-level/Head-of-AI contacts as prospects."
+      }
+    },
+    {
+      "id": "minimax",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "MODERATE",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-12-04",
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "MiniMax has a MODERATE customer-fit score in Reo with LOW developer engagement; one developer contact (SF Bay Area-based) was last seen in December 2025, but there has been no tracked engagement in the last 90 days and no open technical roles detected."
+      }
+    },
+    {
+      "id": "zhipu-ai-z-ai",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "z.ai has no firmographic profile or customer-fit score in Reo and zero engagement/hiring signal, though five VP/Director-level contacts (including the Group VP & CEO of Z.ai Global Business) are listed as prospects."
+      }
+    },
+    {
+      "id": "moonshot-ai",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "moonshot.ai returns no firmographic data, developers, prospects, or hiring signal in Reo — effectively an untracked/blank account."
+      }
+    },
+    {
+      "id": "cohere-aleph-alpha",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 866,
+        "note": "cohere.com has no customer-fit score or firmographic profile and zero tracked engagement events in Reo, but shows a very large hiring signal (866 open roles in the last 90 days, 372 in AI/ML) plus several Director/VP-level prospect contacts."
+      }
+    },
+    {
+      "id": "thinking-machines-lab",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "thinkingmachines.ai has no firmographic/fit-score profile and no engagement or hiring signal in Reo; only a few operations/finance/marketing leadership contacts are on file, no technical prospects."
+      }
+    },
+    {
+      "id": "mistral-ai",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 172,
+        "note": "mistral.ai has no customer-fit score or firmographic profile in Reo and zero tracked engagement events, but shows a strong hiring signal — 172 open roles, including 80 in AI/ML — plus several Director-level prospect contacts."
+      }
+    },
+    {
+      "id": "poolside-ai",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 48,
+        "note": "poolside.ai has no fit-score/firmographic profile and zero tracked engagement in Reo, but shows 48 open roles (26 in AI/ML), indicating active hiring; prospects include Heads of Solutions Engineering and Revenue."
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 53,
+        "note": "elevenlabs.io has no customer-fit score or firmographic profile and zero tracked engagement in Reo, but shows 53 open roles (16 AI/ML, 11 backend engineering) and several GTM/enterprise director contacts."
+      }
+    },
+    {
+      "id": "midjourney",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 3,
+        "note": "midjourney.com has no fit-score/firmographic profile and zero engagement signal in Reo; hiring signal is minimal (3 open roles), consistent with its small, self-funded team; prospects on file are mostly finance leadership (CFO, COO, Head of Finance/Tax)."
+      }
+    },
+    {
+      "id": "runway",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-07-14",
+        "total_events_90d": 0,
+        "open_roles": 24,
+        "note": "Runway has a STRONG customer-fit score in Reo with LOW developer engagement stage; two developer contacts are tracked (most recently active July 2025), zero engagement events in the last 90 days, and 24 open roles (9 in product design, 7 in AI/ML)."
+      }
+    },
+    {
+      "id": "black-forest-labs",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Reo returned an empty record for bfl.ai — no org_id, firmographic, engagement, developer, or hiring signal. Domain does not appear to be meaningfully tracked."
+      }
+    },
+    {
+      "id": "sakana-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 18,
+        "note": "Sparse Reo record: some firmographic tags (industry, tech stack) and hiring data present, but no engagement/developer activity and no customer fit score computed. 18 open roles, concentrated in AI/ML (5) and program delivery (5)."
+      }
+    },
+    {
+      "id": "writer",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2024-11-07",
+        "total_events_90d": 1,
+        "open_roles": 75,
+        "note": "Strong customer-fit score but engagement is stale (last recorded activity Nov 2024, only 1 event) and developer activity is low. Very heavy current hiring (75 open roles, 41 in AI/ML) signals major scale-up in engineering."
+      }
+    },
+    {
+      "id": "sarvam-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 15,
+        "note": "Sparse Reo record: firmographic tags and hiring data present (15 open roles, 9 in AI/ML) but no engagement/developer activity and no customer fit score computed."
+      }
+    },
+    {
+      "id": "ai21-labs",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 1,
+        "note": "Minimal Reo signal: only prospect/leadership contacts and a single open DevOps role returned; no engagement, developer activity, or customer fit score."
+      }
+    },
+    {
+      "id": "stability-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 5,
+        "intent_level": "Low",
+        "last_activity_date": "2026-05-29",
+        "total_events_90d": 21,
+        "open_roles": 3,
+        "note": "Strong fit score with real recent engagement: 21 events in the last 90 days including views of Modular's marketing page (18) and the LLM Inference Handbook (3), most recently May 29, 2026 — a live top-of-funnel signal worth following up on directly."
+      }
+    },
+    {
+      "id": "upstage",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 3,
+        "intent_level": "Low",
+        "last_activity_date": "2026-05-19",
+        "total_events_90d": 8,
+        "open_roles": 1,
+        "note": "Strong fit score with light but real engagement: 8 events in 90 days (7 views of the LLM Inference Handbook), plus a LinkedIn reaction, most recently May 19, 2026."
+      }
+    },
+    {
+      "id": "arcee-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Minimal Reo signal: only firmographic tech-stack tags and leadership prospects (CEO Mark McQuade, CTO Lucas Atkins) returned; no engagement, developer activity, hiring, or customer fit score."
+      }
+    },
+    {
+      "id": "heygen",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 2,
+        "intent_level": "Low",
+        "last_activity_date": "2026-05-10",
+        "total_events_90d": 3,
+        "open_roles": 2,
+        "note": "Strong fit score with light engagement (3 website events in the last 90 days, most recent May 10, 2026) and three developers with GitHub/LinkedIn identified as active technical contacts."
+      }
+    },
+    {
+      "id": "krea",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Minimal Reo signal: firmographic tech tags and leadership prospects (CEO Victor Perez, Head of Product Grant Davis) returned; no engagement, developer activity, hiring, or customer fit score."
+      }
+    },
+    {
+      "id": "h-company",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 32,
+        "note": "Sparse Reo record: no engagement/developer activity or customer fit score, but very heavy current hiring (32 open roles across AI/ML, engineering leadership, cloud/infra) signals a fast-scaling engineering org."
+      }
+    },
+    {
+      "id": "cartesia",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 19,
+        "note": "No web-tracked developer engagement in the last 90 days; firmographic profile is thin, but 19 open roles (heaviest in AI/ML and Data & Analytics) signal active scaling."
+      }
+    },
+    {
+      "id": "hedra",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 6,
+        "note": "No tracked developer engagement in the last 90 days; firmographic data mostly unpopulated, but 6 open roles concentrated in backend/full-stack engineering."
+      }
+    },
+    {
+      "id": "rime",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 4,
+        "note": "No tracked developer engagement in the last 90 days; sparse firmographic data but a Head of Engineering and 4 open roles (including engineering leadership and backend) are visible."
+      }
+    },
+    {
+      "id": "canopy-labs",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "WEAK",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2026-01-09",
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Reo has full firmographic coverage (SF-based, 11-50 employees) but scores customer fit WEAK and developer activity LOW, with only one tracked developer and no activity since January 2026 and zero open roles."
+      }
+    },
+    {
+      "id": "leonardo-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No tracked developer engagement or open roles found; firmographic data limited mostly to marketing/analytics tech stack, consistent with Leonardo now operating inside Canva."
+      }
+    },
+    {
+      "id": "suno",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 113,
+        "note": "No tracked developer engagement in the last 90 days, but a very large 113 open roles (heaviest in Product Design/UX, Data & Analytics, Backend, and Mobile) indicates aggressive company-wide scaling."
+      }
+    },
+    {
+      "id": "hume-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No tracked developer engagement or open roles found; firmographic data limited to basic marketing/analytics tech stack."
+      }
+    },
+    {
+      "id": "contextual-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No tracked developer engagement or open roles found; prospect list shows VP of Global Revenue/GTM and a Director of Applied AI Research, suggesting active enterprise sales motion."
+      }
+    },
+    {
+      "id": "chai-discovery",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 1,
+        "note": "No tracked developer engagement in the last 90 days; only 1 open role listed (Security & Compliance), and no prospect contacts surfaced despite the company's high recent funding profile."
+      }
+    },
+    {
+      "id": "figure-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 64,
+        "note": "No tracked developer engagement in the last 90 days; firmographic data thin, but 64 open roles (heavily R&D/Emerging Tech, Security & Compliance, and AI/ML) show substantial engineering scaling."
+      }
+    },
+    {
+      "id": "physical-intelligence-pi",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No tracked developer engagement or open roles found; firmographic tech stack shows a modern web stack (Next.js, Vercel, Google Cloud) but no hiring or engagement signal."
+      }
+    },
+    {
+      "id": "helsing",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-09-18",
+        "total_events_90d": 0,
+        "open_roles": 95,
+        "note": "Strong customer fit but low/stale engagement (last activity Sep 2025); 95 open roles, heavily weighted toward R&D and AI/ML (14) and DevOps/platform (11), signaling active infra scaling."
+      }
+    },
+    {
+      "id": "wayve",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "MEDIUM",
+        "engagement_score": 2,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 11,
+        "open_roles": 177,
+        "note": "Strong fit, medium developer activity; 11 website visits in the last 90 days including views of Modular's marketing page, and 177 open roles with 43 in AI/ML — a large, actively-hiring engineering org."
+      }
+    },
+    {
+      "id": "safe-superintelligence-ssi",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": 0,
+        "note": "Domain ssi.inc returned only a placeholder record (no firmographic or engagement data, no developers, zero open roles tracked); effectively not meaningfully tracked in Reo. One CXO contact listed (Don Aday, CEO) appears to be a data quality issue/mismatch, not confirmed as SSI's actual CEO."
+      }
+    },
+    {
+      "id": "cognition",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 64,
+        "note": "Firmographic/fit fields largely blank in Reo, but 64 open roles were found, with 16 in AI/ML and 17 in go-to-market, indicating a scaling commercial and engineering org; no recent engagement events tracked."
+      }
+    },
+    {
+      "id": "captions",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Minimal firmographic data and no open roles or engagement activity tracked in Reo for this domain."
+      }
+    },
+    {
+      "id": "krutrim",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "WEAK",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-07-24",
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Weak customer fit per Reo's scoring, low/stale developer engagement (last seen July 2025), and zero open roles tracked — signals this account is not currently a hot prospect by Reo's signals, despite genuine business momentum in the news below."
+      }
+    },
+    {
+      "id": "isomorphic-labs",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2026-03-29",
+        "total_events_90d": 0,
+        "open_roles": 47,
+        "note": "Strong customer fit; light but recent LinkedIn engagement (last activity March 2026) and 47 open roles, 16 of them in AI/ML, indicating active technical scaling."
+      }
+    },
+    {
+      "id": "ideogram",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 16,
+        "note": "Firmographic/fit fields largely blank in Reo; 16 open roles tracked, half of them (8) in AI/ML, and no recent engagement activity recorded."
+      }
+    },
+    {
+      "id": "higgsfield-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 3,
+        "note": "Strong customer fit per Reo, but minimal open roles (3) and no engagement activity tracked in the last 90 days despite the company's rapid commercial growth reported in the press."
+      }
+    },
+    {
+      "id": "pika",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Minimal firmographic data and no open roles or engagement activity tracked in Reo for this domain."
+      }
+    },
+    {
+      "id": "hippocratic-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 56,
+        "note": "Firmographic/fit fields largely blank in Reo; 56 open roles tracked, dominated by AI/ML (34), reflecting continued heavy technical hiring; no recent engagement activity recorded."
+      }
+    },
+    {
+      "id": "tavus",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 10,
+        "note": "No tracked engagement activity in Reo (score 0, Low intent), but 10 open roles including 3 in AI/ML and 2 in Cloud & Infrastructure suggest active technical scaling."
+      }
+    },
+    {
+      "id": "moonvalley",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 2,
+        "note": "Minimal Reo signal tracked for this domain - no engagement activity and only 2 open roles, despite the company being newly acquired and well-funded."
+      }
+    },
+    {
+      "id": "decart",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No tracked engagement or open-role data in Reo for this domain, despite the company having just raised a large round - likely a data coverage gap rather than an inactive account."
+      }
+    },
+    {
+      "id": "sesame-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-07-19",
+        "total_events_90d": 0,
+        "open_roles": 105,
+        "note": "Reo rates Sesame a STRONG customer fit despite low tracked developer engagement (last activity over a year ago); the company shows a massive hiring push with 105 open roles, 20 of them in AI/ML."
+      }
+    },
+    {
+      "id": "pixverse-aisphere",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No tracked engagement or hiring signal in Reo for this domain, despite recent large funding and a new US office opening."
+      }
+    },
+    {
+      "id": "luma-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 102,
+        "note": "No tracked engagement data in Reo, but a very large hiring push (102 open roles, 34 in AI/ML and 14 in R&D/Emerging Tech) points to aggressive growth."
+      }
+    },
+    {
+      "id": "reflection-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 184,
+        "note": "No tracked engagement data in Reo, but an exceptionally large hiring push (184 open roles - 52 in AI/ML, 41 in Engineering Leadership, 27 in DevOps/Platform) signals a major infrastructure buildout underway."
+      }
+    },
+    {
+      "id": "magic-dev",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 31,
+        "note": "No tracked engagement signal in Reo; steady hiring (31 open roles - 12 in AI/ML, 9 in DevOps/Platform) suggests ongoing infrastructure and model work despite a quiet news cycle."
+      }
+    },
+    {
+      "id": "reka-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 6,
+        "note": "No tracked engagement signal in Reo; relatively low open-role count (6) despite just having acquired Moonvalley, which may indicate the combined entity's hiring is tracked under a different domain."
+      }
+    },
+    {
+      "id": "synthesia",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 76,
+        "note": "Reo rates Synthesia a STRONG customer fit; no tracked developer engagement events, but 76 open roles (15 in AI/ML, 15 in Product Design/UX, 11 in Frontend) show substantial engineering expansion."
+      }
+    },
+    {
+      "id": "udio",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No meaningful firmographic, engagement, or hiring data returned for this domain in Reo; the one listed prospect record appears to be a low-confidence/likely erroneous match."
+      }
+    },
+    {
+      "id": "recraft",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 2,
+        "note": "No meaningful Reo engagement tracked (0 events, Low intent); only 2 open roles (Product Design & UX). Key contacts identified: CEO Anna Veronika Dorogush and Head of AI Pavel Ostyakov."
+      }
+    },
+    {
+      "id": "world-labs",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No engagement activity or open roles tracked in Reo for World Labs; only firmographic/prospect data available (e.g., COO Mala Tejwani)."
+      }
+    },
+    {
+      "id": "character-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 36,
+        "note": "No Reo engagement tracked, but a strong hiring signal (36 open roles, 14 in AI/ML and 7 in Backend Engineering) suggests active infrastructure scaling."
+      }
+    },
+    {
+      "id": "skild-ai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 52,
+        "note": "No Reo engagement tracked, but very active hiring (52 open roles: 17 AI/ML, 13 Innovation R&D) fits a fast-scaling infra buyer profile. CEO Deepak Pathak identified as key contact."
+      }
+    },
+    {
+      "id": "tabnine",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 1,
+        "note": "Minimal Reo engagement and hiring signal (1 open AI/ML role), suggesting lower near-term buying urgency versus other accounts in this batch."
+      }
+    },
+    {
+      "id": "anysphere-cursor",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 183,
+        "note": "No Reo engagement tracked, but extremely high hiring volume (183 open roles, heaviest in Engineering Leadership, Data & Analytics, Frontend) reflects continued hypergrowth."
+      }
+    },
+    {
+      "id": "perplexity",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 26,
+        "intent_level": "Low",
+        "last_activity_date": "2026-07-06",
+        "total_events_90d": 50,
+        "open_roles": 149,
+        "note": "Reo flags Perplexity as a STRONG customer fit; several of their engineers (e.g., anton@, chanpory@, jason@perplexity.ai) actively viewed Modular Docs and the LLM Inference Handbook in the past month, indicating live technical evaluation."
+      }
+    },
+    {
+      "id": "sourcegraph-amp",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 9,
+        "note": "No Reo engagement tracked; modest hiring (9 open roles, mostly Engineering Leadership). Note that Amp has spun out into its own company separate from Sourcegraph, which may change which entity is the actual buyer."
+      }
+    },
+    {
+      "id": "cresta",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 1,
+        "open_roles": 252,
+        "note": "Reo flags Cresta as a STRONG customer fit; engagement is minimal (1 website visit tracked) but hiring is enormous (252 open roles, 55 Backend, 41 AI/ML), indicating rapid scaling."
+      }
+    },
+    {
+      "id": "liner",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "No engagement or hiring signal tracked in Reo for Liner (getliner.com). Contacts identified include CEOs Quinn Daole and Luke Jinu Kim."
+      }
+    },
+    {
+      "id": "decagon",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-09-18",
+        "total_events_90d": 2,
+        "open_roles": 77,
+        "note": "Reo flags Decagon as a STRONG customer fit; historical engagement is light (2 site visits, last seen 2025-09-18) but current hiring is heavy (77 open roles, 19 in AI/ML), suggesting significant infra scaling underway."
+      }
+    },
+    {
+      "id": "jasper",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": "2025-11-09",
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Strong customer-fit score in Reo but essentially no recent engagement (0 events in 90d, last activity Nov 2025) and zero open roles tracked — a cold account that would need a fresh trigger to re-engage."
+      }
+    },
+    {
+      "id": "openevidence",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Reo returned no firmographic profile, developers, or prospects for openevidence.com — domain does not appear to be meaningfully tracked/instrumented in Reo."
+      }
+    },
+    {
+      "id": "mercor",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 5741,
+        "note": "No firmographic/customer-fit profile returned for mercor.com; the 5,741 open-roles figure looks like it reflects job postings running through Mercor's own hiring marketplace platform rather than Mercor's internal engineering headcount, so treat with caution."
+      }
+    },
+    {
+      "id": "abridge",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 18,
+        "intent_level": "Low",
+        "last_activity_date": "2026-07-13",
+        "total_events_90d": 12,
+        "open_roles": 107,
+        "note": "Recent and notable engagement: a developer at Abridge viewed the Modular marketing page and read Modular's LLM Inference Handbook 7 times as recently as July 13, 2026 — a warm, high-value content signal despite the 'Low' intent label."
+      }
+    },
+    {
+      "id": "clay",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 69,
+        "note": "No firmographic/customer-fit profile matched for clay.com; the CEO name returned by Reo's prospect list (Henry Dwyer) does not match Clay's actual co-founder/CEO Kareem Amin, so treat Reo's contact data for this account as unreliable and re-verify manually."
+      }
+    },
+    {
+      "id": "eliseai",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 1,
+        "intent_level": "Low",
+        "last_activity_date": "2026-02-26",
+        "total_events_90d": 4,
+        "open_roles": 25,
+        "note": "Strong fit score but light and dated engagement (4 website views, last activity Feb 26 2026, now outside the 90-day window) — a cooling account worth re-triggering."
+      }
+    },
+    {
+      "id": "gamma",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Reo returned no firmographic profile, engagement, or hiring data for gamma.app — domain does not appear to be tracked in Reo."
+      }
+    },
+    {
+      "id": "hebbia",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Reo returned no firmographic profile, engagement, developers, or prospects for hebbia.ai — domain does not appear to be tracked in Reo."
+      }
+    },
+    {
+      "id": "descript",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 1,
+        "intent_level": "Low",
+        "last_activity_date": "2026-04-20",
+        "total_events_90d": 5,
+        "open_roles": 15,
+        "note": "Strong fit score with light but multi-channel engagement — 5 website views of Modular's marketing page plus 2 LinkedIn reactions as recently as April 20, 2026."
+      }
+    },
+    {
+      "id": "ambience-healthcare",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 22,
+        "note": "No firmographic/customer-fit profile matched for ambiencehealthcare.com; Reo did return 22 open roles including several in AI/ML and backend engineering."
+      }
+    },
+    {
+      "id": "bland",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 0,
+        "open_roles": 0,
+        "note": "Reo returned no firmographic profile, engagement, developers, or prospects for bland.ai — domain does not appear to be tracked in Reo."
+      }
+    },
+    {
+      "id": "wispr-flow",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 2,
+        "intent_level": "Low",
+        "last_activity_date": "2026-06-18",
+        "total_events_90d": 1,
+        "open_roles": 14,
+        "note": "Strong customer-fit score but only 1 low-signal website event in 90 days (1 developer, Ethan Carlson, viewed a models page); 14 open roles including 3 AI/ML."
+      }
+    },
+    {
+      "id": "zed-industries",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": null,
+        "note": "Reo returned an empty/unmatched account record for zed.dev (no firmographic, engagement, or hiring data); only a few prospect contacts (Marketing, Security, Community, Recruiting heads) surfaced."
+      }
+    },
+    {
+      "id": "retool",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 2,
+        "intent_level": "Low",
+        "last_activity_date": "2026-04-12",
+        "total_events_90d": 13,
+        "open_roles": 28,
+        "note": "Strong fit score with 13 website events in the window, including views of the 'modular marketing page'; one developer (an @openai.com email) flagged; 28 open roles including 6 GTM and 5 product design."
+      }
+    },
+    {
+      "id": "picnichealth",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "LOW",
+        "engagement_score": 0,
+        "intent_level": "Low",
+        "last_activity_date": null,
+        "total_events_90d": 2,
+        "open_roles": 0,
+        "note": "Strong fit score but minimal engagement (2 website views, no dated last activity) and zero open roles logged for the tracked domain picnichealth.com; extensive tech stack detected (AWS, Segment, Salesforce, MongoDB, Postgres, etc.)."
+      }
+    },
+    {
+      "id": "sully-ai",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": 15,
+        "note": "No firmographic/engagement match for sully.ai in Reo (empty company name, no activity), but hiring data still surfaced: 15 open roles, 4 in AI/ML and 3 in Engineering Leadership."
+      }
+    },
+    {
+      "id": "lovable",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": 160,
+        "note": "No firmographic/engagement match for lovable.dev in Reo, but hiring data shows a very large 160 open roles (30 Product Design & UX, 23 Security & Compliance, 22 Data & Analytics), indicating aggressive scaling."
+      }
+    },
+    {
+      "id": "reducto",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": 21,
+        "note": "No firmographic/engagement match for reducto.ai in Reo, but hiring data shows 21 open roles, 9 of them in AI/ML, indicating active model/infra team growth."
+      }
+    },
+    {
+      "id": "ramp",
+      "reo": {
+        "found": true,
+        "customer_fit_score": "STRONG",
+        "developer_stage": "HIGH",
+        "engagement_score": 41,
+        "intent_level": "Medium",
+        "last_activity_date": "2026-07-13",
+        "total_events_90d": 83,
+        "open_roles": 88,
+        "note": "Strong/high-fit account with meaningful recent engagement: 83 events across 7 unique actors, including views of the Modular marketing page and the LLM Inference Handbook, plus a code/command execution event as recently as 2026-07-13 -- notably higher intent than the other accounts in this batch."
+      }
+    },
+    {
+      "id": "genspark",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": 1,
+        "note": "No firmographic/engagement match for genspark.ai in Reo, and only 1 open AI/ML role captured; Reo data appears sparse/not well tracked for this account despite the company's rapid growth."
+      }
+    },
+    {
+      "id": "lmarena",
+      "reo": {
+        "found": false,
+        "customer_fit_score": null,
+        "developer_stage": null,
+        "engagement_score": null,
+        "intent_level": null,
+        "last_activity_date": null,
+        "total_events_90d": null,
+        "open_roles": 0,
+        "note": "No firmographic/engagement match for lmarena.ai in Reo and zero open roles captured; only a handful of prospect contacts (Head of DevRel, engineering leader, board director) surfaced."
+      }
+    }
+  ]
+}

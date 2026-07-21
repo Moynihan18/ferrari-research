@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-21T21:30:00.000Z",
+  "items": [
+    {
+      "name": "Wayve",
+      "category": "funding",
+      "why": "The only account in this list with genuine tracked intent — Reo shows Wayve's engineering org visiting Modular's own marketing pages in the last 90 days (medium dev-activity stage, STRONG ICP fit, 43 open AI/ML roles) — layered on top of an $8.5B employee tender offer confirming they have capital to invest in infra.",
+      "message": "Hi team — noticed Wayve's recent $85M tender offer confirming the $8.5B valuation, and that a few of your engineers have been looking at Modular recently. As you scale AI Driver's on-vehicle and cloud inference across your fleet, MAX is built to squeeze more throughput per GPU-hour without a rewrite — teams doing real-time perception/control workloads similar to yours have used it to cut serving costs while hitting tighter latency budgets. Given the hiring push across 43 AI/ML roles, would it be useful to compare notes on your current serving stack? Happy to share benchmarks specific to autonomous-driving inference patterns."
+    },
+    {
+      "name": "Chai Discovery",
+      "category": "funding",
+      "why": "Just raised a $400M Series C (Index, Kleiner Perkins, Sequoia, Dimension, OpenAI) at a $3.8B valuation — nearly 3x in months — for its Chai-1/2 molecular design models; already a tracked Modular prospect (owner: Jay Bhadauria) with no infra vendor locked in yet per Reo.",
+      "message": "Congrats on the $400M Series C — tripling to a $3.8B valuation with OpenAI on the cap table is a strong signal of what's ahead for Chai-1/2. As you scale molecular-design inference to meet demand from Lilly, Novartis, and Pfizer, the compute bill on structure-prediction workloads adds up fast. MAX is designed to squeeze more inference throughput out of the same GPU fleet without touching your model code, which matters a lot when you're scaling this quickly post-raise. Worth a short call to see if there's a fit before your infra footprint locks in?"
+    },
+    {
+      "name": "Helsing",
+      "category": "funding",
+      "why": "Closed Europe's largest-ever defense-tech round ($1.8B Series E, $18B valuation) and carries a STRONG Reo customer-fit score with 95 open roles concentrated in R&D and DevOps/platform — clear signal of infrastructure scaling even though tracked engagement is currently stale (last seen Sep 2025).",
+      "message": "Congratulations on closing the $1.8B Series E — Europe's largest defense-tech round to date. With Altra running embedded, latency-sensitive inference for battlefield decision support, and 95 open roles concentrated in R&D and platform engineering, this looks like a moment where the serving-infra roadmap is being actively rewritten. MAX gives teams building latency-critical embedded AI more control over hardware portability and throughput per watt, which tends to matter a lot in defense deployment environments. Worth reconnecting given the new funding and hiring push?"
+    },
+    {
+      "name": "Rime",
+      "category": "funding",
+      "why": "Raised a $24M Series A (M13, Twilio Ventures, Corazon Capital) explicitly earmarked for infrastructure investment and enterprise speech-to-speech scaling — about as direct a buying-window signal as this news cycle produced, with 4 open engineering-leadership/backend roles reinforcing it.",
+      "message": "Saw the news on Rime's $24M Series A — congrats. You mentioned the round funds a roughly 10x investment in your conversational dataset and scaling infrastructure for enterprise speech-to-speech; that's exactly the moment to lock in an efficient serving stack before the vendor decision calcifies. MAX is built to get more real-time voice inference out of the same hardware footprint, which compounds well against a dataset that's about to grow 10x. With a Head of Engineering role open, happy to get in front of whoever's making the infra call this quarter."
+    },
+    {
+      "name": "PixVerse (AISphere)",
+      "category": "funding",
+      "why": "Closed a $439M Series C (initial $300M + July extension) with Alibaba joining as both investor and enterprise customer — a large, fresh war chest plus a live enterprise deployment signals rapid video-generation inference scale-up.",
+      "message": "Congrats on closing the $439M Series C, and on Alibaba coming in as both investor and enterprise customer — that's a strong validation of PixVerse V6's traction. Enterprise video-gen deployments at that scale put real pressure on serving cost and latency, especially with per-second billing live. MAX is built for exactly this kind of high-throughput generative video inference — squeezing more frames-per-dollar out of the same GPU fleet. Given the new capital and the Alibaba deployment ramping, would it be useful to compare notes on your current inference stack?"
+    },
+    {
+      "name": "Figure AI",
+      "category": "funding",
+      "why": "Reportedly in talks for a raise of up to $500M led by Microsoft and OpenAI — deepening hyperscaler ties right as Figure scales Helix VLA robotics inference; 64 open roles (heavy R&D/emerging tech, AI/ML, security) confirm active engineering scale-up.",
+      "message": "Saw the reporting on Figure's talks with Microsoft and OpenAI for a raise of up to $500M — a strong vote of confidence in Helix VLA. As you scale humanoid robot control across cloud and on-robot inference, hardware portability and per-unit inference cost become the real bottleneck to unit economics at volume. MAX is designed to let teams run the same model efficiently across GPU generations and deployment targets without a rewrite, which seems directly relevant as Figure's engineering org (64 open roles, concentrated in R&D and AI/ML) keeps growing. Worth a conversation before the new round locks in infra partners?"
+    },
+    {
+      "name": "Lovable",
+      "category": "funding",
+      "why": "Reportedly in talks to double its valuation to $13.2B on a fresh ~$300M raise — an existing Modular prospect (owner: Jay Bhadauria) whose 160 open roles point to aggressive scale-up of its AI app-generation product, which runs on Modal today.",
+      "message": "Congrats on the reported talks to double Lovable's valuation to $13.2B — that kind of jump usually means usage (and inference spend) is compounding fast. With 160 open roles across product, security, and data, the app-generation pipeline is clearly scaling hard. As that volume grows, the cost and latency of the underlying model-serving layer becomes a bigger lever on margins. MAX is built to get more throughput out of the same GPU footprint for exactly this kind of high-volume generative workload — worth a quick conversation on where your current stack (Modal) is starting to feel the strain?"
+    },
+    {
+      "name": "Higgsfield AI",
+      "category": "funding",
+      "why": "In talks for $300-500M at a $5B valuation, a 4x jump from January's $1.3B — an existing Modular prospect (owner: Jay Bhadauria) with a STRONG Reo fit score, though tracked engagement is currently thin.",
+      "message": "Noticed Higgsfield is reportedly in talks for $300-500M at roughly a $5B valuation — a 4x jump since January. That kind of investor scrutiny usually comes with pressure to show efficient unit economics on your video-generation inference, especially heading into a larger round. MAX is built to help teams like Higgsfield get more generation throughput per GPU-dollar without changing the model itself — a good story to have in hand for investors asking about infra efficiency. Worth reconnecting now that the round is in motion?"
+    },
+    {
+      "name": "ElevenLabs",
+      "category": "funding",
+      "why": "In early talks for a tender offer at a $22B valuation, doubling February's $11B mark on the back of ~$500M ARR — 53 open roles (heavy AI/ML and backend) point to continued voice-inference scale-up with no infra vendor currently tracked in Reo.",
+      "message": "Congrats on the reported tender-offer talks at a $22B valuation — doubling in five months alongside ~$500M ARR is a remarkable trajectory. Scaling real-time voice synthesis at that revenue run-rate puts constant pressure on serving latency and GPU cost per generation. MAX is designed specifically for high-throughput, latency-sensitive inference like ElevenLabs' voice models, and teams in similar spots have used it to meaningfully cut cost-per-generation without touching model weights. Given the hiring push across AI/ML and backend, would it be useful to compare notes on where your current stack is under the most pressure?"
+    },
+    {
+      "name": "Suno",
+      "category": "funding",
+      "why": "Raised a $400M Series D at a $5.4B valuation even amid ongoing copyright litigation, with 113 open roles spanning product, data, backend, and mobile pointing to aggressive company-wide scale-up of music-generation inference.",
+      "message": "Congrats on closing the $400M Series D at a $5.4B valuation — a strong signal that Suno's growth story is outrunning the litigation headlines. With 113 open roles across product, data, and backend, the music-generation pipeline is clearly scaling fast, and that's exactly when serving cost per track becomes a real lever on margin. MAX helps teams running high-volume generative inference get more throughput from the same GPU fleet without touching the model. Worth a conversation on your current serving stack as the new capital deploys?"
+    },
+    {
+      "name": "Mercor",
+      "category": "acquisition",
+      "why": "Acquired Deeptune, a reinforcement-learning-environments startup, to build out RL training/eval infrastructure for its agent-reliability work — a plausible entry point into inference/eval tooling conversations even though Mercor sits outside the model-lab core ICP.",
+      "message": "Saw the news on Mercor's acquisition of Deeptune to strengthen your RL training-environments and agent-reliability capabilities. Building out that eval infrastructure usually means a lot of new inference volume for scoring, simulation, and fine-tuning loops. MAX is built to make exactly that kind of high-volume, latency-sensitive inference workload cheaper to run at scale. If Deeptune's integration is putting pressure on your eval/training infra, happy to share how other AI-native platforms have approached it."
+    },
+    {
+      "name": "OpenEvidence",
+      "category": "funding",
+      "why": "Raised a $250M Series D (Thrive, DST Global) doubling its valuation to $12B, with capital explicitly earmarked for R&D and compute tied to its multi-agent clinical-search architecture — currently running billions of fine-tuned calls per week on a competitor's platform (Baseten).",
+      "message": "Congrats on the $250M Series D and the jump to a $12B valuation — impressive given the pace of growth in clinical search. With billions of fine-tuned model calls running weekly to power your multi-agent architecture, and new capital earmarked specifically for R&D and compute, this looks like a natural point to revisit serving efficiency. MAX is built to cut cost and latency on exactly this kind of high-volume, fine-tuned inference workload. Worth a conversation on where your current stack is feeling the most cost pressure as usage scales?"
+    }
+  ]
+}
