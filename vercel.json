@@ -1,5 +1,5 @@
 {
-  "buildCommand": false,
+  "buildCommand": string,null,
   "installCommand": false,
   "outputDirectory": "."
 }
