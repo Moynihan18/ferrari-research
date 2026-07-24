@@ -13,7 +13,7 @@
     newsByCompany: {},
     reoByCompany: {},
     outreachPlan: null,
-    filters: { tab: null, category: null, region: null, reo: null },
+    filters: { tab: null, category: null, region: null, reo: null, platform: null },
     search: '',
     onlyNews: false,
     sortBy: 'news',
@@ -54,6 +54,15 @@
     if (s.includes('partner')) return 'badge-sf-partner';
     if (s.includes('prospect')) return 'badge-sf-prospect';
     return 'badge-sf-notinsf';
+  }
+
+  function getPlatforms(company) {
+    const raw = (company.competitor_platforms || '').trim();
+    if (!raw || raw === '-') return [];
+    return raw
+      .split(';')
+      .map(p => p.replace(/\[.*?\]/g, '').trim())
+      .filter(p => p && !/^none confirmed/i.test(p));
   }
 
   function mostRecentNewsDate(news) {
@@ -116,6 +125,16 @@
       state.filters.reo = state.filters.reo === key ? null : key;
       render();
     });
+
+    const platforms = [...new Set(state.companies.flatMap(getPlatforms))].sort();
+    const platformChips = [
+      ...platforms.map(p => ({ key: p, label: p })),
+      { key: 'none', label: 'None known' },
+    ];
+    renderChipGroup('filterPlatform', platformChips, state.filters.platform, (key) => {
+      state.filters.platform = state.filters.platform === key ? null : key;
+      render();
+    });
   }
 
   function renderChipGroup(containerId, items, activeKey, onClick) {
@@ -131,9 +150,18 @@
   }
 
   function matchesFilters(company) {
-    const { tab, category, region, reo } = state.filters;
+    const { tab, category, region, reo, platform } = state.filters;
     if (tab && company.tab !== tab) return false;
     if (region && company.region !== region) return false;
+
+    if (platform) {
+      const platforms = getPlatforms(company);
+      if (platform === 'none') {
+        if (platforms.length) return false;
+      } else if (!platforms.includes(platform)) {
+        return false;
+      }
+    }
 
     const news = state.newsByCompany[company.id] || [];
     if (category && !news.some(n => n.category === category)) return false;
@@ -214,6 +242,17 @@
       if (reo.note) reoEl.title = reo.note;
     }
 
+    const platformEl = node.querySelector('.card-platform');
+    const platforms = getPlatforms(company);
+    if (platforms.length) {
+      const pills = platforms
+        .map(p => `<span class="platform-pill">${escapeHtml(p)}</span>`)
+        .join('');
+      platformEl.innerHTML = `<span class="platform-label">Currently serving on:</span>${pills}`;
+    } else {
+      platformEl.innerHTML = '';
+    }
+
     const newsEl = node.querySelector('.card-news');
     if (!news.length) {
       newsEl.innerHTML = `<div class="news-empty">No notable news found in this refresh cycle.</div>`;
@@ -258,10 +297,12 @@
 
     const totalNews = state.companies.reduce((sum, c) => sum + (state.newsByCompany[c.id] || []).length, 0);
     const hotCount = state.companies.filter(c => ['hot', 'strong'].includes(reoTier(state.reoByCompany[c.id]))).length;
+    const onCompetitorCount = state.companies.filter(c => getPlatforms(c).length > 0).length;
     document.getElementById('statBlock').innerHTML = `
       <div class="stat-line"><span>Total accounts</span><b>${state.companies.length}</b></div>
       <div class="stat-line"><span>News items this cycle</span><b>${totalNews}</b></div>
       <div class="stat-line"><span>Hot / strong Reo signal</span><b>${hotCount}</b></div>
+      <div class="stat-line"><span>On a known competitor</span><b>${onCompetitorCount}</b></div>
     `;
   }
 
