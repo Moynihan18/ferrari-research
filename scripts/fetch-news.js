@@ -86,6 +86,11 @@ ${list}`;
 }
 
 async function main() {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.error('ANTHROPIC_API_KEY is not set. Add it as a repo secret (see README.md) before this step can run.');
+    process.exit(1);
+  }
+
   const companiesDoc = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'companies.json'), 'utf8'));
   const batches = chunk(companiesDoc.companies, BATCH_SIZE);
 

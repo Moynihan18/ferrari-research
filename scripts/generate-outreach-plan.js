@@ -41,6 +41,11 @@ function loadJson(p) {
 }
 
 async function main() {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.error('ANTHROPIC_API_KEY is not set. Add it as a repo secret (see README.md) before this step can run.');
+    process.exit(1);
+  }
+
   const dataDir = path.join(__dirname, '..', 'data');
   const companiesDoc = loadJson(path.join(dataDir, 'companies.json'));
   const newsDoc = loadJson(path.join(dataDir, 'news.json'));
