@@ -31,7 +31,7 @@ function stripCodeFence(text) {
 }
 
 function runCursorAgent(prompt) {
-  const args = ['-p', '--output-format', 'json'];
+  const args = ['-p', '--trust', '--output-format', 'json'];
   if (CURSOR_MODEL) args.push('--model', CURSOR_MODEL);
   args.push(prompt);
 
