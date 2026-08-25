@@ -18,9 +18,13 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const { prefetchBatch } = require('./lib/news-search');
 
-const BATCH_SIZE = 8;
+// Smaller batches + longer timeout: CI previously hit spawnSync ETIMEDOUT at 3m
+// on the first 8-company classify call.
+const BATCH_SIZE = Number(process.env.NEWS_BATCH_SIZE || 3);
+const MAX_CANDIDATES_PER_COMPANY = Number(process.env.NEWS_MAX_CANDIDATES || 5);
 const CURSOR_MODEL = process.env.CURSOR_MODEL || null;
-const CLI_TIMEOUT_MS = 3 * 60 * 1000;
+const CLI_TIMEOUT_MS = Number(process.env.CURSOR_CLI_TIMEOUT_MS || 10 * 60 * 1000);
+const CLI_RETRIES = Number(process.env.CURSOR_CLI_RETRIES || 2);
 
 function chunk(arr, size) {
   const out = [];
@@ -34,13 +38,18 @@ function stripCodeFence(text) {
   return fenced ? fenced[1].trim() : trimmed;
 }
 
-function runCursorAgent(prompt) {
+function isTimeoutError(e) {
+  return e && (e.code === 'ETIMEDOUT' || /ETIMEDOUT/i.test(String(e.message)) || /ETIMEDOUT/i.test(String(e.stderr)));
+}
+
+function runCursorAgentOnce(prompt) {
   // --trust: required in non-interactive CI
-  // --force: auto-approve tool use (agent should not need web tools here)
+  // --force: auto-approve (agent should not need tools; prompt forbids them)
   const args = ['-p', '--trust', '--force', '--output-format', 'json'];
   if (CURSOR_MODEL) args.push('--model', CURSOR_MODEL);
   args.push(prompt);
 
+  const started = Date.now();
   let stdout;
   try {
     stdout = execFileSync('agent', args, {
@@ -55,9 +64,13 @@ function runCursorAgent(prompt) {
         'Cursor CLI ("agent") not found on PATH. Install it first: curl https://cursor.com/install -fsS | bash'
       );
     }
-    const detail = [e.stderr, e.stdout, e.message].filter(Boolean).join('\n').trim();
-    throw new Error(`Cursor CLI exited with an error:\n${detail}`);
+    const err = new Error(
+      `Cursor CLI exited with an error:\n${[e.stderr, e.stdout, e.message].filter(Boolean).join('\n').trim()}`
+    );
+    err.code = e.code;
+    throw err;
   }
+  console.log(`  Cursor CLI finished in ${((Date.now() - started) / 1000).toFixed(1)}s`);
 
   let envelope;
   try {
@@ -76,16 +89,35 @@ function runCursorAgent(prompt) {
   return envelope.result;
 }
 
+function runCursorAgent(prompt) {
+  let lastErr;
+  for (let attempt = 1; attempt <= CLI_RETRIES + 1; attempt++) {
+    try {
+      if (attempt > 1) {
+        console.log(`  Retrying Cursor CLI (attempt ${attempt}/${CLI_RETRIES + 1})...`);
+      }
+      return runCursorAgentOnce(prompt);
+    } catch (e) {
+      lastErr = e;
+      if (!isTimeoutError(e) || attempt > CLI_RETRIES) throw e;
+      console.warn(`  Cursor CLI timed out after ${CLI_TIMEOUT_MS / 1000}s; will retry.`);
+    }
+  }
+  throw lastErr;
+}
+
 function formatCandidates(company, items) {
-  if (!items.length) return `(no search hits for ${company.name})`;
-  return items
-    .map(
-      (it, i) =>
-        `  ${i + 1}. date=${it.date || 'unknown'} | source=${it.source}\n` +
-        `     title: ${it.title}\n` +
-        `     url: ${it.url || 'null'}\n` +
-        `     snippet: ${it.snippet || ''}`
-    )
+  const trimmed = items.slice(0, MAX_CANDIDATES_PER_COMPANY);
+  if (!trimmed.length) return `(no search hits for ${company.name})`;
+  return trimmed
+    .map((it, i) => {
+      const snippet = (it.snippet || '').slice(0, 180);
+      return (
+        `  ${i + 1}. [${it.date || 'unknown'}] ${it.source}: ${it.title}\n` +
+        `     url: ${it.url || 'null'}` +
+        (snippet ? `\n     snippet: ${snippet}` : '')
+      );
+    })
     .join('\n');
 }
 
@@ -98,40 +130,18 @@ async function researchBatch(companies, prefetched) {
     })
     .join('\n\n');
 
-  const prompt = `You are researching account news for a sales team at Modular, an AI inference/compute infrastructure company. Today's date is ${today}.
+  const prompt = `You are a sales-research classifier for Modular (AI inference/compute infra). Today is ${today}.
 
-You are given SEARCH CANDIDATES already fetched from Google News RSS for each company. Do NOT attempt web search, browsing, or tool use — use only the candidates below. If a company's candidate list is empty or irrelevant, return an empty news array for that company. Do not invent articles.
+IMPORTANT: Do NOT use any tools (no web search, no shell, no browser). Use ONLY the SEARCH CANDIDATES below. Reply with raw JSON only.
 
-From the candidates, select genuinely recent items (prefer last 7-10 days; allow notable items from ~last 60 days if nothing newer). Keep only: acquisitions, funding, leadership (CEO/CTO/VP Eng), product/model launches, partnerships. Cap at 4 items per company, newest first.
+For each company, pick up to 4 recent relevant items (funding, acquisition, leadership, product_launch, partnership; prefer last 7-10 days, else ~60 days). Skip noise. Empty news arrays are fine. Do not invent articles.
 
-For each selected item:
-- date: YYYY-MM-DD (from the candidate when possible)
-- category: exactly one of acquisition|funding|leadership|product_launch|partnership|other
-- title, source, url (prefer the candidate url; null only if missing)
-- summary: neutral 1-2 sentences
-- sales_relevance: 1 sentence on why a Modular sales rep should care
+Each item fields: date (YYYY-MM-DD), category (acquisition|funding|leadership|product_launch|partnership|other), title, source, url (string|null), summary (1-2 sentences), sales_relevance (1 sentence for a Modular rep).
 
-Respond with ONLY a single raw JSON object — no markdown fences, no commentary:
-{
-  "companies": [
-    {
-      "id": "<company id, verbatim>",
-      "news": [
-        {
-          "date": "YYYY-MM-DD",
-          "category": "acquisition|funding|leadership|product_launch|partnership|other",
-          "title": "string",
-          "source": "string",
-          "url": "string or null",
-          "summary": "string",
-          "sales_relevance": "string"
-        }
-      ]
-    }
-  ]
-}
+Output shape:
+{"companies":[{"id":"<verbatim id>","news":[{"date":"YYYY-MM-DD","category":"funding","title":"...","source":"...","url":"...","summary":"...","sales_relevance":"..."}]}]}
 
-Include every company id from the list below (empty news arrays are fine).
+Include every company id listed below.
 
 SEARCH CANDIDATES:
 ${sections}`;
@@ -157,6 +167,10 @@ async function main() {
     );
     process.exit(1);
   }
+
+  console.log(
+    `fetch-news config: BATCH_SIZE=${BATCH_SIZE}, CLI_TIMEOUT_MS=${CLI_TIMEOUT_MS}, CLI_RETRIES=${CLI_RETRIES}, MAX_CANDIDATES=${MAX_CANDIDATES_PER_COMPANY}`
+  );
 
   const companiesDoc = JSON.parse(
     fs.readFileSync(path.join(__dirname, '..', 'data', 'companies.json'), 'utf8')

@@ -14,7 +14,7 @@ const { execFileSync } = require('child_process');
 
 const TOP_N = 12;
 const CURSOR_MODEL = process.env.CURSOR_MODEL || null; // e.g. "composer-2.5"; unset = account default
-const CLI_TIMEOUT_MS = 3 * 60 * 1000;
+const CLI_TIMEOUT_MS = Number(process.env.CURSOR_CLI_TIMEOUT_MS || 10 * 60 * 1000);
 
 function loadJson(p) {
   return JSON.parse(fs.readFileSync(p, 'utf8'));
@@ -27,7 +27,7 @@ function stripCodeFence(text) {
 }
 
 function runCursorAgent(prompt) {
-  const args = ['-p', '--trust', '--output-format', 'json'];
+  const args = ['-p', '--trust', '--force', '--output-format', 'json'];
   if (CURSOR_MODEL) args.push('--model', CURSOR_MODEL);
   args.push(prompt);
 
@@ -37,12 +37,14 @@ function runCursorAgent(prompt) {
       encoding: 'utf8',
       timeout: CLI_TIMEOUT_MS,
       maxBuffer: 32 * 1024 * 1024,
+      stdio: ['ignore', 'pipe', 'pipe'],
     });
   } catch (e) {
     if (e.code === 'ENOENT') {
       throw new Error('Cursor CLI ("agent") not found on PATH. Install it first: curl https://cursor.com/install -fsS | bash');
     }
-    throw new Error(`Cursor CLI exited with an error: ${e.stderr || e.message}`);
+    const detail = [e.stderr, e.stdout, e.message].filter(Boolean).join('\n').trim();
+    throw new Error(`Cursor CLI exited with an error:\n${detail}`);
   }
 
   let envelope;
