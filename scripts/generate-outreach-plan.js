@@ -2,47 +2,67 @@
 // ranked weekly outreach plan with bespoke draft messages, written to data/outreach_plan.json.
 // Runs after fetch-reo-activity.js and fetch-news.js.
 //
-// Requires env var ANTHROPIC_API_KEY.
+// Uses the Cursor CLI agent (headless/print mode) rather than a hosted LLM API - no web
+// search is needed here, only synthesis over already-fetched data.
+//
+// Requires env var CURSOR_API_KEY and the Cursor CLI installed and on PATH
+// (`curl https://cursor.com/install -fsS | bash`; installs both `agent` and
+// `cursor-agent` symlinks in ~/.local/bin - either name works). See README.md.
 const fs = require('fs');
 const path = require('path');
-const Anthropic = require('@anthropic-ai/sdk');
+const { execFileSync } = require('child_process');
 
-const client = new Anthropic();
-const MODEL = 'claude-opus-4-8';
 const TOP_N = 12;
-
-const PLAN_SCHEMA = {
-  type: 'object',
-  properties: {
-    items: {
-      type: 'array',
-      items: {
-        type: 'object',
-        properties: {
-          name: { type: 'string' },
-          category: {
-            type: 'string',
-            enum: ['acquisition', 'funding', 'leadership', 'product_launch', 'partnership', 'other'],
-          },
-          why: { type: 'string' },
-          message: { type: 'string' },
-        },
-        required: ['name', 'category', 'why', 'message'],
-        additionalProperties: false,
-      },
-    },
-  },
-  required: ['items'],
-  additionalProperties: false,
-};
+const CURSOR_MODEL = process.env.CURSOR_MODEL || null; // e.g. "composer-2.5"; unset = account default
+const CLI_TIMEOUT_MS = 3 * 60 * 1000;
 
 function loadJson(p) {
   return JSON.parse(fs.readFileSync(p, 'utf8'));
 }
 
+function stripCodeFence(text) {
+  const trimmed = text.trim();
+  const fenced = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
+  return fenced ? fenced[1].trim() : trimmed;
+}
+
+function runCursorAgent(prompt) {
+  const args = ['-p', '--trust', '--output-format', 'json'];
+  if (CURSOR_MODEL) args.push('--model', CURSOR_MODEL);
+  args.push(prompt);
+
+  let stdout;
+  try {
+    stdout = execFileSync('agent', args, {
+      encoding: 'utf8',
+      timeout: CLI_TIMEOUT_MS,
+      maxBuffer: 32 * 1024 * 1024,
+    });
+  } catch (e) {
+    if (e.code === 'ENOENT') {
+      throw new Error('Cursor CLI ("agent") not found on PATH. Install it first: curl https://cursor.com/install -fsS | bash');
+    }
+    throw new Error(`Cursor CLI exited with an error: ${e.stderr || e.message}`);
+  }
+
+  let envelope;
+  try {
+    envelope = JSON.parse(stdout);
+  } catch (e) {
+    throw new Error(`Cursor CLI did not return valid JSON on stdout: ${stdout.slice(0, 500)}`);
+  }
+  if (envelope.is_error) {
+    throw new Error(`Cursor agent reported an error: ${envelope.result || JSON.stringify(envelope)}`);
+  }
+  if (typeof envelope.result !== 'string') {
+    throw new Error(`Unexpected Cursor CLI output shape (no string "result" field): ${JSON.stringify(envelope).slice(0, 500)}`);
+  }
+  return envelope.result;
+}
+
 async function main() {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('ANTHROPIC_API_KEY is not set. Add it as a repo secret (see README.md) before this step can run.');
+  if (!process.env.CURSOR_API_KEY) {
+    console.error('CURSOR_API_KEY is not set. Add it as a repo secret (see README.md) before this step can run.');
     process.exit(1);
   }
 
@@ -54,7 +74,7 @@ async function main() {
   const newsById = Object.fromEntries(newsDoc.companies.map(c => [c.id, c.news]));
   const reoById = Object.fromEntries(reoDoc.companies.map(c => [c.id, c.reo]));
 
-  // Pre-rank candidates with a cheap heuristic score so the LLM call only has to
+  // Pre-rank candidates with a cheap heuristic score so the agent call only has to
   // reason over a manageable shortlist, not all ~90 companies at once.
   const catWeight = { acquisition: 5, funding: 5, leadership: 4, product_launch: 3, partnership: 3, other: 1 };
   function daysAgo(dateStr) {
@@ -96,22 +116,33 @@ For each selected account, write:
 - "why": 1-2 sentences on why this account is a priority this week, citing the specific trigger.
 - "message": A bespoke, ready-to-send outreach message (roughly 80-130 words) referencing the specific news trigger, connecting it to a plausible infra/inference need, and proposing a concrete next step. Professional, not salesy, no exclamation-point overload.
 
+Respond with ONLY a single raw JSON object matching this exact shape - no markdown code fences, no explanation before or after, nothing but the JSON:
+{
+  "items": [
+    {
+      "name": "string",
+      "category": "acquisition|funding|leadership|product_launch|partnership|other",
+      "why": "string",
+      "message": "string"
+    }
+  ]
+}
+
 Candidates (JSON):
 ${JSON.stringify(shortlist, null, 2)}`;
 
-  const response = await client.messages.create({
-    model: MODEL,
-    max_tokens: 8000,
-    output_config: { format: { type: 'json_schema', schema: PLAN_SCHEMA } },
-    messages: [{ role: 'user', content: prompt }],
-  });
-
-  const textBlock = response.content.find(b => b.type === 'text');
-  const plan = textBlock ? JSON.parse(textBlock.text) : { items: [] };
+  const resultText = runCursorAgent(prompt);
+  let plan;
+  try {
+    plan = JSON.parse(stripCodeFence(resultText));
+  } catch (e) {
+    console.error('Failed to parse agent output.\nRaw output:', resultText.slice(0, 1000));
+    plan = { items: [] };
+  }
 
   const outPath = path.join(dataDir, 'outreach_plan.json');
-  fs.writeFileSync(outPath, JSON.stringify({ generated_at: new Date().toISOString(), items: plan.items }, null, 2));
-  console.log(`Wrote outreach plan with ${plan.items.length} accounts to ${outPath}`);
+  fs.writeFileSync(outPath, JSON.stringify({ generated_at: new Date().toISOString(), items: plan.items || [] }, null, 2));
+  console.log(`Wrote outreach plan with ${(plan.items || []).length} accounts to ${outPath}`);
 }
 
 main().catch(err => {

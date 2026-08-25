@@ -28,9 +28,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Cursor CLI
+        run: |
+          curl https://cursor.com/install -fsS | bash
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
       - name: Run weekly refresh pipeline
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
           REO_API_KEY: ${{ secrets.REO_API_KEY }}
           REO_SEGMENT_ID: ${{ secrets.REO_SEGMENT_ID }}
         run: npm run refresh

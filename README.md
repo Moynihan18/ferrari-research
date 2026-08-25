@@ -18,8 +18,8 @@ data/outreach_plan.json    - ranked weekly outreach targets with draft messages
 index.html + assets/       - static dashboard that reads the data/*.json files
 
 scripts/fetch-reo-activity.js    - pulls live Reo.dev signals via the public REST API
-scripts/fetch-news.js             - researches recent news per account (Claude + web search)
-scripts/generate-outreach-plan.js - ranks accounts and drafts outreach messages (Claude)
+scripts/fetch-news.js             - researches recent news per account (Cursor CLI agent + its web search)
+scripts/generate-outreach-plan.js - ranks accounts and drafts outreach messages (Cursor CLI agent)
 scripts/build.js                  - runs the three steps above in order
 
 .github/workflows/weekly-refresh.yml - runs the pipeline every Monday and publishes
@@ -41,13 +41,13 @@ npm run serve
 ## Setting up the weekly automation
 
 The GitHub Action (`.github/workflows/weekly-refresh.yml`) runs every Monday at
-12:00 UTC, refreshes `data/*.json`, commits the result, and publishes the
-dashboard to GitHub Pages. It needs three repo secrets configured under
-**Settings → Secrets and variables → Actions**:
+12:00 UTC, installs the Cursor CLI, refreshes `data/*.json`, commits the
+result, and publishes the dashboard to GitHub Pages. It needs three repo
+secrets configured under **Settings → Secrets and variables → Actions**:
 
 | Secret | Used for | How to get it |
 | --- | --- | --- |
-| `ANTHROPIC_API_KEY` | News research (`fetch-news.js`) and outreach plan generation (`generate-outreach-plan.js`), both via the Claude API with web search | [console.anthropic.com](https://console.anthropic.com) → API keys |
+| `CURSOR_API_KEY` | News research (`fetch-news.js`) and outreach plan generation (`generate-outreach-plan.js`), both via the headless Cursor CLI agent | Cursor dashboard → API keys |
 | `REO_API_KEY` | Live Reo.dev account activity (`fetch-reo-activity.js`) | Reo dashboard → Settings → Configurations → API Keys → "Product Export & Zapier Integration" → copy the Data-out key (admin role required) |
 | `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 87 accounts, then copy its segment ID from the Reo UI |
 
@@ -56,12 +56,30 @@ Source: GitHub Actions**.
 
 Without these secrets, `fetch-reo-activity.js` writes an empty result rather
 than failing the whole run, but `fetch-news.js` and `generate-outreach-plan.js`
-require `ANTHROPIC_API_KEY` to do anything useful.
+require `CURSOR_API_KEY` to do anything useful.
+
+**Unresolved risk with `fetch-news.js`:** there's a confirmed case (see git
+history, commit `774fbb8`/`85891dd`, and the revert at `2dc8f78`) of the
+Cursor CLI agent losing access to its `web_search` tool in headless/print
+mode — a real run returned "Web search was blocked" on every batch and wrote
+zero news items. This repo can't verify search access from CI ahead of time.
+Watch the first few runs' `data/news.json`: if items keep coming back empty
+or with no real `url`/`source`, the CLI isn't actually searching, and
+`fetch-news.js` would need to move to an API with a guaranteed web-search
+tool instead (it was previously implemented against the Claude API with
+`web_search_20260209` — see git history — which is a known-working
+fallback). `generate-outreach-plan.js` doesn't depend on web search (it only
+synthesizes already-fetched `news.json`/`reo_activity.json` data), so it
+isn't exposed to this particular risk.
 
 ### Running the refresh manually
 
 ```bash
-export ANTHROPIC_API_KEY=...
+# fetch-news.js and generate-outreach-plan.js need the Cursor CLI installed
+# and on PATH:
+curl https://cursor.com/install -fsS | bash
+
+export CURSOR_API_KEY=...
 export REO_API_KEY=...
 export REO_SEGMENT_ID=...
 npm run refresh
@@ -87,9 +105,11 @@ Run workflow**.
 - **Company list**: to add, remove, or edit accounts, edit `scripts/seed-companies.js`
   and re-run `npm run seed` (this rewrites `data/companies.json` from scratch, so
   don't hand-edit that file directly).
-- **Cursor CLI was tried and reverted for `fetch-news.js`** (briefly, in git
-  history): the headless Cursor agent explicitly reported "web search was
-  blocked" on every batch in a real run, so it couldn't find any real news and
-  produced no usable output. `fetch-news.js` is back on the Claude API's
-  `web_search` tool, which is the only implementation confirmed to actually
-  work. Worth retrying only if Cursor's headless web access changes.
+- **`fetch-news.js` and `generate-outreach-plan.js` run on the Cursor CLI
+  agent**, not a hosted LLM API. `fetch-news.js` was tried on Cursor once
+  before, reverted to the Claude API after a real run showed the headless
+  agent had no `web_search` access ("Web search was blocked" on every
+  batch, zero news found), then moved back to Cursor again per a deliberate
+  choice to standardize on the Cursor API despite that known risk. If the
+  same failure recurs, see the "Unresolved risk" note above for the
+  Claude-API fallback that's confirmed to work (available in git history).
