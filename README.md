@@ -18,9 +18,10 @@ data/outreach_plan.json    - ranked weekly outreach targets with draft messages
 index.html + assets/       - static dashboard that reads the data/*.json files
 
 scripts/fetch-reo-activity.js    - pulls live Reo.dev signals via the public REST API
-scripts/fetch-news.js             - researches recent news per account (Cursor CLI agent + its web search)
+scripts/fetch-news.js             - Google News RSS prefetch + Cursor CLI classify/summarize
 scripts/generate-outreach-plan.js - ranks accounts and drafts outreach messages (Cursor CLI agent)
 scripts/build.js                  - runs the three steps above in order
+scripts/lib/news-search.js        - RSS search helper used by fetch-news.js (no Cursor web_search)
 
 .github/workflows/weekly-refresh.yml - runs the pipeline every Monday and publishes
                                          the dashboard to GitHub Pages
@@ -47,7 +48,7 @@ secrets configured under **Settings → Secrets and variables → Actions**:
 
 | Secret | Used for | How to get it |
 | --- | --- | --- |
-| `CURSOR_API_KEY` | News research (`fetch-news.js`) and outreach plan generation (`generate-outreach-plan.js`), both via the headless Cursor CLI agent | Cursor dashboard → API keys |
+| `CURSOR_API_KEY` | News classification/summarization (`fetch-news.js`) and outreach plan generation (`generate-outreach-plan.js`) via the headless Cursor CLI agent. News *discovery* uses Google News RSS from the runner (not Cursor web_search). | Cursor dashboard → API keys |
 | `REO_API_KEY` | Live Reo.dev account activity (`fetch-reo-activity.js`) | Reo dashboard → Settings → Configurations → API Keys → "Product Export & Zapier Integration" → copy the Data-out key (admin role required) |
 | `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 87 accounts, then copy its segment ID from the Reo UI |
 
@@ -58,19 +59,13 @@ Without these secrets, `fetch-reo-activity.js` writes an empty result rather
 than failing the whole run, but `fetch-news.js` and `generate-outreach-plan.js`
 require `CURSOR_API_KEY` to do anything useful.
 
-**Unresolved risk with `fetch-news.js`:** there's a confirmed case (see git
-history, commit `774fbb8`/`85891dd`, and the revert at `2dc8f78`) of the
-Cursor CLI agent losing access to its `web_search` tool in headless/print
-mode — a real run returned "Web search was blocked" on every batch and wrote
-zero news items. This repo can't verify search access from CI ahead of time.
-Watch the first few runs' `data/news.json`: if items keep coming back empty
-or with no real `url`/`source`, the CLI isn't actually searching, and
-`fetch-news.js` would need to move to an API with a guaranteed web-search
-tool instead (it was previously implemented against the Claude API with
-`web_search_20260209` — see git history — which is a known-working
-fallback). `generate-outreach-plan.js` doesn't depend on web search (it only
-synthesizes already-fetched `news.json`/`reo_activity.json` data), so it
-isn't exposed to this particular risk.
+**News research and web access:** the Cursor CLI's built-in `web_search` tool is
+often blocked in headless GitHub Actions ("Web search was blocked").
+`fetch-news.js` therefore **does not** ask the agent to search the web. It
+prefetches candidate articles via Google News RSS from the Actions runner, then
+asks the Cursor agent only to select, classify, and write summaries /
+`sales_relevance` from those candidates. Outreach generation never needed web
+search.
 
 ### Running the refresh manually
 
@@ -106,10 +101,11 @@ Run workflow**.
   and re-run `npm run seed` (this rewrites `data/companies.json` from scratch, so
   don't hand-edit that file directly).
 - **`fetch-news.js` and `generate-outreach-plan.js` run on the Cursor CLI
-  agent**, not a hosted LLM API. `fetch-news.js` was tried on Cursor once
-  before, reverted to the Claude API after a real run showed the headless
-  agent had no `web_search` access ("Web search was blocked" on every
-  batch, zero news found), then moved back to Cursor again per a deliberate
-  choice to standardize on the Cursor API despite that known risk. If the
-  same failure recurs, see the "Unresolved risk" note above for the
-  Claude-API fallback that's confirmed to work (available in git history).
+  agent**, not a hosted LLM API. News *discovery* is done by
+  `scripts/lib/news-search.js` (Google News / Bing RSS, GDELT fallback) because
+  the headless Cursor CLI often cannot use `web_search` in CI. The agent only
+  classifies and summarizes the prefetched candidates.
+- **RSS discovery** can miss niche or very fresh posts, and Google News item
+  URLs are sometimes redirect links. If quality is insufficient, swap the
+  helper for a paid search API (Brave/Serper/Tavily) without changing the
+  Cursor classify step.
