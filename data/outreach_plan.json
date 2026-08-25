@@ -1,41 +1,29 @@
 {
-  "generated_at": "2026-08-25T17:31:43.499Z",
+  "generated_at": "2026-08-25T18:50:34.776Z",
   "items": [
     {
       "name": "Perplexity",
-      "category": "product_launch",
-      "why": "Today\u2019s Portable Computer launch with Nvidia is a clear local/edge inference trigger, and Reo shows High intent (53 events, 12 developers) despite Partner status\u2014exceptional signal for a MAX conversation on efficient on-device serving.",
-      "message": "Aravind \u2014 saw today\u2019s coverage of Portable Computer and the Nvidia partnership for a local-first agent with zero token costs. That shift puts a premium on inference efficiency and hardware utilization versus cloud token defaults. Modular\u2019s MAX engine is built for exactly that: high-throughput, low-latency serving that teams can deploy beside GPU stacks without locking into a single cloud path. If you\u2019re evaluating runtimes for Portable Computer or related agent workloads, happy to share a short benchmark on local/edge serving cost and latency. Open to a 20-minute working session this week with whoever owns inference?"
-    },
-    {
-      "name": "Liner",
-      "category": "funding",
-      "why": "Today\u2019s $36.1M Series C to take evidence-first AI search into enterprise is a clean new-logo funding trigger; Not in Salesforce and Moderate Reo support outreach now.",
-      "message": "Luke \u2014 congrats on the $36.1M Series C and the push to bring evidence-first AI search to enterprise. Enterprise search and agent workloads are inference-sensitive on both latency SLAs and cost as concurrent users grow. Modular\u2019s MAX engine helps teams hit those targets while staying flexible across model mixes (frontier and open). Since you are not yet in our Salesforce pipeline, I wanted to reach out while the raise is fresh. Open to a short intro this week on how MAX could support your enterprise scale-up?"
-    },
-    {
-      "name": "Upstage",
-      "category": "product_launch",
-      "why": "Solar Pro 4\u2019s frontier-score launch plus EY Han Young and HP Korea sovereign/vertical partnerships, with Moderate Reo (10 events), is a strong Not-in-SF product trigger.",
-      "message": "Sung \u2014 Solar Pro 4\u2019s Artificial Analysis Index result and the EY Han Young / HP Korea partnerships suggest sovereign and vertical deployments are moving from eval into production. Those environments need controlled, high-performance serving with predictable unit economics. Modular\u2019s MAX inference engine is a strong fit for on-prem and region-bound LLM serving alongside specialized hardware you already explore. We have seen recent engagement from Upstage developers and would like to connect while Solar Pro 4 is ramping. Can we set up a technical session this week on serving cost and latency for Solar?"
-    },
-    {
-      "name": "Wispr Flow",
-      "category": "funding",
-      "why": "The ~$2B valuation and fresh capital attention for real-time voice-to-text, plus Moderate Reo, make this a high-priority new-logo scale-up for latency-sensitive inference.",
-      "message": "Tanay \u2014 Reuters\u2019 report on Wispr Flow\u2019s $2B valuation and the follow-on funding attention imply a steep ramp in always-on speech inference. Viral free-tier usage plus enterprise expansion usually stresses latency and serving cost at the same time. Modular\u2019s MAX engine is built for high-throughput, low-latency model serving\u2014relevant if you are optimizing beyond a single hosted path. Not seeing Wispr in Salesforce yet, so I wanted to reach out while the valuation news is current. Would a 20-minute call this week with your ML infra owner make sense?"
-    },
-    {
-      "name": "Abridge",
-      "category": "product_launch",
-      "why": "Rolling context-aware clinical intelligence to every clinician at partner health systems is a production volume trigger, backed by Moderate Reo (10 events) and Not-in-SF status.",
-      "message": "Shiv \u2014 saw the Business Wire / Fierce coverage that Abridge is opening context-aware clinical intelligence to every clinician at partner health systems. Broadening from documentation into always-on decision support typically multiplies real-time inference load and tightens latency SLAs. Modular\u2019s MAX stack helps clinical AI teams keep quality high while improving throughput and unit economics at health-system scale. We have recent developer engagement from your domain and would like to align while the rollout is live. Open to a brief technical intro this week with the team owning model serving?"
+      "category": "partnership",
+      "why": "Today\u2019s Nvidia partnership and Portable Computer / local GPU-agent launch create an immediate inference-runtime buying window, and Reo shows High intent with 53 events and 12 active developers in 90 days.",
+      "message": "Aravind \u2014 congrats on the Nvidia partnership and the Portable Computer launch. Moving a fully local agent onto user GPUs with a zero-token positioning puts a lot of pressure on compile/runtime performance, memory layout, and consistent latency across heterogeneous devices\u2014areas where cloud-only stacks usually break down. Modular\u2019s MAX inference engine is built for exactly that: high-throughput, portable serving when you need production-grade GPU inference without ballooning cost as surface area expands. If useful, I can share a short briefing on how teams running agentic search/local models tighten time-to-first-token and GPU utilization, and we can map it against your Sonar/frontier routing path. Open to a 20-minute working session this week?"
     },
     {
       "name": "Gamma",
       "category": "acquisition",
-      "why": "Today\u2019s acquisition of Accel-backed Lica to build an AI design research lab is a fresh new-logo M&A trigger that should expand generative design inference demand.",
-      "message": "Grant \u2014 TechCrunch\u2019s report that Gamma acquired Lica to build an AI design research lab suggests a near-term jump in generative design and multimodal inference. Integrating an acquired research stack often forces a rethink of serving cost, latency, and hardware utilization across product surfaces. Modular\u2019s MAX engine is built to make those workloads faster and cheaper without locking you to a single host. Since Gamma is not in Salesforce yet, I wanted to reach out while the acquisition news is current. Open to a 20-minute conversation this week on inference needs post-Lica?"
+      "why": "Today\u2019s Accel-backed Lica acquisition to form an AI design research lab is a fresh new-logo trigger that likely expands generative design inference load.",
+      "message": "Grant \u2014 saw Gamma\u2019s acquisition of Accel-backed Lica to build an AI design research lab. That kind of product expansion usually increases multimodal generation volume and R&D iteration rate, which quickly shows up as inference cost and latency pressure\u2014especially if you\u2019re already mixing frontier and open models in production. Modular\u2019s MAX inference engine is built to improve throughput and $/token for generative workloads without forcing a platform rewrite. If useful, I can share how similar design/docs AI teams benchmark MAX against incumbent serving stacks and propose a concrete next step for a side-by-side. Worth 20 minutes this week?"
+    },
+    {
+      "name": "Liner",
+      "category": "funding",
+      "why": "Today\u2019s $36.1M Series C to take evidence-first AI search into enterprise is a clean new-logo funding trigger with light but present Reo engagement.",
+      "message": "Luke \u2014 congrats on the $36.1M Series C and the push into enterprise evidence-first AI search. Enterprise search/agents typically drive higher concurrency, longer contexts, and stricter latency SLOs than consumer study use cases\u2014exactly where serving economics and Fireworks-style paths get stressed. Modular\u2019s MAX inference engine helps teams scale model serving with better GPU efficiency and more predictable cost as enterprise traffic ramps. If you\u2019re planning infra for that expansion, I\u2019d be glad to walk through a short MAX evaluation against your current mix. Open to a brief call this week?"
+    },
+    {
+      "name": "Abridge",
+      "category": "product_launch",
+      "why": "This week\u2019s rollout of context-aware clinical intelligence to every clinician at partner health systems implies a step-change in real-time inference volume, with Moderate Reo engagement supporting outreach.",
+      "message": "Shiv \u2014 Abridge making context-aware clinical intelligence available to every clinician at partner health systems is a meaningful production scale-up beyond ambient documentation. Hospital-wide copilots are latency-sensitive and multi-tenant, so inference cost and reliability tend to become first-order constraints quickly\u2014especially at note volumes already in the millions per week. Modular\u2019s MAX inference engine helps clinical AI teams raise throughput and tighten serving economics without sacrificing responsiveness. Given some recent Modular engagement from Abridge developers, this seems like a good week to compare MAX against your current Baseten-oriented path. Open to a brief technical call this week?"
     }
   ]
 }
