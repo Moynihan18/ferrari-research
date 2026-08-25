@@ -2,13 +2,14 @@
 
 A weekly-refreshed research dashboard with two tabs:
 
-- **Sales Accounts** — tracks 87 AI model labs and competitor inference
-  customers, sourced from the "Model Labs / Competitor Inference Customers"
-  account list. For each account it surfaces recent news (acquisitions,
+- **Sales Accounts** — tracks 13 AI model labs (the "Top 13 Whale Prospects"
+  pipeline — see below) plus 27 competitor inference customers, for 40
+  accounts total. For each account it surfaces recent news (acquisitions,
   funding, leadership changes, product launches, partnerships) with a
-  sales-relevance note, live Reo.dev account activity, and a precomputed
-  weekly outreach plan with draft messages for the accounts most worth
-  contacting.
+  sales-relevance note, live Reo.dev account activity, a modality tag (LLM,
+  Voice, Image Gen, Video Gen, Code, Multimodal, Search/Agents), and a
+  precomputed weekly outreach plan with draft messages for the accounts most
+  worth contacting.
 - **Competitive Intel** — tracks 9 inference/ML-platform competitors
   (Baseten, Fireworks AI, Together AI, Seldon, Modal, Anyscale, NVIDIA
   Dynamo, Google Cloud Vertex AI, AWS SageMaker) and surfaces their recent
@@ -20,7 +21,7 @@ A weekly-refreshed research dashboard with two tabs:
 ## How it works
 
 ```
-data/companies.json       - the 87-account list (name, domain, CEO, valuation, SF status, ...)
+data/companies.json       - the 40-account list (name, domain, CEO, valuation, SF status, modality, ...)
 data/news.json             - recent news per account, classified + summarized
 data/reo_activity.json     - Reo.dev engagement signal per account
 data/outreach_plan.json    - ranked weekly outreach targets with draft messages
@@ -67,7 +68,7 @@ secrets configured under **Settings → Secrets and variables → Actions**:
 | --- | --- | --- |
 | `CURSOR_API_KEY` | News classification/summarization (`fetch-news.js`, `fetch-competitor-news.js`) and outreach plan generation (`generate-outreach-plan.js`) via the headless Cursor CLI agent. News *discovery* uses Google News RSS from the runner (not Cursor web_search). | Cursor dashboard → API keys |
 | `REO_API_KEY` | Live Reo.dev account activity (`fetch-reo-activity.js`) | Reo dashboard → Settings → Configurations → API Keys → "Product Export & Zapier Integration" → copy the Data-out key (admin role required) |
-| `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 87 accounts, then copy its segment ID from the Reo UI |
+| `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 40 accounts, then copy its segment ID from the Reo UI |
 
 You'll also need to enable GitHub Pages for this repo: **Settings → Pages →
 Source: GitHub Actions**.
@@ -117,7 +118,18 @@ Run workflow**.
   from the raw feed — it will not be byte-identical to what you see in the Reo UI.
 - **Company list**: to add, remove, or edit accounts, edit `scripts/seed-companies.js`
   and re-run `npm run seed` (this rewrites `data/companies.json` from scratch, so
-  don't hand-edit that file directly).
+  don't hand-edit that file directly). The 13 model labs are the "Top 13 Whale
+  Prospects" pipeline (MODULAR · Pipeline · AUGUST 2026) — hyperscalers and
+  closed frontier labs (OpenAI, Anthropic, Google DeepMind, Meta, xAI,
+  Microsoft, Amazon, NVIDIA) plus several other labs (Alibaba, ByteDance,
+  Tencent, MiniMax, LG AI Research, H Company, StepFun, Baidu, Sakana,
+  Helsing, Aleph Alpha) are deliberately excluded per that doc. Re-narrow or
+  widen the list by editing the model-lab rows directly.
+- **Modality field**: each account has a `modality` string (semicolon-
+  separated, e.g. `"LLM; Voice"`) driving the Modality filter chips. It's
+  manually assigned in `scripts/seed-companies.js` based on each company's
+  primary product(s) — there's no automated classification, so update it by
+  hand alongside any other row edits.
 - **`fetch-news.js` and `generate-outreach-plan.js` run on the Cursor CLI
   agent**, not a hosted LLM API. News *discovery* is done by
   `scripts/lib/news-search.js` (Google News / Bing RSS, GDELT fallback) because

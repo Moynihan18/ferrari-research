@@ -24,7 +24,7 @@
     newsByCompany: {},
     reoByCompany: {},
     outreachPlan: null,
-    filters: { tab: null, category: null, region: null, reo: null, platform: null },
+    filters: { tab: null, category: null, region: null, reo: null, platform: null, modality: null },
     search: '',
     onlyNews: false,
     sortBy: 'news',
@@ -79,6 +79,12 @@
       .split(';')
       .map(p => p.replace(/\[.*?\]/g, '').trim())
       .filter(p => p && !/^none confirmed/i.test(p));
+  }
+
+  function getModalities(company) {
+    const raw = (company.modality || '').trim();
+    if (!raw) return [];
+    return raw.split(';').map(m => m.trim()).filter(Boolean);
   }
 
   function mostRecentNewsDate(news) {
@@ -137,6 +143,12 @@
       render();
     });
 
+    const modalities = [...new Set(state.companies.flatMap(getModalities))].sort();
+    renderChipGroup('filterModality', modalities.map(m => ({ key: m, label: m })), state.filters.modality, (key) => {
+      state.filters.modality = state.filters.modality === key ? null : key;
+      render();
+    });
+
     const reoTiers = [
       { key: 'hot', label: 'Hot' },
       { key: 'strong', label: 'Strong' },
@@ -172,9 +184,10 @@
   }
 
   function matchesFilters(company) {
-    const { tab, category, region, reo, platform } = state.filters;
+    const { tab, category, region, reo, platform, modality } = state.filters;
     if (tab && company.tab !== tab) return false;
     if (region && company.region !== region) return false;
+    if (modality && !getModalities(company).includes(modality)) return false;
 
     if (platform) {
       const platforms = getPlatforms(company);
@@ -247,6 +260,11 @@
       company.ceo ? `<span>${escapeHtml(company.ceo)}</span>` : '',
     ].filter(Boolean);
     meta.innerHTML = metaBits.join('');
+
+    const modalities = getModalities(company);
+    if (modalities.length) {
+      meta.innerHTML += `<span>${modalities.map(m => `<span class="modality-pill">${escapeHtml(m)}</span>`).join(' ')}</span>`;
+    }
 
     const reoEl = node.querySelector('.card-reo');
     const tier = reoTier(reo);
