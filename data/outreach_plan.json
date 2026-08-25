@@ -1,4 +1,77 @@
 {
-  "generated_at": "2026-08-25T15:17:08.045Z",
-  "items": []
+  "generated_at": "2026-08-25T17:31:43.499Z",
+  "items": [
+    {
+      "name": "Perplexity",
+      "category": "product_launch",
+      "why": "Today’s Portable Computer launch with Nvidia is a clear local/edge inference trigger, and Reo shows High intent (53 events, 12 developers) despite Partner status—exceptional signal for a MAX conversation on efficient on-device serving.",
+      "message": "Aravind — saw today’s coverage of Portable Computer and the Nvidia partnership for a local-first agent with zero token costs. That shift puts a premium on inference efficiency and hardware utilization versus cloud token defaults. Modular’s MAX engine is built for exactly that: high-throughput, low-latency serving that teams can deploy beside GPU stacks without locking into a single cloud path. If you’re evaluating runtimes for Portable Computer or related agent workloads, happy to share a short benchmark on local/edge serving cost and latency. Open to a 20-minute working session this week with whoever owns inference?"
+    },
+    {
+      "name": "Skild AI",
+      "category": "funding",
+      "why": "Yesterday’s $1.4B Series C at a $14B valuation to build a universal robot brain is an exceptional new-logo capital trigger; compute-heavy VLA work will force near-term training and inference scale decisions.",
+      "message": "Deepak — congratulations on the $1.4B Series C and $14B valuation to build a universal brain for robots. Scaling omni-bodied VLA models usually hits GPU throughput and serving cost walls quickly as you move from research to fleet deployment. Modular’s MAX inference engine helps teams cut latency and $/token (or $/step) while staying portable across accelerators. Given the raise, this feels like the right week to compare stacks before infra choices harden. Would a brief technical walkthrough with your ML infra leads this week be useful?"
+    },
+    {
+      "name": "MiniMax",
+      "category": "product_launch",
+      "why": "H3 open-weight video momentum plus AMD day-0 support, combined with High Reo intent (41 events, 7 developers), makes this a strong Partner expansion play with real eng engagement.",
+      "message": "Yan — coverage of MiniMax H3 in ComfyUI workflows and AMD’s day-0 Instinct support suggests video serving is becoming a multi-hardware product surface. That is usually when compile/runtime efficiency starts to dominate unit economics. Modular’s MAX stack is designed to maximize throughput and portability for open-weight video models across GPU vendors. We noticed meaningful developer activity from your domain recently and would welcome a focused discussion on H3 serving paths. Can we schedule 30 minutes this week with the team owning inference for H3?"
+    },
+    {
+      "name": "Wayve",
+      "category": "leadership",
+      "why": "Stellantis global partnership coverage plus the Alex Toshev hire, with Moderate Reo (17 events, 14 developers), is a timely new-logo window into OEM-scale driving inference.",
+      "message": "Alex — the Stellantis–Wayve global partnership coverage and Wayve Labs’ hire of Alex Toshev both point to accelerating research-to-production for AI Driver. Robotaxi and OEM scale typically demand low-latency, high-throughput inference with tight cost control on fleet and cloud GPUs. Modular’s MAX engine helps teams harden that path without rewriting stacks per hardware generation. With 14 of your developers recently active around our materials, a short architecture conversation could be timely. Open to introducing MAX to Jamie’s or Alex Toshev’s infra counterparts this week?"
+    },
+    {
+      "name": "Stability AI",
+      "category": "funding",
+      "why": "Today’s $76M round backed by Universal, Warner, Sony, and EA is a fresh capital trigger for generative media inference scale; Reo is light but the news is highly sales-relevant.",
+      "message": "Prem — saw Variety’s report on Stability’s $76M raise with Universal, Warner, Sony, and EA. Entertainment-backed generative media roadmaps usually mean a sharp rise in image and audio serving volume, where latency and GPU efficiency decide margin. Modular’s MAX inference engine is built for high-throughput generative workloads and cost control as partner integrations land. Given the round and Stable Audio product momentum, this week is a natural time to compare serving stacks. Would you or your infra lead take a 25-minute call to review a concrete MAX pilot scope?"
+    },
+    {
+      "name": "Liner",
+      "category": "funding",
+      "why": "Today’s $36.1M Series C to take evidence-first AI search into enterprise is a clean new-logo funding trigger; Not in Salesforce and Moderate Reo support outreach now.",
+      "message": "Luke — congrats on the $36.1M Series C and the push to bring evidence-first AI search to enterprise. Enterprise search and agent workloads are inference-sensitive on both latency SLAs and cost as concurrent users grow. Modular’s MAX engine helps teams hit those targets while staying flexible across model mixes (frontier and open). Since you are not yet in our Salesforce pipeline, I wanted to reach out while the raise is fresh. Open to a short intro this week on how MAX could support your enterprise scale-up?"
+    },
+    {
+      "name": "Upstage",
+      "category": "product_launch",
+      "why": "Solar Pro 4’s frontier-score launch plus EY Han Young and HP Korea sovereign/vertical partnerships, with Moderate Reo (10 events), is a strong Not-in-SF product trigger.",
+      "message": "Sung — Solar Pro 4’s Artificial Analysis Index result and the EY Han Young / HP Korea partnerships suggest sovereign and vertical deployments are moving from eval into production. Those environments need controlled, high-performance serving with predictable unit economics. Modular’s MAX inference engine is a strong fit for on-prem and region-bound LLM serving alongside specialized hardware you already explore. We have seen recent engagement from Upstage developers and would like to connect while Solar Pro 4 is ramping. Can we set up a technical session this week on serving cost and latency for Solar?"
+    },
+    {
+      "name": "Wispr Flow",
+      "category": "funding",
+      "why": "The ~$2B valuation and fresh capital attention for real-time voice-to-text, plus Moderate Reo, make this a high-priority new-logo scale-up for latency-sensitive inference.",
+      "message": "Tanay — Reuters’ report on Wispr Flow’s $2B valuation and the follow-on funding attention imply a steep ramp in always-on speech inference. Viral free-tier usage plus enterprise expansion usually stresses latency and serving cost at the same time. Modular’s MAX engine is built for high-throughput, low-latency model serving—relevant if you are optimizing beyond a single hosted path. Not seeing Wispr in Salesforce yet, so I wanted to reach out while the valuation news is current. Would a 20-minute call this week with your ML infra owner make sense?"
+    },
+    {
+      "name": "Abridge",
+      "category": "product_launch",
+      "why": "Rolling context-aware clinical intelligence to every clinician at partner health systems is a production volume trigger, backed by Moderate Reo (10 events) and Not-in-SF status.",
+      "message": "Shiv — saw the Business Wire / Fierce coverage that Abridge is opening context-aware clinical intelligence to every clinician at partner health systems. Broadening from documentation into always-on decision support typically multiplies real-time inference load and tightens latency SLAs. Modular’s MAX stack helps clinical AI teams keep quality high while improving throughput and unit economics at health-system scale. We have recent developer engagement from your domain and would like to align while the rollout is live. Open to a brief technical intro this week with the team owning model serving?"
+    },
+    {
+      "name": "Higgsfield AI",
+      "category": "funding",
+      "why": "The $400M Series B to $5.4B (Aug 17) plus ongoing creator-growth pushes this week signal aggressive video-gen scale; Prospect status and compute intensity justify prioritization despite low Reo.",
+      "message": "Alex — congrats on the $400M Series B that took Higgsfield to a $5.4B valuation. Creator video generation at that growth rate usually becomes an inference margin problem as concurrent generations spike. Modular’s MAX engine focuses on throughput, latency, and cost for generative video serving so growth campaigns do not linearly explode GPU spend. As a Prospect already on our side, this feels like the right week to put a concrete benchmark in front of your infra team. Can we book 30 minutes this week to scope a MAX evaluation on your video stack?"
+    },
+    {
+      "name": "Chai Discovery",
+      "category": "partnership",
+      "why": "Today’s Bristol Myers Squibb collaboration for portfolio-wide AI antibody discovery is a clear pharma-scale compute trigger for a Prospect not yet showing Reo but with immediate workload expansion.",
+      "message": "Team Chai — the Bristol Myers Squibb collaboration to apply generative AI across antibody design is a strong signal that discovery inference will need to run harder and more reliably. Portfolio-scale biologics work typically drives sustained training and serving load where runtime efficiency compounds quickly. Modular’s MAX inference engine helps scientific AI teams raise throughput and control GPU cost without fracturing the stack. Given the announcement timing, we would like to engage while serving requirements are being sized. Would your compute or ML platform lead take a short call this week?"
+    },
+    {
+      "name": "Gamma",
+      "category": "acquisition",
+      "why": "Today’s acquisition of Accel-backed Lica to build an AI design research lab is a fresh new-logo M&A trigger that should expand generative design inference demand.",
+      "message": "Grant — TechCrunch’s report that Gamma acquired Lica to build an AI design research lab suggests a near-term jump in generative design and multimodal inference. Integrating an acquired research stack often forces a rethink of serving cost, latency, and hardware utilization across product surfaces. Modular’s MAX engine is built to make those workloads faster and cheaper without locking you to a single host. Since Gamma is not in Salesforce yet, I wanted to reach out while the acquisition news is current. Open to a 20-minute conversation this week on inference needs post-Lica?"
+    }
+  ]
 }
