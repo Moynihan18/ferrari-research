@@ -21,9 +21,15 @@
         <button class="btn btn-primary" id="outreachBtn">Outreach Plan</button>
       </div>
     </div>
+    <div class="tabbar-inner">
+      <div class="tab-switcher" id="tabSwitcher">
+        <button class="tab-btn active" data-view="accounts" type="button">Sales Accounts</button>
+        <button class="tab-btn" data-view="competitors" type="button">Competitive Intel</button>
+      </div>
+    </div>
   </header>
 
-  <main class="layout">
+  <main class="layout" id="accountsView">
     <aside class="filters">
       <div class="filter-group">
         <label for="search">Search</label>
@@ -82,6 +88,18 @@
     </section>
   </main>
 
+  <main class="layout layout-competitors" id="competitorsView" hidden>
+    <section class="content content-full">
+      <div class="content-header">
+        <div id="competitorResultCount" class="result-count"></div>
+        <div class="chip-row" id="filterCompetitorCategory"></div>
+      </div>
+      <div class="stat-block stat-block-row" id="competitorStatBlock"></div>
+      <div id="competitorCards" class="cards"></div>
+      <div id="competitorEmptyState" class="empty-state" hidden>No competitors match this filter.</div>
+    </section>
+  </main>
+
   <div id="outreachOverlay" class="overlay" hidden>
     <div class="overlay-panel">
       <div class="overlay-header">
@@ -107,6 +125,21 @@
       <div class="card-meta"></div>
       <div class="card-reo"></div>
       <div class="card-platform"></div>
+      <div class="card-news"></div>
+    </article>
+  </template>
+
+  <template id="competitorCardTemplate">
+    <article class="card">
+      <div class="card-head">
+        <div class="card-title">
+          <h3 class="card-name"></h3>
+          <span class="card-domain"></span>
+        </div>
+        <div class="card-badges"></div>
+      </div>
+      <div class="card-meta"></div>
+      <div class="card-description"></div>
       <div class="card-news"></div>
     </article>
   </template>

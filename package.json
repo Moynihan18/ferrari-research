@@ -9,8 +9,10 @@
   },
   "scripts": {
     "seed": "node scripts/seed-companies.js",
+    "seed:competitors": "node scripts/seed-competitors.js",
     "fetch:reo": "node scripts/fetch-reo-activity.js",
     "fetch:news": "node scripts/fetch-news.js",
+    "fetch:competitor-news": "node scripts/fetch-competitor-news.js",
     "generate:outreach": "node scripts/generate-outreach-plan.js",
     "refresh": "node scripts/build.js",
     "serve": "node -e \"require('http').createServer((req,res)=>{const fs=require('fs'),path=require('path');let p=path.join(__dirname, req.url==='/'?'/index.html':req.url); fs.readFile(p,(e,d)=>{if(e){res.writeHead(404);res.end('not found');return;} res.end(d);});}).listen(8080,()=>console.log('http://localhost:8080'))\""

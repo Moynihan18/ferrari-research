@@ -8,6 +8,17 @@
     other: 'Other',
   };
 
+  const COMPETITOR_CATEGORY_LABELS = {
+    pricing: 'Pricing',
+    product_launch: 'Product',
+    funding: 'Funding',
+    partnership: 'Partnership',
+    customer_win: 'Customer win',
+    benchmark_perf: 'Benchmark',
+    leadership: 'Leadership',
+    other: 'Other',
+  };
+
   const state = {
     companies: [],
     newsByCompany: {},
@@ -17,6 +28,11 @@
     search: '',
     onlyNews: false,
     sortBy: 'news',
+
+    view: 'accounts',
+    competitors: [],
+    competitorNewsById: {},
+    competitorFilters: { category: null },
   };
 
   async function fetchJson(path) {
@@ -72,11 +88,13 @@
   }
 
   async function loadData() {
-    const [companiesDoc, newsDoc, reoDoc, planDoc] = await Promise.all([
+    const [companiesDoc, newsDoc, reoDoc, planDoc, competitorsDoc, competitorNewsDoc] = await Promise.all([
       fetchJson('data/companies.json'),
       fetchJson('data/news.json'),
       fetchJson('data/reo_activity.json'),
       fetchJson('data/outreach_plan.json'),
+      fetchJson('data/competitors.json'),
+      fetchJson('data/competitor_news.json'),
     ]);
 
     state.companies = (companiesDoc && companiesDoc.companies) || [];
@@ -86,6 +104,10 @@
 
     newsList.forEach(c => { state.newsByCompany[c.id] = c.news || []; });
     reoList.forEach(c => { state.reoByCompany[c.id] = c.reo || { found: false }; });
+
+    state.competitors = (competitorsDoc && competitorsDoc.competitors) || [];
+    const competitorNewsList = (competitorNewsDoc && competitorNewsDoc.companies) || [];
+    competitorNewsList.forEach(c => { state.competitorNewsById[c.id] = c.news || []; });
 
     const refreshed = (newsDoc && newsDoc.generated_at) || (reoDoc && reoDoc.generated_at) || null;
     document.getElementById('lastRefreshed').textContent = refreshed
@@ -306,6 +328,102 @@
     `;
   }
 
+  function mostRecentCompetitorNewsDate(id) {
+    return mostRecentNewsDate(state.competitorNewsById[id]);
+  }
+
+  function buildCompetitorFilterChips() {
+    const categories = Object.keys(COMPETITOR_CATEGORY_LABELS).map(key => ({ key, label: COMPETITOR_CATEGORY_LABELS[key] }));
+    renderChipGroup('filterCompetitorCategory', categories, state.competitorFilters.category, (key) => {
+      state.competitorFilters.category = state.competitorFilters.category === key ? null : key;
+      renderCompetitors();
+    });
+  }
+
+  function matchesCompetitorFilters(competitor) {
+    const { category } = state.competitorFilters;
+    if (!category) return true;
+    const news = state.competitorNewsById[competitor.id] || [];
+    return news.some(n => n.category === category);
+  }
+
+  function renderCompetitorCard(competitor) {
+    const tpl = document.getElementById('competitorCardTemplate');
+    const node = tpl.content.cloneNode(true);
+    const news = state.competitorNewsById[competitor.id] || [];
+
+    node.querySelector('.card-name').textContent = competitor.name;
+    node.querySelector('.card-domain').textContent = competitor.domain;
+
+    const badges = node.querySelector('.card-badges');
+    const catBadge = document.createElement('span');
+    catBadge.className = 'badge badge-competitor_customer';
+    catBadge.textContent = competitor.category;
+    badges.appendChild(catBadge);
+
+    node.querySelector('.card-description').textContent = competitor.description || '';
+
+    const newsEl = node.querySelector('.card-news');
+    if (!news.length) {
+      newsEl.innerHTML = `<div class="news-empty">No notable competitive moves found in this refresh cycle.</div>`;
+    } else {
+      news
+        .slice()
+        .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+        .forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'news-item';
+          div.style.borderLeftColor = `var(--cat-${item.category || 'other'})`;
+          div.innerHTML = `
+            <div class="news-head">
+              <span class="cat-pill cat-${item.category || 'other'}">${COMPETITOR_CATEGORY_LABELS[item.category] || 'Other'}</span>
+              <span class="news-title">${escapeHtml(item.title || '')}</span>
+              <span class="news-date">${fmtDate(item.date)}</span>
+            </div>
+            <div class="news-summary">${escapeHtml(item.summary || '')}</div>
+            <div class="news-relevance"><b>Why it matters:</b> ${escapeHtml(item.competitive_takeaway || '')}</div>
+            <div class="news-source">${escapeHtml(item.source || '')}${item.url ? ` · <a href="${item.url}" target="_blank" rel="noopener">source</a>` : ''}</div>
+          `;
+          newsEl.appendChild(div);
+        });
+    }
+
+    return node;
+  }
+
+  function renderCompetitors() {
+    buildCompetitorFilterChips();
+    const filtered = state.competitors
+      .filter(matchesCompetitorFilters)
+      .slice()
+      .sort((a, b) => (mostRecentCompetitorNewsDate(b.id) || '0000-00-00').localeCompare(mostRecentCompetitorNewsDate(a.id) || '0000-00-00'));
+
+    const cardsEl = document.getElementById('competitorCards');
+    cardsEl.innerHTML = '';
+    filtered.forEach(c => cardsEl.appendChild(renderCompetitorCard(c)));
+
+    document.getElementById('competitorResultCount').textContent = `${filtered.length} of ${state.competitors.length} competitors`;
+    document.getElementById('competitorEmptyState').hidden = filtered.length !== 0;
+
+    const totalNews = state.competitors.reduce((sum, c) => sum + (state.competitorNewsById[c.id] || []).length, 0);
+    const withMoves = state.competitors.filter(c => (state.competitorNewsById[c.id] || []).length > 0).length;
+    document.getElementById('competitorStatBlock').innerHTML = `
+      <div class="stat-line"><span>Competitors tracked</span><b>${state.competitors.length}</b></div>
+      <div class="stat-line"><span>Competitive moves this cycle</span><b>${totalNews}</b></div>
+      <div class="stat-line"><span>With activity this cycle</span><b>${withMoves}</b></div>
+    `;
+  }
+
+  function switchView(view) {
+    state.view = view;
+    document.getElementById('accountsView').hidden = view !== 'accounts';
+    document.getElementById('competitorsView').hidden = view !== 'competitors';
+    document.getElementById('outreachBtn').hidden = view !== 'accounts';
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.view === view);
+    });
+  }
+
   function renderOutreachPlan() {
     const body = document.getElementById('outreachBody');
     const genEl = document.getElementById('outreachGenerated');
@@ -370,12 +488,16 @@
     document.getElementById('outreachOverlay').addEventListener('click', (e) => {
       if (e.target.id === 'outreachOverlay') document.getElementById('outreachOverlay').hidden = true;
     });
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => switchView(btn.dataset.view));
+    });
   }
 
   async function init() {
     wireControls();
     await loadData();
     render();
+    renderCompetitors();
   }
 
   init();

@@ -4,7 +4,7 @@
 const { execFileSync } = require('child_process');
 const path = require('path');
 
-const steps = ['fetch-reo-activity.js', 'fetch-news.js', 'generate-outreach-plan.js'];
+const steps = ['fetch-reo-activity.js', 'fetch-news.js', 'fetch-competitor-news.js', 'generate-outreach-plan.js'];
 
 for (const step of steps) {
   console.log(`\n=== Running ${step} ===`);

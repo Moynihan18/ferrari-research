@@ -126,10 +126,14 @@ async function searchWithFallbacks(query, limit) {
  * Fetch recent news candidates for one company.
  * Returns a de-duped list of { title, url, source, date, snippet }.
  */
-async function searchCompanyNews(company, { perQuery = 6, maxItems = 10 } = {}) {
+async function searchCompanyNews(company, {
+  perQuery = 6,
+  maxItems = 10,
+  keywords = ['funding', 'acquisition', 'CEO', 'CTO', 'launch', 'partnership'],
+} = {}) {
   const queries = [
     `"${company.name}"`,
-    `${company.name} (funding OR acquisition OR CEO OR CTO OR launch OR partnership)`,
+    `${company.name} (${keywords.join(' OR ')})`,
     company.domain ? `"${company.name}" OR ${company.domain}` : null,
   ].filter(Boolean);
 
@@ -158,14 +162,14 @@ async function searchCompanyNews(company, { perQuery = 6, maxItems = 10 } = {}) 
 /**
  * Prefetch news candidates for a batch of companies (parallel, limited concurrency).
  */
-async function prefetchBatch(companies, { concurrency = 4 } = {}) {
+async function prefetchBatch(companies, { concurrency = 4, keywords } = {}) {
   const results = {};
   let i = 0;
   async function worker() {
     while (i < companies.length) {
       const idx = i++;
       const company = companies[idx];
-      results[company.id] = await searchCompanyNews(company);
+      results[company.id] = await searchCompanyNews(company, keywords ? { keywords } : {});
     }
   }
   await Promise.all(Array.from({ length: Math.min(concurrency, companies.length) }, () => worker()));

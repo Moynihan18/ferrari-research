@@ -1,0 +1,68 @@
+{
+  "generated_at": null,
+  "competitors": [
+    {
+      "id": "baseten",
+      "name": "Baseten",
+      "domain": "baseten.co",
+      "category": "Managed inference platform",
+      "description": "Serverless GPU inference for custom/open-weight models; strong presence among AI-native startups (OpenEvidence, Mercor, Abridge, Clay, and others serve on Baseten)."
+    },
+    {
+      "id": "fireworks-ai",
+      "name": "Fireworks AI",
+      "domain": "fireworks.ai",
+      "category": "Managed inference platform",
+      "description": "Fast inference for open and fine-tuned models, with a fireworks-native serving stack; customers include Cursor, Perplexity, Sourcegraph, Cresta."
+    },
+    {
+      "id": "together-ai",
+      "name": "Together AI",
+      "domain": "together.ai",
+      "category": "Managed inference platform",
+      "description": "GPU cloud + inference platform for open-weight and fine-tuned models; also sells training/fine-tuning; customers include Decagon, Jasper, Upstage, Arcee AI."
+    },
+    {
+      "id": "seldon",
+      "name": "Seldon",
+      "domain": "seldon.io",
+      "category": "MLOps / model-serving platform",
+      "description": "Kubernetes-native model deployment and monitoring platform (Seldon Core), positioned for enterprise MLOps rather than a hosted-inference marketplace."
+    },
+    {
+      "id": "modal",
+      "name": "Modal",
+      "domain": "modal.com",
+      "category": "Serverless compute / inference platform",
+      "description": "Serverless GPU compute platform for running arbitrary Python/ML workloads, popular for real-time inference, fine-tuning, and agentic workloads; customers include Runway, Suno, Hume AI, Cognition."
+    },
+    {
+      "id": "anyscale",
+      "name": "Anyscale",
+      "domain": "anyscale.com",
+      "category": "Distributed compute platform",
+      "description": "Commercial platform built on Ray for distributed training and inference at scale; positions around scaling AI workloads across large GPU clusters."
+    },
+    {
+      "id": "nvidia-dynamo",
+      "name": "NVIDIA Dynamo",
+      "domain": "nvidia.com",
+      "category": "Open-source inference serving framework",
+      "description": "NVIDIA’s open-source, disaggregated-serving inference framework for large-scale LLM deployment across GPU fleets — a direct architectural competitor to MAX at the framework layer."
+    },
+    {
+      "id": "google-cloud-vertex-ai",
+      "name": "Google Cloud Vertex AI",
+      "domain": "cloud.google.com",
+      "category": "Hyperscaler ML platform",
+      "description": "GCP’s managed ML platform, including Model Garden and endpoints for serving first-party (Gemini) and third-party/open models."
+    },
+    {
+      "id": "aws-sagemaker",
+      "name": "AWS SageMaker",
+      "domain": "aws.amazon.com",
+      "category": "Hyperscaler ML platform",
+      "description": "AWS’s managed ML platform, including SageMaker Inference (real-time, serverless, and async endpoints) and Bedrock for hosted foundation models."
+    }
+  ]
+}
