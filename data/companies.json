@@ -21,7 +21,7 @@
       "salesforce_status": "Partner",
       "sf_owner": "Adam Nanjee",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal"
     },
     {
       "id": "z-ai-zhipu",
@@ -42,7 +42,7 @@
       "salesforce_status": "Partner",
       "sf_owner": "Jay Bhadauria",
       "sf_note": "as 'Z.AI'",
-      "modality": "LLM; Video Gen"
+      "modality": "LLM; Image Gen; Video Gen"
     },
     {
       "id": "moonshot-ai",
@@ -63,7 +63,7 @@
       "salesforce_status": "Partner",
       "sf_owner": "Jay Bhadauria",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal"
     },
     {
       "id": "black-forest-labs",
@@ -84,7 +84,7 @@
       "salesforce_status": "Prospect",
       "sf_owner": "Jay Bhadauria",
       "sf_note": "",
-      "modality": "Image Gen"
+      "modality": "Image Gen; Video Gen"
     },
     {
       "id": "poolside",
@@ -147,7 +147,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal"
     },
     {
       "id": "mistral-ai",
@@ -168,7 +168,7 @@
       "salesforce_status": "Partner",
       "sf_owner": "Adam Nanjee",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal; Voice"
     },
     {
       "id": "cohere",
@@ -189,7 +189,7 @@
       "salesforce_status": "Partner",
       "sf_owner": "Adam Nanjee",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal"
     },
     {
       "id": "naver",
@@ -231,7 +231,7 @@
       "salesforce_status": "Prospect",
       "sf_owner": "Jay Bhadauria",
       "sf_note": "",
-      "modality": "LLM; Voice"
+      "modality": "LLM; Voice; Multimodal"
     },
     {
       "id": "g42-core42",
@@ -273,7 +273,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal"
     },
     {
       "id": "anysphere-cursor",
@@ -420,7 +420,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Image Gen"
     },
     {
       "id": "openevidence",
@@ -441,7 +441,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "Search/Agents; Voice"
     },
     {
       "id": "mercor",
@@ -462,7 +462,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "Data/Eval"
     },
     {
       "id": "abridge",
@@ -504,7 +504,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "Search/Agents"
     },
     {
       "id": "eliseai",
@@ -525,7 +525,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "Voice"
+      "modality": "LLM; Voice"
     },
     {
       "id": "gamma",
@@ -546,7 +546,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Image Gen"
     },
     {
       "id": "hebbia",
@@ -567,7 +567,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Multimodal"
     },
     {
       "id": "descript",
@@ -693,7 +693,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "Code"
     },
     {
       "id": "picnichealth",
@@ -735,7 +735,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "LLM; Voice"
     },
     {
       "id": "lovable",
@@ -819,7 +819,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "Search/Agents"
+      "modality": "Search/Agents; Multimodal"
     },
     {
       "id": "lmarena",
@@ -840,7 +840,7 @@
       "salesforce_status": "Not in SF",
       "sf_owner": "",
       "sf_note": "",
-      "modality": "LLM"
+      "modality": "Multimodal"
     }
   ]
 }

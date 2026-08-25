@@ -6,10 +6,11 @@ A weekly-refreshed research dashboard with two tabs:
   pipeline — see below) plus 27 competitor inference customers, for 40
   accounts total. For each account it surfaces recent news (acquisitions,
   funding, leadership changes, product launches, partnerships) with a
-  sales-relevance note, live Reo.dev account activity, a modality tag (LLM,
-  Voice, Image Gen, Video Gen, Code, Multimodal, Search/Agents), and a
-  precomputed weekly outreach plan with draft messages for the accounts most
-  worth contacting.
+  sales-relevance note, live Reo.dev account activity, a research-verified
+  modality tag (LLM, Voice, Image Gen, Video Gen, Code, Multimodal,
+  Search/Agents, Data/Eval) with dedicated filter chips and sort buttons, and
+  a precomputed weekly outreach plan with draft messages for the accounts
+  most worth contacting.
 - **Competitive Intel** — tracks 9 inference/ML-platform competitors
   (Baseten, Fireworks AI, Together AI, Seldon, Modal, Anyscale, NVIDIA
   Dynamo, Google Cloud Vertex AI, AWS SageMaker) and surfaces their recent
@@ -126,10 +127,16 @@ Run workflow**.
   Helsing, Aleph Alpha) are deliberately excluded per that doc. Re-narrow or
   widen the list by editing the model-lab rows directly.
 - **Modality field**: each account has a `modality` string (semicolon-
-  separated, e.g. `"LLM; Voice"`) driving the Modality filter chips. It's
-  manually assigned in `scripts/seed-companies.js` based on each company's
-  primary product(s) — there's no automated classification, so update it by
-  hand alongside any other row edits.
+  separated, e.g. `"LLM; Voice"`) driving both the Modality filter chips
+  (hide non-matching accounts) and the "Sort by modality" buttons (reorder,
+  matching accounts first, without hiding anything else). It was assigned in
+  `scripts/seed-companies.js` from a one-time web-research pass on what
+  models/modalities each company actually builds or consumes (Aug 2026) —
+  there's no automated classification going forward, so update it by hand
+  alongside any other row edits if a company's product changes. Mercor
+  doesn't fit the modality taxonomy at all (it's a human-expert data/eval
+  marketplace, not a model-modality product), so it gets its own `Data/Eval`
+  tag rather than being forced into a bad fit.
 - **`fetch-news.js` and `generate-outreach-plan.js` run on the Cursor CLI
   agent**, not a hosted LLM API. News *discovery* is done by
   `scripts/lib/news-search.js` (Google News / Bing RSS, GDELT fallback) because

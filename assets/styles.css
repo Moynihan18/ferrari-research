@@ -212,10 +212,12 @@ body {
 
 .content-header {
   display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 10px;
   margin-bottom: 14px;
 }
 .result-count { font-size: 13px; color: var(--text-muted); }
-.sort-row { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--text-muted); }
+.sort-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12.5px; color: var(--text-muted); }
+.sort-row-label { font-weight: 600; white-space: nowrap; }
 .sort-row select {
   border: 1px solid var(--border);
   background: var(--surface);

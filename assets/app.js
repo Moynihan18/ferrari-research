@@ -28,6 +28,7 @@
     search: '',
     onlyNews: false,
     sortBy: 'news',
+    modalitySort: null,
 
     view: 'accounts',
     competitors: [],
@@ -169,6 +170,13 @@
       state.filters.platform = state.filters.platform === key ? null : key;
       render();
     });
+
+    // Sort buttons: reorder (bring matching modality to the top) rather than
+    // hide non-matching accounts, unlike the Modality filter chips above.
+    renderChipGroup('sortModality', modalities.map(m => ({ key: m, label: m })), state.modalitySort, (key) => {
+      state.modalitySort = state.modalitySort === key ? null : key;
+      render();
+    });
   }
 
   function renderChipGroup(containerId, items, activeKey, onClick) {
@@ -227,6 +235,10 @@
         const db = mostRecentNewsDate(state.newsByCompany[b.id]) || '0000-00-00';
         return db.localeCompare(da);
       });
+    }
+    if (state.modalitySort) {
+      const matches = (c) => getModalities(c).includes(state.modalitySort) ? 0 : 1;
+      copy.sort((a, b) => matches(a) - matches(b));
     }
     return copy;
   }
