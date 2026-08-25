@@ -18,7 +18,7 @@ data/outreach_plan.json    - ranked weekly outreach targets with draft messages
 index.html + assets/       - static dashboard that reads the data/*.json files
 
 scripts/fetch-reo-activity.js    - pulls live Reo.dev signals via the public REST API
-scripts/fetch-news.js             - researches recent news per account (Claude + web search)
+scripts/fetch-news.js             - researches recent news per account (Cursor CLI agent + its web search)
 scripts/generate-outreach-plan.js - ranks accounts and drafts outreach messages (Claude)
 scripts/build.js                  - runs the three steps above in order
 
@@ -41,13 +41,14 @@ npm run serve
 ## Setting up the weekly automation
 
 The GitHub Action (`.github/workflows/weekly-refresh.yml`) runs every Monday at
-12:00 UTC, refreshes `data/*.json`, commits the result, and publishes the
-dashboard to GitHub Pages. It needs three repo secrets configured under
-**Settings → Secrets and variables → Actions**:
+12:00 UTC, installs the Cursor CLI, refreshes `data/*.json`, commits the
+result, and publishes the dashboard to GitHub Pages. It needs four repo
+secrets configured under **Settings → Secrets and variables → Actions**:
 
 | Secret | Used for | How to get it |
 | --- | --- | --- |
-| `ANTHROPIC_API_KEY` | News research (`fetch-news.js`) and outreach plan generation (`generate-outreach-plan.js`), both via the Claude API with web search | [console.anthropic.com](https://console.anthropic.com) → API keys |
+| `CURSOR_API_KEY` | News research (`fetch-news.js`), via the headless Cursor CLI agent's own web search tool | Cursor dashboard → API keys |
+| `ANTHROPIC_API_KEY` | Outreach plan generation (`generate-outreach-plan.js`) via the Claude API | [console.anthropic.com](https://console.anthropic.com) → API keys |
 | `REO_API_KEY` | Live Reo.dev account activity (`fetch-reo-activity.js`) | Reo dashboard → Settings → Configurations → API Keys → "Product Export & Zapier Integration" → copy the Data-out key (admin role required) |
 | `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 87 accounts, then copy its segment ID from the Reo UI |
 
@@ -55,12 +56,26 @@ You'll also need to enable GitHub Pages for this repo: **Settings → Pages →
 Source: GitHub Actions**.
 
 Without these secrets, `fetch-reo-activity.js` writes an empty result rather
-than failing the whole run, but `fetch-news.js` and `generate-outreach-plan.js`
-require `ANTHROPIC_API_KEY` to do anything useful.
+than failing the whole run, but `fetch-news.js` requires `CURSOR_API_KEY` and
+`generate-outreach-plan.js` requires `ANTHROPIC_API_KEY` to do anything useful.
+
+**Unresolved risk with `fetch-news.js`:** there's a community report (Cursor
+forum, Nov 2025) that the Cursor CLI agent lost access to its `web_search`
+tool in headless/print mode. This repo can't verify that from CI. Watch the
+first few runs' `data/news.json` — if items start showing up with no real
+`url`/`source` (or the batch results look invented rather than found), the
+CLI isn't actually searching and `fetch-news.js` needs to move back to an
+API with a guaranteed web-search tool (it was previously implemented against
+the Claude API with `web_search_20260209` — see git history — which is a
+known-working fallback).
 
 ### Running the refresh manually
 
 ```bash
+# fetch-news.js needs the Cursor CLI installed and on PATH:
+curl https://cursor.com/install -fsS | bash
+
+export CURSOR_API_KEY=...
 export ANTHROPIC_API_KEY=...
 export REO_API_KEY=...
 export REO_SEGMENT_ID=...
