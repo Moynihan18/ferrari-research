@@ -3,8 +3,10 @@
 A weekly-refreshed research dashboard with two tabs:
 
 - **Sales Accounts** — tracks 13 AI model labs (the "Top 13 Whale Prospects"
-  pipeline — see below) plus 27 competitor inference customers, for 40
-  accounts total. For each account it surfaces recent news (acquisitions,
+  pipeline — see below) plus 49 competitor inference customers (including
+  the named customer lists Baseten, Fireworks AI, and Together AI publish
+  themselves), for 62 accounts total. For each account it surfaces recent
+  news (acquisitions,
   funding, leadership changes, product launches, partnerships) with a
   sales-relevance note, live Reo.dev account activity, a research-verified
   modality tag (LLM, Voice, Image Gen, Video Gen, Code, Multimodal,
@@ -22,7 +24,7 @@ A weekly-refreshed research dashboard with two tabs:
 ## How it works
 
 ```
-data/companies.json       - the 40-account list (name, domain, CEO, valuation, SF status, modality, ...)
+data/companies.json       - the 62-account list (name, domain, CEO, valuation, SF status, modality, ...)
 data/news.json             - recent news per account, classified + summarized
 data/reo_activity.json     - Reo.dev engagement signal per account
 data/outreach_plan.json    - ranked weekly outreach targets with draft messages
@@ -69,7 +71,7 @@ secrets configured under **Settings → Secrets and variables → Actions**:
 | --- | --- | --- |
 | `CURSOR_API_KEY` | News classification/summarization (`fetch-news.js`, `fetch-competitor-news.js`) and outreach plan generation (`generate-outreach-plan.js`) via the headless Cursor CLI agent. News *discovery* uses Google News RSS from the runner (not Cursor web_search). | Cursor dashboard → API keys |
 | `REO_API_KEY` | Live Reo.dev account activity (`fetch-reo-activity.js`) | Reo dashboard → Settings → Configurations → API Keys → "Product Export & Zapier Integration" → copy the Data-out key (admin role required) |
-| `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 40 accounts, then copy its segment ID from the Reo UI |
+| `REO_SEGMENT_ID` | Resolving each account's domain to a Reo `account_id` | Create (or reuse) a Reo segment/list that contains these 62 accounts, then copy its segment ID from the Reo UI |
 
 You'll also need to enable GitHub Pages for this repo: **Settings → Pages →
 Source: GitHub Actions**.
@@ -125,7 +127,13 @@ Run workflow**.
   Microsoft, Amazon, NVIDIA) plus several other labs (Alibaba, ByteDance,
   Tencent, MiniMax, LG AI Research, H Company, StepFun, Baidu, Sakana,
   Helsing, Aleph Alpha) are deliberately excluded per that doc. Re-narrow or
-  widen the list by editing the model-lab rows directly.
+  widen the list by editing the model-lab rows directly. The competitor
+  inference customers include 22 companies pulled from a "Target Customers"
+  slide listing Baseten's, Fireworks AI's, and Together AI's own named
+  customers (Writer, Notion, Salesforce, Cognition, AI21 Labs, etc.) — several
+  of these are large/established companies whose exact AI-feature workload on
+  that platform isn't independently confirmed (flagged in their
+  `key_context`), only that the platform names them as a customer.
 - **Modality field**: each account has a `modality` string (semicolon-
   separated, e.g. `"LLM; Voice"`) driving both the Modality filter chips
   (hide non-matching accounts) and the "Sort by modality" buttons (reorder,
