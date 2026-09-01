@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-08-25T18:24:06.996Z",
+  "generated_at": "2026-08-31T18:57:50.988Z",
   "companies": [
     {
       "id": "deepseek",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "z-ai-zhipu",
       "reo": {
         "found": false,
         "note": "Domain not present in the configured Reo segment."
@@ -23,7 +30,14 @@
       }
     },
     {
-      "id": "mistral-ai",
+      "id": "black-forest-labs",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "poolside",
       "reo": {
         "found": false,
         "note": "Domain not present in the configured Reo segment."
@@ -37,7 +51,28 @@
       }
     },
     {
-      "id": "black-forest-labs",
+      "id": "humain",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "mistral-ai",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "cohere",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "naver",
       "reo": {
         "found": false,
         "note": "Domain not present in the configured Reo segment."
@@ -45,6 +80,13 @@
     },
     {
       "id": "sarvam-ai",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "g42-core42",
       "reo": {
         "found": false,
         "note": "Domain not present in the configured Reo segment."
@@ -86,8 +128,8 @@
         "developer_stage": "LOW",
         "engagement_score": null,
         "intent_level": "High",
-        "last_activity_date": "2026-08-18",
-        "total_events_90d": 53,
+        "last_activity_date": "2026-08-12",
+        "total_events_90d": 43,
         "open_roles": null,
         "note": "12 distinct developer(s) active in the last 90 days."
       }
@@ -290,7 +332,7 @@
         "engagement_score": null,
         "intent_level": "Moderate",
         "last_activity_date": "2026-08-21",
-        "total_events_90d": 14,
+        "total_events_90d": 8,
         "open_roles": null,
         "note": "1 distinct developer(s) active in the last 90 days."
       }
@@ -360,9 +402,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 151,
+        "total_events_90d": 155,
         "open_roles": null,
-        "note": "46 distinct developer(s) active in the last 90 days."
+        "note": "45 distinct developer(s) active in the last 90 days."
       }
     },
     {
