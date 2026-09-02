@@ -29,6 +29,7 @@
     onlyNews: false,
     sortBy: 'news',
     modalitySort: null,
+    cardView: 'expanded',
 
     view: 'accounts',
     competitors: [],
@@ -337,12 +338,48 @@
     return String(str).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
 
+  function accountTypeLabel(company) {
+    return company.tab === 'model_lab' ? 'Model Lab' : 'Inference Customer';
+  }
+
+  function pillList(items, pillClass) {
+    if (!items.length) return '<span class="cell-muted">—</span>';
+    return items.map(v => `<span class="${pillClass}">${escapeHtml(v)}</span>`).join(' ');
+  }
+
+  function renderSimpleRow(company) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="simple-company">
+        <div class="simple-company-name">${escapeHtml(company.name)}</div>
+        <div class="simple-company-domain">${escapeHtml(company.domain || '')}</div>
+      </td>
+      <td>${escapeHtml(accountTypeLabel(company))}</td>
+      <td>${company.region ? escapeHtml(company.region) : '<span class="cell-muted">—</span>'}</td>
+      <td>${pillList(getModalities(company), 'modality-pill')}</td>
+      <td>${pillList(getPlatforms(company), 'platform-pill')}</td>
+    `;
+    return tr;
+  }
+
   function render() {
     buildFilterChips();
     const filtered = sortCompanies(state.companies.filter(matchesFilters));
+
     const cardsEl = document.getElementById('cards');
-    cardsEl.innerHTML = '';
-    filtered.forEach(c => cardsEl.appendChild(renderCard(c)));
+    const tableWrap = document.getElementById('simpleTableWrap');
+    if (state.cardView === 'simple') {
+      cardsEl.hidden = true;
+      tableWrap.hidden = false;
+      const tbody = document.getElementById('simpleTableBody');
+      tbody.innerHTML = '';
+      filtered.forEach(c => tbody.appendChild(renderSimpleRow(c)));
+    } else {
+      tableWrap.hidden = true;
+      cardsEl.hidden = false;
+      cardsEl.innerHTML = '';
+      filtered.forEach(c => cardsEl.appendChild(renderCard(c)));
+    }
 
     document.getElementById('resultCount').textContent = `${filtered.length} of ${state.companies.length} accounts`;
     document.getElementById('emptyState').hidden = filtered.length !== 0;
@@ -520,6 +557,15 @@
     });
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => switchView(btn.dataset.view));
+    });
+    document.querySelectorAll('.view-toggle-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.cardView = btn.dataset.viewMode;
+        document.querySelectorAll('.view-toggle-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.viewMode === state.cardView);
+        });
+        render();
+      });
     });
   }
 

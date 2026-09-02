@@ -215,6 +215,7 @@ body {
   flex-wrap: wrap; gap: 10px;
   margin-bottom: 14px;
 }
+.header-left { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .result-count { font-size: 13px; color: var(--text-muted); }
 .sort-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12.5px; color: var(--text-muted); }
 .sort-row-label { font-weight: 600; white-space: nowrap; }
@@ -227,11 +228,45 @@ body {
   font-size: 12.5px;
 }
 
+.view-toggle { display: flex; gap: 2px; background: var(--surface-2); border-radius: 8px; padding: 2px; }
+.view-toggle-btn {
+  border: none; background: transparent; color: var(--text-muted);
+  padding: 5px 12px; border-radius: 6px; font-size: 12.5px; font-weight: 600;
+  cursor: pointer;
+}
+.view-toggle-btn:hover { color: var(--text); }
+.view-toggle-btn.active { background: var(--surface); color: var(--accent-2); box-shadow: var(--shadow); }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 14px;
 }
+.cards[hidden] { display: none; }
+
+.simple-table-wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow-x: auto;
+}
+.simple-table-wrap[hidden] { display: none; }
+.simple-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.simple-table th, .simple-table td {
+  text-align: left; padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.simple-table th {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em;
+  color: var(--text-faint); background: var(--surface-2); white-space: nowrap;
+}
+.simple-table tbody tr:last-child td { border-bottom: none; }
+.simple-table tbody tr:hover { background: var(--surface-2); }
+.simple-company-name { font-weight: 650; color: var(--text); }
+.simple-company-domain { font-size: 11.5px; color: var(--text-faint); }
+.simple-table td .modality-pill, .simple-table td .platform-pill { margin: 2px 3px 2px 0; display: inline-block; }
+.cell-muted { color: var(--text-faint); }
 
 .card {
   background: var(--surface);

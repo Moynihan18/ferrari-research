@@ -78,7 +78,13 @@
 
     <section class="content">
       <div class="content-header">
-        <div id="resultCount" class="result-count"></div>
+        <div class="header-left">
+          <div id="resultCount" class="result-count"></div>
+          <div class="view-toggle" id="viewToggle">
+            <button class="view-toggle-btn active" data-view-mode="expanded" type="button">Expanded</button>
+            <button class="view-toggle-btn" data-view-mode="simple" type="button">Simple</button>
+          </div>
+        </div>
         <div class="sort-row">
           <span class="sort-row-label">Sort by modality</span>
           <div class="chip-row" id="sortModality"></div>
@@ -91,6 +97,20 @@
         </div>
       </div>
       <div id="cards" class="cards"></div>
+      <div id="simpleTableWrap" class="simple-table-wrap" hidden>
+        <table class="simple-table" id="simpleTable">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Account type</th>
+              <th>Region</th>
+              <th>Modality</th>
+              <th>Currently serving on</th>
+            </tr>
+          </thead>
+          <tbody id="simpleTableBody"></tbody>
+        </table>
+      </div>
       <div id="emptyState" class="empty-state" hidden>No accounts match these filters.</div>
     </section>
   </main>
