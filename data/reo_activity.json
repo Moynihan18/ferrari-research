@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:57:50.988Z",
+  "generated_at": "2026-09-07T17:33:46.582Z",
   "companies": [
     {
       "id": "deepseek",
@@ -332,7 +332,7 @@
         "engagement_score": null,
         "intent_level": "Moderate",
         "last_activity_date": "2026-08-21",
-        "total_events_90d": 8,
+        "total_events_90d": 4,
         "open_roles": null,
         "note": "1 distinct developer(s) active in the last 90 days."
       }
@@ -402,9 +402,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 155,
+        "total_events_90d": 146,
         "open_roles": null,
-        "note": "45 distinct developer(s) active in the last 90 days."
+        "note": "40 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -433,6 +433,258 @@
         "total_events_90d": 0,
         "open_roles": null,
         "note": "0 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "writer",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "Moderate",
+        "last_activity_date": "2026-08-12",
+        "total_events_90d": 9,
+        "open_roles": null,
+        "note": "3 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "patreon",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "heygen",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "LOW",
+        "engagement_score": null,
+        "intent_level": "Low",
+        "last_activity_date": "2026-05-10",
+        "total_events_90d": 0,
+        "open_roles": null,
+        "note": "0 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "rime",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "notion",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "LOW",
+        "engagement_score": null,
+        "intent_level": "Moderate",
+        "last_activity_date": "2026-07-08",
+        "total_events_90d": 3,
+        "open_roles": null,
+        "note": "2 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "uber",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-08-19",
+        "total_events_90d": 84,
+        "open_roles": null,
+        "note": "52 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "doordash",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-08-19",
+        "total_events_90d": 113,
+        "open_roles": null,
+        "note": "41 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "shopify",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-08-19",
+        "total_events_90d": 312,
+        "open_roles": null,
+        "note": "89 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "quora",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "LOW",
+        "engagement_score": null,
+        "intent_level": "Low",
+        "last_activity_date": "2026-05-21",
+        "total_events_90d": 0,
+        "open_roles": null,
+        "note": "0 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "upwork",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-08-17",
+        "total_events_90d": 22,
+        "open_roles": null,
+        "note": "6 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "gitlab",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "Moderate",
+        "last_activity_date": "2026-08-11",
+        "total_events_90d": 4,
+        "open_roles": null,
+        "note": "4 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "samsung",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-09-01",
+        "total_events_90d": 484,
+        "open_roles": null,
+        "note": "214 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "salesforce",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-08-19",
+        "total_events_90d": 195,
+        "open_roles": null,
+        "note": "78 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "zoom",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "HIGH",
+        "engagement_score": null,
+        "intent_level": "High",
+        "last_activity_date": "2026-08-12",
+        "total_events_90d": 33,
+        "open_roles": null,
+        "note": "18 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "sk-telecom",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "MEDIUM",
+        "engagement_score": null,
+        "intent_level": "Moderate",
+        "last_activity_date": "2026-06-24",
+        "total_events_90d": 1,
+        "open_roles": null,
+        "note": "1 distinct developer(s) active in the last 90 days."
+      }
+    },
+    {
+      "id": "cognition",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "zomato",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "krea",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "cartesia",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "hedra",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "ai21-labs",
+      "reo": {
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
+      }
+    },
+    {
+      "id": "washington-post",
+      "reo": {
+        "found": true,
+        "customer_fit_score": null,
+        "developer_stage": "LOW",
+        "engagement_score": null,
+        "intent_level": "Moderate",
+        "last_activity_date": "2026-08-12",
+        "total_events_90d": 1,
+        "open_roles": null,
+        "note": "1 distinct developer(s) active in the last 90 days."
       }
     }
   ]
