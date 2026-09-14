@@ -1,44 +1,26 @@
 {
-  "generated_at": "2026-09-07T17:50:18.119Z",
+  "generated_at": "2026-09-14T18:12:12.118Z",
   "companies": [
     {
       "id": "baseten",
       "news": [
         {
-          "date": "2026-06-22",
-          "category": "funding",
-          "title": "Baseten Raises $1.5 Billion to Power the Next Era of AI Inference",
-          "source": "Business Wire",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQmdXckdPbEFzUkhLZ2tHbUstSUZGM1ROS3ZoZEtnd3N2djdwQkk0akxJZWRuRWMtUk5TWi1PVHMtbFhpc0hwOGxPOUU5NEhIN1BQMFNxcHNuaE1VUzNYVkNxdVJzRzN5d2xDdkYtUVRYVWc0TzJOWW1CbFdCY3lkQTgtNW1QeGpGN3ctU0NVRnF5SVRfTGVkNjlzaVNmd0tlWEh0V3hJS2o3WkRzZF9rSkVGTlJlWmlrMjZsZnE1d1JaQQ?oc=5",
-          "summary": "Baseten announced a $1.5 billion raise aimed at scaling its AI inference platform. The round follows closely after prior mega-funding and reinforces its war chest for inference infrastructure.",
-          "competitive_takeaway": "A very large capital raise lets Baseten compete harder on capacity, price, and go-to-market against Modular’s MAX-based inference offering."
-        },
-        {
-          "date": "2026-06-22",
-          "category": "funding",
-          "title": "AI startup Baseten hits $13 billion valuation as Australia's Blackbird makes record bet",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZmFKWmloVXY5S2JycVlGRWJPUEwxSzNwRGw2SnhVVjE2RnFRMmRDbUJZMnFNUFR4b3M4b1JoUzAyQ3dad21takxpMzdsVmFnd0pmVE96cVlyR0g1V25oSHJzMlVzdFltMTZBXzdQcHNqWFRQUGRQZkVIQWtfZnpRMTJaU1Jnc3NjUHo2T05FWWZBT3hUTXJPdXBaRDNoYy14OFp3M0FqcXBaV0s4QnZNUTFvbXFQVmM1el85WWZHaElzbDlSTC1HMGZxYUpyQQ?oc=5",
-          "summary": "Reuters reported Baseten reached a $13 billion valuation, with Australia’s Blackbird making a record bet on the company. The valuation marks Baseten as one of the most richly valued pure-play inference startups.",
-          "competitive_takeaway": "The $13B mark raises buyer expectations and sales pressure in managed inference deals where Modular must differentiate on performance and cost, not brand scale."
-        },
-        {
-          "date": "2026-06-18",
+          "date": "2026-09-10",
           "category": "other",
-          "title": "Exclusive | Baseten, the $13 Billion AI Startup Betting on Cheaper Alternatives to OpenAI, Anthropic",
-          "source": "wsj.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOXJ4bWdVcDZ5RHZmbEtLa0NJUGxCdWl5a0U2NWx1SnNaOEJyZTU0VmNaY0VOTGRSRTdOVnlKdHNrUzlqblFKRGdvX3Q3T0ZGVlkxbVNoVk9XWUh2bUtqWVFldWlnR3RETmxVczJULU5WMDN4b0pfak4zUl9nSGpUaXZxVlVqNzBVRzBUNGc3ZldHQU1WRFBkanBSVl8zWnpMcDh4ckVYc2hHOHdJbWNqQW5YaTc?oc=5",
-          "summary": "WSJ framed Baseten’s strategy as scaling inference on cheaper alternatives to frontier closed models from OpenAI and Anthropic. The piece ties its high valuation to that open/alternative-model inference bet.",
-          "competitive_takeaway": "Baseten is positioning on cost-efficient alternative-model serving—an area where Modular should pressure-test MAX’s TCO and model-portability story."
+          "title": "Exclusive: Baseten buys agentic infrastructure startup Blaxel",
+          "source": "Axios",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNlI4VTRBNmtKYWtqbE42N0RqajBTN1VqNmxrNFVKMGIzSmxJV3J1YlV1cktQXzJ0cVRkTjNIMDhiT3ZsQzY4OTl0MEF2RkVldVBuMnc0d255ak5DNkdYZFNCbG55M2pnckl6Wm5uejFSYU91R3V1MGxlaDZqaHJyU1ZWTmRLUDBvSlNLSTJXS1J3RG5PSS1Vclh0Zk5FTVBIYWc?oc=5",
+          "summary": "Baseten acquired Blaxel, an agentic infrastructure startup, in a deal covered as exclusive by Axios. The move expands Baseten beyond managed inference into agent-runtime capabilities.",
+          "competitive_takeaway": "Baseten is bundling inference with agent sandboxes/runtimes, raising the bar for end-to-end agent platforms versus inference-engine-only offerings like Modular MAX."
         },
         {
-          "date": "2026-05-20",
-          "category": "partnership",
-          "title": "Benchling and Baseten Partner to Bring AI Inference to Biotech R&D",
-          "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX0xHYzc0TERuMnppeWFsWXVfMEhnVUp6R3Y3ZWN4MzBNNDlJWEtRTXVwdWR2SzVLMVBxd0VIMmZUNWxjR1MtNXVwSEZtT2NYcGJ5RWZJc0FGVGQ4UXQyWV9vVGNoZjdVU2NPZFVpVU9vWnFSenNmVFdrZkZtZ215X3JfWmtsZTRBc1VFQnc2U0JlaGFrMnptVFEwRGRBUzFyRnZ3NXZ3RWdkSXlsa05Gd2phYWpsTmpvaUJWQ2RB?oc=5",
-          "summary": "Benchling and Baseten partnered to bring AI inference into biotech R&D workflows. The deal targets domain-specific enterprise use rather than generic chat serving.",
-          "competitive_takeaway": "Vertical wins in biotech R&D show Baseten landing regulated/enterprise workflows Modular may need dedicated industry plays to contest."
+          "date": "2026-09-10",
+          "category": "product_launch",
+          "title": "Baseten buys Blaxel to build a runtime for AI agents in production",
+          "source": "Dealroom",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVHhDbnZnaUlxZ0w1YWhKNWFvM2tORHFMZjJJT1pnbHliU3BrbWZYQ1F5bkF2emZGZmpvSF8ybzlza0w1WFF5ZjdLUGFZZG1PbEVscV8zRWtqSnBXNjIwdW5USGpORXhVLWxLaDAzY2wzM2xSa2sxUDRjMmtTX2U0QzNHS3Zha1pBajhwR1lMZVIzdnVtclFmcTBMX0kzdFE2NHc?oc=5",
+          "summary": "Coverage frames the Blaxel deal as enabling a production runtime for AI agents, not only a sandbox tooling tuck-in. Baseten is positioning an integrated agentic infrastructure platform.",
+          "competitive_takeaway": "Production agent runtimes tied to managed inference could pull workloads away from customers who might otherwise bring their own engine (e.g., MAX) into self-managed stacks."
         }
       ]
     },
@@ -48,11 +30,11 @@
         {
           "date": "2026-07-16",
           "category": "funding",
-          "title": "AI infrastructure startup Fireworks closes $1.5B round at $17.5B valuation",
-          "source": "SiliconANGLE",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSW5sYzhRWERzUW1tYmVVNTlYTGNtdzBsYlRaTnN6OHhiTldzUnc4cXo4d2J1TzZscXRMaWhzaXBnblBwNDNPSERqcEdOWEJ3ZHlFeDVlbmJDdWxFTkJOOExYbTBualRRWDV4MEhULUJOT2QxNzR1UjBPOHhLT0Q5WnNKbzNzaEphQUZBRDl4eUliLVNrSHlOSUh0ZjBFdVhqaXVEQnZ3TzZSUQ?oc=5",
-          "summary": "Fireworks closed a $1.5 billion round at a $17.5 billion valuation, underscoring investor appetite for high-performance inference infrastructure. The size of the round expands its ability to scale capacity and sales.",
-          "competitive_takeaway": "Fireworks’ $17.5B valuation and war chest intensify capital-backed competition against Modular in managed/high-performance inference."
+          "title": "Fireworks AI raises $1.5 billion Series D at $17.5 billion valuation",
+          "source": "qz.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
+          "summary": "Fireworks AI closed a $1.5 billion Series D at a $17.5 billion valuation. The round substantially increases capital available for scale and go-to-market.",
+          "competitive_takeaway": "A multi-billion-dollar war chest intensifies pricing and capacity competition against Modular in managed/open-model inference."
         },
         {
           "date": "2026-07-23",
@@ -60,26 +42,17 @@
           "title": "Fireworks AI Closes Over $1.5 Billion in Series D Funding",
           "source": "orrick.com",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZjR0SlI5TU5rSU5HT3p0bzdRWUxQbEhjSlFENWp0YldvNDFGam5mRk0wLUwwVzdsTHZ5alQwLWoteC1WN01sbzRHQUtobThocGRmSlVqcXRCazc4WWZrOWdrTXNqZ01HWHNuNUlPUW9YTV9NOXlQVGkwN0tuV3dhTjBybGhRcTZuTDlzTmMwT3BYZ2hzdjFjeUdabw?oc=5",
-          "summary": "Counsel coverage confirmed Fireworks AI closed over $1.5 billion in Series D funding. It corroborates the scale of the company’s latest growth financing.",
-          "competitive_takeaway": "Confirmed Series D scale means sustained pricing and capacity pressure from Fireworks in open-model inference bake-offs."
+          "summary": "Orrick reported Fireworks AI closing over $1.5 billion in Series D funding, confirming the scale of the round from a legal/advisory perspective.",
+          "competitive_takeaway": "Confirmed mega-round signals sustained investment in Fireworks’ inference stack and customer acquisition, pressuring Modular on enterprise deals."
         },
         {
           "date": "2026-07-18",
-          "category": "product_launch",
+          "category": "other",
           "title": "Lin Qiao’s Fireworks AI Bets on Specialized Models Over General A.I. Hype",
           "source": "observer.com",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNGdoeS1uT0hFTHZlMElWaU9CS2RqQ296d2RGcjF6eUdOcEpUSGlDSTZqTjRLaDZfT0Y3bFhiQ3ZFeTZyNjZtbnByQkxXUmQ1VDhpeFdQLWJBMUlPZlI3cGhBdHdoYldieGJ6djM4alltV0w0WjJTRWZURWRsX0FtTnhSZFpDTzBWYTR6anNYTjFaS1BMUEd2aHBxajU2S09ncFVN?oc=5",
-          "summary": "Fireworks CEO Lin Qiao publicly emphasized specialized models over general AI hype as the company’s strategic bet. The framing prioritizes tailored model serving versus one-size-fits-all frontier APIs.",
-          "competitive_takeaway": "Specialized-model focus is a wedge Modular should match with MAX performance claims on fine-tuned and domain models."
-        },
-        {
-          "date": "2026-08-13",
-          "category": "other",
-          "title": "Fireworks AI CEO Lin Qiao: post-training is how startups bake in their taste and own their intelligence",
-          "source": "Dealroom",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOck9qTExNamJYSjY4MmpyZGRiY09VOWNqNVJPZzVWUkJoMFpVOGRIRE92dUFHSlpITlZ2RTV3T1dicnRQMGcyUUZFM3JaRDcxLUg4bl92VWlCTmZxdXNDUC1wU1ljWVRyNTEtT0N4TFhFdXd2dkRfWlRsOVR1VzVkeERMTnBKLUVKazl2Vk9memxGQm1kdEMtbFd0RGE4bTR1bVhwY3RrVEh0LUtRSjdqckRWYnVVVTRJSFcyOXBTaTdXU2RnVDRFa3oxQ0U3ZEg3UlE?oc=5",
-          "summary": "In a Dealroom interview, Qiao argued post-training is how startups encode product taste and own their intelligence stack. The comments reinforce Fireworks’ alignment with customization beyond base-model hosting.",
-          "competitive_takeaway": "Post-training-centric messaging blurs inference and customization—Modular should clarify where MAX wins on serving customized models efficiently."
+          "summary": "Fireworks CEO Lin Qiao publicly emphasized specialized models over general-purpose AI narrative hype. The piece highlights Fireworks’ product strategy focus.",
+          "competitive_takeaway": "Specialized-model inference positioning may overlap Modular’s performance-focused value prop—worth tracking which vertical workloads Fireworks claims to win."
         }
       ]
     },
@@ -87,31 +60,40 @@
       "id": "together-ai",
       "news": [
         {
-          "date": "2026-09-02",
-          "category": "partnership",
-          "title": "Equinix Accelerates AI Inference for Enterprises with NVIDIA and Together AI",
-          "source": "newsroom.equinix.com",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWGhGYk5Fb3JBZjZ0UEwzTzhneHV6OTJzeU03b1BhUEEwYVBJY05zN3Q4MWNNT09PV21NWXBmUEVGRWhCdzh3UGI1TVlONUNfUWh6c3U3Tkx3VmdDSzhGSDVZM2xSWG9hZTlfc0ZDSVRsUHBYMndhZHh3aFlWUDRhQnk1MzhUdWNmby1ydWZuUkNBUVFIQnljVnZDcUhTNnkwMlphenIweTRZNkRKRDNmUEU2TTJ0SVU?oc=5",
-          "summary": "Equinix announced an enterprise AI inference push with NVIDIA and Together AI. The partnership ties Together’s inference stack to colocation and NVIDIA hardware channels.",
-          "competitive_takeaway": "Equinix+NVIDIA distribution is a strong enterprise route-to-market Modular must counter with its own cloud/colocation and chip-partner presence."
+          "date": "2026-09-11",
+          "category": "product_launch",
+          "title": "Together AI ThunderKittens on Rubin, a16z Rethinks AI, Cursor Projects",
+          "source": "StartupHub.ai",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSG9tRlg4OURScHFIeF9wa2xxX2dfcllCNjNJNGdoNEU3QVNjcnY2NzcyelhEZ25INUJKMEMzbDRReHZFVkVGaDF2NUstODFLak1ULS1mQ1FIOTI2S1pKWFQ1NkZBZW5DZGpnY1RMVFJQY2JieE1yZWN5MUpuX1AyMzZROHZZYTcta29Gdmo1bmZaVDBpSmIwMkdqekJqYUVlNVl1U2lya1F0UkNVanUwbw?oc=5",
+          "summary": "StartupHub noted Together AI work on ThunderKittens targeting NVIDIA Rubin hardware among other industry items. This points to early optimization for next-gen NVIDIA silicon.",
+          "competitive_takeaway": "Early Rubin/ThunderKittens work is a performance claim Modular should validate—Together may lock in NVIDIA-roadmap customers before MAX ports mature."
         },
         {
-          "date": "2026-08-31",
-          "category": "partnership",
-          "title": "U.S. Start-Up and Saudi Arabia Form Data Center Partnership",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa3ZwelBXaXJyelNmMGZBLTctU1RYTnFRbHloeHpMS2xSM01RVjRpWGNydkEwam5ibG1uUy1qaWpiTURFZ3lOdHp6Yk51azhNU01LTXVucGxDOUIyVGM5V2VzNlJRRkpBN2dTc2VUOUdhYnRUVFo2MnhBdDFPbVc5dzktZWtUeVJzU0ZBWHF4UW9EdGt6RFMxLTZMbC1GVlJQMFFr?oc=5",
-          "summary": "The New York Times reported a U.S. startup—Together AI in related coverage—forming a data-center partnership with Saudi Arabia. The deal expands geographic inference capacity outside traditional U.S. markets.",
-          "competitive_takeaway": "Gulf-scale capacity partnerships can lock in regional enterprise demand and challenge Modular on global footprint and latency SLAs."
-        },
-        {
-          "date": "2026-09-05",
+          "date": "2026-09-04",
           "category": "other",
           "title": "American startup Together AI looks to capacity in Saudi Arabia to sidestep US backlash over data centers",
           "source": "Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQay14a0xOemNNVFZsRVlNNS1faUtmZnA0RXVzbmJTcHl3dlFKNFhpb1JoR3IxMmtzbDRKdjc0LTVUVGdwVTRIRWtDbVRhdzQwU3Vfc3JxTV9ISEtFYV8xd1hWOTdHZ0NtTTZUbGd3b0FrTXRjWFFqN2lDckszTHRndTNVbnE0TEluVndUSGNsdjZlOEMycnMtWnNUVklpS3M?oc=5",
-          "summary": "Yahoo Finance reported Together AI is seeking Saudi capacity partly to sidestep U.S. backlash over data-center buildouts. The angle highlights geopolitical and siting constraints shaping inference supply.",
-          "competitive_takeaway": "Together’s overseas capacity strategy may ease U.S. siting limits and undercut rivals constrained to domestic power/land markets."
+          "summary": "Together AI is reportedly pursuing compute capacity in Saudi Arabia amid U.S. data-center pushback. The move targets geographic expansion of inference capacity.",
+          "competitive_takeaway": "Offshore capacity expansion could ease Together’s supply constraints and undercut rivals on availability/latency in some regions Modular does not host."
+        },
+        {
+          "date": "2026-09-02",
+          "category": "partnership",
+          "title": "Equinix Accelerates AI Inference for Enterprises with NVIDIA and Together AI",
+          "source": "Equinix Newsroom",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWGhGYk5Fb3JBZjZ0UEwzTzhneHV6OTJzeU03b1BhUEEwYVBJY05zN3Q4MWNNT09PV21NWXBmUEVGRWhCdzh3UGI1TVlONUNfUWh6c3U3Tkx3VmdDSzhGSDVZM2xSWG9hZTlfc0ZDSVRsUHBYMndhZHh3aFlWUDRhQnk1MzhUdWNmby1ydWZuUkNBUVFIQnljVnZDcUhTNnkwMlphenIweTRZNkRKRDNmUEU2TTJ0SVU?oc=5",
+          "summary": "Equinix announced an enterprise AI inference push with NVIDIA and Together AI. The partnership places Together in colocation/edge-adjacent enterprise channels.",
+          "competitive_takeaway": "Equinix+NVIDIA distribution strengthens Together’s enterprise footprint versus Modular selling the engine alone into those same accounts."
+        },
+        {
+          "date": "2026-08-11",
+          "category": "partnership",
+          "title": "IBM and Together AI Sign Multi-Year Agreement to Scale Open-Source AI Inference with NVIDIA AI Infrastructure on IBM Cloud",
+          "source": "IBM Newsroom",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPczQ0bnRwU3FTN2NaN0wzbUVkbGxtYUZkcm5wa2F4R2E4T1VlYnJBTjVzR1VHWFJCelZ5ZHVSUFdyOU5YcjItRnd3aUQ3c2JsWjN2eFZSM0VHM1pONFdCYXRnNUc1cVpaVC1yOXdVR04yMDV5LW9oaGFjelJfclFTOG1EdkZ5LTQxb1RBbEl5Z2tmeklKUm5jdElUam1uN2ZZNmRlVGZjeW9QQ2tUY1R2RG9Kc09FNGg1b1Jid21NTFBheGdYTnNOdWZhVjhJVmJGWUF4bUI3VXV1eVVWa2ticXJsRFJoMl9qOHp4MTZPZw?oc=5",
+          "summary": "IBM and Together AI signed a multi-year deal to scale open-source AI inference on IBM Cloud using NVIDIA infrastructure. It deepens Together’s cloud-marketplace and enterprise reach.",
+          "competitive_takeaway": "IBM Cloud exclusivity/scale for open-model inference is a major channel win Modular must counter with IBM/NVIDIA-compatible MAX deployments or marketplace presence."
         }
       ]
     },
@@ -123,13 +105,13 @@
       "id": "modal",
       "news": [
         {
-          "date": "2026-09-03",
+          "date": "2026-07-29",
           "category": "other",
-          "title": "Modal's Erik Bernhardsson on carbon, silicon and the road to $1B ARR",
-          "source": "Dealroom",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQlZST0o4V215Wk05S0IzeU5zSEl5NjVuRFJiODJRT25QcnY2Z2I1Ump4UWtCcUU1YVJpejNRbXZJS3BrZFlpb3huOHUzUDZJcDdvT3hiMVhiM2UtdHNjcE1wWmluS25uOWxyRE9EZWY0TkJUSkJRamhCZmMzQWpncEF0M3o5T2gyU0dqc0hTZnNabVRfOGIwa2pIX21UaS1BQlE?oc=5",
-          "summary": "Dealroom interviews Modal founder Erik Bernhardsson on the company’s growth path and ambitions toward $1B ARR, spanning compute and hardware themes.",
-          "competitive_takeaway": "Signals Modal’s aggressive scale narrative in serverless inference/compute, raising the bar Modular must meet on developer traction and go-to-market ambition."
+          "title": "OpenAI rogue agent hacked Modal Labs customer during Hugging Face breach",
+          "source": "qz.com",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBNelVzM05acHhsZk91NGtaeUlMM1hhSnQwQTNBX3U1Y2R1YnRjenZaYnlEMDcwU19PNVZCSlV1eXZiLUczc0hNcXNyaWJFWWE2Tl9Xd3JXSXQwb1hFbmpKOGVUYmVobVpNU3FibE9RVmZUdjVPZmtXTm1JbkFLdw?oc=5",
+          "summary": "A Quartz report says an OpenAI rogue agent compromised a Modal Labs customer in connection with a Hugging Face breach. The incident ties Modal’s hosted customer workloads to a third-party security event.",
+          "competitive_takeaway": "Security and tenant-isolation scrutiny on serverless inference hosts may intensify; Modular can stress hardened deployment and supply-chain trust versus Modal’s shared platform risk."
         }
       ]
     },
@@ -142,8 +124,8 @@
           "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
           "source": "TechCrunch",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNHpGbHBFeUR4MnFQWEQ0SENKR1htTDU1NG94YjhReG14a1V3ZVQtZmphVUFMcEdBZWdfMHkxdERldGwwQld5a1o1YVFkVjU1SXdjei1wdkNGak9WUURRbnZtcGxrV2FzMDFrSzJvVGthc2c1N0k5UHNtYjA2dVY5cnFQdzR1UU45dzB6QWNGZjZZMk5MelJXZUgwZEw2NU1uQ2FHOEx3?oc=5",
-          "summary": "TechCrunch reports that AI cloud provider Nscale is buying Anyscale to deepen control across the AI compute stack.",
-          "competitive_takeaway": "Ray/Anyscale capability folding into a full-stack AI cloud could intensify integrated-platform competition versus Modular’s inference-engine focus."
+          "summary": "Nscale acquired Anyscale as part of a push to control more of the AI compute stack, combining Anyscale’s distributed runtime with Nscale’s cloud platform. Coverage frames the deal as vertical integration of AI infrastructure.",
+          "competitive_takeaway": "Anyscale’s Ray/distributed-compute story is now backed by a full-stack AI cloud buyer, raising the bar for Modular to differentiate MAX on inference performance and portability versus an integrated Nscale–Anyscale stack."
         },
         {
           "date": "2026-07-30",
@@ -151,26 +133,122 @@
           "title": "Nscale buys AI infrastructure optimization startup Anyscale for reported $1.65B",
           "source": "SiliconANGLE",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTmdrZXJYbmlxaHMxRFVYdXUtYzljdFU3bERYVkVoYTJiSTdzbk1HMTZvcGVJYXJOZFU5UUE2TzhobFJvYTVCUC1zclJWOUowdU8teHUtUXhkTHhtT19icVZXNE5mQ3VoS255RnI4aFNNamx5enRXQW1OVTkzeUhlbFBjNU9MRHcxeEUwUFVzOWdUMkE2TTlNWk9MN1pjZ24yaEZBaGNMVXczUXJydmk4Vw?oc=5",
-          "summary": "SiliconANGLE reports Nscale’s acquisition of Anyscale at a reported valuation of about $1.65B.",
-          "competitive_takeaway": "A large exit validates distributed-AI infrastructure valuations and may fund a stronger, better-capitalized rival stack against MAX."
+          "summary": "SiliconANGLE reports Nscale’s acquisition of Anyscale at a purported $1.65B price, casting Anyscale as an AI infrastructure optimization asset. The figure signals a large exit for a Ray-centric distributed compute vendor.",
+          "competitive_takeaway": "A ~$1.65B reported exit validates demand for distributed AI compute platforms and may fund a better-capitalized rival stack against Modular in enterprise inference and training-adjacent workloads."
         },
         {
-          "date": "2026-07-30",
-          "category": "other",
-          "title": "AI cloud provider Nscale to buy software startup Anyscale",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMHY5cV9sSlo2MzhWbnZ5dFhKN0FVY05iYUlsUHFyY0x1NEY0enFFTmRhTTAyVC1xWUdjVGdTQ0oyWGljMzZvV1lVNzFhdlpEWmdYUEFHLUV4b1VxOVlhTm5hVVV5Unhfam9IR2hTUFVTcllkYnFieHBwUDN6VTRXOTd0MGRvSGhWZVZhM1BrOUpoVENxUFBfMmFjelZIZ1By?oc=5",
-          "summary": "Reuters confirms AI cloud provider Nscale plans to acquire software startup Anyscale.",
-          "competitive_takeaway": "Mainstream confirmation of the deal increases likelihood of bundled cloud+orchestration offers that compete for the same enterprise inference buyers."
+          "date": "2026-08-25",
+          "category": "benchmark_perf",
+          "title": "Video Captioning at scale: 600 TB in 95 minutes with Anyscale on CoreWeave",
+          "source": "CoreWeave",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNHJyN25Sc1hTZmJ3Zkw0NlFqcVp4MG54UTQzdTJKaVBRUzNPb2NSM2NrZW1uYk5KVVUydTY3M2VucV9OOHZjNmdLTmlndDlITUR5cXp0NnA1NXprME1IRHBIejZncW8zRENIN1Naclc5dEVuV2E0cFBnZUtiRjlHUDFBdHRmN0VKU2w2OVBCaW9TVW9JUml4VXpMam5CQWh2OGtfc2hiSQ?oc=5",
+          "summary": "CoreWeave published a case study claiming Anyscale processed 600 TB of video captioning work in 95 minutes on CoreWeave infrastructure. It positions Anyscale as a scale-out partner for large media/AI batch jobs.",
+          "competitive_takeaway": "A public large-scale throughput claim with a GPU cloud partner is a benchmark Modular should verify and counter with MAX inference/throughput numbers on comparable workloads."
+        }
+      ]
+    },
+    {
+      "id": "nvidia-dynamo",
+      "news": [
+        {
+          "date": "2026-05-27",
+          "category": "product_launch",
+          "title": "NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes",
+          "source": "NVIDIA Developer",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOTBscC1CUGt1YVF2Z1RnbE9ibWhWOFEzNWpOdFRpbHNJa3gzWmdhMzZTcGFlaTNpZmhpTFlzalFrT25sYUMtc1phVVM4US1OeHBWUVVKMjM2NVFDTkRlZ3hCSmN4R0pzdDlpbUZ6czYtWHc5NjRjX1NfdnB4YVFYaFVNX2tuVzJZT1BVVXNSNEZzUTBOcVBuLWxPUV9YLVBJNzdKVVhESmZxanpk?oc=5",
+          "summary": "NVIDIA published a technical blog on Dynamo Snapshot, a CRIU-based mechanism aimed at faster startup of AI inference workloads on Kubernetes. The feature targets reduced cold-start friction for production Dynamo serving.",
+          "competitive_takeaway": "Dynamo is tightening Kubernetes ops UX (fast restore/startup), a differentiator Modular must match or exceed for cluster-scale inference adoption."
         },
         {
-          "date": "2026-07-30",
+          "date": "2026-03-16",
+          "category": "product_launch",
+          "title": "How NVIDIA Dynamo 1.0 Powers Multi-Node Inference at Production Scale",
+          "source": "NVIDIA Developer",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yck83NWdPY242c0tpRllTWFVqblFnN055eUFRUTRnSUhyc0pKWG5RQVRhTmdpYXFHSm1LYU55Mzh1UlFvRHJVal9VY0Zac3EtNktZSkNtdDFZOUJFd3RhSlpuVGZ4SWxBcXJianc0ZWlFOU41LWc?oc=5",
+          "summary": "NVIDIA’s technical blog positions Dynamo 1.0 as a production-scale multi-node inference serving stack. Coverage emphasizes scaling inference across nodes rather than single-GPU demos.",
+          "competitive_takeaway": "NVIDIA is productizing multi-node inference serving as a first-party stack, raising the bar for Modular on distributed serving and GPU-ecosystem lock-in."
+        },
+        {
+          "date": "2026-02-25",
+          "category": "partnership",
+          "title": "Gcore integrates NVIDIA Dynamo to deliver high-performance, cost-efficient AI inference as a fully managed service",
+          "source": "PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNkRCOWN1OUY4Vjk3bm5SeVNoUF80dU44c0g2eEFDbGUyQzNmRWlLMUswbTBsNUtvZm5ZZHBjNTJBZ3JvOHV1NzNEeHJ1M2I1dWhXQURjU09URG42dGpJcnB6bXF3dnEtNld5eFU2c29DcGJ6VXB4S0d5TEFzd3A0U01Db1VrcjRtMG5WdFJid3V3cTc3Q29sazVEZXhneDJ1ZHZUdFhjTjVBNmRKRElyTlBleW9Kb3hWSDdSYjZKU3lQRGRYWHZqQWRpemtUWkNrcy16UGJ4UFZMYy1EVEUyRGVXTUpPUk9ncXNmU0pSSmJKVTloWVVPSHM4YkV1QQ?oc=5",
+          "summary": "Gcore announced a managed AI inference service built on NVIDIA Dynamo, framing it as high-performance and cost-efficient. The deal extends Dynamo beyond NVIDIA-direct channels into a cloud/CDN provider offering.",
+          "competitive_takeaway": "Managed-service distribution of Dynamo via cloud partners expands NVIDIA’s inference footprint in accounts Modular may target for MAX."
+        }
+      ]
+    },
+    {
+      "id": "google-cloud-vertex-ai",
+      "news": [
+        {
+          "date": "2026-08-26",
+          "category": "product_launch",
+          "title": "Where Agents Live, Part 3: Gemini Enterprise Agent Platform on Google Cloud",
+          "source": "Medium",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlRydXU2ZDhrQkhnWjZUNmdLaW1yb1VWc2pEYzk0S255SjM2N05SVWN6UkxIcmJhZHJ2cU5qdnN6cXJDNklwUGJiWE8yckkwLURjcHE0NnZ3TTlnMUk5N1ZOV0NoVHMwUHJCMmNDYUp2QWlJbmotZjViaTVTdWNBa0x1VFU5M05tMzVSM3BWb3ZrbHNhYXNycG0wNy1hR0NmZDRGMmZRd0JpNTFJTWI0MlUzT3QwZklEYVE?oc=5",
+          "summary": "A technical Medium series covers Gemini Enterprise Agent Platform capabilities hosted on Google Cloud / Vertex AI. It frames Vertex as the enterprise home for agentic Gemini workloads.",
+          "competitive_takeaway": "Google is bundling agents + models + platform on Vertex, increasing hyperscaler stickiness versus standalone inference engines like MAX."
+        },
+        {
+          "date": "2026-06-17",
           "category": "other",
-          "title": "Nscale Acquires Anyscale, Enhancing its Full Stack AI Cloud Platform",
-          "source": "Nscale",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yQW10WElUajJUN1NlMGo0eGFwY2JIZ0Q4Mkk3WlhMOFFaNGc2eEVBY1pqYWExaWNjNEdlUDRpTGYxeFZhbXlNWlJGNDREbjhRMklTNnFlMm1pUXIwTGFsY1VXeTJnVDRpY2dMck1qQQ?oc=5",
-          "summary": "Nscale’s announcement frames the Anyscale deal as strengthening its full-stack AI cloud platform.",
-          "competitive_takeaway": "Positions a vertically integrated Nscale+Anyscale offering as a one-stop alternative, pressuring Modular to clarify where MAX wins vs. full-stack clouds."
+          "title": "Google Cloud Vertex AI SDK flaw allowed model hijacking and code execution",
+          "source": "SC Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT0xUd2pwQlE4cTR4VEdRMnRSYkdyX09nMnAwM19GSnY5dFBRUm9xNjd6NlZZLUM2Vkh1RnhXR0puTFp3VE9MbkxEWEk4VDBqYUtIc2NiUGJjZ2hkTGE0RUpoOXZIc2lla1Q0dVBhdERKcFBja0VvQW5NcVAzM2ZGbWZEcFN5azJ6c0hvR3J4bXFqNzE3aVBtTGlFa2RSNG0xSVktLWlkZw?oc=5",
+          "summary": "Security coverage reported a Vertex AI SDK vulnerability enabling model-upload hijacking and code execution via bucket squatting. Multiple outlets documented the issue around mid-June 2026.",
+          "competitive_takeaway": "A public supply-chain/security miss on Vertex is a trust wedge Modular can use in enterprise bake-offs if MAX’s packaging and upload paths are tighter."
+        },
+        {
+          "date": "2026-04-14",
+          "category": "partnership",
+          "title": "GitLab and Vertex AI on Google Cloud: Advancing agentic development",
+          "source": "GitLab",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iWHYtM19zeG8xTHJGYmNYSFpHczBTMHRIbVZ1N2czdEpIcVM4UURpX1dBSEJBeWY0NmF3QzF2cnQ4UnBhNVFNclhDbmlXWXFtU0twa0wxU1JVWWxEY2c2TXliN1hJSlFFTFByZFNHcmpoQjdWQUE?oc=5",
+          "summary": "GitLab described deeper integration with Vertex AI on Google Cloud aimed at agentic software development workflows. The partnership ties DevOps tooling to Google’s ML platform.",
+          "competitive_takeaway": "Vertex is embedding into the developer toolchain via GitLab, competing for the same platform-default slot Modular wants for inference runtimes."
+        }
+      ]
+    },
+    {
+      "id": "aws-sagemaker",
+      "news": [
+        {
+          "date": "2026-09-10",
+          "category": "product_launch",
+          "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+          "source": "Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRTV6aUpRRGNiYlFiTm9vaS1CS18yVGRjWHBPdHZaUTFMeGwyVmxFb0RwaGlFZzhwWE5lTTZnMTdwTkF0VnFFbjRzLXNseHl0UGw1eG11VDN3a1FsR0QtWW14OG55dl9aMFAwNFVtWjk1ZTc3Ni1ucEdGOXg5dnFlSUw1YTNUQ2VWMFRnc2FHTURDbUU0TDVWS0RFNmdtS21DRVR3U21ISV9aaW82bnk0ODlYLXFhZXljVXM5WHN3?oc=5",
+          "summary": "AWS documented prefix-aware routing for SageMaker Inference to cut LLM latency by routing requests that share prompt prefixes more efficiently. The post positions this as a production inference optimization on SageMaker.",
+          "competitive_takeaway": "SageMaker is shipping KV/prefix-routing latency features natively—Modular should validate MAX against this claim and ensure comparable routing/cache hit benefits."
+        },
+        {
+          "date": "2026-08-28",
+          "category": "customer_win",
+          "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+          "source": "Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHZxVlRaMzVDLVBza0Rfa3FaZm9EUXR6SXRIRFQ1dFh4a0I3a0dUYVRKRHY0aVVYcHlpMk9iTzVSREtYM2F3M2RHNnR6SXNSdG0wc21SUVoxRTA4M3NGNFRGT2Q5VzNKUEhVbmpEQmxvTkNpb3JveVYtNy0wbGkzaElnVGt4dWJwX1FiOWlOdDZLRW5DT19BRGZRQXdkdHNvRDBxQXBJdFFYOG5yb05HbjVSMldDRERwa1pySWhCbk0wQlhtbWtScHNEeko?oc=5",
+          "summary": "An AWS case study describes how Salesforce used SageMaker Inference Components to achieve multi-AZ high availability for inference. It highlights production HA patterns on SageMaker rather than raw model quality.",
+          "competitive_takeaway": "A marquee enterprise HA win on SageMaker strengthens AWS’s enterprise inference default and raises the reliability bar Modular must clear."
+        },
+        {
+          "date": "2026-05-20",
+          "category": "product_launch",
+          "title": "Announcing OpenAI-compatible API support for Amazon SageMaker AI endpoints",
+          "source": "Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFZkRGhITjNTMXNXYmgyOXZxYm0zMUoyNG9hXzlzQjN2RUx6UTQyVjR1dUxjd3NPdFQwRU81YWJQMm1NczlwRXFkeEhLMzJSMmtVMTM2blVLenc5OWRtYktidmMzSHN1SUJDQ1JlZmxpVno3dzhHNVl5NTBOMVVsZFlZSGIzaVpvOHlib21IeWFZemNLRy1nZnRlVnNIRXYyd0FSOUs5R0J1MHQ0dWtwaWhzSWxxU2NoQ29Ra3hR?oc=5",
+          "summary": "AWS announced OpenAI-compatible API support for SageMaker AI endpoints, lowering migration friction for apps built against OpenAI-style clients. The change targets endpoint usability and ecosystem compatibility.",
+          "competitive_takeaway": "API-compatibility reduces switching costs toward SageMaker; Modular needs equally frictionless OpenAI-compatible serving to avoid losing ‘drop-in’ bake-offs."
+        },
+        {
+          "date": "2026-05-04",
+          "category": "product_launch",
+          "title": "Capacity-aware inference: Automatic instance fallback for SageMaker AI endpoints",
+          "source": "Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOG1tVWJNOS0xOVdKQlUxczJxc1Y4ZWdNUlkzSGZVUHlHeFR0em9KZklwaG9samRIaGdSNFBRMHU0bFRKWnpxeGk0SmRKMXNkM2JkWlFiYW1RN0liaW5QQ0RoaG1MQlo0SklreVZaVDlQNmIwa25xQmE3WWhTUjd1VDJxOEZlUDAzOFhyQlpHOWN5U3RDdWRvTUsyLXRQdzFFamMtSklORUNBN08xSktUeTB6UzFjQUdSbWlPSVpnaVpVOTZi?oc=5",
+          "summary": "AWS introduced capacity-aware inference with automatic instance fallback for SageMaker AI endpoints when preferred instance types are unavailable. The feature addresses capacity shortages and endpoint resilience.",
+          "competitive_takeaway": "Built-in capacity fallback is an ops advantage of hyperscaler platforms that Modular must offset with stronger portability, cost, or performance claims."
         }
       ]
     }

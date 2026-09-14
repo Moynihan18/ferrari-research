@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T17:33:46.582Z",
+  "generated_at": "2026-09-14T17:56:01.108Z",
   "companies": [
     {
       "id": "deepseek",
@@ -332,7 +332,7 @@
         "engagement_score": null,
         "intent_level": "Moderate",
         "last_activity_date": "2026-08-21",
-        "total_events_90d": 4,
+        "total_events_90d": 8,
         "open_roles": null,
         "note": "1 distinct developer(s) active in the last 90 days."
       }
@@ -346,9 +346,9 @@
         "engagement_score": null,
         "intent_level": "Moderate",
         "last_activity_date": "2026-08-12",
-        "total_events_90d": 13,
+        "total_events_90d": 11,
         "open_roles": null,
-        "note": "10 distinct developer(s) active in the last 90 days."
+        "note": "8 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -402,9 +402,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 146,
+        "total_events_90d": 138,
         "open_roles": null,
-        "note": "40 distinct developer(s) active in the last 90 days."
+        "note": "38 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -486,9 +486,9 @@
         "engagement_score": null,
         "intent_level": "Moderate",
         "last_activity_date": "2026-07-08",
-        "total_events_90d": 3,
+        "total_events_90d": 1,
         "open_roles": null,
-        "note": "2 distinct developer(s) active in the last 90 days."
+        "note": "1 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -500,9 +500,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 84,
+        "total_events_90d": 77,
         "open_roles": null,
-        "note": "52 distinct developer(s) active in the last 90 days."
+        "note": "48 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -514,9 +514,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 113,
+        "total_events_90d": 96,
         "open_roles": null,
-        "note": "41 distinct developer(s) active in the last 90 days."
+        "note": "37 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -528,9 +528,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 312,
+        "total_events_90d": 308,
         "open_roles": null,
-        "note": "89 distinct developer(s) active in the last 90 days."
+        "note": "87 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -554,9 +554,9 @@
         "customer_fit_score": null,
         "developer_stage": "HIGH",
         "engagement_score": null,
-        "intent_level": "High",
+        "intent_level": "Moderate",
         "last_activity_date": "2026-08-17",
-        "total_events_90d": 22,
+        "total_events_90d": 14,
         "open_roles": null,
         "note": "6 distinct developer(s) active in the last 90 days."
       }
@@ -584,9 +584,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-09-01",
-        "total_events_90d": 484,
+        "total_events_90d": 457,
         "open_roles": null,
-        "note": "214 distinct developer(s) active in the last 90 days."
+        "note": "197 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -598,9 +598,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-19",
-        "total_events_90d": 195,
+        "total_events_90d": 160,
         "open_roles": null,
-        "note": "78 distinct developer(s) active in the last 90 days."
+        "note": "66 distinct developer(s) active in the last 90 days."
       }
     },
     {
@@ -612,9 +612,9 @@
         "engagement_score": null,
         "intent_level": "High",
         "last_activity_date": "2026-08-12",
-        "total_events_90d": 33,
+        "total_events_90d": 31,
         "open_roles": null,
-        "note": "18 distinct developer(s) active in the last 90 days."
+        "note": "16 distinct developer(s) active in the last 90 days."
       }
     },
     {
