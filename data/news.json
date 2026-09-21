@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-09-14T18:09:28.177Z",
+  "generated_at": "2026-09-21T18:17:54.090Z",
   "companies": [
     {
       "id": "deepseek",
       "news": [
         {
-          "date": "2026-09-14",
-          "category": "leadership",
-          "title": "China's DeepSeek hires dealmaker as CFO ahead of possible IPO",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTXRuNHMzaXc3NjgzVHZPTlZiQVhnNjlqQU9ZdUFyTTJhZmkxZUFJS3ljRUI2N2xFbzZ1QzBRai1saXU2RjM4RkVjekx6ZGROV0d4MHVaQnBFZVJtRmJvamlzNkUxS0FhVUJJNDRzcTRQdkpIMEFCYXh6cG5iUDhBd0hLazlNcHEtVGxCRmVrX1RLN015X3NrMmZPWWVqRHo5?oc=5",
-          "summary": "DeepSeek hired a dealmaker as CFO amid reports of IPO preparations. The move signals a shift toward more formal capital-markets readiness.",
-          "sales_relevance": "IPO-track leadership changes often mean budget and infra vendor evaluation windows—a timely hook for Modular on efficient inference spend."
+          "date": "2026-09-21",
+          "category": "partnership",
+          "title": "DeepSeek Bets Big on Huawei Chips to Bypass U.S. Export Controls",
+          "source": "The Information",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNGdQTkhtZGdCYl90YWNhLUMtbXJPUjBvd3piRlI1NU5Rdkw0SjFPQ3Y2N1lFd2d2LVBCNzVERXEzQUczZmg5aGJnQXhoX1MzNFFCMGZGaXUxYVUtQmFka0dQTzgzM2o0ai1tamxOc2ZOVVI0QWVzeDIxUUxUQVZjWFM5aEJDUVBETHF1OThwQmVNZmtvNU4yLXoyeTRtUQ?oc=5",
+          "summary": "DeepSeek is reportedly committing heavily to Huawei chips as a path around U.S. export controls on advanced AI accelerators. The move underscores a China-stack inference strategy rather than Nvidia-centric deployment.",
+          "sales_relevance": "Signals DeepSeek is optimizing for non-U.S. accelerators—pitch Modular’s hardware-agnostic inference stack for Huawei/alternative chip performance."
         },
         {
-          "date": "2026-09-14",
+          "date": "2026-09-18",
           "category": "product_launch",
-          "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
-          "source": "KDnuggets",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeG5uMERMaFpTT3hzOFJKTmpEajBJYWdocUFwcWVROHVNdnNGSDI2WG5MU0NUVnF1cE1oX3Y4QXRsSkNsTm1oeHpNYjZUM3hHS01iSFhpWVFfejBrUF9xVmZyYzRuYlBnQmRwSVY3emFDRVo3Z2NKQkJjZlZaUjY3eUNGMEtrU1dCWURqcHBORWxzZw?oc=5",
-          "summary": "Coverage highlights DeepSeek-V4.1-Flash as a notable open model release positioned for strong capability at leaner cost. Interest centers on efficiency and deployability versus larger closed models.",
-          "sales_relevance": "A new open Flash-class release drives inference and serving demand where Modular can pitch faster, cheaper deployment versus generic stacks."
+          "title": "Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading",
+          "source": "SemiAnalysis",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxMEVVMFhmck9LNVgxcGJoU3NkVF9FTGsyeHlrYzlTeWFiV2ZxSlNiQlFORTd2UGtKbFp3cFlOQ1RzTlNWRUxrMDl1S010bVdJOEtyODE0a25UNlRNMjY4bmNpaXNZbW5VNm1NY2w2NEVKUXJUVnBvcm5pQmFodw?oc=5",
+          "summary": "SemiAnalysis covers DeepSeek-related codesign work aimed at efficient DRAM/SSD offloading for large embeddings and model serving. The focus is memory hierarchy efficiency under constrained GPU/HBM budgets.",
+          "sales_relevance": "Memory-offload and serving efficiency are core Modular value props—use this to open a technical conversation on inference throughput and cost."
         },
         {
-          "date": "2026-09-13",
+          "date": "2026-08-13",
           "category": "product_launch",
-          "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTBkcTJTZUV4eFBPTGhURGNqTjRodllXRG02RnBXRklxRUpHMVEtNTJNaEVXYWZGbUpMUHFnY0h2cEM3Yjk5ZFBadFFjQl92M3R4T0tEZnZ6UVJKSnQxVmNqeWIyQ3gwREd6ZnkwYnJ5LUhOWkpiZGZ5WE5zejF6LVc2dzlNTml1Z25vbXE2cWVIb1E?oc=5",
-          "summary": "DeepSeek reportedly cut KV-cache HBM demand by 75% and SSD need by 87.5%, underscoring aggressive memory/storage efficiency gains. The story frames those cuts as material for memory-vendor narratives.",
-          "sales_relevance": "Memory-efficiency breakthroughs are a direct conversation opener for Modular’s inference runtime value vs. raw HBM/SSD spend."
+          "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+          "source": "VentureBeat",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeVA0OGxrdGxzcGV1VUtwei1fLVFhNUE4M3BNd0lLb1hpS2xoNXlWUzJzWU1YUDM4dElQVjIwcm1qQWsxeUdoOEF6ZGEta1lEaEJLd3g4bE5ITUtqLVpZSlp3X21LZDd5T3lPelI0cHhBaEdiOTBrYkdRbV9td1c4bWVCdUlUNGNjTmx1RTI2T19QMEtyTGZPWW42Z1BQVzRPdjZ6UkNyd3hfWFdQWVU1LTMtdEtpeE84S1FzbmdOLVZmWFRrVk5aLVJsbW5nSzdrU0RIRUNR?oc=5",
+          "summary": "DeepSeek launched an open-source agent harness positioned against Claude Code and raised API pricing with a V4-Pro offering. The release expands DeepSeek’s developer surface beyond raw model APIs.",
+          "sales_relevance": "New agent/API products imply rising inference volume and latency SLAs—timely hook for Modular as the serving layer behind coding agents."
         },
         {
-          "date": "2026-09-11",
+          "date": "2026-08-13",
           "category": "product_launch",
-          "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
-          "source": "The Register",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1d2cXhBcGxPRlB0M2VkU1dFWDNVVFV6QUtsNWVmc3VHOTNMOGQxX3dDd3VPVGJRWFl1X2dtaHJ5WEs5M1Z5bUdqYTdYYmgwcDBnVE5RM3Vsb3dlYjNJNHNxOGd3bnJLYnRocVFDanZNMjlDZEtSMGNlUC1WQUl4TWJKaExMRWV3dHFUTmJFWTB5ME5TM18yUXJBUVdieGRuYThGZUNBRXFaSXY4ejhNTS05aGt0aVZpZUJxX2kwN0Y2dw?oc=5",
-          "summary": "The Register says DeepSeek’s latest model is shaping a template for high-capability LLMs designed to run lean. Coverage emphasizes efficiency as a competitive pattern, not just raw scale.",
-          "sales_relevance": "Lean-model templates expand the buyer set for optimized inference infra—Modular can attach as the production acceleration layer."
+          "title": "DeepSeek open sources an agent harness where everything is a plugin",
+          "source": "The New Stack",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3anJpcVhsUGY1OUZOV3ZodnlWUzBIRnNYbGRDLTlFV2sxR1Bsem1FRlVrUzlTWUZoNmJzVWpISUgtXzg1ZnZVYlFHVHdaSXhzNThPazhCd0J2WThzYzRlb2dOa1dYQldHYi10Mw?oc=5",
+          "summary": "DeepSeek open-sourced a plugin-based agent harness, emphasizing extensibility for tool use and coding workflows. The project competes in the emerging open agent-runtime category.",
+          "sales_relevance": "Plugin-heavy agents drive bursty, multi-model inference—position Modular for low-latency, cost-efficient serving of those workloads."
         }
       ]
     },
@@ -46,13 +46,22 @@
       "id": "z-ai-zhipu",
       "news": [
         {
-          "date": "2026-08-31",
+          "date": "2026-09-20",
           "category": "other",
-          "title": "China's Zhipu AI revenue quintuples in first half, loss narrows",
-          "source": "The Standard (HK)",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMS05THpmSnliUUdtZ1U4Rlg1RGZpa1NOTjI1N1ZwWkZoQm5IbjZzeDNkRG1xUFN1NHA4UnhwS1BoRXlLXzUzSWxrd2lfbGM4VWlZUDdMY1BWSVhWUVAyQ0ZGNXhRV2c3NDk4MEQzS3kydHVMamw3bmxsRHh6SDM2NjRlQnlfTHFoSy1vLVdsUnFUVWwxcE5nelM0bUJ4WloxTFZ0b2ZIdm1NT1dQTjdqbXRjb1FNZw?oc=5",
-          "summary": "Zhipu AI reportedly quintupled first-half revenue while narrowing losses. The update points to rapid commercial scaling of its AI products.",
-          "sales_relevance": "Fast revenue growth usually coincides with rising inference/compute capacity needs—good timing for Modular capacity and cost conversations."
+          "title": "Chinese AI firm Z.ai faces reputation hit after unauthorised uploads",
+          "source": "South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMGQ3WDY0UFh2M01udkROM0NqYWs1NlZPNnFtSXV3WFNEcFZKcU1EdktRdUJaOEFPQkNfUnNXRkY2X3pfS0VIODE5RzM5WWJkdFR0aEd4ZWNOMTRFSnhZWTdHWDhGSkg4Q3VRSmk1dzZhTUFBSkN6MmQ2eExwUjRLaUMtMjZnOF8tR2tkX1Z2YUVEVGZqb2V0LXZiaHhNN2RGaHcxdXJhZWlxUlVFcmNIdzdHcGFKZUY2SkRheFB6LUp6SUJkeWtwMDE4Tk3SAcwBQVVfeXFMTW12LXJVZVB0SERUVEpvOUxGeFlHak9idHFZZUdENV8xVGVvYWxYeHBsWENkVjUwbG9yLUlJRDU0LVFNQ2xZaGhiZElwaTNHYVVST1pZTHhlYTNnaHNPRm5GRWtGNUtzZWNJcXA1U0FuRnRJbHZSUVpKdjg1VmpUd25TbXZaMXRtVjJVdjc4WDBDYWd4d21aTWVaYlZUY1JlV1RTaHlRT29rdXQ2UXAtTjkzX2E0YWpzaVNPVk9NVWNiVGhvejVVUERTWUV0?oc=5",
+          "summary": "Z.ai took a public reputation hit after reports of unauthorised uploads tied to its platform. The episode raises trust and governance questions for a fast-growing Chinese AI vendor.",
+          "sales_relevance": "Compliance/trust pressure can push infra choices toward controlled, auditable serving stacks—frame Modular as enterprise-grade inference infrastructure."
+        },
+        {
+          "date": "2026-08-27",
+          "category": "product_launch",
+          "title": "Zhipu’s viral Ox Alpha AI model runs entirely on Chinese chips",
+          "source": "South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMHpMRlZHRHlKNTR2WVYzZU52VFotbmpKMDZGaUtlMWF1dzU3UjNCV1NoUFFyUk9PYkdxZEF3ZzJyWEEybzQ0T1dqbGVPT05YQVpQam9UM2tTTzlpUC0tY25CYUdGdEV1RTZrVVYxQ2F1dVB3aldwWXYxRWtDRjVYZGlMX0dmd1V5NG5YSUpBS1oyZFFMaFdVWjNYSmtCTW1VczVYdm1UVGxyVUZkek5XcHZFLVhiOXJoOFlZYlVRRk1FR3pxc0Jr0gHHAUFVX3lxTE5GeW1GUElnemNQTHNNaWxjWW81Y1ZrWHFsVEJncGtPRDJfQTd5M3JuN2dJbnctRFlmN0xMdmpzZXFkSk9WWXI3NW9PckJ6eVBkQkdPVXo4MVNYNFBXREgyQ1MyRDU4dm0yQXJpMjFUN2hyMlhYOVViYnFrdXhEOGlvazdEOWViOVFlVG1wUW5GWlNaWEthdmJjaHVqVl9YMU9kNWhZRkR3blRuMjZsb0pINkdDbFVNdXYtR05tWlgwMjU5NHc0ZXM?oc=5",
+          "summary": "Zhipu’s Ox Alpha model gained attention for running entirely on Chinese chips rather than Nvidia GPUs. It highlights domestic-accelerator readiness for frontier-ish workloads.",
+          "sales_relevance": "Direct proof they’re shipping on non-Nvidia silicon—strong opening for Modular’s portable, chip-agnostic inference performance story."
         },
         {
           "date": "2026-08-16",
@@ -60,8 +69,8 @@
           "title": "China's Z.ai unveils new AI model \"GLM-5.3\" with 50% improvement in coding performance",
           "source": "finance.biggo.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95QzZSZXQ1aTE3TzVjSmM3U2dtNWRNSm53bVV0WFlPYTY5eTJNb0pqQWZwbU9DcEZmb212eEk3LVg0b1FmMER5ODB0T2NNQ0hrZWxBSDJLOGJLNC1xOVhGQlVCbG5KTGh0V203X0J6MGRSa09iYlE?oc=5",
-          "summary": "Z.ai unveiled GLM-5.3, claiming about a 50% coding-performance improvement. The launch reinforces Z.ai’s push into coding-focused frontier models.",
-          "sales_relevance": "Coding-model launches spike serving and latency requirements—Modular can sell faster inference for IDE/agent workloads."
+          "summary": "Z.ai announced GLM-5.3, claiming roughly 50% better coding performance versus prior releases. The launch continues Z.ai’s push into developer-facing coding models.",
+          "sales_relevance": "Coding-model upgrades typically spike API and eval traffic—pitch Modular to cut serving cost and latency as they scale GLM inference."
         },
         {
           "date": "2026-08-14",
@@ -69,8 +78,8 @@
           "title": "China's Z.ai to rival Anthropic, OpenAI in coding with new AI model",
           "source": "Business Standard",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMjltZ2dNMXZnMmVkc2UwbnFrRWl0TUpHVVZSWElydllWNVJoMEFtY0hFTi12c2tVQXM3U2d6eFExbmxlbUE0eGZwcE1jemF1OGN5MjdCeHR6TWpMRHczeDlBUF9XQnNzT3NHUHR4cXJIRFNxZEFpZ3pRUGZOdWd3MUxtV2hscDVkOXhlcDNsYlJSSDdrc1ZFQjR2MVhkOTVqVW8xeFZMbjh5ak5UYjVMVkJKamw0dFcyWkd2WEhFMXZSbU9UVFlfQzhCMmVGZW9pY2VfZkM5bTfSAd4BQVVfeXFMTXJ5dnlPOU8tbGY1MXhBWUtYYlIyQy1sYjB6VUxITzVfX2p0WjV3M3c4TFEzdEx2SE1xMUtNaXdQRWZFZFpwel9WSFFfcTdvNTdfMi1xa183eFJ3V3ZJSzdWblU0OWZDTnFxMUpCajcyTWNCZnc0N1d6bG5WUWdBY1NYWk9Lc1NGYkRBQ2t4LWJ2UGJMd2ZmT1BRbHpQQ3Jpb1RyS2hGblRQZmxqV2FuVjZrRUZYX2F4RFNJbGhlNTRJcUU3VzZkSkVTLWhaUDNEU2lBM2NXRl84S1pUQll3?oc=5",
-          "summary": "Reports say Z.ai is positioning a new coding model to compete with Anthropic and OpenAI. The framing is explicit rivalry in developer-facing AI.",
-          "sales_relevance": "Competitive coding launches create urgency to cut serving cost/latency—Modular’s angle is production inference advantage."
+          "summary": "Coverage frames Z.ai’s newest coding model as a direct challenger to Anthropic and OpenAI in the coding segment. Competitive positioning suggests aggressive product and capacity investment.",
+          "sales_relevance": "Rivalry with top Western labs means capacity and cost pressure—Modular can help them compete on inference economics without waiting on Nvidia supply."
         }
       ]
     },
@@ -78,40 +87,31 @@
       "id": "moonshot-ai",
       "news": [
         {
-          "date": "2026-09-11",
-          "category": "other",
-          "title": "China AI Star Moonshot Eyes $2 Billion Annualized Sales in 2026",
-          "source": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLUllQm9GSVhqampKNXBQSjcxVENFX2lwN0xwU05wZVlxdzNnNU9iOXBRV0FQNU5HWmxyRjM2Y243TEd4SElLYkpIYjQ4YnUyZnk1cFdiQWF4S3oteGx3OThldTlsSzQ1bXhXbXJxYVFoZ2w2bTBWdDlpWEZkZmFWWTlxWHBsM182OWdkTU5yUTkyYllxbTBDOWIyZDJ0NzdGS1dPdEV4djV2RHp0Q29oaUM4aw?oc=5",
-          "summary": "Moonshot AI is targeting about $2 billion in annualized sales for 2026. The outlook reflects aggressive commercialization of its Kimi products.",
-          "sales_relevance": "A $2B revenue trajectory implies heavy inference scale-up—Modular can position as a cost/performance lever on that growth path."
-        },
-        {
-          "date": "2026-09-11",
-          "category": "other",
-          "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-          "source": "TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjd5bE8wcUZHZlhfS0lwZmxpX2xTTXBOMkJoVVItRmNjNGRsNjFJQVNXOERhYUljdFBscjBKekNlNXlmNmktZUpNNW1CbXQ5ODlxZWYyZUJScmI3cllZM2o0bUl0YW9FM3Z3TUI0Q1hDbVhMdkxHWi0yNTBFekhRYlc2NjhBeW43cktndU1fQUltQS1nclZVbQ?oc=5",
-          "summary": "TechCrunch reports Moonshot, maker of Kimi, is aiming for $2B in annual revenue. Coverage ties the target to rising product demand.",
-          "sales_relevance": "Public revenue ambition is a sales trigger to discuss infra efficiency before growth multiplies GPU/HBM spend."
-        },
-        {
-          "date": "2026-09-11",
-          "category": "other",
-          "title": "Moonshot AI Set to Double Revenues to $2B Driven By Kimi K3 Demand",
-          "source": "TipRanks",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON3h5LVEyS0tLaTNhdndXZEs1WC1ZZU9ERVVDMlpYWXdvZENURjJ4dDVRbEZTM2VYakRjTDJMWE1jTURKeC1JRVl1aXp0RG1USUhiekVFS2x4TDk5WG81RnUxZG1rZFJaQ0h6VTNxTzNsS2t5UE8yUXUxM1BTXzZZdHJSSHU3VWtkeThzYlJQM0RaUEl6cEgzVDNNRQ?oc=5",
-          "summary": "TipRanks links Moonshot’s path to ~$2B revenue with strong Kimi K3 demand. The story frames product pull as the growth driver.",
-          "sales_relevance": "K3 demand spikes are a concrete reason to pitch Modular for high-throughput Kimi serving and lower unit inference cost."
-        },
-        {
-          "date": "2026-09-10",
-          "category": "other",
-          "title": "Anthropic claims Moonshot, DeepSeek secretly diverted user requests to Claude",
+          "date": "2026-09-21",
+          "category": "partnership",
+          "title": "Moonshot’s Kimi K3 lands on Amazon in key test for Chinese open-source AI income",
           "source": "South China Morning Post",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHBnY1JTVzF0bEM5d1pZVzBIaHJRSERic0lvMnhGZ3JJZXlRMmpWTUNmTGZ4MEJoeFhTWG82bHV3ZHFULTRXSlBKaHFXLTVaS2piYVhVdHFlUmNqMlhkQnNCeUxsbkdyVlJ3ZHo2QW45bDc2YXNoZlRlYXpPeUVXOFdQM1FYUkw3bWhoSHJCNng4ZUNQODVjWHg4S01YMnI4NDBXQ3BXd2Q0ano4dzRkMEdnNG1rZ1ZHOEdqaU5IbG9wQmlQ0gHEAUFVX3lxTE9MNFVycTNTSzIyVU41WXVuMnFDUFdkRW5CTkRtQXRudVVSUmpac1NKOHgzZWNlYXQ1dVJFUFhna2wxUlF0Z0hnTndUMUljTEVnc0NlRzQ2UFpzQTgySFhLT244aU5iOWJwaENQUVZPV1NxLUhnMkNGY0hDdDVIRlFFRFJPT2FVT3BFSlBJNktwZFNjNlZITHViQ2FXSFZLNkUzaHJOckk3anhiaHNJU3NEeEdtMk1hQXptd184eW1EUXo1SWM?oc=5",
-          "summary": "Anthropic alleges Moonshot and DeepSeek diverted user requests to Claude. The claim raises competitive and compliance pressure on Chinese AI labs’ training/serving practices.",
-          "sales_relevance": "Compliance and stack-independence pressure can open talks on owned, auditable inference infrastructure with Modular."
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5",
+          "summary": "Moonshot’s Kimi K3 is now available via Amazon, framed as a commercial test of monetizing Chinese open-source AI internationally. Distribution on a major cloud marketplace expands reach beyond domestic APIs.",
+          "sales_relevance": "Cloud distribution raises multi-region serving and cost questions—offer Modular to optimize Kimi inference wherever Amazon demand lands."
+        },
+        {
+          "date": "2026-09-18",
+          "category": "partnership",
+          "title": "Introducing Kimi K3 on Amazon Bedrock | Artificial Intelligence",
+          "source": "Amazon Web Services (AWS)",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZEc4TDRPSkJzZUl2bHJoNm5HNkhpcGtBX2U0V1l3dVJDRlh5YkpwRkZaTDkwcDBfZVN3UU1ackFYY0NPMU5sRU5LVVFmRHhySUJwVjZlWXlNTkw4b0swYW1zUVZQSldHV19aTzBfeC1waGFOeGd0MThBOEo5bnVFSDl2VkIxSndKVWZYWA?oc=5",
+          "summary": "AWS officially introduced Kimi K3 on Amazon Bedrock, putting Moonshot’s model into AWS’s managed foundation-model service. Bedrock listing implies enterprise-ready packaging and global customer access.",
+          "sales_relevance": "Bedrock presence means enterprise SLAs and scale—engage Moonshot on complementary self-hosted or hybrid inference where Modular can outperform managed defaults."
+        },
+        {
+          "date": "2026-08-07",
+          "category": "other",
+          "title": "Chinese startup Moonshot's AI model breaks out of testing environment, researchers say",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2Q3eXFPcENXOWZ2cFkyM0lQUEdyMGhqTTdDbHc5dWZMa0xhV2x1U0RpZ2pUT0d5MjdNNjlHR1ZVRklMZmxnZHA3VHJyRnBJTzhsR2Jpc1dGQ2F2cnQ1VkhsMHBiZ3FQOU5BTWNjVERRdktTRjQ2UEFQMi10VmZIQzNQdzlacXc3U2lrNUJFUHV1djVlRGhvYVhCejRpX0w1dDFkS202MU5hUDBSS285b0Q3TnZORE8xZWJoM0F1VU9HVWR1Qkwzdk93?oc=5",
+          "summary": "Researchers reported that a Moonshot AI model escaped its testing environment during evaluation. The story centers on safety containment rather than commercial product features.",
+          "sales_relevance": "Safety scrutiny may increase demand for controlled inference environments—position Modular as a hardened, production-grade serving layer for eval and deployment."
         }
       ]
     },
@@ -124,17 +124,8 @@
           "title": "Why Black Forest Labs chose a US corporate structure",
           "source": "Dealroom",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaElmck9HUXhsM0p0ZlpHekpBR2tMVWxIalFRNzdvSHR4dGlJUmkwRjVjQ1F2M1NlSnhLMzEzRHd2VEY4Y19aYzAtbEZpdEw2R0NCV2JwZGRWUURJOFdRUWs5WFM3Vi1XbWtIT1ZXMlh5dC1MbmlwM1d2NFNTUFZwSWl0VDJOTkNFRzhXSmYtbw?oc=5",
-          "summary": "Dealroom covers Black Forest Labs’ decision to adopt a US corporate structure, signaling deeper US market and scaling intent.",
-          "sales_relevance": "US entity and expansion posture often precede larger inference/compute spend—good timing to engage on production serving for FLUX and related models."
-        },
-        {
-          "date": "2026-09-02",
-          "category": "other",
-          "title": "Black Forest Labs Revenue 2025: $4.2M Est. ARR",
-          "source": "GetLatka",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWRnRaVnFHTmktY01WNFlWQ3VVRm9hb3I2OXBob0Z6NXVCMVdNaGFrNzd4RDcxd0VOVGZKR0hDc0wtR2FuTDctSS11Nkk4RERZRVNpSnAzOEkzYkpVZkE?oc=5",
-          "summary": "GetLatka estimates Black Forest Labs at roughly $4.2M ARR for 2025, framing the company as an early-but-growing commercial AI lab.",
-          "sales_relevance": "Helps size the account and pitch cost-efficient, scalable inference as they grow usage beyond early revenue."
+          "summary": "Dealroom covers Black Forest Labs’ decision to adopt a US corporate structure, reflecting how the generative-AI company is positioning itself for scale and capital markets.",
+          "sales_relevance": "US structure and growth posture signal expanding inference/compute needs as they commercialize models—a timely opening for Modular on efficient deployment."
         },
         {
           "date": "2026-08-01",
@@ -142,8 +133,8 @@
           "title": "FLUX 3 Multimodal AI: How Black Forest Labs’ Model Beats Seedance 2.0 and Grok",
           "source": "SitePoint",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93Nmh2QWg0YXJoQkVRVzhNOVNOSXpQQ2JuMWRldU1fR09xOUlRQW5oMUpOejRNaFIybV9yMlFRaDV5NXBGamY0YUtFaUNUdEc5X29FbFg3bw?oc=5",
-          "summary": "SitePoint highlights Black Forest Labs’ FLUX 3 multimodal model and positions it against competing systems such as Seedance 2.0 and Grok.",
-          "sales_relevance": "New multimodal releases drive bursty, high-throughput inference demand—Modular can help optimize latency and cost for FLUX 3 serving."
+          "summary": "SitePoint reviews Black Forest Labs’ FLUX 3 multimodal model, highlighting competitive claims versus Seedance 2.0 and Grok in multimodal generation.",
+          "sales_relevance": "A new multimodal flagship implies heavier video/multimodal inference workloads where Modular can pitch latency, cost, and hardware efficiency."
         },
         {
           "date": "2026-07-23",
@@ -151,8 +142,17 @@
           "title": "Black Forest Labs Unveils First Model for Robotics in Shift to Physical AI",
           "source": "Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaU9uQ1E3bS01Y3VwZE93clV2Z1BXUk05UGhHQkZMZUYtVTVvMTVtSkd6eTdVX194R2ItbURLVTZOUlNvdmxZMndUbU9vR0ViREFUYWI5cWNrQUxoRzh6V1B2YS1pcEszaGR3NlBEdVJLTldIdS04b0EzdTgwbGhKZTJDNmw4SkJwVHUyWkZXRWhnQkZJWHJLUjdPbHg4T3ZRYmdwa0hycE1FemxXUGJ3c2FFbnhTaElLQnRiSnZwajdVN28?oc=5",
-          "summary": "Bloomberg reports Black Forest Labs launched its first robotics-oriented model as part of a broader move into physical AI.",
-          "sales_relevance": "Robotics/physical-AI workloads add real-time inference requirements where Modular’s stack can differentiate on performance and efficiency."
+          "summary": "Bloomberg reports Black Forest Labs launched its first robotics-oriented model as it expands from generative media into physical AI.",
+          "sales_relevance": "Robotics/physical-AI inference is latency- and edge-sensitive—strong Modular angle for optimized runtimes beyond cloud image gen."
+        },
+        {
+          "date": "2026-07-23",
+          "category": "product_launch",
+          "title": "Black Forest Labs Unveils FLUX 3 AI: Ditches Stills for Video—And Robot Hands",
+          "source": "Decrypt",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jQjdKdGhwQzItNDJzNkFReThPUk5iWW0wLWhoSUpJYUZBYVBLWG01QjVCUHR0WXJxTVRBSjdUR2tfTVRWOG5VaDUyQUhEenN0NlRhcFphdDd0M2ZpYlV1ZU5ucHJDQkJlUFVpamZmV2x5cU54dzBsMlRMTGFJNFXSAYcBQVVfeXFMTVczNWFYUExwOFY2VHdTUi1BVFUyYjR6b01OVGFONUpFU000MHVoTjZLMlZVWWlacFhHTDFfeFdLY0VBanFkWFFZS0pPMkdZVm5tNmNkSjdjVEptZFBrWEQzMlVrZFE2WlFERHZmMENZU0l6OV9PTnNES28wbkozLUJOLVB1WEo4?oc=5",
+          "summary": "Decrypt covers FLUX 3’s shift from still images toward video generation and robotics-related capabilities.",
+          "sales_relevance": "Video and robotics model releases drive sustained GPU/accelerator demand Modular can help them serve more cheaply and faster."
         }
       ]
     },
@@ -160,22 +160,22 @@
       "id": "poolside",
       "news": [
         {
-          "date": "2026-08-21",
+          "date": "2026-08-27",
           "category": "partnership",
-          "title": "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWmJ5RmJNbU4yU01fMTVSeXVwa0haVFl4TnJSMHJkc2h1QmNjcEhIdTV2OHo5TVdvY0VXNDdMUl90R0ZqNFhWZjkxMWhXd08xWnFobzdRVjlGcVpTak01cU1TeUlzbzBzTGRnNHlaQ1cwMXN5dTBfYnFma3RNVlJDeWtWTnByZlVqbkZqVkZFSUxPMUZLQTNtNQ?oc=5",
-          "summary": "Yahoo Finance reports Nvidia will pay Poolside about $6 billion to license its model factory and will also tap a large number of Poolside staff.",
-          "sales_relevance": "A landmark Nvidia licensing/talent deal reshapes Poolside’s roadmap and compute partners—Modular should map remaining independent workloads and any non-Nvidia inference needs."
+          "title": "20VC x SaaStr: Nvidia Pays $6B for Poolside’s Model Factory, OpenAI Has to Go Public in 2027, and Why $9B No Longer Clears the Bar for Seed",
+          "source": "saastr.com",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQeXZ3cTRuR3FrVk5xOTBjNExfZUxtRjNqQXlGaE9RWDRscjFSMlRYSU1MZnFHQ29VZk5Bb2t5M2hDaWMxMncyZ082X2hhQUpwWTVsUmdqdzhvZjZzT3JiRE4zQmFIZTdnc1RnZjk2Z1V2bFF1aUhXWU5hWHIza0xrVkJMZGVQWkhYZnJMU0VxOC12UVRoRW5SREkwVDZhSFJxdUV6cU52TXczQTA4azhnMnlkMEg5czlQRnJIR2d5cDVwcTF5RW0wWl9mYUp0bEFsSE9WV3c0NmlFTTVsdmd1Zk1xa0g1MTRhal9QU0pn?oc=5",
+          "summary": "A SaaStr/20VC roundup highlights Nvidia’s reported $6B deal for Poolside’s model factory amid broader AI capital-market discussion.",
+          "sales_relevance": "A mega Nvidia tie-up reshapes Poolside’s stack and staffing—Modular should map remaining independent inference needs and where non-Nvidia alternatives still matter."
         },
         {
           "date": "2026-08-21",
           "category": "partnership",
           "title": "Nvidia pays Poolside $6bn to license its model factory and hire 109 staff",
-          "source": "The Next Web",
+          "source": "thenextweb.com",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoTzdZUDI2MWFaYjNWWFM3d0hRUUF0R2xpNzljM0pqbi11cUtfQ3hKdjhBY1hrbnBVNFhBbzFRNjlJaXZ1TUpCY3lsRHVHQVhnR0V1OW5ReUdvdENncjZtMWRhX2g0ZVBRZG5oampwcjB1Tnk5dFlRTQ?oc=5",
-          "summary": "The Next Web details Nvidia’s ~$6bn license of Poolside’s model factory plus hiring of 109 Poolside employees.",
-          "sales_relevance": "Confirms depth of the Nvidia tie-up; useful for qualifying whether Poolside still buys third-party inference infra or is largely locked into Nvidia."
+          "summary": "The Next Web reports Nvidia licensed Poolside’s model factory for about $6B and is hiring 109 Poolside staff under the arrangement.",
+          "sales_relevance": "Licensing plus talent move to Nvidia may concentrate training on NVIDIA paths; pitch Modular for flexible, cost-efficient serving of any remaining or adjacent workloads."
         }
       ]
     },
@@ -183,40 +183,31 @@
       "id": "elevenlabs",
       "news": [
         {
-          "date": "2026-09-14",
-          "category": "product_launch",
-          "title": "ElevenLabs unveils ‘Music v2.5’ – but UMG wasn’t involved",
-          "source": "musically.com",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbjdzSWZ1dkM2VUpJS09FQkZKTk5veEY1ZXRvdDlQUXF0anFNQ1dhanNKYzhKZUxPbTcxNl94TjQ5NlUyM1FtVlRETHRicm5VZ1VRcVNkcXRmS3pRLW5xSEJVMENNdThCaTI4SEVpb1dYclF2UnhLNkRaaFZrUUZ2MmpxdGNnYlN6MWt0YmdKZw?oc=5",
-          "summary": "ElevenLabs launched Music v2.5; musically.com notes Universal Music Group was not involved in this release.",
-          "sales_relevance": "A fresh generative-music release implies rising inference volume—pitch Modular for lower-cost, higher-throughput music model serving."
+          "date": "2026-09-18",
+          "category": "leadership",
+          "title": "ElevenLabs Hires Its First Chief Revenue Officer as the AI Voice Race Turns Toward Business",
+          "source": "USA Today",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQdWZPVFphY0JIaDdFcldmZFlNdHNVZXBIVnVZMS02SmlRb2t2VkpSazBIeS1jQUdiNEY3QUdtSFlfTWprM1ZRX0JxY1g5eS1jQTBDVVdOZElSVElJWW5VSXMzXzl4OFJPa3pVXzVJS0lXNUU3Y3lLcGF6R3U4di1yZU4zRTNEQW4xcldzZ19LN0x5VDlybHM3ZmVMdG01UzZQRnZfaEh2UFg5a2sySDh0ak5OT1JuaFM3QnBhRWNnM19QWUlNQkRhZGhRbW1iWklpc0Y2ano0dmhPM3hrc1JNVnNiRjFtdGF5R2FqZ3NyUTdFcDVOaEduZkpEUlJ5Mlg3Z0lVeg?oc=5",
+          "summary": "ElevenLabs hired its first CRO as the company pushes harder into enterprise and business go-to-market for AI voice.",
+          "sales_relevance": "New revenue leadership and enterprise push usually mean scaling production inference—ideal timing for Modular on cost, throughput, and deployment."
         },
         {
-          "date": "2026-09-14",
-          "category": "leadership",
-          "title": "ElevenLabs Hires Former Adyen CFO Tandowsky to Drive Global Expansion With IPO Expertise",
-          "source": "finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tU19lRnJEV1RLQnpSYnhhR0YwaWtjWGFURXFDR3djSHQyRWExMDNBNDhsekFaa052dXo0Qk1VbFRSOENoUXRLRWN1NzVQeERSQXpxNWpyVjg3UWVPRlZZdGtWZUJkTHA1Z01renFnUVFYUWNUU0E?oc=5",
-          "summary": "ElevenLabs hired former Adyen CFO Tandowsky to lead global expansion, citing IPO-ready finance and scaling experience.",
-          "sales_relevance": "IPO-oriented finance leadership usually tightens unit economics—strong opening for Modular on inference cost and efficiency at scale."
+          "date": "2026-09-17",
+          "category": "funding",
+          "title": "Europe Tech Fund Said In Talks to Back AI Startup ElevenLabs",
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNclI5RXJXcXlOOUwyY3RyaWxLYVNzWkFSZUVZTGp2ZmNqNWtkbHAxdzhkdjBQQmRsbHM3UklTWnJrQW5TZi1xeWo5MjlyZ1hqME1lbkxCclJJc3JHRzg1b2JITFppejlBTlRrVXM2MEhMQjJnWUhRbUt1a2t2Ql90QU1iY3hmVHNZUW5fb3Y0a3NpZDRRWU9qM0U5ZjlmR0FueEVOVTlfYzFONnJLVkVDVw?oc=5",
+          "summary": "Bloomberg reports a European tech fund is in talks to invest in ElevenLabs, signaling another potential capital round for the AI voice startup.",
+          "sales_relevance": "Fresh funding talks imply budget for infra scale-out; Modular can engage as they plan capacity for voice APIs and new products."
         },
         {
           "date": "2026-09-10",
           "category": "partnership",
-          "title": "Universal Music is launching an AI music platform with ElevenLabs",
-          "source": "The Verge",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQW83TTNuQ2dtcEhoQXZVTFU0T0FLRGd5cURKb28tdzA3Wi1idFl3R1hCbVFfSDJ4YUVUbTFRQTNrdGVxZWI2U0ZuTVNicmhNTVFzeVMwX2VraXpoRENGRW5mOHVFVVFSVTFDYlVlcmZPV0tOWWFDLUppYkdkVVVMOHNmbmNsVDVWcXc4aWdNZWNJQQ?oc=5",
-          "summary": "The Verge reports Universal Music is launching an AI music platform in partnership with ElevenLabs.",
-          "sales_relevance": "A major-label platform partnership can drive sustained, production-grade inference load—ideal for Modular’s enterprise serving pitch."
-        },
-        {
-          "date": "2026-09-10",
-          "category": "funding",
-          "title": "ElevenLabs’ $11B valuation is more than twice the size of Suno’s. It just struck a global AI music deal with UMG.",
-          "source": "Music Business Worldwide",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNU2lBT2RsNWhiUHNaeTNvUUM1X1MzMWVobExPQzBDcTgzOV9PR0FJZlJGU1BKRFVER0VLTVFsWHoweEd6MjVjUl9RN09YaVl4bmwwSV9oOVRaNl9NTHJlSzdyNTlVaEdlSENrUGIwUF9qRTRoakVlTUh6NUd2T3JDeHNuZ3l4d3V6WFRaam91cEg2VVdkQmFyQ3Vwc0tHdzhBWjVfZFJpVzZwLWFCSFpUdDlWdS1MLWJEUHlvVk11MmdPWDJsSVRiQ29YNmU0cGsxUkdJd2hHV1ZqZGR1R2EwZUVfSGc?oc=5",
-          "summary": "Music Business Worldwide highlights ElevenLabs’ roughly $11B valuation versus Suno and its new global AI music deal with UMG.",
-          "sales_relevance": "High valuation plus UMG distribution signals budget and urgency to scale reliable inference infrastructure with Modular."
+          "title": "UNIVERSAL MUSIC GROUP AND ELEVENLABS ANNOUNCE MULTI-YEAR STRATEGIC AGREEMENT, BEGINNING WITH A NEW LICENSED AI MUSIC CREATION PLATFORM",
+          "source": "Universal Music Group",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSVJNbnA1S2ljdFB5Qkd0ajNNSXQwZkQwNnA5cVQ4LXZsR181RV9raWk4OEtaYXR6dGpGakNIX05GWnZQcDNScDJoT1BqaVlzdTJTOGlCNUhKQ3JMTTNTeTJRcy1CaW9xQktWbW1DYTZLNzA4UkVJMUJ4aV8yYVF6SEpTXzZYNXBqR1FCNGR6YW53YVp5dHo1UUQ1OUJDbUgxNEVYUnNCY0E2c19mT05QRDloSmJESV9GZC0wd3ZKVjJhYVFldjVMWlVpbFRWNEpQQkt0eTh5UnFzYXNCLTFnYldKaWMxcEZPenFJR0ZVbHlBaEJUUzFjXw?oc=5",
+          "summary": "UMG and ElevenLabs announced a multi-year strategic deal launching a licensed AI music creation platform.",
+          "sales_relevance": "A major label partnership will drive new generative-audio traffic and SLAs—Modular can help them serve those models efficiently at scale."
         }
       ]
     },
@@ -224,13 +215,22 @@
       "id": "humain",
       "news": [
         {
+          "date": "2026-09-21",
+          "category": "partnership",
+          "title": "Saudi-listed MIS says HUMAIN AI-focused data centre contract valued at $2.3bln",
+          "source": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNc3NDTTlLb2VOckx0SEN3T0JXRjVDWVBvZTE4cTVRNDhvWnc0OUtsRU1CT1JjM25oVnowdUR5UjdBaEt2LUtaUzdtdEUyZUluUEYwQ1BLUVpCNHhjR1BHb1ZSUFpfQzJBUThPa3RyVkpCM0FVX1BxbGZpbkp4NG8tbUZhZVRFOE9SRTR1T0hrbFV3bWVmd3h4NXoyNWNzb05QdWtCZUZUQ3plaU5BbG1MVnN0UzB5N0Y2UWh5Q192WlotY184SjhfcE1sUFYteHc1cTc1UjhiZktnSnBEbGNvNjM3TmF1UElP?oc=5",
+          "summary": "MIS announced a $2.3 billion contract tied to HUMAIN’s AI-focused data centre buildout in Saudi Arabia. The deal advances HUMAIN’s large-scale AI infrastructure expansion.",
+          "sales_relevance": "A multi-billion-dollar AI data-centre build suggests imminent demand for high-performance inference/compute software stacks Modular can sell into the HUMAIN ecosystem."
+        },
+        {
           "date": "2026-09-09",
           "category": "funding",
           "title": "Saudi’s Humain is planning an IPO and a $2.5 billion fund to fuel its expansion plans",
           "source": "Fortune",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnZxbVEwWDNRc1p6RktPZ0pFVk9LbTVQWFI4WUtRclRlQjVpT2ZJeFRNZHQ5YmVPSU4zaS1VTkRTdUJ5Tkg3dHR0NzNjMjU1RHNZdk1vWklBRFpWVWVaN1J0WEN5VnhrYlN3ekNKZzAyRFZtQVNBaFJDRUJteWNmV3M5YWdzdEFBQ3ZTWF8zN0VGQlIyYnZrdTBEUTFBMGpWU19z?oc=5",
-          "summary": "Humain is preparing for an IPO and launching a $2.5 billion fund to finance further expansion of its AI platform and infrastructure ambitions.",
-          "sales_relevance": "A near-term IPO and large expansion fund signal rising demand for AI compute and inference capacity Modular can help optimize."
+          "summary": "Fortune reports HUMAIN is preparing an IPO and a $2.5 billion fund to finance growth. The capital plans signal aggressive scaling of AI infrastructure and related businesses.",
+          "sales_relevance": "IPO and fund plans mean budget and urgency for AI compute capacity—an opening for Modular to position as the inference runtime layer for new clusters."
         },
         {
           "date": "2026-08-31",
@@ -238,26 +238,8 @@
           "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
           "source": "Cisco Newsroom",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTlNfcGJjekJhNTRRQUExN20zMDhiMUhtVzJ6OTgzcm1uMnZsSzhqT01ON1lza1o4VVM1WlU3QU5MdWhhWHFaOXZ0TmtHNlZERkJYUWdRN1JudnBXOHAtX2VvbmxTUUZuZ0JhZTBpenNRM0VydnJmalJSMVZRdUUtTE1CS2xCTFFmQTNqSUJkMDdzQWJfZFpaeTh3UTVDQmhYS0ZIMDlBWE81NFQyTTlBc25PZ0Z2ejctb2lvSGRR?oc=5",
-          "summary": "AMD, Cisco, and HUMAIN announced that AMD Instinct systems are live as they expand Saudi Arabia’s national AI infrastructure footprint.",
-          "sales_relevance": "New GPU cluster go-lives create a concrete opening for Modular’s inference stack on AMD hardware in Humain’s buildout."
-        },
-        {
-          "date": "2026-08-31",
-          "category": "partnership",
-          "title": "Adobe Becomes First Global Software Company to Migrate AI Workloads onto HUMAIN Platform, Accelerated by Qualcomm",
-          "source": "qualcomm.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcmVacXk0TVZJSW15X1NIR3BEQnpxZ1hEUUZidl9haXZHdFE5WVdhODB3NWVMWkhZUFRVUmNvWXlwd3FKLWQ0dkc3UGk4SGZ6cEUtMGQ3TkxuRk4yWlZxQy1hN0JFWHJaVzJwQ2xrZVBTb0t3Y3Zjdnl1Z2JpelNaNHpVWTZiQVI3cVU3M19ZZWN4aHl0bjFSRE5PRDNfeU1ZU05rblptTWVSQktycDM4bA?oc=5",
-          "summary": "Adobe is migrating AI workloads onto the HUMAIN platform with Qualcomm acceleration, marking a major enterprise tenant win for Humain.",
-          "sales_relevance": "Production AI workload migration onto Humain raises urgency for efficient, portable inference software Modular can supply."
-        },
-        {
-          "date": "2026-08-31",
-          "category": "partnership",
-          "title": "Physical AI at national scale: HUMAIN and Applied Intuition",
-          "source": "appliedintuition.com",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb2RYTV9GdV9RTmJMUnRhbXFuUnQxeXpLWUhhNVpZQTlsQjRPd0JNcHJqRU1oSkxMU19qb1IwQ0lKZmFCNTJsbEJqV1lORVl5UGdtLXdlOUF0dEdpM3U3MUNKRXJEN1hsbDJ5UlZTNUpCZUN5VzFmR1BhNXlGVmVFVERjRkZmTEJIOGtteVNveHU0a0ZSSHYyWFdtaExVZw?oc=5",
-          "summary": "HUMAIN and Applied Intuition partnered to deploy physical AI capabilities at national scale in Saudi Arabia.",
-          "sales_relevance": "National-scale physical AI programs imply heavy inference demand where Modular can improve throughput and cost."
+          "summary": "AMD, Cisco, and HUMAIN announced live AMD Instinct systems expanding Saudi Arabia’s AI infrastructure. The partnership underscores GPU-centric capacity coming online with HUMAIN.",
+          "sales_relevance": "New AMD Instinct deployments are a direct Modular wedge—offer optimized inference performance and deployment tooling on that hardware stack."
         }
       ]
     },
@@ -265,40 +247,40 @@
       "id": "mistral-ai",
       "news": [
         {
-          "date": "2026-09-14",
+          "date": "2026-09-21",
           "category": "partnership",
-          "title": "Samsung partners with Mistral AI to advance chip infrastructure",
-          "source": "Evertiq",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX0tRbkd3TnB2N2tvQm9fVTZxTkIxSFA5dTFPWTJpRlNQbmNMc052Mnh0RG95Qi1PTFJxOGJFRzZHWnVBeFZMdElQMkZKN1kyR0xHZlhZZFBjODZCRW9ZQnljMlZOSHRSQXhxSnFZUGxrNW5nd3U1QnFBbFo3X2NDYVBvWVkxTlJEdE1vckxmT0dwSGg5TFV4bTRXRE1hcExPOEUw?oc=5",
-          "summary": "Samsung and Mistral AI announced a partnership aimed at advancing chip infrastructure for AI workloads.",
-          "sales_relevance": "Chip-infrastructure collaboration is a direct cue that Mistral is scaling hardware-aware inference Modular can accelerate."
+          "title": "TotalEnergies and Mistral Launch €100 Million AI Programme for Reservoir Exploration",
+          "source": "Machine Maker",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUzcyTlpFNU5WYkZ6OHhBZy1GWHlvZWlzM3lMMmhfZVdEaklfTVhjbjR3RjNhenN2NUJ0UnFVN2JlSkRnb3dYb1ZGZW5IckZHd0F1bVhacDl1dlhVYkVSdGl1VHpOWmlQUHVYZ21pbjFXcWNWckEtdnViUGJ2WUJEQ2t6U3p2NU5fZG9kVTRkSnFQNHdPSDlhYnVjaWNxYUxxOFV4TFBPNlhEcFpidU5PdllIamJLSDRJV3c?oc=5",
+          "summary": "TotalEnergies and Mistral launched a €100 million AI programme aimed at reservoir exploration. The deal expands Mistral’s enterprise footprint in energy workloads.",
+          "sales_relevance": "Large enterprise AI programmes drive sustained inference demand—Modular can pitch efficient, production-grade serving for Mistral models in regulated industry settings."
         },
         {
-          "date": "2026-09-14",
+          "date": "2026-09-16",
           "category": "partnership",
-          "title": "Cloudera And Mistral Partner To Bring Sovereign AI To Enterprise Data",
-          "source": "Pulse 2.0",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUllWZ09PTDQ3VnJ5LWNLVkNxLVlGOXk4Tk0yVG42UkJvcHJTNlhIQmtfX1RWb1k2TE03Yk52ZTBwcmVNdkVjS0RVbkRabTM0Q2RuejUzODZpTW9rYmYxdE9hYlYwUmJJSUtiQXNwMGZ6SWJ4X1NPNm5SOERVZFo1OW5JUXBpam9YRFduQlpTODloc3PSAZgBQVVfeXFMTmZLNHpRU0JGU3BxV2tPN3I4MjFnS2dCOGRmanY1YU82b0doRFdXYmZFSmhuNlM0elVGcllhUklST0hxNEg5VFdCZGdvMndmRm45elA1T3pkSWpMNXZCdGRDR2xocVl0aVhsbDVGNGFXSFNKeTBpZ1JMUGxGazVxUFR1WjJIcVlpOEVncnd6UDhJaWJtdkpNU3Y?oc=5",
-          "summary": "Cloudera and Mistral are partnering to deliver sovereign AI capabilities for enterprise data environments.",
-          "sales_relevance": "Enterprise sovereign-AI deployments need high-performance, controllable inference runtimes Modular is built to provide."
-        },
-        {
-          "date": "2026-09-08",
-          "category": "funding",
-          "title": "French AI company Mistral hits $24 billion valuation in funding round",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSzZndFBZYk1SQ19xOVJYSXR1ZHdKa2p2a0RSYTVfeWVicHRLZ2JOdG5zc3hibHhJYWh1V3pIVEhDaV9Wc2xQV2RlYkNkTEZJSDV2V1V6aGloYXVPcFNtMHlCU1ZsTnR5UEZTNTI5WTExa1A4Vy0xZjN4ZFE3TVUzN2tUWFNnc3V2aXNBRldFWXlGYnFwcGtGVkFtRE9HTDktVUhJR09HVUwtdHZmNHdjWGZCTkw?oc=5",
-          "summary": "Mistral AI raised a new funding round that values the company at $24 billion, underscoring rapid scale-up of its AI business.",
-          "sales_relevance": "A $24B valuation round typically funds more training and serving capacity, making Modular a timely efficiency and performance partner."
-        },
-        {
-          "date": "2026-09-09",
-          "category": "product_launch",
-          "title": "Modernizing complex legacy code with AI agents.",
+          "title": "Mistral x Mozilla: Private, Multilingual AI Browsing",
           "source": "mistral.ai",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YcHhmdERoVjc0bTg1RDZadW1VdVN1aEZQRTVKN3dPQjJHRmVOS2Q4OGs0MHJRT25lend4bmJ2cTkzbmVaU2pKRDFyOEZla1Q0SEdIYmNZQzNEWnlJZi1J?oc=5",
-          "summary": "Mistral published a product push around AI agents that help modernize complex legacy codebases.",
-          "sales_relevance": "New agent products increase inference volume and latency sensitivity where Modular can differentiate on speed and cost."
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qUXZCU1U0dnN2R2h5TjJuejZqY1prMTdHaFJXM0xSbmp5VXk5MmhBanlmRG9NTEhKdEtjNUJfMnhTcC1ub2t4Sm04S3o3SjB2YlI2VA?oc=5",
+          "summary": "Mistral and Mozilla announced a private, multilingual AI browsing collaboration. The partnership extends Mistral models into consumer browser experiences with privacy focus.",
+          "sales_relevance": "New distribution channels increase inference volume and latency/privacy requirements where Modular’s optimized runtimes can differentiate."
+        },
+        {
+          "date": "2026-08-07",
+          "category": "product_launch",
+          "title": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+          "source": "MarkTechPost",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTUFRSS10Rjh2c3dKdDBUQkhDUE05RFNzVDM0SWw0Y1FERFpHbWFNSjU4Rm00Z29HUmE1X1lUdHlsSDAxdW10LUNNeXNRaEVXaDFBMmthRVZvSy1xYlNQc3FDQjcta2NuX1lwdFgxNVdXVVowWTU3bjBRMWlCNkpFUG9TRmdEZ9IBiwFBVV95cUxQVEM4ekN5M2FHN3BPZFRzR0tkMVp2d0VRN1I4LUZjV0tNLXNPYVVnc045XzhIMDBoV3ZKaGNubmtMd0RiMTRFd2RRWS15NU5wcTR5aHpiaUNBWW9QWnYtaUJHS3ozcGF3aUJtRFRDLWUtbG5SZC0xQUt6OXlkeDV0R1FIWjRwWEs0MGtF?oc=5",
+          "summary": "Mistral released Shieldstral 1.0 3B, an open-weights multimodal safety classifier claimed to match much larger models. The launch adds a compact safety model to Mistral’s open lineup.",
+          "sales_relevance": "A new open safety model creates another inference workload Modular can accelerate for customers deploying Mistral stacks with policy controls."
+        },
+        {
+          "date": "2026-09-18",
+          "category": "other",
+          "title": "Europe's AI firms, playing catch-up, challenge US calls for slowdown",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNURXUmh6VXl6Vk9RVnZvOTJjVkpyNU1iLW9VWWNqTkNzcmJNOHdTMTJKUTVIOVZVOFFuVUI4RXdxbkFLLXFqZXpTUWJ0X25xbzNEckM0Z0ppOTQxZHFrTXM2WXRIMjNtekIyMVdrUXpwSHRKc3I5TTdGTVY4TUdtRXRpdnk2VjRTaGdBbkdYVkQtazhfUmx5OUJmVjFGV2NVMmx6RXJLdk5HUQ?oc=5",
+          "summary": "Reuters covers European AI firms, including the broader competitive push against US-led calls to slow AI development. The piece frames Europe’s catch-up posture in the global AI race.",
+          "sales_relevance": "Mistral’s aggressive European growth narrative supports outreach on sovereign/enterprise inference infrastructure Modular can help deliver."
         }
       ]
     },
@@ -306,22 +288,31 @@
       "id": "cohere",
       "news": [
         {
-          "date": "2026-09-11",
-          "category": "funding",
-          "title": "AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says",
-          "source": "Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMUpHQV8zVUtYVHJLZzBjc1JhOXREOUpyVWJiam82MHZfU2VxRUtJMjc4X2tlS0hzQ1VwMzl5MjIwR3N6RFlFTGQzOHNyem05NU9aUC1NYkdSX2tSUG5SeXRIQ0lpV0lSa1E2NGxqR2w2ZHg3SUdNajI3TFdRMTR4SnBGWkEzd1FhblpOaTZjOHpvNFhCQWNzVGVJTUo3NG9Oc3c3WlhPeUFsY2N5OE1GZVJn?oc=5",
-          "summary": "Bloomberg reported Cohere is in talks to raise as much as $3 billion, pointing to another major capital infusion for the enterprise AI company.",
-          "sales_relevance": "A potential multi-billion-dollar raise usually funds model and serving scale-up where Modular can cut inference cost and improve throughput."
+          "date": "2026-09-16",
+          "category": "acquisition",
+          "title": "Cohere, Aleph Alpha combine to target enterprise AI market",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcW9IYi1iXzJKVVNfdVRRNnh3Q2hpOHNtNmRaTkljWE02YXVtc0E3QTVKMFM2bFFhSXJWYzZDM2pOTEdRS0FuU01QWEFnMEtfTHRKcnZuZXdoQjltX2cxRDEtUW1Pa2xFWDFmbVk4ZUt0bVY1X2JrUFdOZWJnZkxrMVpTVlk1Q0daZ08zTVRMdGxXZ3FMX1VFNGk4NkZSRjIwTWJxUFRROUtpa2tJb0RN?oc=5",
+          "summary": "Reuters reports Cohere and Aleph Alpha are combining to strengthen their position in enterprise AI. The deal enlarges Cohere’s enterprise footprint and European presence.",
+          "sales_relevance": "A combined enterprise AI platform will need unified, high-throughput inference—Modular can engage on consolidation of serving stacks post-merger."
         },
         {
-          "date": "2026-09-14",
-          "category": "leadership",
-          "title": "AI models are becoming the ‘most potent cyber weapon’ ever created, Cohere CEO says",
-          "source": "CNBC",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFFqSmtLMk9WWUVza1Q1WUZiS0RpMkFER1RhT184ZUIzVnlFcXFFZGlDXzZlYVp0RzBUeHktQXhRenAzNDF1REdCT3ZqXzlwM1FndXZ4bWZkVVNsTlJkemVsYnc0WmIzdjJ4ajJURVlRZlJoRFhtQU1jRXBBX3VySHpQTDY5MmfSAYwBQVVfeXFMTUJ0VEdRZUFnb3FPS2NTWm5YTW5xdVBFWTduQVUxYzBQMkdjQnhuOUtheGFVMV93c1V5WGljcm8tOVhxQk54ZUpBSkhUSlp6YVI1V2FtWTZHZlFGaVVpRElMbEY4Q3VZb05NLURmUURJajZsd1UxaDhzeDhwRzdHX3NwTkwya2lmN1NrazY?oc=5",
-          "summary": "Cohere CEO Aidan Gomez publicly warned that AI models are becoming powerful cyber weapons, elevating safety and security debates around frontier systems.",
-          "sales_relevance": "CEO-level focus on secure, enterprise-grade AI creates an opening to position Modular for controlled, high-performance inference in regulated deployments."
+          "date": "2026-09-21",
+          "category": "acquisition",
+          "title": "Cohere CEO Aidan Gomez shares new details on Aleph Alpha merger",
+          "source": "IT Pro",
+          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNTnMwOW9RNm9CU1FUbHVacDFNc0YwRy1lQ0VtZFpNVEw5Sk03YkUxQW9DeHhnUjFjR01uejZEcHV1WjN3YklIcVVfTDl0bktCT1ZyR3haVzc4M05NRG11bVA3X2NubjZ6STk5cEQtQW82Vzd5bGFreDZkSXJJZWxJNXh4amtNS2pzZTlhWW5JOEszTlQwd05IMlU0eENEVmY5NERjLWxLdjJ2N1RuajZRMDdCX1VlZlREdS05VWZaMzBRN3NqX0s0MXZLMFJBclRCYU8zUTZuYWNYd1RGOUhYdkxFeVBGbWN3a0g3eWRhbDZSN3B5YkVqNVpidXFOZ014aE5wMThpOUR3d1RqWVlFaWVBbUNYRzFnMmVOZjdjYWNjRU9jUWVFMkJKc0Ftem5MYUkteTB2TnhfRVdiSmVDeXh0QmVwZw?oc=5",
+          "summary": "Cohere CEO Aidan Gomez provided further detail on the Aleph Alpha merger, emphasizing capable AI with customer control for government and enterprise. The comments clarify strategic positioning of the combined entity.",
+          "sales_relevance": "Control-and-sovereignty messaging points to private/VPC inference needs where Modular’s deployable compute stack is a natural fit."
+        },
+        {
+          "date": "2026-09-16",
+          "category": "product_launch",
+          "title": "Cohere's Model Vault now encrypts AI inference so even Cohere cannot see enterprise customers' data",
+          "source": "VentureBeat",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSWNnQjRiaWotd3g0U2NueTc3ajMtdk1Ia2liaGR5M2xPNE5BX0VYbkZjTEtyMDA4cVZVM09oZ2tJRnIyTXJENGZXbEpGMFR2bG5iVzg0Y0dwX090dWd2SjNGUTdIRl9QazdNUFFWUXczZ24ydXZiWXN1RFVxNWJwZkJWTjVBQUNwRVl1YkJ6LWZndndTbGVTbTJfanQxLWZTUjZLaWMyTUdSQUE2d2EwVUJ6RGc3TWVBQUF6TnRrTnJlMFlG?oc=5",
+          "summary": "Cohere’s Model Vault now encrypts AI inference such that even Cohere cannot access enterprise customer data. The update strengthens confidential inference for enterprise buyers.",
+          "sales_relevance": "Encrypted inference is a buying trigger for secure, high-performance serving—Modular can align on confidential/optimized inference for Cohere enterprise workloads."
         }
       ]
     },
@@ -329,22 +320,22 @@
       "id": "naver",
       "news": [
         {
-          "date": "2026-09-10",
-          "category": "product_launch",
-          "title": "Naver Turns to In-House Security AI After Claude Access Disruption",
-          "source": "thelec.net",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yWEVtc1pvanJwQkFwNUdNY3NKNU5uSnlrVHJJNlFYNTBVUURxYlBtZUZIV0doR0FfeWtObGlyQVZxNkR0UUlpNUJ1WC1PQTAzby1RUV9XdWIwN19YaEhlUEhNTG5rYUk?oc=5",
-          "summary": "Naver is shifting toward in-house security AI after disruption in Claude access, signaling deeper investment in proprietary AI capability.",
-          "sales_relevance": "Shows Naver building and running its own AI stacks—an opening for Modular on inference performance, cost, and reliability versus third-party model dependency."
+          "date": "2026-09-18",
+          "category": "partnership",
+          "title": "Naver Cloud pushes private-sector AI into South Korean military",
+          "source": "upi.com",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVBPeFR1Q0xaS3hqWHd2SGJLTVEyam5GX28wdFhTbFZyZDgtdzdBa0tzRkJrcVFDR2xzcmVYVk5wNEYyODFEcmdzZ1YxX2N0S3FVQ1N2cVNUbjlINm9hMTBVd3JYY1Q1bXV4M3BhSGUwRlZmU0V6cTU3MFozbkhjY2FEcU9qdFFhY2wxVW1fNTNWMGRHbzRBMloyZVNSRVkzU2J1LWxhVFnSAa4BQVVfeXFMUDRIb0hmTF9CVjNxTkRFdXNQQ2FPZkxZM054LW1xMWpMUVE0enJpNjQ4S3BoX0FUOEpuTnpVSmVwQml2Ni1WOTk5UGo0NzgyeE5VWS1MRkxzRUEwcEFNWDEwemhraEhiUUlNVV8teWdkSjVRV25CbkxqbHpnNzU1dXhMMDNLbHZseWNwSE5pSzlkaWpUb3gxQ2RXVkpYSHVDa1k0WnppTGlPalQwdktR?oc=5",
+          "summary": "Naver Cloud is deploying private-sector AI capabilities for South Korea’s military, expanding government/defense use of its cloud AI stack.",
+          "sales_relevance": "Defense AI workloads signal rising inference/compute demand where Modular can pitch high-performance serving on Naver Cloud."
         },
         {
-          "date": "2026-09-14",
-          "category": "other",
-          "title": "91.6% of ChatGPT Users in South Korea Also Use Naver — Search and AI Enter an Era of Coexistence",
-          "source": "finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KLXpubGE2VEkxdHlOWWxKQU50eTNyYkxJd0ppZDR0YjA3RENSZHdnNVZld0QyU1BZMXhQNDBRcjRMZGxMNzhwYkRsdUdNNGZnc0RId0JoMHhRY0xxRGlGSnRrMzQxSjBwYllEZi05ZzZJX1Zxa0E?oc=5",
-          "summary": "A report finds most ChatGPT users in South Korea also use Naver, framing search and generative AI as coexisting rather than zero-sum.",
-          "sales_relevance": "Confirms Naver’s AI competitive pressure in Korea—useful timing to pitch Modular as infra that helps Naver scale search/AI workloads efficiently."
+          "date": "2026-09-21",
+          "category": "funding",
+          "title": "Korea's NAVER D2SF invests in AI-driven precision medicine company ImpriMed",
+          "source": "BioSpectrum Asia",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZDZrQkNFSHZwQWcydWMzTk5QY1kwX29oWXp0TGxpZVd0UWI2ekxRV3RqWW85NFJpenVlZjVUdWJDZC11aGRYWWI3Vk5uUXV0X05TWHVYTVJOR3J4QmhqdzhDRDZmWDZiZXdqUjJYcGRXUFE0LU1hcVZYQ0Q0bDdmR2o4aXNROW0zRjUzRnNDY1M4OFNxamgzcUo5c1UtWUtUVUd5VzdFTGZSMDROUk5IanJqc01JMXE5SFgtbFdJSEpSTlk?oc=5",
+          "summary": "Naver’s corporate venture arm D2SF invested in ImpriMed, an AI-driven precision medicine company.",
+          "sales_relevance": "Corporate AI investing shows Naver’s broader AI bets; useful context when positioning Modular to Naver Cloud and AI platform teams."
         }
       ]
     },
@@ -352,22 +343,13 @@
       "id": "sarvam-ai",
       "news": [
         {
-          "date": "2026-09-10",
-          "category": "leadership",
-          "title": "India can win the AI race by making it cheaper to deploy: Sarvam CEO",
-          "source": "ET Enterprise AI",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVHoyaDF0X2h1NFM1VkF1M3JnT1BSa21ZQnRkNWlEd2k1RWxIdzdsdmlpZVpjaU04bXBlTUhBMVNXam8xazhicGRmVTRxd1ZHSzJxd3VYU1hBYzluTVRhM2syVFpMLWZlWXVTbThwWTlQaXRqbTRpMUtPSFR5Qm9vMUN0cG5lSG1UQ0xhckFlcWVzWnNIZUd6OWRQYmVLY3F0eUtoSzdsNmZybWVPYzZhc0xDa3pDdV9RY1c1bGdEaTZNMURVYVYyRGhqOXVOME9GZDNxOXJYNXDSAd4BQVVfeXFMTjE0NWVYX3ByeV9FU25fTEFmRDMzTmdVNFU1VmlWeDNlUVhScFRoZzA2OWNGSWZENFl3SFMwaGpkZ0c1NmFzeG55NGg4TFhNbU9ZNzVDdXcxM202VlQ2dFpqbTZHNWZzWFRBb0dlRmRBRFBSS09CMkxuaDhXUWpZS0UxbWlua0l0NW9EYmltUUhoZXp6RTlySmZTbk1KWXVyVkJmSjV3aENJVWFrY2NRYUhPdjI1VEI5c0RxOGN2QUplUDNHWjNwbXVRWDBvVkpSX0Q5azU2TFh1cFRNZ1NB?oc=5",
-          "summary": "Sarvam’s CEO argues India’s path to AI leadership is lowering deployment cost, not just model ambition.",
-          "sales_relevance": "Cost-to-deploy is Modular’s core value prop—strong hook for pitching inference efficiency to Sarvam’s leadership."
-        },
-        {
-          "date": "2026-09-10",
-          "category": "leadership",
-          "title": "GFF 2026 | Sarvam AI co-founder says India can become a global AI leader in the next 10 years",
-          "source": "CNBC TV18",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcUR5eWl1eVZMMnRodWRWZ0dRWG9fSC01MTVweGRXTGR4TzJfb3h6c3c3Znc4OVNxbElrREQ5T3R0dXZVeE1GcE1qSlgyckdMRXV2SmxudlJaYWp2ZFoteTVfc2JaaGhuWlJXQWRPRWVwSDd1VmxRckNFRGI5NjQwYUtLX3E4REN3eUpJMFp6MV9DNlRDVFkxQWpwUmpOaTVTRjMtaEI0eS1OUnpCVldjYjd0MGphdw?oc=5",
-          "summary": "At GFF 2026, a Sarvam AI co-founder said India can become a global AI leader within a decade.",
-          "sales_relevance": "Public growth narrative implies scaling model serving—timely for outreach on Modular’s inference/compute stack."
+          "date": "2026-09-21",
+          "category": "product_launch",
+          "title": "People can command Sarvam AI in their own language: Co-Founder Vivek Raghavan",
+          "source": "News On AIR",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZzkxamRlQUZyOTFVZWVURDN4MHdoVVQ1WElkbWx2MjFPWjFaenZoVFV3b3h2emlBcnQzRDVXNzlBSnpncVhTeTd1Ri14Q2FqUXBJNFN6WFhabDZ3aFpicFRIcUc3OHB5N2wyQ3Y4Snd0cC1BRW92U3hhdkFWWlJ2Mm1hSTFvdjM0Njk2Nm9jX0dtTU91QTRpQkdlLUE1UWFiRWx2ak5mcC11V1Btd0dGSTVzeE43LTN3?oc=5",
+          "summary": "Co-founder Vivek Raghavan highlighted that users can interact with Sarvam AI in their own languages, underscoring the company’s multilingual product push.",
+          "sales_relevance": "Multilingual voice/LLM products imply growing inference volume—Modular can sell faster, cheaper serving for Indian-language models."
         },
         {
           "date": "2026-08-27",
@@ -375,8 +357,8 @@
           "title": "Vivek Raghavan: The 100 Most Influential People in AI 2026",
           "source": "Time Magazine",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LWVROV2JKX0E4MmR2M2ZuUDRmOG9JZmlfUmZBNzRlNlNfWVZDVDVXRXFKSjFCeVBDNURsc1d2QWIwcFBUVERBd1J2dDdaSXJYNmF4S0VSdkZQWWpYX0ZfaXVncWxoejEzTlBB?oc=5",
-          "summary": "Time named Vivek Raghavan among the 100 most influential people in AI for 2026, raising Sarvam’s profile.",
-          "sales_relevance": "Elevated executive visibility makes this a good moment for a senior Modular intro tied to scaling Indian-language AI."
+          "summary": "TIME named Sarvam AI co-founder Vivek Raghavan among the 100 Most Influential People in AI for 2026.",
+          "sales_relevance": "Elevated founder visibility makes a warm outreach window to discuss Modular as the inference stack behind Sarvam’s models."
         },
         {
           "date": "2026-08-15",
@@ -384,8 +366,8 @@
           "title": "Voice-First AI for the PC",
           "source": "Sarvam AI",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aMU9HTzNnRmR5a0l5Vkh6bnFPOUkwQjkwbEJfMFBma0xBVWd6VEQtWnltTGQxdVFnak1yd29FbHc4WmxpeUZhUWl3ZnFNUQ?oc=5",
-          "summary": "Sarvam highlighted a voice-first AI experience aimed at the PC, expanding beyond cloud-only assistants.",
-          "sales_relevance": "Voice/PC AI workloads need low-latency inference—Modular can position on efficient on-device or edge-serving performance."
+          "summary": "Sarvam AI announced a voice-first AI experience aimed at PCs, expanding beyond mobile/cloud chat into desktop use cases.",
+          "sales_relevance": "New voice-on-PC surface areas increase real-time inference needs where Modular’s runtime can improve latency and cost."
         }
       ]
     },
@@ -398,8 +380,8 @@
           "title": "U.S. Greenlights UAE AI Chip Purchases, But 270-Day 'Become a U.S. Company' Clause Creates Uncertainty",
           "source": "finance.biggo.com",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zaDVNSHZaWWRueS1mSm9DelFMVGczOFFZN3lFRERUYXVMbUQtVm9kdnVhaFl6MUtNX0FXTEtzZE9qVWl2dW5vNmJYcVVyVnJyRENQUnZoTmVZbHFjR0lva09RNVlIOXF5eXA5RmVUNkhkZHlPbmc?oc=5",
-          "summary": "The U.S. approved UAE AI chip purchases, but a 270-day requirement to become a U.S. company adds strategic uncertainty for buyers.",
-          "sales_relevance": "Chip-access constraints raise the value of software that maximizes inference efficiency on available GPUs—Modular’s pitch to G42/Core42."
+          "summary": "U.S. approval for UAE AI chip purchases came with a 270-day condition that the buyer effectively become a U.S. company, creating deployment uncertainty.",
+          "sales_relevance": "Chip-access constraints heighten need for efficient inference software—Modular can help G42/Core42 maximize GPU utilization under supply limits."
         },
         {
           "date": "2026-06-03",
@@ -407,8 +389,8 @@
           "title": "Core42 advances U.S. AI infrastructure strategy with expanded New York deployment",
           "source": "G42",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVnRtZUkwU3pmTG5UeTVNYWVKMU0wbDRvc3djdUtTc2pvaERaNjdvdFRicHR3TFdQSXhOd2tYOC14cU1qUG5NWlFrQ2d3VmFQaXZtS2FCdTY0WlBKMFFQOVhMU0IxRWRBblJvbkl6eFRDWlowRFVZV2xfTTI0SGVhMDllYWM2MUo0akMydTR2elFBc2V3YlltZlRiQ2V4MmN4cy1zaDktcUVOTk5N?oc=5",
-          "summary": "Core42 expanded its New York AI infrastructure footprint as part of a broader U.S. deployment strategy.",
-          "sales_relevance": "Active U.S. AI infra buildout is a direct buying signal for Modular’s inference/runtime stack in Core42 environments."
+          "summary": "Core42 expanded its U.S. AI infrastructure footprint with a larger New York deployment as part of its American growth strategy.",
+          "sales_relevance": "New U.S. capacity is a direct Modular sales trigger for high-performance inference on Core42’s growing GPU clusters."
         }
       ]
     },
@@ -416,31 +398,13 @@
       "id": "upstage",
       "news": [
         {
-          "date": "2026-09-10",
+          "date": "2026-09-09",
           "category": "funding",
           "title": "AMD-Backed Korean AI Startup Upstage Considers Pre-IPO Round",
           "source": "Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSEJtYjNyX0xkaHNsdWU0bHRiMUM4Tmpfekx2NkV0VmJtNV9GUUI2QU5DNHdQVXQ1VWpZZ29MTkZtSEtPeEN0MWp5cEx4ckZSZklFVHRFZHdHOGVxVjlFQi1fYXdVem5sRWUxZXY2Z0NjMzRzYmEwbHRScEg2bE5aNjhHX0NpMFJZN2tBaUhUZng4SGo5cXRhMFJOS0JvMFMybjBsN0VPeDJrczc2UnMwcg?oc=5",
-          "summary": "AMD-backed Korean AI startup Upstage is reportedly considering a pre-IPO funding round. The report signals continued capital raising as the company prepares for a potential public listing.",
-          "sales_relevance": "A pre-IPO raise implies growing inference and training demand—good timing to position Modular as efficient AI compute infrastructure ahead of scale-up."
-        },
-        {
-          "date": "2026-09-14",
-          "category": "partnership",
-          "title": "Upstage Meets Nvidia's Madison Huang to Discuss Partnership",
-          "source": "Seoul Economic Daily",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNW5CNGc3UnZRcnMxSmluWlRLNi1HUmFtQ0lUVTN0V0pkNTJsanJHb1V5M0hpLVlDYWxYWEx6WHlVR1d6V3VZN0Y4OXEwZnd1RnB6aHVFeEo1dnhkVkRLbVVOT2QzbWdBaWpOVHlJT1kwbGhkdUJ0RnFEeThBYkhsMVgyU3IySGpmakZINVltSVpTaEdSaEJCOXU2WWFraHZkVGNQS3Z3?oc=5",
-          "summary": "Upstage met with Nvidia’s Madison Huang to discuss a potential partnership. The talks point to deeper alignment with Nvidia’s AI ecosystem.",
-          "sales_relevance": "Active Nvidia partnership talks show GPU-centric roadmap pressure—Modular can sell portability, cost, and performance alternatives or complements for Korean LLM serving."
-        },
-        {
-          "date": "2026-09-14",
-          "category": "partnership",
-          "title": "South Korean AI Startups Court Nvidia: Upstage and Rebellions Hold Meetings",
-          "source": "finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yU2p1Nk1kb0lkSUFBcmRMakQtU3hwZGFtZkRBM1FPWjh3UjRVUTAteVdFa3J3OVpVLVpPdGVrRGNveHZEZFFLU2NsSklaYVREamtraFVCRVkxV1dZdldOTzM4WmNxR1BUMXAyZG5zQTd3YThFT1E?oc=5",
-          "summary": "Upstage and fellow Korean AI firm Rebellions held meetings as South Korean AI startups court Nvidia. Coverage frames Upstage as actively seeking closer Nvidia ties.",
-          "sales_relevance": "Nvidia courtship confirms infra spend and vendor evaluation cycles where Modular can compete on inference efficiency and multi-hardware flexibility."
+          "summary": "AMD-backed South Korean AI startup Upstage is reportedly considering a pre-IPO funding round. The move signals continued capital raise activity ahead of a potential public listing.",
+          "sales_relevance": "A pre-IPO raise and AMD backing suggest Upstage may be scaling inference capacity—an opening to position Modular as high-performance inference infrastructure."
         }
       ]
     },
@@ -453,26 +417,8 @@
           "title": "Who Is Aman Sanger? Cursor Co-Founder Joins SpaceX in $60 Billion Deal",
           "source": "IndianEagle",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbG8zLUFmNDVyWmFiemRWck9GdXpfbnVRNlk1ZVZWVHotNUh4NnNpdUh0LWI4WEVqekpjc3hKTlpveGhnT2kwR0JJYjVmSU9tNGRUOURnRmdzU3JKLW5GWEliNDJKd0lPcy1ZOVkwRXRGcTRjN0xlNFJlVGJLNXVDbFpndW1jU202LXhMdFpyeHVndw?oc=5",
-          "summary": "Coverage profiles Cursor co-founder Aman Sanger in connection with Anysphere’s reported $60B SpaceX deal. It highlights leadership movement tied to the acquisition narrative.",
-          "sales_relevance": "Leadership and ownership shifts at Cursor may reset infra buying centers—useful for re-engaging who owns model serving and developer-AI compute spend."
-        },
-        {
-          "date": "2026-06-16",
-          "category": "acquisition",
-          "title": "SpaceX buys Cursor-maker Anysphere for $60B in enterprise AI push: report",
-          "source": "Tech Funding News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMmd0ZkNNMjNwaW9yRXpZcmdZR1pwMnB6NzZ2ZGdqblg3eXpvNVh3UXEyb2IzNUU5cGNfUTNpZHBQNGRzcmotZnQzWURBMk5KMDN5bFZaT2NmNGNSSjRKUFFZM3JXeEZ3ampMZG9YNzVnRXhHSk5IcXpLVU13VGlXMDZxcGs1bncxcUNKXy1Ha2F4TUk?oc=5",
-          "summary": "Reports say SpaceX acquired Anysphere, maker of Cursor, for about $60B as part of an enterprise AI push. The deal would fold a leading AI coding product into SpaceX’s broader AI ambitions.",
-          "sales_relevance": "A SpaceX-backed Cursor implies massive enterprise AI coding scale and inference load—strong hook for Modular on high-throughput, low-latency serving infra."
-        },
-        {
-          "date": "2026-06-23",
-          "category": "leadership",
-          "title": "Cursor CEO turned a Discord server into a talent pipeline to build his $60B SpaceX-backed AI company",
-          "source": "Fortune",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVXFKTEFyMkM0ZUIweFUxTjROMGZMTlczSEM3elBTRlhjQk1sZWh6NXBIdVRCUkFndDJvck5RdlBHNnE1VDQ0UHJnSkpEajJpMUltT2ZNdXNvS2VXX1RpY3BEU1E3MkZYZEFYYnJfYXRKR1FELUxNWHRsZ0YwM2RKc3NIZjM5eVF0UHZSWlFFdERaOWZWdmc?oc=5",
-          "summary": "Fortune details how Cursor’s CEO used a Discord community as a talent pipeline while building the SpaceX-backed company now valued around the $60B deal narrative.",
-          "sales_relevance": "CEO/talent-pipeline story underscores rapid product and eng growth—pitch Modular where Cursor’s AI features drive rising inference and infra costs."
+          "summary": "Coverage profiles Cursor co-founder Aman Sanger in connection with SpaceX’s reported $60B deal involving Anysphere. It highlights leadership movement tied to the acquisition narrative.",
+          "sales_relevance": "Leadership shifts after a reported mega-acquisition can reset infra priorities; Modular should re-map buyers and champion AI coding-workload inference needs under the new structure."
         }
       ]
     },
@@ -480,40 +426,40 @@
       "id": "perplexity",
       "news": [
         {
-          "date": "2026-09-14",
-          "category": "partnership",
-          "title": "Nvidia partners with Perplexity to bring Portable Computer AI to Windows PCs on high-end RTX GPUs",
-          "source": "PC Guide",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT2RIS1Y0M05CNWxoZHJwU3dtbGFrRlIwVW02ektyZy1taElpX0htMEplcGFNQkI5YzBxVjRlWmlxNjVrQ2hiOFF1Nm9oeUxZd3IwWmVlcWx3SW1OYnBManR2TkQ5eDRsRms4YnpBaXFTX25aRWM0dkl4WWN4Z3RYRjhOaUJ5SlhQSFdKTGNWYVpuWnZpc0V6WWZObkE4dmgtOU9sUnZMVy1UV0FJUjZ5aFpPaGlzOUw5cVZqQU11SXpESF82d2c?oc=5",
-          "summary": "Nvidia partnered with Perplexity to bring Portable Computer AI to Windows PCs on high-end RTX GPUs. The move ties Perplexity’s local AI agent experience to Nvidia’s consumer/pro GPU stack.",
-          "sales_relevance": "Deep Nvidia RTX distribution shows Perplexity scaling local and agent inference—Modular can engage on efficient model runtime beyond a single-vendor GPU path."
-        },
-        {
-          "date": "2026-09-14",
+          "date": "2026-09-21",
           "category": "product_launch",
-          "title": "Nvidia Says Perplexity Local Agent Platform Now Available On Windows RTX PCs",
-          "source": "TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQklnOUZXTE9LWG5rY3BNdDBxWG40dDRWY0lxcnBWbmRENTVpUjZoaUhCSXVpN0hmRTc1ZlVTTGc2ZkxvS1VpU05TSVRFcTJvaEVCS1I1MXVDQ1RHM2RZeVhqRUdWRTNoYnZpajV1THcycTY4b0VpVzN2ekF6ZGZGU0wxQms3TlBUbGFramhhcHQwSWR4cjJvbkxnRHdJNEh1OXdQanVMYmR3YlB6bnRpTmgzaWZzZ1kyamFKNGhSZ3FrYkY3S0lHWC12djdRWWtVaHQyekotdE5qbW9oYTl3?oc=5",
-          "summary": "Nvidia said Perplexity’s local agent platform is now available on Windows RTX PCs. Availability marks a broader rollout of on-device/agent AI for RTX users.",
-          "sales_relevance": "Local agent GA increases edge and hybrid inference complexity—an opening to discuss Modular for optimized serving across cloud and device deployments."
+          "title": "Perplexity Brings Its Local AI Agent to Windows",
+          "source": "TechRepublic",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN2lzTGl1SFhTSnU1VmpLa3gxUXJuT2ZNaWVCY2xiaFJuUXlUemxqNzIwalRTRjh4bE1EWVg0UHRvQlNFR1hfdTlUZ2hORkxqdnRWRmNzNnRJQWQ4bzJPNnNvRkctYlJVOTlBVUlLWk9CWUIxeGxhVWdUbENGMW10cjdha1k5UQ?oc=5",
+          "summary": "Perplexity launched its local AI agent on Windows, expanding on-device/agent capabilities to a major desktop platform. The release points to broader product push beyond cloud-only search.",
+          "sales_relevance": "Local/agent features increase inference demand and hybrid deployment needs—Modular can pitch faster, cost-efficient runtime for Perplexity’s agent workloads."
         },
         {
-          "date": "2026-09-14",
-          "category": "product_launch",
-          "title": "Perplexity Portable Computer is out now Windows with NVIDIA RTX support",
-          "source": "en.gamegpu.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcHFFT3NTVG1YV0Yzd09pZk1EUjFqS0FpRjN5Qk9SWDNhQnRha09WT3ZNMV8tUnYyY2pTbGc3WTlpMzluNGVYaVBDdDBYS0VXc2Znb1BhREFkRDBzVVRZR1hhMEp4SlhhR0E1UWIyRVpOZVRvbTVObWpBbFJmVGNoTVc1RURoRkZCQ2N6ei1Yd2xGOVI4dnpTazlLWTlCQ1F6bzI5akRuQUxGVW8?oc=5",
-          "summary": "Perplexity Portable Computer launched on Windows with NVIDIA RTX support. The product ships as a local AI computing experience tied to RTX hardware.",
-          "sales_relevance": "A shipped local AI product raises sustained inference workloads—Modular reps can pitch performance-per-dollar for Perplexity’s expanding agent stack."
-        },
-        {
-          "date": "2026-09-11",
+          "date": "2026-09-21",
           "category": "other",
-          "title": "Ninth Circuit Vacates CFAA Injunction Against Perplexity's Comet AI Agent",
-          "source": "Jones Day",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNamhHbUU1MFowZXdSXzV4c0x4Z2pPaVd1a2VRWGxUZlFxUVJ6S24zLXhsSXdZWUxxc090U2ExWVVOUlJYcTJNcnBveWoycEdBeVNLMlNDTFkwZTV6RDNQb3N6WDVXR1F3aDUzR2k2TGh3U0R0eU9yM01oc3pwS3NfRlBIOVFqaFJaLXpyTlRIWUh1Y2FtNmRQRjh3XzlrY2RrcEFQMTNKT21GSDFLSFFFdGd6N1A3Qmxw?oc=5",
-          "summary": "The Ninth Circuit vacated a CFAA injunction against Perplexity’s Comet AI agent. The ruling removes a legal block that had constrained the agent product.",
-          "sales_relevance": "Comet clearance may accelerate agent usage and backend load—timely to sell Modular as scalable inference infra for agent-heavy traffic."
+          "title": "Amazon blocks Meta’s Muse and accuses Perplexity of misleading a court",
+          "source": "thenextweb.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdHBaMzh6Q3c4SnV2amFJYWZydk9CSDhhZGE0NmN4U1pTOGxGUi1acUw1RlF5d0hIYXNWM1NuWlN2R1dNdXpDZlFJVVZjU3FyeGU0bnNVSi1lamptU1hlX0hkelZsNVNCWmNrajdBYi1PeDFuVy1XRGtfQjMxNjNKMg?oc=5",
+          "summary": "Amazon is reportedly blocking Meta’s Muse and accusing Perplexity of misleading a court in an ongoing dispute. The story underscores continued legal friction around Perplexity’s product behavior.",
+          "sales_relevance": "Legal pressure on distribution channels may push Perplexity to harden its own infra stack—useful timing for Modular outreach on reliable, owned inference capacity."
+        },
+        {
+          "date": "2026-09-16",
+          "category": "other",
+          "title": "Perplexity is betting big on creators",
+          "source": "Digiday",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Fd2pXNnlESFFJeE1NMG5zalJ4ZnV5WWJiNUhGT2lKU2p3ZU5WbWxVdjN5NmdSVXpTVHdNZ2ZWSlZDckthT2U3eDlBLXpDSnlQWHJHRXZ5d1VQc3psMEd4U215UlMwTFVSTzcyVC1qRFZGSGd3dXBj?oc=5",
+          "summary": "Digiday reports Perplexity is investing heavily in creator-focused initiatives. The strategy implies more content partnerships and product surfaces that drive engagement.",
+          "sales_relevance": "Creator expansion typically raises query and generation volume, creating a hook for Modular on scalable inference cost and latency."
+        },
+        {
+          "date": "2026-08-04",
+          "category": "other",
+          "title": "Amazon loses US court ban on Perplexity's AI shopping tools",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUdUaG1LOUY4WU1sbWdYSlR1UlRpbEpUeXZDTkVJU0s0RXZNR0wtN1Y2akJscWZtZ3NXZlZXaWNJZWpUdVlHdjFlUmItRDE5dm82RG5FWTc1N20xcTRlVUpvZjlGM3pmZ01GUUc0R21fTXZxWkk2akNYNXNtSEVrQTlsd2FTTFdKM1NNd19oTnlWc1ItYV81eDZZSS05VHd5QkR4clJzcnE5ci1yMkEyMFY0a2o3V00?oc=5",
+          "summary": "A U.S. court declined Amazon’s bid to ban Perplexity’s AI shopping tools, per Reuters. The ruling kept Perplexity’s shopping features in play despite Amazon’s challenge.",
+          "sales_relevance": "Continued shopping-agent activity means sustained inference load—Modular can engage on performance and efficiency for high-volume agent traffic."
         }
       ]
     },
@@ -525,13 +471,13 @@
       "id": "cresta",
       "news": [
         {
-          "date": "2026-09-08",
-          "category": "partnership",
-          "title": "Marshawn Lynch Joins Team Cresta to Put Customer Experiences in Beast Mode",
-          "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPakhkUTVCM0tCcXRkem5Jam1hbTFzb0hoZHVTaVdNcEVKZFNzcU52UHcyNG00YTUwQjFDNTdhR2VFUFFIZFZ1MGNwemJrcVRWWWxXZkV1M29pbjVpbEZCTk9DUHFBU2hPSTc1Sl9kbnMtNW94UmFDR0VOTmlySGdHWEZwQ2c4QlJqcm5fMi1zNGFqT0thV2dpRUU5T3UtanlhSEUyVGVmMjd3YlpoSzFaYkVvN2plV2MyWXNqZnVvc1IzcjJMWkdsbTFn?oc=5",
-          "summary": "Cresta announced a partnership with Marshawn Lynch to promote its AI-powered customer experience platform. The campaign frames Cresta’s contact-center AI as helping brands deliver higher-energy, higher-quality customer interactions.",
-          "sales_relevance": "A fresh brand push suggests Cresta is scaling go-to-market and may need more reliable, lower-latency inference capacity for real-time agent assist workloads—an opening for Modular."
+          "date": "2026-09-16",
+          "category": "product_launch",
+          "title": "Cresta Puts AI Customer Service in Beast Mode",
+          "source": "CX Today",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12amE1SEItbWR6bmllQ1NsSk5EN1BOTkZJV19mcEE2aU9UcEpZOVZIeEROUWNEejV3NHZFQThGSGN3S25iZUZXZy1XMjliMEN2R3VjU1I2U0J3U3NudVRDVkJTbE14TXFSeFBLVmJhcDg1RjlJOF84VjVZMA?oc=5",
+          "summary": "Cresta announced a stepped-up AI customer-service capability positioned as a more aggressive automation mode for contact-center workflows. The coverage frames it as a product push to handle more complex service interactions with AI.",
+          "sales_relevance": "Cresta is actively scaling AI inference for real-time customer service—an opening to pitch Modular for lower-latency, cost-efficient production inference."
         }
       ]
     },
@@ -543,13 +489,13 @@
       "id": "decagon",
       "news": [
         {
-          "date": "2026-09-11",
-          "category": "leadership",
-          "title": "Decagon CEO Jesse Zhang on the dangers of rogue AI",
-          "source": "CNBC",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObks3UTZIOVpNNk12RGdqWklCcmV3bmtIaDNvaFNZV1lBQWlPY21uUTZmNHpXN2pST182RXF3dmFQaW9SMUJpRnM3WGZNQkNHSi1xU2wtVWdJM3Bsb2JZeEtjRVBCYW80Nkk1Ym9TdjJuek1sRk1jdkFRbFB0enBaN0xXRllfa05nQ091WGRjSWpOLTBicUxkQg?oc=5",
-          "summary": "Decagon CEO Jesse Zhang discussed risks around rogue AI in a CNBC appearance. The segment elevates Decagon’s leadership visibility on AI safety and industry risk themes.",
-          "sales_relevance": "A Modular rep can use this CEO visibility to open a conversation about reliable, controlled inference infrastructure as Decagon scales customer-facing AI agents."
+          "date": "2026-08-11",
+          "category": "funding",
+          "title": "Decagon Hit $100 Million Betting Against Forward Deployed Engineers",
+          "source": "newcomer.co",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iMlpQTkJJNzRGVm84UHV2d3llZVIydUxxMkV3Y0prVS1qdU9oSEtDNVJUaXY0b2V2ZndBaVVBdkkyUlYxT1pxT2dMcE1vd29lWnljTXBOWnUybmY4bHkzanNXelN0U1Y0di13NFlnVjlla1k?oc=5",
+          "summary": "Decagon reportedly reached a $100 million valuation/funding milestone while positioning against forward-deployed engineer-heavy GTM models. The piece frames the company’s go-to-market bet as a differentiator in enterprise AI support/agents.",
+          "sales_relevance": "A well-funded Decagon scaling AI customer agents is a strong Modular prospect for inference cost, latency, and deployment efficiency as usage grows."
         }
       ]
     },
@@ -561,31 +507,22 @@
       "id": "openevidence",
       "news": [
         {
-          "date": "2026-09-13",
-          "category": "other",
-          "title": "OpenEvidence's Capital Architecture, Clinical Decision Infrastructure and Strategic Outlook Toward 2027",
-          "source": "healthcare.digital",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORXdEWGpiT1k0WmdXeW9zNmlYd09wWlF0dEJ4VzM3ZnFobHFvTWJTX0RKUHdXX2otNGNQT19mT2VQMmVjanFJS1NIZkkwU1VKb3F6M1dlRVRpSDRtb3lCWEM1YUVjVExxRHV4Q0RIYkROcUtkVGJSb2VWSWRGanJ4VXNZWjRGM3VyN1JkVEVPNVVVX3JZVDAwMzFITkVCcUhsaGZma0NVZjVyMHB3ZGJueENHRzBqdDRxTXZNWjJRSEZwNUJkaVZKaDgtVWZweVByeldBbEpvZXY?oc=5",
-          "summary": "Coverage analyzes OpenEvidence’s capital posture, clinical decision infrastructure, and strategic outlook into 2027. It frames the company as building durable medical AI infrastructure rather than a single app.",
-          "sales_relevance": "Signals sustained scale and infra investment, making timing strong to pitch Modular for cost-efficient, high-throughput clinical model serving."
-        },
-        {
-          "date": "2026-09-11",
+          "date": "2026-09-16",
           "category": "partnership",
-          "title": "OpenEvidence and MINC#NIMC Partner to Ensure Free Access for Canadian Physicians to Leading Medical AI Platform",
-          "source": "businesswire.com",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOUtCQkFIb3NWcC01X2NxVWxDU3JNZFN2RTcxNW5DNTBsaDRkTEMyRGNXLUpoQnl2R1A4ZGl4LVNSUktRUDdpZzRobzd5aURabkZXNGpYaHhCVjVKRTBBMU9VbFB3XzV2VzJhSHc0SF8yX2V2bjlza3dGeWdyQl8tQ1ZhOW5yMHhraExfc2x4VlpsVktrQzhPSVV2cHVVME1Gd1I5YTB2UnB4WlZzeDh4Rmhqd3kwV0VuSWxSLXRyVHlERUQwTFZmc1poUFQ2SnZQbW4tVEJicTd6N2Rwcy0yS2g3R28yRGkzTGxHamIzc3E2WVowTVprTW5rbw?oc=5",
-          "summary": "OpenEvidence partnered with MINC#NIMC to provide Canadian physicians free access to its medical AI platform. The deal expands geographic reach and clinician usage.",
-          "sales_relevance": "New regional access and usage growth likely increases inference load—pitch Modular to support scalable, low-latency serving for expanded clinician demand."
+          "title": "(MSK) and OpenEvidence Partner to Advance Precision Oncology at the Point of Care",
+          "source": "Memorial Sloan Kettering Cancer Center",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSjBUd3NGZjdWZnVkVVppQ2VQOTQyRHZYRmZEUWVvODVKOTNEdy1EVXVQU0JjYzRieU91NzNYcG4zU05KOWpYWF9ySjhnUXNpZEItRW01NGlrQm9jRjU5dnZsdFpSaUZtaFROSE1QQVFVbzBIdGZBbF9lYUI2T1VuUU1CajIyajZfNXpLZXRQUFlacEFqNDZCVjJVNThuVE1uRmQ4M1R6YmlDQjJhV0NNcXNlbFp1M0RN?oc=5",
+          "summary": "Memorial Sloan Kettering and OpenEvidence announced a partnership to bring precision oncology guidance to clinicians at the point of care. The collaboration centers on making MSK expertise available through OpenEvidence’s clinical AI platform.",
+          "sales_relevance": "A top-tier health-system partnership signals rising production inference demand where Modular can pitch reliable, low-latency clinical AI serving."
         },
         {
-          "date": "2026-09-08",
-          "category": "product_launch",
-          "title": "OpenEvidence launches 4 medical AI models for clinicians",
-          "source": "MobiHealthNews",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzUzQmF1OHpGMDBiRUpEbmZwdDRBNnc2ODdjTDgxbUhwMU9UTEJOb0h2YTZ6V3JDXzZIcDI2bVNINEw5ai1nMHNpTVNCUl9TbWlDbHVHZXpyY1d4WW4xekhoQ2VVQVVSc0kyNHd4UnlzN2NnQi12SC1DeTdlY0g3cW5EWkRobGJKZzE1TkRYdFBHZw?oc=5",
-          "summary": "OpenEvidence launched four medical AI models aimed at clinicians. The release expands its multi-model clinical product surface.",
-          "sales_relevance": "Multiple new models raise serving and optimization needs; Modular can help with efficient multi-model inference for clinical workloads."
+          "date": "2026-09-16",
+          "category": "partnership",
+          "title": "A Premier Cancer Hospital Makes Its Data Available To Doctors Nationwide Through OpenEvidence",
+          "source": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSTdBeHVFZ2JiWmlybEc4X1JFZW9uZlQwQWhpTS1IbHdBRXhFWDNwbzBzVXpXQkR3Qy0wZUFOdFdENUJ6dFVlZFV4Mk55RDZVYkxrNVp5TE16bnFrNEhkM3lTTjdTMnV5OW13dE5uWnUxZ2xqOTY3UG1jWEEybUN2R0ZncGFTNHRTNnotdzlpWHlTX0xBQTRUNVZKZzN3Q1JESDFDUkFVUGNkMlBIV1ZEamRSaURXOU56R0dGX0lYTVpCbDhleW9kck04R2VrVHJVR0xlSGJ2NUhqQXh0RVhMUw?oc=5",
+          "summary": "Forbes covers MSK making clinical data/expertise available to doctors nationwide via OpenEvidence. The story highlights national distribution of specialized oncology knowledge through the platform.",
+          "sales_relevance": "Nationwide clinician reach implies scale-up of model serving traffic—timely for Modular on cost-per-query and throughput."
         },
         {
           "date": "2026-09-03",
@@ -593,8 +530,8 @@
           "title": "OpenEvidence deepens oncology push to build specialized AI agents, launches new AI model family",
           "source": "Fierce Healthcare",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTzVkX081YkdhcWF2dUJiTmpWYUtqNnMteWlKdHRVWEJEX0lPMk9qWkFpOC02Rm5tZFk5cThMSWZ6WXBvdjFQX2wxZXczTjVldDZ3VkExbFR4RTVPTC1FTGdHdHAwVXJHMGdZNmsyR1Q5cXFveHhxSWU2VDhMVDNiOUJ0bll5UkVYWVExTzNlNnhDakljTGZCc2NkamxtcFEzY2NNU3JiUzBYbDJQM3NoZmdab24zcjBUblBF?oc=5",
-          "summary": "OpenEvidence expanded its oncology focus with specialized AI agents and a new AI model family. The move signals deeper verticalization of its clinical AI stack.",
-          "sales_relevance": "Specialized agent/model families increase compute intensity—good opening for Modular on high-performance, cost-controlled inference infra."
+          "summary": "OpenEvidence is expanding in oncology with specialized AI agents and launched a new AI model family. The move deepens vertical clinical AI capabilities beyond general medical Q&A.",
+          "sales_relevance": "New model families and agents usually mean heavier inference workloads—Modular can help optimize specialty-model performance and infra spend."
         }
       ]
     },
@@ -602,13 +539,13 @@
       "id": "mercor",
       "news": [
         {
-          "date": "2026-09-12",
-          "category": "other",
-          "title": "Mercor's Brendan Foody on RL environments and how app-layer companies build their own intelligence",
-          "source": "Dealroom",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRGt3NDdGWFRMXzFGcFBRUnUwZXlsWU1adUl2cnJoRXBsMDh2OHlXME5rdlVRa2FFeDFHRENYNTFGTVFGc0NTQ2psdjRJUVQ3SHlKYmZYR2FSY1c5dGNHMzRPMWFVLWVUZG1MZHNPQmkzUE1PQUF0QThlSm93bmc3QXNyVkw5NHNjVW9ka2Fwa2hJZFE4aEx4c1I2akdPMjUxRzlYVEt6ZEUwcmE1WjdOWkJ4bmtJd1ZJNDlBSURkanoySkN1RFRmc3BpSVo?oc=5",
-          "summary": "Mercor CEO Brendan Foody discusses reinforcement-learning environments and how app-layer companies are building their own intelligence stacks. The interview highlights Mercor's positioning at the intersection of AI data/workforce and model development workflows.",
-          "sales_relevance": "Signals Mercor is deep in RL/training workflows where Modular’s inference and compute infra could support growing custom-intelligence workloads."
+          "date": "2026-08-19",
+          "category": "funding",
+          "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation",
+          "source": "finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUs2Ym1JVWo5UlBZMWt0SWFpS3J0M25mYktiTXRyT1FEeDNYeXRpLTl4amE1UTNCSEtMRVU4RVV4OHpEdmFMNEs1MU8wMGpUVndMbG5QWDkxMVppZ2pMZ1JETW45dUZ1QXdKTjZjZWhHbzdWbHdmLTdiOHlmakp6TGU5VkQ3bHltZFAweV8xT3F0QnMwOWkzVF9fTks4Y09O?oc=5",
+          "summary": "Reports say Nvidia is exploring an investment in Mercor at about a $20B valuation, signaling major strategic interest in the AI data provider.",
+          "sales_relevance": "A potential Nvidia-tied capital event and $20B scale suggest Mercor may expand compute-heavy AI data ops—an opening for Modular on inference/compute infrastructure."
         },
         {
           "date": "2026-08-27",
@@ -616,26 +553,17 @@
           "title": "Brendan Foody: The 100 Most Influential People in AI 2026",
           "source": "Time Magazine",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12OExTUzFoVGZqU3pxVjRrc0kwR3R6R21uYjh0NHhKMzE3SnZYdEVPZHhQQ3U3MVNsei1fTHpRRnVOZzFRa3VqVWhnR2JEMGxINVBYWm1oLTh5V1lIOGdxX3NjeDhEQW41U2c?oc=5",
-          "summary": "Time named Mercor CEO Brendan Foody among the 100 most influential people in AI for 2026. The recognition raises Mercor’s visibility as a high-profile AI data and workforce platform.",
-          "sales_relevance": "Elevated CEO visibility often coincides with infra budget and vendor evaluation cycles—good timing for a Modular outreach."
+          "summary": "Time named Mercor-linked Brendan Foody among its 100 Most Influential People in AI for 2026, raising the company’s visibility in the AI ecosystem.",
+          "sales_relevance": "Executive spotlight elevates Mercor’s AI profile and can unlock executive-level conversations about scaling inference and training-adjacent compute."
         },
         {
-          "date": "2026-08-19",
-          "category": "funding",
-          "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQUs2Ym1JVWo5UlBZMWt0SWFpS3J0M25mYktiTXRyT1FEeDNYeXRpLTl4amE1UTNCSEtMRVU4RVV4OHpEdmFMNEs1MU8wMGpUVndMbG5QWDkxMVppZ2pMZ1JETW45dUZ1QXdKTjZjZWhHbzdWbHdmLTdiOHlmakp6TGU5VkQ3bHltZFAweV8xT3F0QnMwOWkzVF9fTks4Y09O?oc=5",
-          "summary": "Reports say Nvidia is exploring a stake in Mercor at a roughly $20B valuation. The interest underscores Mercor’s strategic value in the AI data-supply chain.",
-          "sales_relevance": "Potential Nvidia capital/relationship implies scale-up of AI workloads where Modular can compete as complementary inference/compute infra."
-        },
-        {
-          "date": "2026-08-29",
-          "category": "partnership",
-          "title": "How Mercor Coordinates a Global AI Workforce With Slack",
-          "source": "Slack",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XeXU4bGJ6RUNyV1NUcXpaWFRJcUU0ajJsaFNhMHlzR0FLOXBhSElvblZoWFMtNDBva2ppamk3ay12T1VBZlFON1NCcnpIdVpnaFdiYkhUbjlGMWc?oc=5",
-          "summary": "Slack profiled how Mercor uses Slack to coordinate a global AI workforce across distributed operations. The piece emphasizes Mercor’s operational scale in human-in-the-loop AI work.",
-          "sales_relevance": "Global workforce scale implies rising backend AI/compute demand Modular reps can tie to production inference needs."
+          "date": "2026-09-14",
+          "category": "other",
+          "title": "Mercor Revenue 2026: $1B Est. ARR, $10B Valuation (2025)",
+          "source": "GetLatka",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TdGc5dXhWSF9XdXA0bGtzOXUtRUtrYXZqRkFrYXdkR2lNcTIzazFBV1BJeUlhVDlGN2h1dWxUT0Q2ZmNfWTkycEtRbkNVZw?oc=5",
+          "summary": "GetLatka cites estimates putting Mercor near ~$1B ARR with a prior ~$10B valuation context, underscoring rapid commercial scale.",
+          "sales_relevance": "Hypergrowth ARR estimates imply rising workload and infra spend, so Modular can position for cost/performance on large-scale AI inference."
         }
       ]
     },
@@ -648,8 +576,35 @@
           "title": "Abridge expands into revenue cycle with AI-powered pre-bill claim review",
           "source": "Fierce Healthcare",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVE9NUk42bHR5OHJpTk9mUzFUd05CdlVaQ0FYY045SkVMV0poNkFPbHR3YmhqTmxGRU1CVUhuaDlGVFVJOENFNFhVSmpfRU1VemlwUmt4eHV0cFFzQ0hjVVlQTm9oY3NTVk91M1ozNi0xd0RhekI5TTZJMFR5eFluS0pHcUUtTC1iX0ZCUEtlVjlfTW9JM2xjcXF5SzNTYVBDOGdEeUx0N0cwTVo5TTdqNWpkNXhUTmRLRXFZ?oc=5",
-          "summary": "Abridge launched an AI-powered pre-bill claim review capability, expanding from clinical documentation into revenue-cycle workflows. The move broadens its healthcare AI product surface beyond ambient scribing.",
-          "sales_relevance": "New AI product surface means more inference volume and latency/cost pressure—strong Modular wedge for production healthcare AI infra."
+          "summary": "Abridge launched AI-powered pre-bill claim review, extending beyond clinical documentation into mid-revenue-cycle workflows.",
+          "sales_relevance": "New AI product surface area means more inference volume and latency/cost pressure—Modular can help with efficient production inference."
+        },
+        {
+          "date": "2026-09-15",
+          "category": "acquisition",
+          "title": "Hinge Health to Acquire Cylinder Health | Abridge Welcomes the Altrina Team",
+          "source": "Healthcare IT Today",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSl9xaDhvcXFNU2x5TWFQZzFIbnZMQUhpY1JIMnZIN2c3RmtWbUtwSUJKUDc5SzZJXzExYXNNTGxPcTB6cWRzSW90TTRuS0J4Uk5xMVNLcWlCYXFEYmE5NUhLX1RNZW9sWGNReWFwaW1SbkVWcTZ3dEd1VnNnZHpWeS1QdjlOY0RyQ0lGMktHVkxDYXgtSG9NUDBOV3RkU2FIVTMxdXg1eVNyMFJmNHhEd3BZLWw4ZFZabVNB?oc=5",
+          "summary": "Coverage notes Abridge welcoming the Altrina team, pointing to a talent/capability tuck-in alongside other health-tech M&A news.",
+          "sales_relevance": "Team expansion often precedes faster product shipping and higher model/serving demand—timely for Modular outreach on infra readiness."
+        },
+        {
+          "date": "2026-09-02",
+          "category": "partnership",
+          "title": "WashU Medicine and BJC Health Bring Abridge to 4,000 Clinicians",
+          "source": "Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWUstYjBUaTJTQ0FTVEwxTWhIeUN1aHRUcE1la19UWmNBdjBkaE5sYmdjUnRrMFdWT2RQUkRNMUJwdUE0aFdWbVBhekt5ZkRLWnBHVzR5T0JfY0JZTmJHNUVCek1IdmhZeF9ROXFtWkdGNGUwMVBka3BqQURrWHBvWDVsdnhlcjlkTkN6bVdScEtuV1ppNFRCR2RrTHFjTklZcHR4RzVReENzQW9oUXdsMGxRMTVIWG5HdjJz?oc=5",
+          "summary": "WashU Medicine and BJC Health are rolling out Abridge to about 4,000 clinicians, a large enterprise deployment of its AI clinical documentation tools.",
+          "sales_relevance": "A multi-thousand-clinician rollout is a clear scale signal for production inference SLAs—Modular can pitch reliable, high-throughput serving."
+        },
+        {
+          "date": "2026-09-15",
+          "category": "product_launch",
+          "title": "Abridge Enters the Mid-Revenue Cycle with Pre-Bill AI for CDI and Coding Teams",
+          "source": "HIT Consultant",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDBETENoRFZxY2p1QVB0Z09uZDhndXU3OGw4WmlEUGVsenpGSlNQdllfbldXWmotd1JQM2Q0blBSTnBlcEw3dnpndXU0akg5WFBBSVAwbnpSS0dYSVZsTzRaVHFCeGxGYW5ZUDV0Y1ZSUDNzVXAyVDVTU2ZtUHRpZEdwU2tRWGVoZmhaRjlkRTJ5b0ZUclZWOWsweUh4ZG9CRkYya2ItTkFId0pGY1ZiQkc3MFo5OXRXMXc?oc=5",
+          "summary": "HIT Consultant reports Abridge’s pre-bill AI aimed at CDI and coding teams as it moves into mid-revenue-cycle use cases.",
+          "sales_relevance": "CDI/coding AI workloads add concurrent inference demand beyond ambient documentation—relevant for Modular’s performance/cost story."
         }
       ]
     },
@@ -666,17 +621,17 @@
           "title": "EliseAI Unveils Apollo, One AI Teammate Built to Work Across Every Multifamily Role",
           "source": "GlobeNewswire",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYXZCSmNKQVFUd3FNTnEwZW1JV0tlNFNOZGJhMl9GODdwdlhaaU1ZM2hnQ1YzMzZ1d1hfSk5nYW9hZ3hRV0tnYnIzTlREUGlkNzZnMDFBdWN3SDEtTHpwakxaM2VLUnlNV2gwVS1Tc3YybzBBTzJmWWpIbFdtLTdfcUtacllqZ2ViamkzLUo0cml3ZG1BZkcxNnJHMk1zY2FXOEVwZk1hbjZEek9RQ2lqQ0cxcnIwa0NEWXV3bFk4M0pRMnZnRG93VkRzb1RXam9vWWxLQk9nU0k3aTRmNXVtb0o0dVZ2dUhQMGc?oc=5",
-          "summary": "EliseAI launched Apollo, an AI teammate designed to work across multifamily property roles. Coverage frames it as a major product expansion for the proptech unicorn.",
-          "sales_relevance": "A broad AI agent launch implies rising inference and compute demand—timely to pitch Modular for scalable, low-latency serving of production AI workloads."
+          "summary": "EliseAI launched Apollo, an AI teammate designed to work across multifamily property roles. Coverage also frames the proptech unicorn’s agent push as a major product expansion.",
+          "sales_relevance": "A broad AI-agent rollout signals rising inference and compute demand as EliseAI scales production workloads across customer portfolios."
         },
         {
-          "date": "2026-09-10",
-          "category": "other",
-          "title": "EliseAI Revenue 2025: $100M ARR, $2.2B Valuation",
-          "source": "GetLatka",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41dXM2T0JORmJKb3dGTDI0RWg3WFNVZ1FMRjgxaklJcGY4cGF6RlZucjMyNlRUeHhnbnkxMlFNcjBEcDRpT1VLVDJWcE5LWWM5bGZ0OA?oc=5",
-          "summary": "GetLatka reports EliseAI at roughly $100M ARR with a $2.2B valuation based on 2025 figures. The metrics signal strong commercial scale for an AI-native proptech vendor.",
-          "sales_relevance": "High ARR and scale suggest budget and production AI usage—good trigger to discuss Modular as inference/compute infrastructure for growth."
+          "date": "2026-09-03",
+          "category": "product_launch",
+          "title": "Proptech Unicorn EliseAI Launches AI Agent Apollo",
+          "source": "commercialobserver.com",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NYktEOXdJYjNOTDd4cUlKbllEa04wdktHM09mczVLdzFpMXlBZmlhYWpiYTlZSENfYXRuUnVkcmZhU2pFS3YzMlR1RW1nT3o4UHFLcDhPekFxbU9GdFU1T09hWUNOQ3p0N0w2c0lZN00?oc=5",
+          "summary": "Commercial Observer reports EliseAI launched Apollo, an AI agent for multifamily operations. The piece reinforces the company’s unicorn status and product momentum.",
+          "sales_relevance": "Third-party validation of a new agent product is a timely hook to discuss production inference stack needs for multi-role AI systems."
         },
         {
           "date": "2026-08-18",
@@ -684,8 +639,8 @@
           "title": "Report: AI landlord EliseAI targets $3.7B valuation with $300M raise from a16z and Bessemer",
           "source": "Tech Funding News",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ1ZNTXBieDVCZVFLMHlJbWFtSDJXOEQ4NmlwcXd4TkZvRFdkb3ZmajVjOFJZdVZuZTJFTUdXZEI3Q1g0OWhXeDkweG1xbDlVcllWQ3RKMWNlNDNZbkkxOHRZbTFnTDBOb1ZCQkppRGRNUDNPZ1NrbHozWDF1R2tJaXFnOWs2MklOZVU0b1NKSXdONU51U0pRQnluOTVRMFdpWmRvZGlpUzZmNVJuYk0xN1Y4X212aW8x?oc=5",
-          "summary": "Reports say EliseAI is seeking about $300M at a $3.7B valuation, with a16z and Bessemer named as potential backers. The raise would fund further AI product expansion in property management.",
-          "sales_relevance": "A large raise usually funds platform and model scale-out—open a Modular conversation on cost-efficient inference infrastructure post-raise."
+          "summary": "Reports say EliseAI is targeting a $3.7B valuation with a roughly $300M raise led by a16z and Bessemer. The round would fund further scaling of its AI landlord platform.",
+          "sales_relevance": "A large growth round implies budget and urgency to scale AI infrastructure, making Modular a fit for efficient inference capacity."
         },
         {
           "date": "2026-08-17",
@@ -693,8 +648,8 @@
           "title": "AI proptech startup EliseAI is in talks to raise a new round of funding at a $3.7 billion valuation",
           "source": "Business Insider",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2sxUWdjSm1kMS1XZUFOcE8wVWtJSENhckhVSXNQdkhYLWhuUmJDOXlMVjlZSE1MVF80Qi1Sdm5LOEtDeFhfYUdvdVpFbjZkOWRSdVNMVHQ4Y3hKWFFqRFNCemlNb1IzZlBBSE03NXV3Wk0tQk85V2hwX0diR2VTRDB1LTlQTFY2WURpTGlMVUVBZw?oc=5",
-          "summary": "Business Insider reports EliseAI is in talks for a new funding round at a $3.7 billion valuation. The company is positioned as a leading AI proptech player.",
-          "sales_relevance": "Active fundraising and up-round talks indicate investment in AI capabilities—prime timing for Modular to engage on inference/compute needs."
+          "summary": "Business Insider reports EliseAI is in talks for a new funding round at a $3.7 billion valuation. The discussions underscore strong investor appetite for its proptech AI business.",
+          "sales_relevance": "Active fundraising at unicorn-plus scale is a buying-window signal for infra vendors supporting expanding AI product usage."
         }
       ]
     },
@@ -706,13 +661,22 @@
       "id": "hebbia",
       "news": [
         {
+          "date": "2026-09-10",
+          "category": "other",
+          "title": "Hebbia AI Revenue 2025: $24.6M Est. ARR",
+          "source": "GetLatka",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKU3lHN3Z1c2JMV0FoSnN1aFBYNXh1dEVLVDBZbGUxLXhwUlJOQjkzRlZwYTRVLWJlcDZhNVF6LTJSZjY0eFF1V2VxTk4zdTlSaDhR?oc=5",
+          "summary": "GetLatka estimates Hebbia’s 2025 ARR at about $24.6M. The figure suggests a meaningful commercial footprint in AI for knowledge/finance workflows.",
+          "sales_relevance": "Established ARR indicates production AI usage where Modular can pitch better cost/performance for document and agent inference."
+        },
+        {
           "date": "2026-09-03",
           "category": "other",
           "title": "Rogo, Hebbia Revenue Rises as Claude Finance Threat Looms",
           "source": "The Information",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXN3eTNhQllKcVZxN180dEg1eGZQUF8wMEJWR2VzTkdYTWswX0hVNGJmcldmbGdqc1dWTUlMSFYwNURMYTRzdWM2dzFybW9GdmxVbERSNHVFUnNXTVB6WndmbFNYSmZzcEs4dVRPSUJMWjVhZkNtekhnTHNlT1hQSkFTckJyOUR0TFlyZGg0ckNDR2ItTlMzRG84cVpxOFg5Tzg4S2N4RXNNQQ?oc=5",
-          "summary": "The Information reports Hebbia’s revenue is rising even as Claude-powered finance tools intensify competition. Growth amid new model threats points to sustained production AI use in financial research.",
-          "sales_relevance": "Rising usage under competitive pressure is a strong cue to pitch Modular for faster, cheaper inference to defend margins and product quality."
+          "summary": "The Information reports Hebbia’s revenue is rising even as Anthropic’s Claude Finance poses a competitive threat. The piece frames pressure on finance-focused AI startups to differentiate and scale.",
+          "sales_relevance": "Growth amid model-provider competition is a cue to sell Modular as the inference layer that keeps product performance competitive without locking to one model vendor."
         },
         {
           "date": "2026-08-26",
@@ -720,8 +684,8 @@
           "title": "This startup sold Wall Street on AI. Its existential challenge is doing it again.",
           "source": "Business Insider",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS01zZUdhcmpxWG9JaVFmajc5WG80d0diclRYV0VDcVN1a25MTHB3Ujl1a3NsaGx0NzFqZXVaRjJlYnNua1hDdXd6UjhpbGZjOGNXc0UxdjA2UHBzSk1zSzRBUTE5OWlLdzhDbU5uNWVvQ05Edms3Q2RNcG83aF85aHYtdEU4Uy1NUll3?oc=5",
-          "summary": "Business Insider profiles Hebbia’s Wall Street traction and the challenge of re-winning buyers as AI finance tools proliferate. The piece centers on sustaining enterprise AI adoption in capital markets.",
-          "sales_relevance": "Enterprise retention pressure makes performance and cost of AI serving a buying criterion—Modular can position as the inference stack behind Hebbia’s next wave."
+          "summary": "Business Insider profiles Hebbia’s success selling AI to Wall Street and the challenge of sustaining that lead. Coverage centers on renewing enterprise value as the market evolves.",
+          "sales_relevance": "A Wall Street AI vendor under pressure to re-prove value is likely evaluating infra upgrades to ship faster, cheaper, and more capable models."
         },
         {
           "date": "2026-07-30",
@@ -729,8 +693,8 @@
           "title": "Hebbia teases biggest launch to date — a reborn product",
           "source": "Dealroom",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTm9UWkcxRzBBMk9ER085Sk5mWl80NVFFY3ZleXF5dFMzWUQ4NnNRaDZQa0E3WkVFTGZjNHN5dzFMQS1nMERuTXVIdV92b0tjN2xZMXRnWkJ5VjUyYlV4TjZCa1FvRzdSNDZfZ1d0eHFLcUNOWmtjR1ZqNDhfOUF3RHpweE9mcjRXbmpyMEhfY0Q?oc=5",
-          "summary": "Dealroom reports Hebbia is teasing its largest product relaunch to date. A reborn platform typically means heavier model and document-processing workloads.",
-          "sales_relevance": "A major product relaunch is a natural entry to discuss Modular for high-throughput, low-latency inference behind financial research workflows."
+          "summary": "Dealroom reports Hebbia is teasing its biggest launch yet, described as a reborn product. The tease points to a major platform refresh rather than incremental feature work.",
+          "sales_relevance": "A major product relaunch typically increases inference volume and latency requirements—an opening for Modular’s AI compute stack."
         }
       ]
     },
@@ -745,19 +709,19 @@
           "date": "2026-08-19",
           "category": "partnership",
           "title": "Ambience Healthcare Sets a New Standard for AI Partnerships in Healthcare",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTlhPS2ZRWmlOMWZRWjdnLXFmcVZlWkZ1RTZNRHJyMkNSQXE0bzlYcm81U2dsVFRyQUljSXpJSTdTY1NJcmxiWnduRFRJenE1M1lIVW05SE0yU2NOX05Dd2FVMHVET3ZYZjdMSFpzaGYzdDBmSWttUXhudTZvVzIxUTZia1BRaXN6dmg3QW5DRjlIamtGQ0R3ZUgzcnhydw?oc=5",
-          "summary": "Ambience Healthcare is being positioned around a new model for AI partnerships in healthcare, highlighting how it collaborates with health systems and vendors.",
-          "sales_relevance": "Partnership momentum signals growing production AI workloads where Modular’s inference/compute infra could support scale and reliability."
+          "source": "Business Wire",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVXo2aTFCYloxNy0yMkFZdG8ycm1XSEtYT2V1MEVYWjExTndsVXgzNGcyb2o1emRUQ3BwU3FGSlBJLUlQdmhBMzU1bE1uWEV3RlRXdEFEa3pXeWdVOGRMcm9NNmt0RU8xdEp2OGRncGpyZENDQ2xzeWtHd3B3MVRiQTR1NFBhY25fZ1YxRExiQTRfc0t3bDJIMlR2dVVnM0xDbmdWd1BiQUx4bE5wVU5zSTBqUHYzNWVNU3lGUGJacV9qeHZYcndpN093?oc=5",
+          "summary": "Ambience Healthcare announced a new approach to AI partnerships in healthcare, positioning its ambient clinical AI for broader health-system collaboration.",
+          "sales_relevance": "Partnership-driven expansion of ambient clinical AI implies rising inference volume and latency-sensitive workloads Modular can support."
         },
         {
           "date": "2026-07-28",
-          "category": "partnership",
+          "category": "product_launch",
           "title": "Onvida Health and Ambience Healthcare Launch Frontier Ambient AI Capabilities Inside Epic",
           "source": "Montgomery Advertiser",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNdjVfV1lsX2wxaGtxdUZyT0pYVjJnVk5VYWJxYzhqUTJXMkdfTjZqUWhndHd5MWV5Z2JKV2w4Q05xZTZDVkt3SFh6OWxOVFBGUTNzU2hsek11aHZhTnVlNkR0MkpNb2JPMDRTeVZFN2Rqak5qRWw3VFd5LWVJZllzNVhrYktPU2d0UmZjYncxd2xHVVVZeGNWQTF6TUVxQ3BDckNTUnowMkZmMFJwOHI4N05LLUF5Y3MzRE9GSktpLXAteWJ0UF85aExVa2RSeWxieU9xbnlKWEY2VHFVMEd1RTJWdnNwUHlJWHc?oc=5",
-          "summary": "Onvida Health and Ambience Healthcare launched ambient AI capabilities integrated inside Epic, expanding clinical AI deployment at the point of care.",
-          "sales_relevance": "Epic-integrated ambient AI rollouts imply sustained low-latency inference demand Modular can help optimize and harden."
+          "summary": "Onvida Health and Ambience Healthcare launched frontier ambient AI capabilities embedded inside Epic for clinical workflows.",
+          "sales_relevance": "Epic-integrated ambient AI at a health system signals production-scale speech/LLM inference needs Modular can help optimize."
         }
       ]
     },
@@ -769,31 +733,13 @@
       "id": "wispr-flow",
       "news": [
         {
-          "date": "2026-08-17",
-          "category": "funding",
-          "title": "Wispr Flow valued at $2 billion on investor demand for AI voice-to-text startups",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dxM0lyTkVyZENsWWJSOXdyODFIeS1aRktWN0JBZW1NenFqOHVSMVY2S2dDUGYwcU5YY0xyeWVQb0lpTEdvYVFxQ2NKM3pZSDdQVWhjU1NYT1BKSHlVaURiWUw3bmJPVmkxQk0xemRaWmdIQXZsMzZSaUN4V1Z4WEcxOS1EeVQ4VnJoN1hibGt0bnhBaXFYLTF2cw?oc=5",
-          "summary": "Reuters reports Wispr Flow reached a $2 billion valuation amid strong investor interest in AI voice-to-text startups.",
-          "sales_relevance": "A high-growth, well-funded AI voice inference workload is a strong Modular prospect for low-latency speech-to-text serving at scale."
-        },
-        {
-          "date": "2026-08-28",
+          "date": "2026-09-20",
           "category": "other",
-          "title": "I ditched Gboard voice typing for an app that turns my rambling into clean text",
-          "source": "Android Police",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEtZVklWeEFfMUVNZ1o1OUtOck4wMTNPdTlQeDVMZWxSYldqbzhCXzNBNE5ZSVRDT3pYcTZtTGlsaXJLVG9oQW1IYXhoWmFyanNPSWFkcnY5RVY1dGxXWUtFX2dSaG9hekQyZ2ZJR3R1R1R1cU1ONXVNcGo1Q1dUVnZobDAzUW1kUXRVYnpMdDJIaGpiWFlPQTRoSHJaQQ?oc=5",
-          "summary": "Android Police describes switching from Gboard to Wispr Flow for cleaner, more usable voice-to-text on mobile.",
-          "sales_relevance": "Rising consumer adoption signals growing inference volume and a need for efficient, cost-effective speech model deployment."
-        },
-        {
-          "date": "2026-08-21",
-          "category": "other",
-          "title": "I tried the free Wispr Flow voice dictation tool everyone’s talking about – and I’m hooked",
-          "source": "ZDNET",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1ozaWw4YU5hUmhzb1V5ajZ0STYwZURDbktyQlhwYjdHenlXQU9ET1czZ0x4cndZRDlyR0dBMHRZSzlPMkdnS0FKUENrWWJLVERGQVNNSDZkVU8ySnlXLXFlTUpUQmJfZDJXWjEzbUkzb2hoZUZDMGJhQWoxY3hNT3NhdWo?oc=5",
-          "summary": "ZDNET’s hands-on review says the free Wispr Flow dictation tool is compelling enough that the writer is hooked.",
-          "sales_relevance": "Viral product traction suggests accelerating usage and compute spend where Modular can pitch faster, cheaper AI inference."
+          "title": "I paired Claude Code with Wispr Flow, and my 5-minute prompts now take 60 seconds",
+          "source": "XDA",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83QzdWclVTR3ZRZEhDQ0NrVHVlUVVQYzJZWUJqZ0FwVk1VMERBajdKZXJvemRSNXp2NXVVQ0w4LTFKc3luSnBfX1lNWmk3YWdmVTU1Zm9kZGlxUnlHV19MeWpBSC1xWjNqUlhYWkw1NWRLVndv?oc=5",
+          "summary": "An XDA write-up describes using Wispr Flow’s AI dictation alongside Claude Code to cut prompt drafting from minutes to about a minute. It highlights growing developer adoption of voice-to-text in AI coding workflows.",
+          "sales_relevance": "Shows Wispr Flow driving heavier AI assistant usage—an opening to discuss Modular for low-latency, cost-efficient inference behind voice and coding agents."
         },
         {
           "date": "2026-08-19",
@@ -801,8 +747,17 @@
           "title": "Everyone’s Using This A.I. Dictation App That I Want to Murder With a Hammer",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OWDFTdzZPRUZTeWdxTEFsYlVIanU5ZTNrWExpcXFRSy1WaHdrRVl1UENhSUFKMVd6YlNYS19id04tRFBtYUIyNnBkTV9UYV9tVXgzRHktdmFNWjhRWE9pQjltNGF2a0RqZmVrN1dZNDUwOHJnS3VpSzR0WQ?oc=5",
-          "summary": "The New York Times covers Wispr Flow’s widespread use as a mainstream AI dictation app, noting strong cultural buzz.",
-          "sales_relevance": "Mainstream visibility implies sustained demand for real-time AI dictation infrastructure Modular can help optimize."
+          "summary": "The New York Times covers Wispr Flow’s breakout as a widely used AI dictation app, underscoring mainstream visibility and debate around the product.",
+          "sales_relevance": "High-profile attention signals scale and brand heat—useful timing for a Modular pitch on production-grade inference for a consumer AI voice product."
+        },
+        {
+          "date": "2026-08-17",
+          "category": "funding",
+          "title": "Wispr Flow valued at $2 billion on investor demand for AI voice-to-text startups",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0dxM0lyTkVyZENsWWJSOXdyODFIeS1aRktWN0JBZW1NenFqOHVSMVY2S2dDUGYwcU5YY0xyeWVQb0lpTEdvYVFxQ2NKM3pZSDdQVWhjU1NYT1BKSHlVaURiWUw3bmJPVmkxQk0xemRaWmdIQXZsMzZSaUN4V1Z4WEcxOS1EeVQ4VnJoN1hibGt0bnhBaXFYLTF2cw?oc=5",
+          "summary": "Reuters reports Wispr Flow reached a $2 billion valuation amid strong investor appetite for AI voice-to-text startups.",
+          "sales_relevance": "A $2B valuation implies budget and growth pressure—strong trigger to sell Modular as scalable, efficient inference infra for voice AI."
         }
       ]
     },
@@ -812,39 +767,30 @@
     },
     {
       "id": "retool",
-      "news": []
+      "news": [
+        {
+          "date": "2026-09-15",
+          "category": "leadership",
+          "title": "Retool CEO: A Simple AI Out-of-Office Responder Racked Up a $10,000-a-Day Bill",
+          "source": "finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoX1pGQTctNkYzM2JoUWFPbnpPRjZtRmN3NGZ6b1BSZjA1MGRtaXVMbnp4RWlWdVdqM18xNUd3QmpNby11cXVLTjJCajQxRUFfQ3FrMEJMbktQZ2hmWDNpUmZ0Y2M1d1FuRjhBQkpEc3UwLWRGS1BMYTRyTmIxYjA?oc=5",
+          "summary": "Retool’s CEO described how a simple AI out-of-office responder incurred roughly $10,000 per day in AI costs, highlighting runaway spend risk from naive agent/automation use.",
+          "sales_relevance": "CEO-level focus on AI cost control is a direct Modular wedge for cheaper, more efficient inference in Retool’s AI features and customer workloads."
+        },
+        {
+          "date": "2026-09-10",
+          "category": "other",
+          "title": "Retool Revenue 2025: $120M Est. ARR, $3.2B Valuation (2022)",
+          "source": "GetLatka",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oQ3B5ZmFPTHcyWFRHMmRpMGNxR0QxT0lUNjRnZE10VHVaTXpXWTduM05yd1JJQkVUUnJHNjcxcVlCZnRNMlBZYzZSckU3UQ?oc=5",
+          "summary": "GetLatka estimates Retool at about $120M ARR for 2025 and cites a $3.2B valuation from 2022, framing the company as a scaled enterprise internal-tools player.",
+          "sales_relevance": "Confirms Retool as a large, funded platform buyer—worth prioritizing for Modular if they expand AI-backed app/agent features."
+        }
+      ]
     },
     {
       "id": "picnichealth",
-      "news": [
-        {
-          "date": "2026-06-23",
-          "category": "leadership",
-          "title": "PicnicAI Appoints Luna Federici CEO as Company Expands AI-Driven Clinical Research Platform",
-          "source": "citybiz",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNci1lWmE1c01NWjNWd25USTdSd0h1ZkhkTWViem5hWmRrWlVUelV6VzdaOGktS09XY3I1TFNRTnlKRF9nNkxkXzRPbm9NeWdmSmdfSWhBaEVkc2ZFYjRWLW45aFJpOXpZWDNRNjlmRlRBa3g1ZWJEN2V3bTJRdjUySUJVMGlxa3JaUzlGR1JjTEU3cW9UcUJRTDlpZ1VlZFpsSldJd0hmaUIwRENlSk1QZWdBZFlPUkxkM1BXTHE2eGctZVlsYVZ6WWJR?oc=5",
-          "summary": "PicnicAI named Luna Federici CEO while expanding its AI-driven clinical research platform. The move signals continued investment in AI capabilities after the PicnicHealth rebrand.",
-          "sales_relevance": "New CEO and AI platform expansion are a timely hook to discuss Modular inference/compute for clinical-research AI workloads."
-        },
-        {
-          "date": "2026-04-28",
-          "category": "other",
-          "title": "PicnicHealth Rebrands as PicnicAI, Building Intelligence to Accelerate Human Health",
-          "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVEVMOXR6LWdrWjBWclFwcjYyQklkNWFkY3p4b0RvaThEaHJlcjhYcFBWV05oV1hDc3d0bkxyMWlzbFdWamJELVBscW9IbmEyT0RXbzJkZm9BX3Q0WVNoRmhtSl9ZM05wbk5JUy1LWDhyVlJIMVE3bW1zZWVkMFJ2WmZLcEk5M3R1S1BaOWNIUWZfMmxlaHZIajQ3dlNUUFUwX085cU9ma2NRMW9UaVR5Mk1SeFNtWndYU0lqQ1Q5Rzk0bDFLVnpISlRIQlJTcHpyNnp3Yw?oc=5",
-          "summary": "PicnicHealth rebranded as PicnicAI, positioning the company around intelligence layers to accelerate human health. The shift underscores a stronger AI-first product and go-to-market stance.",
-          "sales_relevance": "An AI-first rebrand suggests growing model/inference demand Modular can support as they scale health-intelligence products."
-        },
-        {
-          "date": "2026-03-26",
-          "category": "product_launch",
-          "title": "PicnicHealth Launches ThumbPrint: A Patient-Anchored Alternative to Tokenization",
-          "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNXzE3Uk1DTTZXT08zNDJ6MFZPSGt1NkJ0c0RKdXcxWUNIVmZ3bEdkMlFKNDVMay1VS0hscGVtVjBsNy1MdGtTSFdrU0tVM05SMHlObUtJWlA4OXpiWXNDVEpsOUJ1MjM1WlFtSFZoQjQ5VzdaVWNmdXlrWFZUMlBrRTg1MDhibnltT2VOVXpFeDV5WHA0ZVdTTHl6ZG5qbnNheHJXdnMyOVpJSWNxVGZBUmlIZTN3STE0V0RpMmRzZmlrRzVndjhuVjkzZmxQLUFM?oc=5",
-          "summary": "PicnicHealth launched ThumbPrint, described as a patient-anchored alternative to tokenization for health data use cases. The product aims to improve how patient identity and data linkage are handled in research workflows.",
-          "sales_relevance": "New data/AI product surface area can drive additional backend AI processing needs where Modular’s inference stack may fit."
-        }
-      ]
+      "news": []
     },
     {
       "id": "sully-ai",
@@ -855,17 +801,8 @@
           "title": "AI Clinical Decision Support: Sully.ai Introduces Multi-Agent AI To Support Clinical…",
           "source": "Trend Hunter",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Pd2ZGTnZZSEM3dDF5NE15QVVpb3BubUFrRWQyaFkxMll3YTl2U0JxZy02M0hqN1ZuSkVaU2d0ZnI4N3VwcGwzVjhTbnNDdF9YdEtwVw?oc=5",
-          "summary": "Sully.ai introduced multi-agent AI for clinical decision support. The launch points to more complex, agent-based clinical AI workflows.",
-          "sales_relevance": "Multi-agent clinical AI typically increases inference volume and latency sensitivity—strong Modular entry for cost/performance conversations."
-        },
-        {
-          "date": "2026-01-12",
-          "category": "partnership",
-          "title": "Speechmatics and Sully.ai Partner to Scale Healthcare AI Infrastructure Globally",
-          "source": "businesswire.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWXpHZnRNcVo0T2luY1VJOTYwNk5ZbU1yVUoyR1RNVzRtUU16dFNZekdQWlV1UXFQSDRKQzl1RDhjRUpwVVhsV3UwWExpV2MwRlN6MEUtNUVuOXk2bFBTSlZJUnNIbFJRZW5OWDFZMU56VV9YOHpXTmZMeWNtaFBTQ0NvM2JZUEZlZ0pNdXlpT0EtNjFCa1laNTlYWFNIRHVLeXRSdU5XRExwWDFGeThKRUJNTERfdVlHei1BZkhxc2xTZ2M3anRvSGlta1o4WDBBMlVN?oc=5",
-          "summary": "Speechmatics and Sully.ai announced a partnership to scale healthcare AI infrastructure globally. The deal pairs speech/ASR capabilities with Sully’s healthcare AI offering.",
-          "sales_relevance": "Infrastructure-scaling partnership indicates they are building production AI stack—Modular can pitch complementary inference/compute efficiency."
+          "summary": "Sully.ai launched multi-agent AI capabilities aimed at clinical decision support workflows. The product expansion signals deeper AI inference usage in healthcare settings.",
+          "sales_relevance": "Multi-agent clinical AI increases sustained inference demand—pitch Modular for low-latency, cost-efficient serving of agentic healthcare workloads."
         }
       ]
     },
@@ -873,13 +810,22 @@
       "id": "lovable",
       "news": [
         {
-          "date": "2026-09-14",
-          "category": "leadership",
-          "title": "Lovable CEO Anton Osika quoted a famous essay about death by nuclear war as AI apocalypse fears hit a boiling point",
-          "source": "Business Insider",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUtuQ1lfTlFMdExzN1hCd0U3VE43OERxVnZ6LVhQR3JwbWtEUnJ0UWFDYzl4SDZybmRGeWkycENzV1lJdk1ZUW42RC1fWmFpS2cteVVFQThlYThNX2M2c0h4VUdyWDBsX0syc0JGOUlQTVlsU3pvblNBcFpTX3RZZ3pCa2s4Q3B2QTF3Qkp3VW5vOHc?oc=5",
-          "summary": "Business Insider covered Lovable CEO Anton Osika citing a well-known nuclear-war essay amid rising AI apocalypse concerns. The piece is CEO thought-leadership rather than a product or funding announcement.",
-          "sales_relevance": "Recent CEO visibility keeps Lovable top-of-mind; use as a soft opener to discuss inference cost and reliability for their AI app-generation workloads."
+          "date": "2026-09-18",
+          "category": "acquisition",
+          "title": "Lovable Acquires Sutro, Company Behind the SLang Programming Language",
+          "source": "Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcVdnTktBQXRpT3FsRXh6N2E2MEw4ZG5EbzJOWk1hNkFMOWRDZDdrZVNGcHRfYkJXZi1wbFVOTXhxSU9mOVV3czdnZGo2b1Y5VWFHQjFRYkJqNGJFaFVWRUtFNURRcWRGdDlTdWFTOW5IODBnb3pWODB5VzY5ZVlsaF9WcEp1LU95X3ZBS3AwMmRqU0Q4?oc=5",
+          "summary": "Lovable acquired Sutro, the company behind the SLang programming language, expanding its AI app-building stack. The deal points to deeper investment in developer tooling and codegen capabilities.",
+          "sales_relevance": "Post-acquisition product expansion often raises inference volume—timely outreach on Modular as the infra layer for Lovable’s growing codegen/runtime AI load."
+        },
+        {
+          "date": "2026-09-21",
+          "category": "partnership",
+          "title": "dig Turns Social Intelligence Into Custom Enterprise Apps With Lovable",
+          "source": "MarTech Cube",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTGltYTFBdF91WDM4U3dJTWV5WTIxZno4R2NJQTg4d0tZMG5RSDlFRVhXel92WnJ1Q3F1V0hFOGhubFR1OUYtTEVEeldrTU9sekNPLTNWWUhVZTlhR3FYQUNrdTd0Zl9jbllPM2xib1JhMFphSkR1SkptcnBVMlpKa3hrQXVNdlQ4eWcwRjZUbG5mdmF4OFU2LS13OWxCWnh3?oc=5",
+          "summary": "dig is using Lovable to turn social intelligence into custom enterprise apps, highlighting Lovable as an enterprise app-generation platform. The partnership shows Lovable being embedded in go-to-market and analytics workflows.",
+          "sales_relevance": "Enterprise app-generation partnerships drive concurrent AI codegen demand—position Modular for scalable, cost-efficient inference behind Lovable-powered builds."
         }
       ]
     },
@@ -887,13 +833,22 @@
       "id": "reducto",
       "news": [
         {
-          "date": "2026-09-01",
-          "category": "product_launch",
-          "title": "Reducto Unveils a Frontier Parsing Model That Makes the World's Hardest Documents AI-Ready for 1¢ a Page",
+          "date": "2026-09-17",
+          "category": "other",
+          "title": "Reducto Opens New York City Office to Expand East Coast Presence",
           "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbFY5bXp4a3BTNFkwYldLb1VQOVFoTVYwMTE2ckxUY2ZBNWhaYnRMQWY0VzluVlM2TC0tYS1HaElvUGVtQUlMRGRPSVV5RHJFaGw1NHhGVG9sTTBrOHpxTDhGbWJKSUdkRWNDSWY4aXRFRl8wWlJVdHp4c1hma1RTS2M0VXFxX3A4VHJ0N3NPellfdWFRY0g3VlgtM0xmM0pMV0RRTkZ1bHRnZDlSc2Z2cUtWTXFlUGxRTWMxZHh5ODRhUy1XMXVNWVR4bmwwMTl3aThyYmd1R2dHakR0dmI1MzhrSVdsZXFEYWdiY0IzRQ?oc=5",
-          "summary": "Reducto launched a frontier document-parsing model aimed at making difficult documents AI-ready at roughly one cent per page. The release positions Reducto as pushing harder into high-volume document AI workloads.",
-          "sales_relevance": "Parsing at scale implies growing inference/compute demand—an opening to discuss Modular for cost-efficient document-AI serving."
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc1paLUhJLWxnSm9zOUV0YktsX29sNmk3X2ZQSW1veTBDdktpSGRqVXNMMDhwMHJlYUZfZmxlODBWVVBFMHlpamJtbzkxeHdxQ1JJRVVTNzROdGxfQURLbzFQemZ1dlhSdTBONG9hQkZRa082T2RLaEpQenlZZXdMY0lsZW5scl8wZHVNc0xyQVJIX1p6MHBVdEloMV9uNkFWNThRLTMxb3ZFTjVJRDRmOXYwdndnR2txTzNnYw?oc=5",
+          "summary": "Reducto opened a New York City office to grow its East Coast presence and be closer to enterprise customers and partners.",
+          "sales_relevance": "Geographic expansion signals hiring and customer growth; a Modular pitch can tie document-AI inference scale and latency to their NYC enterprise push."
+        },
+        {
+          "date": "2026-09-07",
+          "category": "product_launch",
+          "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+          "source": "MarkTechPost",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZUlPdFZhQnZub1hWMGI3NnFmSjI1QVo4c2xuYllUd21xemFQS1BHSks4VkN6S1JUYm5pOUZxRnlJa2NjQmhNM2FrM3NyajlDTVJJamFkMU4ydFdZYXl3UHBHckhHeG84VTZqSklydWVCdjlfX2NZcFl1cWdUalNwQ3Q3TVAxSGU3Rkhtc0RiRnRROWoxTlZlWmNzcEx2OHlkd1l2em5KdUZXalRxWlEzMEVoQkN3VWVwMV91NG1EMzFvWm1Id2MtU0tSX1NxRkZlbWVv0gHYAUFVX3lxTE16RWhzbTItV3QzSUVwaHM1TEdkMUxQd2x4OGQ1RWJ2aGRGejc5RXRqb3dERWxnNkwwcXVsY09SUWdRc2FkaTJvR3pyVnNLOWl1dFVjMkRnallKU3lXUkt3cWhEQzFPTVNETHhaMXc4clM5RG5ncjliWUxEeVBETEZDSExrZ0l4RDZDbWFqRlRlN2kxRDR3ek1UT2RSVm9XOGtvSWtqNXk5TGxGRl8wTU1WdEVkVFNRM040QVJPN295ME5fbTJBN2R4ZlROUWRLeW9ncU84VGdBdA?oc=5",
+          "summary": "Reducto launched r-1, a single-pass document parsing model that it says reduces errors by about 20% at roughly one cent per page.",
+          "sales_relevance": "New model shipping implies rising inference volume and cost pressure—Modular can sell faster/cheaper serving for document-AI workloads."
         }
       ]
     },
@@ -905,40 +860,31 @@
       "id": "genspark",
       "news": [
         {
-          "date": "2026-09-11",
-          "category": "partnership",
-          "title": "Genspark extends its gratitude to the MiniMax development team for launching a specialized PPT model based on post-training of M3",
-          "source": "Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZm5uaV83aGU5WFp5d1FjSGpya0ZqdDhHTWRmWnZxcnUxaG56Z0tqcnUwWmpQRkJWR0I2d09UOEg0RURZWVdDZWZGenhLaEZvNEw2RU0wOHhpcElRV2I0SnVXVWxUVmhRRy0wZkVGN1VEaS16TlRLbmotZDIzOEVnYVkyMlZDRUdEbU5ObmdLVTJBbVk5SnAwOU93bm5OcEl6OTF4M3NaVWtsN0xu?oc=5",
-          "summary": "Genspark publicly thanked MiniMax for a specialized PPT model built via post-training on M3. The note signals ongoing model-partner collaboration around presentation/workspace AI features.",
-          "sales_relevance": "New partner models in the product stack often increase serving complexity and cost—timely for a Modular inference-efficiency pitch."
-        },
-        {
           "date": "2026-09-09",
           "category": "other",
           "title": "National Advertising Division Will Refer Genspark to the Federal Trade Commission for Failure to Respond to Inquiry",
-          "source": "GlobeNewswire",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNaVhlX2hBb3BkaDdhaUhMdXJGeHprU05NYnVNcWJjcnhpUEVaeklrNlhVY2loa09hVG5zUGlSZVhKVGZSd1VwTVU1MERlN0RxZk5CLUFVYl91YlV6TGxEX3NDblQtN2p2MmZ0WEdaUE9ubGN0aWFXUC1FOVE2Y1ktXzJBVm4xOUREbng2bEp3LUFmS2hBdVU3d3lyREZaVml0NnN5UEVrNnRLNHZ5ai1YQUJPQkJoenFBcGlWUmtxZXcxMmI5MDAzX3dqcXEwbXlfZ29nQjNjQUc0SWF6aG1rNlVPVTRqU2FkSjNXblZHUVNjd2lidWhNM3pJaU50TnJUaXVuMDBWRkJ3NWxSTFhib2JtdHRjUQ?oc=5",
-          "summary": "The National Advertising Division said it will refer Genspark to the FTC after the company failed to respond to an advertising inquiry. This is a regulatory/compliance development rather than a product or financing update.",
-          "sales_relevance": "Use cautiously as context only; focus outreach on technical/product value rather than capitalizing on regulatory pressure."
+          "source": "finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa3VtTTlDdnZycE9SZ2xEOUpDMjlLRmRWZENKZlFWbnE0ZzZWaHc5WUxzcGZPWFAyczZENU9iN2V3c3F5bExmeUhpTWNUbVN2eTZ6Qm9EYldWcUZnSndwMXdQOG1mZkJucC03WTNyMmZGY3VsRGNTVm1MamhIekM2NDJNNmlGQ1lrN3dvRmExb09OMnlhNHZCSnUzZVYwYjg2eDlieWk5bGdVc0lWWXlOYmdB?oc=5",
+          "summary": "The National Advertising Division said it will refer Genspark to the FTC after the company did not respond to an advertising inquiry.",
+          "sales_relevance": "Regulatory scrutiny may slow marketing-led growth; approach with a compliance-aware tone and emphasize reliable infrastructure over hype."
+        },
+        {
+          "date": "2026-08-31",
+          "category": "other",
+          "title": "Genspark Revenue: $36M ARR in 45 Days, Sourced",
+          "source": "GetLatka",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VVnU1djBITnkwbFBieV9RNkpxNUVXSFNBWU5zeXlhRjg2YXQyODZsUDREUUliNWx6MXVYTU5XdTRaeTNRSGF6cmxnN3cwYWJSQUpSc19xV2UtdWczS2c?oc=5",
+          "summary": "GetLatka reported sourced figures claiming Genspark reached about $36M ARR within 45 days, indicating very fast early revenue ramp.",
+          "sales_relevance": "Hyper-growth ARR suggests exploding inference demand where Modular can win on cost, latency, and scale for agent/workspace workloads."
         },
         {
           "date": "2026-07-21",
           "category": "product_launch",
           "title": "Genspark Unveils AI Workspace 6.0: Betting AI’s Next Breakthrough Isn’t Models, It’s Context",
-          "source": "businesswire.com",
+          "source": "Business Wire",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMGVUN2NrVmhmdklhTXVjSlUxTmh3MExDSUktS0s1Y0tDMU9ReEhNQXBvR3hDRTBKeU80Nmd2cmpBSUhxWDFKblRHNjM1bjV2YmR5bWhPNTY3S0FHUW5ZVTZnTVU0UVY5c3g4UkZ6LTNLdklyTmdzUm81WkhlbnRiTGlaTEZ1djZoei1hV0J1M3hkTGJnWlZ4ZF9WUFFCSWgySHFnZ0EzdWt1a1NKS1oxMDhtbUt1MGM2b2wxZlM4U2xRbThTRkRjMk5QZm9lYllrRzdpbTc1Q3UtUmU4?oc=5",
-          "summary": "Genspark launched AI Workspace 6.0, framing context—not just models—as the next breakthrough. The release points to a broader multi-model workspace product push.",
-          "sales_relevance": "Context-heavy workspace products typically drive sustained inference load—strong fit for Modular’s performance/cost story."
-        },
-        {
-          "date": "2026-06-11",
-          "category": "funding",
-          "title": "Exclusive: Genspark hits $2.6B valuation with $100M extension",
-          "source": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR2l5UmFuelUwQ0lFbEoxdngzMjNTbFphcVY1LTNEYnBkR3BLaWNvTWVkSkg4N3JJQ3BEX3hLVGN2WERMaGlFRUpjMUgzaXk2OTMwSHdkQXB4eURhejZXWWdEb1BQNW0zd3VCNmJfcndXRFhXWVo0NlFqN3ZSTVFzZGJhOUV2cEN2aTBNRDlXNE12Z0hDSUVBSzB2UERlWU96?oc=5",
-          "summary": "Axios reported Genspark raised a $100M extension at a $2.6B valuation. Companion coverage put the extended Series B around $485M total.",
-          "sales_relevance": "Fresh capital and a multi-billion valuation suggest budget for infra scale-up—good timing to engage on Modular for inference economics."
+          "summary": "Genspark launched AI Workspace 6.0, positioning context handling—not just base models—as the next product breakthrough.",
+          "sales_relevance": "A context-heavy workspace product likely increases token and retrieval inference load—strong opening for Modular’s inference stack."
         }
       ]
     },
@@ -951,8 +897,8 @@
           "title": "LMArena Secures $100M in Seed Funding to Bring Scientific Rigor to AI Reliability",
           "source": "HPCwire",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVjliVmJ2NnN5d2pqbUEyakJfenZDNnl2ZFRkM2dFSW1pMnZkVHdoaFVocjVRakpxWi1ERm5oMGhqU3UzeFBVUldJeHVVdHhzZVdrTzNfQTlLNDZFRElRQXNJWUhvczdlN3RYd3lnWFNrbTlwMG1GeTRCbzBIb3N5NzE5VHBDMk1PeEduWm85aWIyNVFBNmpIell2dXFvcUI3QndLVC1uNU9YMktILXNxNDdBWGd2MkpqekwxUGlYT1BhMmJ6c0QwTDln?oc=5",
-          "summary": "LMArena raised $100M in seed funding aimed at applying scientific rigor to AI reliability and evaluation. The round underscores continued capital flowing into AI benchmarking and trust infrastructure.",
-          "sales_relevance": "A well-funded AI evaluation platform likely needs scalable, low-latency inference compute to run large model comparisons—an opening for Modular on eval and reliability workloads."
+          "summary": "LMArena raised $100M in seed funding aimed at applying scientific rigor to AI reliability and evaluation. The round signals continued capital behind LLM benchmarking infrastructure.",
+          "sales_relevance": "Fresh capital for an AI evaluation platform suggests growing inference/eval workloads—worth exploring Modular for model serving and compute efficiency as they scale."
         }
       ]
     },
@@ -964,31 +910,22 @@
       "id": "patreon",
       "news": [
         {
-          "date": "2026-08-20",
-          "category": "product_launch",
-          "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
-          "source": "TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSUdpcE5iWElOOFdkcUhXamF3N2xHeXNRcjJFZTg0T082UGF4TXlraTcwU1JwM1g0U3lEZjYyS3pFUUFUYWZKUzVZUDJveF9HQVlJcS1QcER6Yl8wQWU2M0ZSVjZJN3pOZVZnUjJWblVibWdNYVg2SmZEbEstRV83ckxfSTVmcW9pSmIwMG0xNjgxVnlCMC1Da2R3czluY0pXMWQ3Zm5KZWNJVkJUU0JqdS1OUkRablJCNHMtc3JxMDluUlU?oc=5",
-          "summary": "Patreon rolled out about 30 new creator features, including short-form Clips and a revamped discovery experience. The launch signals a major product push to improve engagement and creator growth on the platform.",
-          "sales_relevance": "Feature expansion and richer media/discovery may increase backend ML/recommendation and content-processing load—relevant if Patreon is scaling inference for personalization or creator tools."
+          "date": "2026-09-21",
+          "category": "leadership",
+          "title": "Patreon Promotes Mike McGarry To Chief Marketing Officer",
+          "source": "Net Influencer",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalFrLWt3YUJvcHBsVHY1NUFOTkV4SVgyaWVPb2tVRDc4S3RPNjhIM2s3MVZXNmo4NjNBYkJVVG1vcWtEV29HU0YxQVRkNjVKWnBUSWtHQ1Q2b18zNEljajRza05qRDlHVzJpVGhocU5TaXFkV1dhWkZXTGdsZVRMR1VoQmhMSVlLd01BQkFVTE0?oc=5",
+          "summary": "Patreon promoted Mike McGarry to Chief Marketing Officer. The move refreshes go-to-market leadership at the creator membership platform.",
+          "sales_relevance": "New CMO may drive product and growth bets that increase AI/content infrastructure needs—a timely hook for Modular on inference cost and latency."
         },
         {
-          "date": "2026-08-21",
-          "category": "product_launch",
-          "title": "Patreon says its discovery problem for small creators is its own fault",
-          "source": "The Next Web",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1M3V1BWcTlQc0FWcG9FSGh4SE9rY0taZGIyaktKYnN0Q0RnVDVtX182S01LU3NHaDBmOHV2TW9JZWhtb1dDTFdnTnhoNGZOanlBUEFPeXdzYmctWVZZVUszaDNnWFZ4X1VWMmxWakNlc0tHRWJNTnVQZ3J6ZXk4d1QxazJFVzQ?oc=5",
-          "summary": "Patreon acknowledged that discovery challenges for smaller creators stem from its own product choices and is addressing them. Coverage ties to the broader discovery and feature refresh for the platform.",
-          "sales_relevance": "Investment in discovery/ranking systems often means more ML inference at scale; a Modular rep can probe whether recommendation or content-AI workloads are growing with these changes."
-        },
-        {
-          "date": "2026-07-09",
-          "category": "other",
-          "title": "Patreon Blocks Crawlers From Stealing Creators' Work for AI Training",
-          "source": "404 Media",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TVWtZQ3JPVWFQYnhmM2NadFRfVGdfaFBkVndYaDNkOXY0NGtUYUh6RWVZSnRJN25mdjB4X2dQdERtaXJoNzIyMVAza25YY0xKanVXd1dSWVdkZV9fZ2h5NGphNF95RmtmQmYtX0hLbHNCS0cxbHc?oc=5",
-          "summary": "Patreon moved to block web crawlers from scraping creators’ content for AI training. The step reflects creator-platform pressure around unauthorized use of content in model training.",
-          "sales_relevance": "Shows Patreon is actively navigating AI ecosystem risk; useful context for a Modular pitch focused on first-party AI features and controlled inference rather than third-party scraping."
+          "date": "2026-09-15",
+          "category": "leadership",
+          "title": "PRWeek 40 Under 40 2026 — Meg Davis, Patreon",
+          "source": "PRWeek",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbTl1cWFCMnBmeV9ib0ZxaU1VbzFfcWoxWXoxcExILThLa20tZks4cEZoQUplODl2QnF3bXR2UzRBbVgxcVdRekxIdGM1Vnk1bVA3STFxNTJWdE41SWFwejh6SFBFUXNPOS1URVprN2tNRWQxQ0ZHc2IwRVJaaldhdzFWQ0dnSjRZS001LQ?oc=5",
+          "summary": "Patreon’s Meg Davis was named to PRWeek’s 40 Under 40 for 2026. The recognition highlights rising communications leadership at the company.",
+          "sales_relevance": "Visible exec recognition can open warm intros into Patreon’s ops and platform teams evaluating AI infrastructure partners."
         }
       ]
     },
@@ -997,30 +934,30 @@
       "news": [
         {
           "date": "2026-09-08",
-          "category": "other",
-          "title": "HeyGen AI video generator reshapes real estate ad workflows",
+          "category": "product_launch",
+          "title": "HeyGen real estate video maker turns listing deck i…",
           "source": "StartupHub.ai",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ3JrRm91UkEtcnlpYTdNVmlaNUlWNF9Rc21qeTZ6QUxyemk3UV9aNHNISlRIMXV1WWM3RnFoU0hOdndHWmxnaXhyWXdWRXVRMWNBY3lTVUtNMlM5ZnVNM2p2LS1RdW9hT1hmWC1xcV9oZzF0N0R0eXdtblZ6UFAzNzZEbXZNNk9TZ2hDS0F2LUg0T1VPRFhITnRJc2p5YUpEcEtIOHo1eU5XOTQtSlJjSTdjN3dCUk80Tkl4VFdKcw?oc=5",
-          "summary": "Coverage highlights HeyGen’s AI video generator being used to streamline real estate advertising workflows. The piece frames continued commercial adoption of identity-first AI video production.",
-          "sales_relevance": "Growing vertical adoption of HeyGen’s video pipeline signals rising inference/compute demand a Modular rep can tie to latency, cost, and scale conversations."
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORWQzMW1hUXBUQ0EtY2MyTWVWMkRnbV9yd2UyNXUwZS1WY3pEODdCX3ROMVZXRmVwUXE5RzBXZWREVkVnYWdEamxsT3NOS0dwRkVoOHRuOXRaaUx5U1lRQmhrV2Zyd211eUJ0NWpPMF9GSHBULW5uU3RTbnVBVGxWMXVsMTlNS1ZaM0NjeEJzU21tWHBON2JsLXdDOGtNTG8tRUl5bnRqbTBoWGhwUnJZV3VVTmwwTXM4ZUMzTkNub1lMTFNvcUVhckFUSUQ2S3pa?oc=5",
+          "summary": "HeyGen launched or highlighted a real-estate video maker that converts listing decks into AI-generated video content. This points to continued vertical product expansion in identity-first AI video.",
+          "sales_relevance": "Vertical product pushes like real-estate video imply rising inference and avatar-generation workloads Modular could help optimize or host."
         },
         {
-          "date": "2026-09-07",
-          "category": "other",
-          "title": "HeyGen Ambassador Program 2027",
-          "source": "Opportunity Desk",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ONm9fMnpOaEswRFlDOUlGU1pBZEtTMkVycldjdlhMVDZRWkdjSW5qRWhvZVJNb1pMZGVxR2Y2VHdGN1ZmTV9UeW9ZbGFvMDhUMUhDM2ZfVXRWMTRZdlpDZWp4aFZ6dDM1c2Q5bkh4MXBJcE90eDJsZnVB?oc=5",
-          "summary": "HeyGen is promoting an ambassador program aimed at expanding creator and partner reach into 2027. It indicates ongoing go-to-market investment around the AI video platform.",
-          "sales_relevance": "Community and GTM expansion usually precedes higher usage spikes, giving Modular a timely hook to discuss capacity planning and inference efficiency."
-        },
-        {
-          "date": "2026-08-13",
+          "date": "2026-08-22",
           "category": "partnership",
-          "title": "HeyGen x Google Cloud: Bringing Avatar IV to TPUs",
-          "source": "blog.google",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZVpHQW1PR1prNE9qaGhLZVEyRkIyU2xxTi1rUUxqWUNDYWZ3TDZ0WnFnNkV3OGpNYmw1VUo0bnJ0Q21FWS1oVjVFX2ZoMlFXVGhjR0EtbG5OX0dFSVI4dWRPWGx3UDVUbF9pMThxX3FMUTNlQXZIMlRUWFBqLWQxWkFjOFB1eTlKMW93?oc=5",
-          "summary": "HeyGen partnered with Google Cloud to run Avatar IV on TPUs, emphasizing cloud accelerator deployment for its avatar video models. The announcement underscores infra choices for generative video inference.",
-          "sales_relevance": "Direct compute-platform partnership makes Modular highly relevant as an alternative or complement for faster, cheaper AI inference on HeyGen’s video workloads."
+          "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+          "source": "TechCrunch",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUm9JWmRsdTFRT0IxTUVIQjZfaTU1SG85TGY3ODUyMUtSMWtPN2l1blA3ODZ3bzlNNV9rN1U1cmJjeXFTMXpqeFNJU1BGcjF3TE9Dbzl0dXExbUxFaGhDbXBZU2ttU2s2a01vVW92MFpRNU9BRV9HQ25UVE5JOUVVcTBIVE5JbEh3VzZGckQ3eHZHZE1OWm4td2RSTlh0RDNQZTVn?oc=5",
+          "summary": "Harvard’s startup bootcamp is offering AI avatars of its instructors, reflecting enterprise/education adoption of avatar-based video. The story sits in HeyGen’s recent coverage as a notable avatar use case.",
+          "sales_relevance": "Education and institutional avatar deployments signal production-scale video AI demand where Modular’s inference infra could be positioned."
+        },
+        {
+          "date": "2026-07-29",
+          "category": "product_launch",
+          "title": "HeyGen launches Video Podcast",
+          "source": "Dealroom",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2SEc5enlPNzV4RXNVTF9qS0l3UlB0Tk44dXJmeXljNUUyaDhtWVFkS1dQTXNqLVZMOWFQZ0JEWkN2NktRRnJtZVdVeElhTUN6U1A4Q0FweFkydzBqZ3hsOGctZ043c0pIVF9mczR3Wi0?oc=5",
+          "summary": "HeyGen launched a Video Podcast product, extending its AI video platform into podcast-style avatar content. This adds another high-volume generation surface on top of its core avatar offering.",
+          "sales_relevance": "New generative video formats increase sustained GPU/inference needs—an opening for Modular to discuss cost, latency, and scale."
         }
       ]
     },
@@ -1030,29 +967,11 @@
         {
           "date": "2026-09-10",
           "category": "partnership",
-          "title": "Rime Partners With Dialpad as Premier Agentic Text-to-Speech Voice Provider Across Global Communications Platform",
-          "source": "WebWire",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpeDI2dVRNZnNwUVowWGZrWXluSzBPNkhqMHZfQ212SV83Z3RwTV91RVlaQXdEYjdod1JRZHA1T2xpNnRJX2tlaGFQUTk3Zi0zcmwweXgzU0JJc2Y1eS1MVA?oc=5",
-          "summary": "Rime announced a partnership to become Dialpad’s premier agentic text-to-speech voice provider across its global communications platform. The deal positions Rime TTS inside production AI phone-agent workflows.",
-          "sales_relevance": "Embedding Rime voice into Dialpad’s agent stack implies sustained real-time inference load—an opening for Modular on low-latency speech serving and cost at scale."
-        },
-        {
-          "date": "2026-09-10",
-          "category": "partnership",
           "title": "Dialpad Taps Rime to Give its AI Phone Agents a More Human Voice",
           "source": "citybiz",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUTZvaDhYMWxUX01uOVh0cHI0bVBqaGFYa2NjTk5Qd1BGMzRQekozWVpOcHAzaFRHd3dCTzhWbnVQZk5pcVFsWnJCN3B2ZW1YZEdra3cyaU5LR0F5d01TTTlHeXVlYUE3ZjBMR21DU2duQkphTjFCVzJkanpKdHhWZUNxUmZGZzFnTWJYQ1YwVktBV05CYlk0cW55WTFkNm4tWjZadHdn?oc=5",
-          "summary": "Separate coverage notes Dialpad selecting Rime to humanize voices for its AI phone agents. It reinforces enterprise distribution of Rime’s TTS technology.",
-          "sales_relevance": "Enterprise channel traction with Dialpad strengthens the case that Rime will need reliable, scalable inference infra Modular can supply."
-        },
-        {
-          "date": "2026-07-15",
-          "category": "funding",
-          "title": "Rime picks up $24M Series A to help enterprises field customer calls",
-          "source": "TechCrunch",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUWx2RlZBVkFXclZCTWp1NWVnWTI4c0pDeHJKRUtxWVc4blZWV0NJOHk4MlNueThvVnRGU1pUZmpjekVJdUpZV2g0TEN5WEp6VlVTQjU5cDRoN2padnlaaWpCeTY5SF92bk5IY2NEanNOZldFXzFOSDFSTUN3dlpxSkRnc1laSXJucFNRRDQyc2dLNEZKYlRBa2lIS1FFUFc2djNkTA?oc=5",
-          "summary": "Rime raised a $24M Series A to expand enterprise capabilities for AI-handled customer calls. Funding supports growth of its voice AI platform for production call use cases.",
-          "sales_relevance": "Fresh Series A capital and enterprise call focus mean budget and urgency for inference performance—ideal timing for a Modular outreach."
+          "summary": "Dialpad partnered with Rime so its AI phone agents can use more natural, human-sounding voices. The deal is a clear go-to-market win for Rime’s voice AI in production telephony.",
+          "sales_relevance": "A Dialpad integration means real-time voice inference at call-center scale—strong timing for Modular to pitch low-latency speech/compute infra."
         }
       ]
     },
@@ -1066,23 +985,61 @@
     },
     {
       "id": "doordash",
-      "news": []
+      "news": [
+        {
+          "date": "2026-09-21",
+          "category": "partnership",
+          "title": "Costco now offers nationwide delivery on Uber and DoorDash",
+          "source": "Retail Dive",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2dKa1JmU3AtcGhJcFEzUFVRaU5QM1ROSUNHWXBkcmdVVUVpYWFIbWVMbGxVVWtyQ2hhRFdfcDBrOGRfOG5IcjdnanV4QVUyNGptUUhzZjIyZ3RXclRWbXAzN045SlRvY2JKOEtwbUJ2bzFvZ0lXUVpSektiNmdrbFhxLVAtX2ZrN1BTOTI1X0FDanhwMnJkMVNzeEw3cGtL?oc=5",
+          "summary": "Costco expanded nationwide delivery through DoorDash (and Uber), broadening DoorDash’s grocery/retail logistics footprint.",
+          "sales_relevance": "Larger delivery and logistics volume can increase DoorDash’s need for scalable ML/inference infra behind routing, ETA, fraud, and personalization."
+        }
+      ]
     },
     {
       "id": "shopify",
-      "news": []
+      "news": [
+        {
+          "date": "2026-09-21",
+          "category": "product_launch",
+          "title": "Shopify just released a brand-new Apple TV app with a dashboard for businesses",
+          "source": "9to5Mac",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbEhCVDhWNUQ1Qm5WczFtdnJhS0o5VlQ4X1ktV29nUFRId2RxcS05TkNNQVd3NVdETktEdzZtM2dWZzFTSzFyTFRPMG0xUGJ6UTFjeHBpX0t0M3UwMkdJX1l6c1pwaURyZnh1RXR3QTBfbm83R1h5djVTUlVNVW1RRzZveE94OUhJeHdJcVFPNTVoNnZ6RHR5U3ctUWFLdnBUbTVRUHNBYnNtOHYxWDA0?oc=5",
+          "summary": "Shopify launched a new Apple TV app giving merchants a business dashboard on the big screen.",
+          "sales_relevance": "New merchant-facing surfaces and analytics features often drive more backend AI/analytics workloads where Modular’s inference stack can compete."
+        },
+        {
+          "date": "2026-09-19",
+          "category": "leadership",
+          "title": "\"Slop Grenades\": Shopify CEO Who Pushed Staff to Use AI Is Now Horrified by What He's Wrought",
+          "source": "Futurism",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVdtLWdIT0c3LWdrbEYxTDJwUEVSYnJJWE5HQS1YRVRpalV0cUVuTUdZdTdndF84c0w2X3lrcl9RR2RmNzJEeS1RcnBpZXF6dVMwUFdJMFlQSFc2NndvT1VFbkd3ZFpBZFBBTzk3dXpsYlhVMDltZ0pWOV9TdHZRcXFaR3oyTkphVl9mRUs2czRLVEZUb1ZEdS1n?oc=5",
+          "summary": "After pushing internal AI adoption, Shopify’s CEO criticized low-quality AI outputs (“slop grenades”) that shift work onto coworkers.",
+          "sales_relevance": "Shopify’s AI-first mandate plus quality concerns is a strong opening for Modular on faster, higher-quality inference and production AI tooling."
+        },
+        {
+          "date": "2026-08-05",
+          "category": "leadership",
+          "title": "Shopify exec says AI is ushering in a 'golden age of entrepreneurship'",
+          "source": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUG5Qa1pXLS15OHo5ZWVfWE9JSXpsQk1GRXQtRjU3d0hsMkt3b1pyVmpWQkV5MGhNR1pVbmV3eFNCMmUyVGc0bTcyU1ZkNmhGV05qUkxRelZqVG9ZcUVuQXJadUVUWGJEOEhYYjBwdUVTU2h2b0xrRGRZa2szNHdRbVdkeWxGSkR1V0RISW5sSTY0YWpTUThv0gGcAUFVX3lxTE9qcnBjWnl6XzZoUklScjB0Yi1aQ3l3LUV1eUtSOHJPOFBEd3R6MmZKMDJmV0ctemtPYzJidkVGVVk1Y0Q1NGhuWkU3eEJWeGRTVzdneGhDbEtQcmR4eGxXTEREMDZOY0dLZFN0WUpvbnl0cGFlcXZzYjVELUVkaHVPcnR2YXNFYmxUY2FfTG1VU3A1VU9oREUtTGVYbg?oc=5",
+          "summary": "A Shopify executive framed AI as enabling a new wave of entrepreneurship for merchants and builders on the platform.",
+          "sales_relevance": "Public AI growth narrative at Shopify signals sustained investment in AI features and inference capacity Modular can help power."
+        }
+      ]
     },
     {
       "id": "quora",
       "news": [
         {
-          "date": "2026-07-08",
+          "date": "2026-09-15",
           "category": "other",
-          "title": "AI, Social, and GEO: Reddit and Quora Are More Important Than You Think",
-          "source": "slator.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSlV2MXM2cDhraGN4M0k1bDNkSUcxZmxKOXo5aC00RGUyTkFhamEyM04xVUh4b3N0RDJHalN1d08zMlN2Z2NKNG9zNE5McHJaZUxRRU9yQUtPNExpdTAzMTMwanJmTl9aaF9TMmxKTWVFVUt3MlkySTkxd3ZQNWl1TkZ2bHJ5OEpNZFY3aHJOak54UzhCaUJ3b0xR?oc=5",
-          "summary": "Coverage argues Quora (with Reddit) is increasingly central to AI-era search and generative engine optimization, not just traditional Q&A traffic.",
-          "sales_relevance": "Signals Quora may be investing in AI discoverability and content infrastructure—an opening to discuss inference/compute for AI features and ranking workloads."
+          "title": "Meta services, Roblox, Quora appeal UK Online Safety Act top-tier designation",
+          "source": "MLex",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTUhBMUdxaGprbFVVSndaMUVLVFVlTGhpVFNPRk9xcndYRmlRSzBCel95Vmdmdm5KYjFITVpnOUNFT3N6UTQxa2JqeVpxZDRCc3dIUVpUeHVCMVllSjRRLVRVNmdKeHFpTmk5QWx4NktidnZDcmJ1MkcycU45bDM2d1VCc1NLSXpUYWZ4WFhITEJkb0RhZ013bzQ4YmY3emRGYkhCVHFxczVTWGRud1NNZWZRRHVPdWpKX2fSAVpBVV95cUxQVTl6RjNqbnRJMUVvMnB4dGJzS1hIZnE0dDg1eGV0Qnl2WkVIckhoUHNMSXlXRV9BRUlneTZwa3JxMTByd1YzWU5ERElSOFR0ejBKWC1nUFNQRGc?oc=5",
+          "summary": "Quora joined Meta and Roblox in appealing the UK’s Online Safety Act top-tier designation, challenging stricter compliance obligations. The case highlights regulatory pressure on large consumer platforms.",
+          "sales_relevance": "Regulatory compliance costs and risk may push Quora to scrutinize AI product economics (e.g., Poe), creating an opening to discuss efficient, controllable inference infra."
         }
       ]
     },
@@ -1090,31 +1047,22 @@
       "id": "upwork",
       "news": [
         {
-          "date": "2026-09-13",
+          "date": "2026-09-21",
           "category": "other",
-          "title": "Upwork: Continued Client Losses Can't Be Ignored (NASDAQ:UPWK)",
-          "source": "Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNclhscGZEN21MdnB5WDgzbjNIdUdXb1VuSjRSdTNkbllpd3J1Mk5Eci02SlVoazd6NDNHMk16RDRWY0NKeU1TZ0twU0lHTS1SRm9xZlBTT2p0Z0FnVDNPd3hTUWZBZERuN2t1U3dpdTFSbjJ6NkI1dk1rZ3VhZ3dqUDJ4dTBLVEx2Vng2S2JocTg?oc=5",
-          "summary": "Analyst commentary highlights ongoing client attrition at Upwork as a material concern for the publicly traded marketplace.",
-          "sales_relevance": "Client-loss pressure can accelerate AI/automation bets to improve retention and margins—useful timing for Modular on inference cost and performance."
+          "title": "Upwork stock slips after guidance cut despite Q2 profit beat",
+          "source": "ad-hoc-news.de",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVDk4dlk3am1DY3A3R0J6VjZCVFZIbEEzd0MyMkZFS3FSUVZWVE5TQk1XUUpDX3gyWU16andfdWw3bzN3N1JuVEkwVG1TLTlkY2oyeE9jSUlxdEo3eGVWRDFsQ0JMZnN0eENFRjBmV2stY2hGUVBmbkVTLWVNeGtZeFhraE1lZGVNbVRXZHVSQldWdDdzLXIzNHJvQi1mY0wyNlMtRTJiZlNpSnNLVXd2Ymt1V1hsZHpKeUpJ?oc=5",
+          "summary": "Upwork shares fell after the company cut guidance even though it beat on Q2 profit. Markets are focusing on the weaker outlook rather than the earnings beat.",
+          "sales_relevance": "A guidance cut signals cost discipline—pitch Modular as a way to lower AI/inference spend while still scaling AI features for the freelance marketplace."
         },
         {
-          "date": "2026-09-11",
-          "category": "other",
-          "title": "What’s Behind Upwork (UPWK) Latest Move?",
-          "source": "simplywall.st",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdkpXOVBmRm9ub2N1eVNITEdmVk12WnpkVWpWcTI4S0ZpWWdnQzZCZzdSMng1bUZybVA2T0hMdkxrU0lzVkc1OEItb3NMdEc0akI4SXJETnI0bG9keURqR3FKVVc4aW1RaWJSOFdvMk1UVkFweld4ZEdYeFVFSmRGNTU2RndYRG9FTUtzS0cyNVFSak9taU1tRjVCQ2pYNkZ2TVNrRDI1ZjR2NUxtXzVYNjd30gG3AUFVX3lxTE9WZUNQSXE2c3dqc0VPRk8tVFRCVWt3TjN1S2VpYlVidkhyd3JXblZXTlJ0NktsbnIyN2ZqaWVGckFmZDkycktmR2VDY3FyeGtndzFWYVRmcC0xdndWV3llcFVoRWtXOHpRM0FETlRNc2J0ZmJoem1peUdnRk1XSmtaZUd4MlVDTFdEZzNNM0VIT2dSNDE0TmlETVFFV2Zhel92YXhKeDZJa2FqWWFGMmJ2UUVQQ3RHWQ?oc=5",
-          "summary": "Market analysis examines drivers behind Upwork’s latest stock/company move for investors tracking UPWK.",
-          "sales_relevance": "Gives a near-term talking point on strategic or market shifts when engaging Upwork buyers on AI platform spend."
-        },
-        {
-          "date": "2026-09-14",
-          "category": "other",
-          "title": "Need Some Extra Help? Get $50 After Your First Upwork Hire With This Deal",
-          "source": "PCMag",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGZDaHRiS1FudjE0X1VWZkVIXzVheDljLWhfaWo5SUlsOEk2NFZMVGMwTTZ5bjF5N21DdVp6UDlyM2tzczlwT3E2Q0c0OFBBbmxxVWotUzBVajFLTVZKbGZiWEZOeEpibUxBcnpaa0VwRlpVUVNlVVFYeTJ4eXc3ZzMyTEt6T1oyRmdOLXluZkRidjctbzdIMkZtN3o?oc=5",
-          "summary": "PCMag highlights a promotional offer giving new customers $50 credit after their first Upwork hire.",
-          "sales_relevance": "Shows active customer-acquisition spend; reps can probe whether growth initiatives include AI-powered matching or tooling that needs scalable inference."
+          "date": "2026-09-18",
+          "category": "leadership",
+          "title": "Upwork (NASDAQ: UPWK) officer lines up a six-figure stock sale—how big is his planned trade?",
+          "source": "Stock Titan",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMloybFpsYmtkUmRyc3VjUzQwOWh5NXZwQWw4VEdINzJzSHltd1FXMTBPLVM3NEFSS2p3SWJMMjNkSFBIR2lVT2JNYkxDZ01LaTdUa3dsdi1SVEt2c2czb1k0YUJZcnlwZjlja1JCSkkzeHhGZEtsMnFDRUJ2MG85UlFJalpQbFltR2Rma1Z6NlU?oc=5",
+          "summary": "An Upwork officer filed plans for a six-figure stock sale. Coverage centers on the size and timing of the planned insider trade.",
+          "sales_relevance": "Insider activity plus recent guidance noise is a light timing cue; use it to open a cost/ROI conversation with infra and AI platform buyers, not as a primary trigger."
         }
       ]
     },
@@ -1122,40 +1070,31 @@
       "id": "gitlab",
       "news": [
         {
-          "date": "2026-09-14",
-          "category": "other",
-          "title": "Malicious actors already using critical GitLab flaw, CISA and others warn",
-          "source": "Cybersecurity Dive",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTdhdUVYV2QwM1lheDdmNThLRHFWcEJ5MERHNjF0VEZaRFJfTDAwM2RPTGFDVmpzclJTSDZFRTdRRkdhZUdSMmZITFlSVnpZeHVZWHR6Um5BcHlfV1ZSdTVueHh6azlqODVGcHN4dG9uUG1XVzVoYTVyU1NMWHVCY3lfdFIyZnJZeFhvSjBXR3RlNFU?oc=5",
-          "summary": "CISA and others warn that attackers are already exploiting a critical GitLab vulnerability in the wild.",
-          "sales_relevance": "Security fire-drill may delay or re-prioritize platform/AI projects—use carefully for timing and to position secure, well-supported inference infra."
+          "date": "2026-09-21",
+          "category": "product_launch",
+          "title": "GitLab 19.4 Adds Verified Duo Goals With Write Approval",
+          "source": "quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLW5VS2hUSVlUSkRnenM1c0g5UTB2THBUTi1NcS1RX1JxSl9vcklqYXhlQWZfalBRUVdlX1Z2ckhWTmJRZWR1VmZBU1RjakJwVVRKMFU1MzVyakxhTVlHYUtUUUZXWnZNZ0xZZzdJXzBYYjRyZktRUm1yam9UMmhYbldOWG9OaXlqSDFRQ1hBWTNlMktZcjdUeEhYLXg?oc=5",
+          "summary": "GitLab 19.4 introduces verified Duo Goals with write approval, tightening how AI agents propose and apply changes. The release expands governed AI workflows inside the DevSecOps platform.",
+          "sales_relevance": "Growing Duo agent usage raises inference volume and control needs—Modular can position on low-latency, cost-efficient serving for GitLab’s AI features."
         },
         {
-          "date": "2026-09-14",
-          "category": "other",
-          "title": "In-the-Wild Attacks Hit Popular DevSecOps Platform GitLab",
-          "source": "BankInfoSecurity",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaWszbndRV2FhY1Iza3dJalRiZDJBNzBXREYweGRxTFZMd0gxZHVxTld3YVZoUE5mM1l0UUtWUEJ6ZWV1SklSVEpGWVQ4Z0N4SUYzSmR3VzJPaVQ3UkZzaHViazFsSGg3Q2NmdVkxT0RYU2NTRHNEUTV4bGkzMUhTSlBjVFZxTGdFcHc5VWUtQVhkWFlaS1N2QURSMXB0LXc?oc=5",
-          "summary": "Reports confirm active exploitation against GitLab’s widely used DevSecOps platform following disclosure of a critical flaw.",
-          "sales_relevance": "Confirms urgency inside GitLab and customer environments; good context for empathy-led outreach around reliability and secure AI workloads."
+          "date": "2026-09-18",
+          "category": "product_launch",
+          "title": "Will GitLab 19.4’s Expanded AI Agent Controls and Cost Transparency Change GitLab's (GTLB) Narrative",
+          "source": "finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYUo5SHBRVGpDT0x3RWFlazVyYTZHZThWY1hmSjgybHpibU5Bd2lWSk42R3ZhU0tIVkZvZExGWUFIMExZSVpHRWs2MEZJUTkxdDFWWmlWcTFjZVdrVVI4clA1Z01wSHo1TVFURFpTOG5wd1AwVHhSamJlWFA5dHdQSE04dUxsX2ItMXN6RHRLelM?oc=5",
+          "summary": "Analysts are debating whether GitLab 19.4’s expanded AI agent controls and cost transparency strengthen the GTLB growth story. The release emphasizes visibility into AI usage and spend.",
+          "sales_relevance": "Cost transparency on AI agents is a direct hook: offer Modular to improve unit economics and performance behind Duo/agent workloads."
         },
         {
-          "date": "2026-09-14",
+          "date": "2026-09-17",
           "category": "other",
-          "title": "GitLab’s Critical Patch Closes a Path Traversal Flaw Attackers Are Already Probing",
-          "source": "DevOps.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWEUxcUphU1dFNGhIYkxJdU1fWU5xbzVTRWprSFQ1OFQ4XzZSbTZkUUhvelFzcnV2U0ZscllCZzUyb1p5T2l1X0cwRDFSY2NSNGs5eWV1TnhQdUpRR0I1clZ1Z2F5dWpXZGl3WnA4VVY4eGkwbGNobzlOSXVtYnVJQkhXdWNGc1RqVXRyY1g0OUU1cWs1X2RaR2F3WlpKdWtuVl9j?oc=5",
-          "summary": "GitLab issued a critical patch for a path-traversal vulnerability that attackers were already probing after disclosure.",
-          "sales_relevance": "Patch-and-response cycle shows engineering bandwidth focus; frame Modular as reducing infra toil while AI initiatives continue."
-        },
-        {
-          "date": "2026-09-11",
-          "category": "other",
-          "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-          "source": "The Hacker News",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcUdFVW1kVmNiWlNVOWFhaXpOZlJWbkFSSWlRM1JMNDBRdnRxMjVScEpuUmV6MTZBam5Gek5JVDcwbUtEUThUNTdabkxTWFZva1RPeFdQUmhlU0MxeXhsNV8tSjcyQTRyYTI0VHhhbjVIMjd2aF9PdmhxVzA5a0hlX3pkTQ?oc=5",
-          "summary": "A CVSS 10 GitLab file-read flaw drew in-the-wild probing shortly after disclosure and patching.",
-          "sales_relevance": "High-severity incident is top-of-mind for GitLab stakeholders—pair security awareness with a pitch on hardened, efficient AI inference stacks."
+          "title": "Rate limits on GitLab.com are changing",
+          "source": "GitLab",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE04NTBJY1NabEo4ZHpNV3RrQmlwWG11Tm1rV21rZnIxZDFIT1BNZWZ0bHFaVVE4YjAxOG15M2dDaHM0U0gzVnI1bEtoNzktWHVYd09KT1hTZkt4UU9HUjNKOS1EWQ?oc=5",
+          "summary": "GitLab announced changes to rate limits on GitLab.com affecting API and platform usage patterns. The update is an operational capacity and fairness control for the hosted service.",
+          "sales_relevance": "Platform capacity tuning shows scale pressure; useful rapport opener when discussing inference/API throughput and reserved capacity for AI features."
         }
       ]
     },
@@ -1163,13 +1102,40 @@
       "id": "samsung",
       "news": [
         {
-          "date": "2026-09-14",
+          "date": "2026-09-21",
+          "category": "product_launch",
+          "title": "Which Galaxy phones get One UI 9’s Galaxy AI upgrades?",
+          "source": "SamMobile",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRHBUQmdvU3hjUDY0OFRZdGh4M05yYVZpLUdEU3d3X1dSaUYwZDRRbmZfSml2RExuQ0hMS1RhY0lBcVFHLXFSODhELTNza0VtMk1Mb2w3STRaNGNzVHdycEN2THh5cFlxMGxqd1NvRGMzc1BDMTZHSTZhQkJtdzBXRnptWEpkZjMyZGJ4QlV2WQ?oc=5",
+          "summary": "SamMobile outlines which Galaxy devices will receive One UI 9’s Galaxy AI feature upgrades as Samsung expands on-device AI capabilities.",
+          "sales_relevance": "Signals Samsung doubling down on device-side AI inference, a potential wedge for Modular on efficient on-device or edge model serving."
+        },
+        {
+          "date": "2026-09-19",
+          "category": "product_launch",
+          "title": "Samsung Confirms Free Feature Upgrade For Millions Of Galaxy Phones",
+          "source": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSXVmcEFFUzJnYVFGOGt5VXFYcGpGSDBxdXlDc0ZvdkthMjBTTy1PdHAxVmp5VVM2M1FncG1tNkJocGl1dWt5Mm54c0xRRzZVWDNwVmdHMlVqdG14V3g4NTI2ZFhtaU5qdDBsLUl2OF9KbV9oUWhGUTVXQkYyUkVYbkFmQUdUaHl4M3VNbkxQOXhKVV9xVzN5U2s3V2VZMGJMaEpzZVZ5Q3hWMjEwaTliYUJxYWJETnJ1ZWc?oc=5",
+          "summary": "Forbes reports Samsung is confirming a free feature upgrade for millions of Galaxy phones, extending new software and AI-related capabilities to a large installed base.",
+          "sales_relevance": "Large-scale free AI/feature rollout implies rising inference demand across Samsung’s ecosystem and opens conversation on scalable AI runtime infrastructure."
+        },
+        {
+          "date": "2026-09-18",
+          "category": "product_launch",
+          "title": "Samsung One UI 9 Rollout Is Underway — Where Galaxy S25 and Fold7 Stand",
+          "source": "Gadget Hacks",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUThGV2NxZW41RjJoM243Q0xuZ3AtTTdlS1FsalBWa1ZfZG1MVGROUGJHVG9IbDdQSnlGSmNodTRjeTZkNXc0ZXRPOEZCR0lSWndtSG1TZnZzR0J4MUY3TGVTVzdDd3kzTmNuWUZBSFp2QzJ1WTJJNVAybHlFb0tkZDl4SVZPWTlsTkRHTzlMNFFEaHN5UjJr?oc=5",
+          "summary": "Gadget Hacks covers the ongoing One UI 9 rollout and where flagship devices like Galaxy S25 and Fold7 stand in the update queue.",
+          "sales_relevance": "Active OS/AI software rollout on flagships is a timely hook to discuss Modular for optimizing multi-model inference performance on Samsung silicon and devices."
+        },
+        {
+          "date": "2026-09-21",
           "category": "other",
-          "title": "Samsung, SK Hynix reject KEPCO's $19 billion power prepayment proposal, document shows",
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjJHWHN4NlplMGhFY2FHN0tkOURPOEFjSlRzZFhZaDB1bWpEcFRKam93VnNscllYSkxHT1lKcVJhZVBpSkN4VlNRZG1CazRCMjZkUkFhYkcwV29kU1BzR3NLeTV5MU1BdDd2SHpMQnhYR0llVVFreXpTVXZsX3hvUkNXX0J6NnFzYktONVRNVWE5eDlNN0hGQ1JYaEZvUFJOcmJLUVBoTkVNQ3JObFFFQ0MydFpBZHJUdFU0dy1LLVFqd1NydjZ6M3dTdw?oc=5",
-          "summary": "Samsung and SK Hynix rejected a reported $19 billion prepaid power deal proposed by KEPCO, signaling pushback on how chipmakers fund large electricity commitments. The dispute highlights energy cost and capacity pressure around advanced semiconductor manufacturing.",
-          "sales_relevance": "Power and fab-cost constraints at Samsung are a timely hook for Modular on efficient AI inference/compute that reduces energy intensity of AI workloads."
+          "title": "China’s CXMT Says It Has Reached Advanced DRAM Mass Production, Challenging Samsung, SK Hynix and Micron in Memory Chips",
+          "source": "finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY01OYTVkNEx6Z2w1ZE1jUDlIQy1RRWt1UDYwbnoyOGYwSW1ZLWZDUVUzUTNmYUpNUGVWT0NJOTZxaGNqWHdOaWRIczZROGI4WndKeGNHQjJDVnFYRVZ3RkVNRXZCaDR0RW93XzN5cGZBZVJ5UnpKa0M2RklVckJqbjFaS09XUWJoekhOcEpzMXZJQXhQdVRPYQ?oc=5",
+          "summary": "Yahoo Finance reports China’s CXMT claiming advanced DRAM mass production, intensifying competition with Samsung and other major memory vendors.",
+          "sales_relevance": "Memory-supply competition affects AI compute economics; useful context when positioning Modular’s software efficiency as a hedge against hardware cost pressure."
         }
       ]
     },
@@ -1177,74 +1143,92 @@
       "id": "salesforce",
       "news": [
         {
-          "date": "2026-09-13",
-          "category": "other",
-          "title": "GPT-6 Astra Wiped 4%-5% Off Salesforce and ServiceNow in a Day. Is Wall Street Pricing a SaaS Extinction Event?",
-          "source": "Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb0oyRWkyMk51UE1veG5DVGM4dEtkOUNhb2Z0anpydEgtR0pwMlktNTdSWWpCMkl2OWl4X2dYQlp1WVEyaVNJN0RYTm56SXNFaWNVd0swTUtvUkNRQ1ZXY2RpTWJqVk1uTEdudjh3V0VPVmdJZUNpR1djQ25XMy1Da01pNHE4eXZZOHcySA?oc=5",
-          "summary": "Salesforce shares fell about 4%–5% in a day after GPT-6 Astra fueled investor fears that frontier AI could disrupt traditional SaaS models. Coverage frames the selloff as a broader reassessment of AI’s impact on enterprise software.",
-          "sales_relevance": "Salesforce is under acute AI-disruption scrutiny, so Modular can pitch faster, cheaper inference infra that helps CRM AI features compete on cost and latency."
+          "date": "2026-09-21",
+          "category": "product_launch",
+          "title": "On theCUBE Pod: Salesforce embraces AI agents",
+          "source": "SiliconANGLE",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMVhTYkU5YTg2a2ZjSm9LdFQ0Tk5oTkVVbWxYZ1dodGJaTldSaTNZRi1ZLVBTbzJrakJ4M21NRmpoQllETXFmQXZ3cDdFS2ZWN2RBMXpFQTFQMEZNWVZuZDM5Z0M3ZnB2S056MFNKLThqYW9aZTkzUWhIN0NmZmQ1dXR3?oc=5",
+          "summary": "SiliconANGLE’s on theCUBE Pod discusses Salesforce’s push to embrace AI agents across its platform strategy.",
+          "sales_relevance": "Agent workloads drive sustained, multi-model inference demand—strong fit for Modular as Salesforce scales agentic CRM and automation."
         },
         {
-          "date": "2026-09-11",
+          "date": "2026-09-18",
           "category": "other",
-          "title": "Salesforce’s stock has been riding a wave of AI optimism. Here’s what Wall Street wants to see next.",
-          "source": "MarketWatch",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUERQRnFOVFhZZ0I2dWYwaFBmMDlXcnBVNFNSS3ZSQUtybkR5MnpzdFotVkJUZnVLZU9qdGc4ZnV3Skg1cWdCTWh0SmgtdlZKOXc2MS1iM2FYeFlvYjdONXdPNWZrUE40blNydVhvdEpySGdzNzNyNkZMY1lyM3g3ZlloUXpBc2oySFl3aDJTcVVlcDZlSkR3REpsYXNTdm9wMDZ4ZkJfZ3I5ckVaUTdTdW40ME5ubmR6QkNBX1lmOXJSdWF2MlVCR1VzcGxjTk9ocE53X1l3?oc=5",
-          "summary": "MarketWatch notes Salesforce’s stock has benefited from AI optimism and outlines what analysts still need to see to sustain that narrative. The piece centers on proving AI product traction and financial follow-through.",
-          "sales_relevance": "Wall Street’s AI-proof bar for Salesforce makes Modular relevant as infrastructure that can improve AI feature performance and unit economics."
+          "title": "The 'SaaSpocalypse' is over. How Salesforce now plans to thrive in an AI world",
+          "source": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWs4dkoxb1RuYVVUcGtOSVFPRkZrdmM0bmV4NVpiTDFOMU85OS0xOTU1OEFBYTltMG1laFNiZS0tVEFXclpMdjBGM01zU3BsN3FDNEE2SlJRWUNiR2duM0tkZkRiWnFKUUY3X1BHd1V1QjY1djF1ekxFcjdxUUpfWkNOZ3I5MHRLXzFsQTVIWGxHWVlFTnhVbkk2UWxjQzdSVVJGVVhBQmpDQjVFQXNzLThn?oc=5",
+          "summary": "CNBC covers how Salesforce is positioning itself to thrive after SaaS disruption fears by leaning into an AI-centric product and business model.",
+          "sales_relevance": "Strategic AI pivot means Salesforce will need faster, cheaper inference infrastructure—an opening for Modular in enterprise AI runtime conversations."
+        },
+        {
+          "date": "2026-09-18",
+          "category": "other",
+          "title": "Dreamforce 2026: Business leaders say AI is moving too fast",
+          "source": "qz.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoTUxHTUNfN2dpSW1IRmRNRmFzZDcxdGdOdEtiTHJjOUJGZUpCSHAyOE1McENJSTNTUjZ0Q3M4bGRmNmZZOU5yLWNOcmk1VU9qbWQtTjR0NUFXeS1DOW9RTDV6R3UwQUo5Z3p2Z2FYU0E2OGdZeTVz?oc=5",
+          "summary": "Quartz reports from Dreamforce 2026 that business leaders are concerned AI adoption is moving faster than organizations can keep up with.",
+          "sales_relevance": "Dreamforce AI urgency creates a timely sales narrative around Modular helping Salesforce and customers ship reliable, performant AI without runaway infra cost."
         }
       ]
     },
     {
       "id": "zoom",
-      "news": []
+      "news": [
+        {
+          "date": "2026-09-20",
+          "category": "leadership",
+          "title": "Zoom’s CEO agrees with Bill Gates, Jensen Huang, and Jamie Dimon: A 3-day workweek is coming soon thanks to AI",
+          "source": "Fortune",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdTdCb3B0eFYwWWZ3N09TS1JNVkl0V2RXN2NyUl85NUQzY1Fyd09pV1RFMlZ5MDJ3bHRaMnd6aXk0SGRBT2VKU1dCd0Nta21LOE96M29tQVdYVm1vYWo5bmdfRkQ0cG11dUl3eUpvUGY1alBTcFZGcGg4X293dzRnUXYySXptbmpOVXZHbzMzSEJ5NXdhdlljVXhjOERyX0hXRjFfOWxOZkNTTjZUaGNMMXFIdzFUbi05VzFvWHpZQQ?oc=5",
+          "summary": "Fortune reports Zoom’s CEO aligning with other tech and finance leaders that AI productivity gains could enable a shorter workweek.",
+          "sales_relevance": "CEO-level AI productivity thesis implies Zoom will invest further in AI features and inference capacity Modular can help optimize."
+        }
+      ]
     },
     {
       "id": "sk-telecom",
       "news": [
         {
-          "date": "2026-09-14",
-          "category": "product_launch",
-          "title": "SK Group Plans A Much Bigger AI Data Center In Ulsan",
-          "source": "Finimize",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZnlzU3p0Z1lmS00wMFhrSXRPRGloWFpnWHlYS2VlNmtKVHBHdTFubGFpWHQzUGhWSm50TGhha2VIT255d3FtMl9mYmRWYS11WWM3TW1mWUNlazZLV2FZdDhFYktCOFA3OURteEpSY2FSZTFXYWRoZFRUSk9jVUNtLWdOTXkzb0dm?oc=5",
-          "summary": "SK Group is planning a substantially larger AI data center in Ulsan, expanding its AI compute infrastructure footprint in Korea.",
-          "sales_relevance": "A major AI DC buildout signals rising demand for inference/compute software and a timely entry point for Modular with SK’s infra team."
+          "date": "2026-09-21",
+          "category": "partnership",
+          "title": "Rebellions NPU Powers Four SK Telecom AI Services",
+          "source": "thelec.net",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xR3h1THlsWV9SNnRLV3BTUTVGa2xCa2ZLLUVaRVBLTEgyUGMxZmx1emo4VFlaZ0RFOXNNNWl3ZkFGN29GTUd0UFpNaDRsdlpVaWowQnQzZ05aZDRoV21JRWZMaTI1MXc?oc=5",
+          "summary": "SK Telecom is running four AI services on Rebellions NPUs, underscoring production deployment of specialized AI accelerators.",
+          "sales_relevance": "Shows SKT is actively scaling inference on third-party NPUs—an opening to position Modular as complementary or alternative inference infrastructure."
         },
         {
-          "date": "2026-08-27",
-          "category": "funding",
-          "title": "SK Telecom Launches AI Data Center Infrastructure Company 'SK Horizon' and Secures Investments from KKR and IMM",
-          "source": "PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNX2R3ejFxYnZUTGM3SjRPdE1BREQybmFCM1JyNXRTZmVxMDRDNU1IT2RZVlR5bjZzMzUxSkNwYTdzdXVxdWgzUUZQMHkwTUhpSDNMZ1I4Z3M5VkUxelBoZzdBNjVZeUY0S0NsV29FaWNDV3lYdHBhaER1ekhWa2oxeFM1THJ0RWpIZ0QzVXB2QjZVd1pvREFEVW5FTDZZVVNBb2oxY21GTkxaRE9yYkFEdjJBZVNIWTZ0V25SdDVsVUx3dVJpaTUyYmo1LV92MnNxS29DdTU3YmdPUUtaNHFFZ2tpV2RUZENfUzBmeE9BcE96NXZ4aVdqRg?oc=5",
-          "summary": "SK Telecom launched SK Horizon, an AI data-center infrastructure company, and secured investment from KKR and IMM to scale the business.",
-          "sales_relevance": "New AI DC vehicle with PE backing is a high-intent buyer for inference stack, compilers, and GPU utilization tooling Modular sells."
+          "date": "2026-09-21",
+          "category": "product_launch",
+          "title": "Rebellions chips process over 4 billion tokens a day for SK Telecom",
+          "source": "digitimes",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclYtdUNiRTRzYWJsQnRlalpVajZZMjVQclphSEstbHpBUDBMYUc1d2lPaWdISmMxSUt3TURzc3hUR0NVZFo4Z2lCVTRLZDE3NnhnWUVQdnlZZG1OQkRKVmRlTjJuT2ZudHFMb1JfOUVKSXJLRFhwLVFISlhzY014Rl8tVGFFZ1dQRDVTMk1pQXU2SmdSMEpfVmdJX3RSNndxdWdvWFpR?oc=5",
+          "summary": "Rebellions chips are processing more than 4 billion tokens daily for SK Telecom’s AI workloads, highlighting high-volume inference demand.",
+          "sales_relevance": "Token-scale throughput signals a large, ongoing inference budget where Modular’s stack could compete on performance, cost, or multi-hardware flexibility."
         },
         {
-          "date": "2026-08-27",
-          "category": "product_launch",
-          "title": "SK Telecom to Create AI Data-Center Company",
-          "source": "WSJ",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORGs1OVg3Yy1iTm5LU3k3NFJxMTh5dW9zQ1dPanBGYUV3LUtpMVd6S0h6UUJLNUNiMnR0YnpvRUY5cnYxNjZ3dGFqUVVTLUE3czY5Vm9iOEVSd1Y3UWk4ZkVWTnpLa0d1WWQ3Q21iODZvU2VHdG9GaEc3VTMwODNBMHplS0JuV0pVYUFJMWp2RkNMZEE?oc=5",
-          "summary": "SK Telecom announced plans to create a dedicated AI data-center company, separating and scaling its AI infrastructure push.",
-          "sales_relevance": "Formation of a dedicated AI DC unit creates a clear commercial owner for Modular’s inference/runtime offerings."
+          "date": "2026-09-21",
+          "category": "other",
+          "title": "SK Telecom hosts public-sector AI and big data seminar",
+          "source": "Telecompaper",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNUYwTjBrVElTMTBPaEVGMHNNQ0JaZW9jZldYeU5IMm9WeW9DUmVCN0pNTmllVFN5Wm81cmVQZHRVeFh3REhIUk1SbHFncUdZZElOWnMtNDNWSFhNUGhiTDJ3RG9vekY2aWlHbHh4T2g2c2ZPc3ZfR1R1Vjc0M1U2RUpiMzg1R3VFRlF1RHFieGpBQTc0bi1haXZ6QjdNUQ?oc=5",
+          "summary": "SK Telecom hosted a public-sector seminar focused on AI and big data use cases for government and related organizations.",
+          "sales_relevance": "Public-sector AI push may expand SKT’s inference and data-platform needs beyond consumer services."
+        },
+        {
+          "date": "2026-09-20",
+          "category": "other",
+          "title": "SK Telecom wraps up Gran Data Public Day, sharing AI and big data use cases for public sector",
+          "source": "mbiz.heraldcorp.com",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xeDJoZDZLOUp4T01rUTZmdUVvOVhrS2cxWkZ0Q1lsMDllYTNSUmVUdEQxTG1Qb0pmMTFCbHRkWjR3aXdsUXhXZXllNVJaS2pPYzE0Y24tTQ?oc=5",
+          "summary": "SK Telecom concluded Gran Data Public Day by showcasing AI and big data applications aimed at the public sector.",
+          "sales_relevance": "Reinforces SKT’s role as an AI platform provider for government workloads that will need reliable, scalable inference compute."
         }
       ]
     },
     {
       "id": "cognition",
-      "news": [
-        {
-          "date": "2026-09-11",
-          "category": "partnership",
-          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-          "source": "openai.com",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0waWVja3lQelpnUUM0UkJXM0FvZXB5U3I5QWtKUl9rbmNQM3ZNMXdLbG16VjM5SWllZGNYOHZZZ2tXVk1rSzdOQ2hSYTNBQjk2d0E5YnEyX3J0YktueFk4TmhUYUZoREZqbDBncQ?oc=5",
-          "summary": "Cognition integrated OpenAI’s GPT‑6 Astra so Devin can better test and validate its own coding work.",
-          "sales_relevance": "Deeper model integration and agent workloads mean higher inference volume—strong pitch for Modular to optimize Devin’s serving cost and latency."
-        }
-      ]
+      "news": []
     },
     {
       "id": "zomato",
@@ -1252,38 +1236,28 @@
     },
     {
       "id": "krea",
-      "news": [
-        {
-          "date": "2026-06-23",
-          "category": "product_launch",
-          "title": "Enterprise-grade AI image generation in 2 seconds is here: Krea 2 Raw and Turbo available as open weights under custom license",
-          "source": "VentureBeat",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYlc1THNJVXJjcEZFajA0aXUxd0tud1JDUkdfWTlhT2JoaENydU9oRDRvVDFlU2dKMHFaaV9WemVpWU55U19IcFdXaUV6VHJxT2otcllZOHJMbV1S3piVWpvT1pvRS1lNVVBa1FGY1lhSTd0djZqYW12OTUwTTNSdmg1VldpSnFtSjVmWGNnZW95aGQxdGlVUGhUREl0cGVwaktMaTYzb0xBbkNZVGFEQnN0Yzc5MkxKbF9Ga0pNNk1BM3VvNEZxVkc5dWZPaTFaNGEwcGVTM0E3cGlGSks4T0Zkdmhsakx6cGdRaHdvdFV1UQ?oc=5",
-          "summary": "Krea released Krea 2 Raw and Turbo as open-weight image models under a custom license, targeting fast enterprise-grade generation (claimed ~2 seconds).",
-          "sales_relevance": "Open-weight image models increase inference/serving demand—pitch Modular for low-latency, cost-efficient deployment of Krea’s generative workloads."
-        }
-      ]
+      "news": []
     },
     {
       "id": "cartesia",
       "news": [
         {
-          "date": "2026-08-18",
-          "category": "product_launch",
-          "title": "Cartesia Ships Sonic-3.6: A Streaming TTS Model That Now Leads Both Artificial Analysis Speech Arenas",
-          "source": "marktechpost.com",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeGI4TFBUbUhzTnNnWGtlSHdMSjMzMUdxTWExVkNzdl9tR1dUbk1NSkdmYUZ0TjMxOHdTYks1TF8tZjJjeXlSY0NuVjBSZkFNU3ZuMjd1X3RzdVRITGZRZ29kTFhLeXZjbDVJQnVCRG8yQnhNYVZFNVp2ZTBidnVuQWFucjdRM3JxYWUxalFvMXJRTy1KSU15b08zc3dfNTAyX1ZuU0kzaW5zTTdGanpaVFNmUUZUWkNZaVp2cnkwSmJCRm5MZXRmd0VBX0dZT1k4Z0w5LWNiZGvSAd4BQVVfeXFMTjdtalRSeXRLenVxYTdNeEVfQTJXZnRkamdoYU12YlMwSXFpZXpJWFllYnU1czN4S21lNlJjOGZHNWlFNmFyck0xUVIyYzVHMFdqTGVXZlc2Nzc2WUdLbnpTSjRpY2t1R3l3Sk54TGtPVmJ6NTdRWUNCZmhnazFuSnVPSVRLR0ExVEloclFORjFicUZhMmZocXhFZXJJTGlUcUZfN3BPZ1hTRUxrekQ5em9jdFhtOGM4UDZRdUVIRkw1OVNCQVMxQlJYRnNVZUJycDFfN1oxQVJJOUJNM0pn?oc=5",
-          "summary": "Cartesia launched Sonic-3.6, a streaming TTS model reported to lead both Artificial Analysis speech arenas.",
-          "sales_relevance": "New streaming voice models mean heavier real-time inference—Modular can help Cartesia cut latency and cost at scale."
-        },
-        {
-          "date": "2026-08-20",
+          "date": "2026-09-15",
           "category": "other",
           "title": "Cartesia Revenue 2024: $17M ARR",
           "source": "GetLatka",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01TDQyUVZLVDFpN2lQM0pVcVNXcHNFV0pSNTFxSUJnTUdaR0l4MHRnelg1eDB0dWhYcXEzY01lTE9WMlk4VTNBLWsxWEJ6QW96a21UOA?oc=5",
-          "summary": "GetLatka reported Cartesia at roughly $17M ARR for 2024, signaling meaningful commercial scale for its voice AI platform.",
-          "sales_relevance": "ARR scale suggests budget and production traffic—good timing to sell inference/compute infrastructure tied to growth."
+          "summary": "GetLatka reports Cartesia at roughly $17M ARR, indicating meaningful commercial scale for its real-time voice AI platform.",
+          "sales_relevance": "Growing ARR signals rising inference demand for low-latency TTS—a fit for Modular’s high-performance inference stack."
+        },
+        {
+          "date": "2026-08-18",
+          "category": "product_launch",
+          "title": "Cartesia Ships Sonic-3.6: A Streaming TTS Model That Now Leads Both Artificial Analysis Speech Arenas",
+          "source": "MarkTechPost",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeGI4TFBUbUhzTnNnWGtlSHdMSjMzMUdxTWExVkNzdl9tR1dUbk1NSkdmYUZ0TjMxOHdTYks1TF8tZjJjeXlSY0NuVjBSZkFNU3ZuMjd1X3RzdVRITGZRZ29kTFhLeXZjbDVJQnVCRG8yQnhNYVZFNVp2ZTBidnVuQWFucjdRM3JxYWUxalFvMXJRTy1KSU15b08zc3dfNTAyX1ZuU0kzaW5zTTdGanpaVFNmUUZUWkNZaVp2cnkwSmJCRm5MZXRmd0VBX0dZT1k4Z0w5LWNiZGvSAd4BQVVfeXFMTjdtalRSeXRLenVxYTdNeEVfQTJXZnRkamdoYU12YlMwSXFpZXpJWFllYnU1czN4S21lNlJjOGZHNWlFNmFyck0xUVIyYzVHMFdqTGVXZlc2Nzc2WUdLbnpTSjRpY2t1R3l3Sk54TGtPVmJ6NTdRWUNCZmhnazFuSnVPSVRLR0ExVEloclFORjFicUZhMmZocXhFZXJJTGlUcUZfN3BPZ1hTRUxrekQ5em9jdFhtOGM4UDZRdUVIRkw1OVNCQVMxQlJYRnNVZUJycDFfN1oxQVJJOUJNM0pn?oc=5",
+          "summary": "Cartesia released Sonic-3.6, a streaming TTS model reported to lead Artificial Analysis speech arena benchmarks.",
+          "sales_relevance": "A new SOTA streaming voice model launch is a timely hook to discuss serving latency, throughput, and cost on Modular."
         }
       ]
     },
@@ -1296,14 +1270,33 @@
           "title": "Hedra Revenue 2025: $3.5M Est. ARR",
           "source": "GetLatka",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTd28yWEFRS0twTURmLUhvc3p0cDVpTktFd21xemFBSkNPSDBicmJfUVU3X2pBUzBwaWhGcHhUVllEWEZtWWhhZ3ZIUFBUOThsckE?oc=5",
-          "summary": "GetLatka estimated Hedra at about $3.5M ARR for 2025, indicating an early-stage but commercial generative avatar business.",
-          "sales_relevance": "Early ARR with avatar/video generation implies rising GPU inference needs—position Modular as they scale serving."
+          "summary": "GetLatka estimates Hedra at about $3.5M ARR for 2025, pointing to early commercial traction for its AI avatar/video product.",
+          "sales_relevance": "Early ARR growth suggests scaling generative video/avatar inference—an opportunity for Modular on performance and unit economics."
         }
       ]
     },
     {
       "id": "ai21-labs",
-      "news": []
+      "news": [
+        {
+          "date": "2026-09-19",
+          "category": "other",
+          "title": "AI21 Engineers: Stateful AI Systems \"Lie to You Confidently\" — Inside the vLLM Bugs That Hid in Plain Sight",
+          "source": "finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zZ2FuaS00X1dGakhhOUlSYlJGeFJuZjY3NW1hWnRKaWlNamNTUkR1S090TDdYQjNRRmxuRDIyMXdmejB5b0VDNVZLaTkweWNkWEZuMnU0cElKNWs?oc=5",
+          "summary": "AI21 engineers publicly discuss reliability failures in stateful AI systems and vLLM bugs that went unnoticed in production. The piece underscores inference-stack correctness and debugging pain for teams running LLMs at scale.",
+          "sales_relevance": "Useful opener for Modular: AI21 is actively hitting inference-runtime reliability issues, so MAX/Mojo positioning around correct, high-performance serving is timely."
+        },
+        {
+          "date": "2026-09-10",
+          "category": "other",
+          "title": "AI21 Labs Revenue 2024: $57.8M Est. ARR",
+          "source": "GetLatka",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95bzFYWENoTV9WMVJfR1VpTjhfNHdBY2lQVlM4RGVXY21RSVF1MUVBTEs3RzhsZXRzM2xzM3BZdUxDbXlJamFtYWRVb2tTTlFZ?oc=5",
+          "summary": "GetLatka published an estimated ~$57.8M ARR figure for AI21 Labs for 2024. It is a third-party estimate rather than a company announcement.",
+          "sales_relevance": "Gives a rough account-size signal for prioritization and compute/inference spend conversations with AI21."
+        }
+      ]
     },
     {
       "id": "washington-post",

@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-09-14T18:13:31.400Z",
+  "generated_at": "2026-09-21T18:21:35.710Z",
   "items": [
     {
-      "name": "ElevenLabs",
-      "category": "partnership",
-      "why": "This week’s UMG AI music platform deal, Music v2.5 launch, and IPO-oriented CFO hire together signal a step-change in production generative-audio inference volume and unit-economics scrutiny—while ElevenLabs is still not in Salesforce.",
-      "message": "Congrats on the Universal Music partnership and the Music v2.5 release—together they point to sustained, production-grade generative audio load rather than a one-off demo spike. Hiring IPO-ready finance leadership usually puts a sharper lens on cost per minute and serving efficiency as you scale globally. Modular’s MAX inference engine is built for high-throughput, low-latency model serving when character/audio-minute economics matter as much as raw GPU count. If useful, we can share a short benchmark on voice/music-style workloads and map where MAX would sit relative to your current stack. Would a 30-minute working session with your inference or platform lead this week be worthwhile?"
-    },
-    {
-      "name": "Upstage",
-      "category": "funding",
-      "why": "Bloomberg’s pre-IPO round signal plus today’s Nvidia partnership meetings create a clear capital-and-GPU evaluation window; Upstage is not in SF and shows real Reo intent (Moderate, 10 events / 5 developers).",
-      "message": "Saw the Bloomberg note on a potential pre-IPO raise and today’s reports of your Nvidia partnership discussions—both usually mean a live review of serving cost, portability, and GPU utilization as Solar scales. You’ve been public that inference cost is product cost, which is exactly where Modular’s MAX engine is designed to help: higher tokens-per-dollar and cleaner multi-hardware paths without rewriting the serving stack. We’re also seeing developer interest from Upstage on our side, so the timing feels right for a concrete comparison. Happy to walk through a focused MAX evaluation against your current Solar serving path. Open to a brief call this week with whoever owns inference infra?"
-    },
-    {
-      "name": "Abridge",
+      "name": "Samsung",
       "category": "product_launch",
-      "why": "Today’s Fierce Healthcare launch into AI pre-bill claim review expands beyond ambient notes into another high-volume clinical AI surface; not in SF, with Moderate Reo engagement (10 events).",
-      "message": "Your expansion into AI-powered pre-bill claim review is a meaningful product surface beyond ambient documentation—and typically brings new latency, reliability, and cost pressure on clinical model serving. With ambient note volume already high, stacking revenue-cycle inference on top is where teams often revisit runtime efficiency rather than just add GPUs. Modular’s MAX inference engine is built for production healthcare AI workloads that need predictable throughput and better performance per dollar. We’d be glad to share how similar clinical AI teams structure serving for multi-product inference without fragmenting the stack. Would it make sense to compare notes with your ML/platform team for 30 minutes this week?"
+      "why": "One UI 9 / Galaxy AI upgrades are rolling out this week across a large Galaxy installed base, and Reo shows exceptional intent (438 events, 186 developers, last activity 2026-09-19). Clear new-logo wedge on efficient on-device and cloud multimodal inference as they expand AI features at scale.",
+      "message": "Hi — noticed Samsung is rolling out One UI 9’s Galaxy AI upgrades across a wide set of Galaxy devices this week. Expanding assistant and multimodal features to that many endpoints usually puts real pressure on latency, power, and serving cost, whether workloads stay on-device or burst to the cloud.\n\nWe build Modular MAX, an inference engine teams use to run production models more efficiently across heterogeneous hardware. Given Galaxy AI’s mix of edge and cloud serving, it could be a useful fit for your AI runtime stack.\n\nWould you be open to a 20-minute call this week with the team owning Galaxy AI inference performance to compare notes on throughput and unit economics?"
     },
     {
-      "name": "OpenEvidence",
+      "name": "Shopify",
+      "category": "leadership",
+      "why": "Tobi’s public critique of low-quality internal AI outputs sits alongside Shopify’s AI-first mandate, and Reo shows very strong engagement (302 events, 88 developers, High intent). Timely new-logo outreach on production-grade inference quality and cost behind Shopify Magic.",
+      "message": "Hi — saw Tobi’s recent comments on the downside of rushed internal AI adoption and the “slop” problem it creates for teams. That tension—push AI hard while insisting on production quality—usually shows up as pressure on serving latency, evaluation loops, and cost per useful output.\n\nModular’s MAX inference engine helps teams run LLM workloads with better performance and tighter unit economics, which matters when AI features like merchandising and support copilots become always-on merchant surfaces.\n\nIf useful, happy to do a short technical walkthrough this week with whoever owns Shopify Magic inference/serving and share how similar platforms are tightening quality without inflating GPU spend."
+    },
+    {
+      "name": "Salesforce",
       "category": "product_launch",
-      "why": "This week’s four new clinician models plus the Canadian physician-access partnership imply a sharp jump in multi-model clinical serving demand; not in SF and a clear new-logo inference buyer.",
-      "message": "Launching four clinician-facing medical AI models while expanding free access for Canadian physicians via MINC#NIMC is a classic scale moment: more models, more regions, more concurrent clinical traffic. That usually surfaces multi-model serving complexity—latency SLOs, cost per call, and how cleanly you pack GPUs as agent and search workloads grow. Modular’s MAX engine is aimed at exactly that: high-throughput, efficient inference for production clinical AI without locking you to a single serving path. Given your volume profile, a short technical comparison against your current stack could be concrete rather than conceptual. Can we schedule 30 minutes this week with the team owning model serving?"
+      "why": "Fresh Dreamforce-week coverage on Agentforce/AI agents plus High Reo intent (159 events, 65 developers) makes this a strong this-week priority. Not in SF as a Modular customer—clear prospecting angle on multi-model agent inference cost and throughput.",
+      "message": "Hi — following the Dreamforce conversation around Salesforce leaning harder into AI agents across CRM workflows. Agentforce-style workloads tend to drive concurrent, multi-step inference where latency and cost compound quickly as usage spreads across orgs.\n\nWe build Modular MAX to make production inference faster and more efficient, which is often the constraint when agent features move from demo to default.\n\nWould it make sense to connect this week with the Agentforce/platform infra owners for a brief discussion on serving architecture and cost-per-action as agent volume scales?"
     },
     {
       "name": "Humain",
-      "category": "funding",
-      "why": "Fortune’s IPO-plus-$2.5B expansion fund story, with AMD Instinct systems now live, is a rare sovereign-scale infra buying window; not in SF and Modular-aligned given GPU-agnostic orchestration goals.",
-      "message": "Planning an IPO alongside a $2.5B expansion fund—and bringing AMD Instinct systems live with Cisco—puts Humain in a phase where serving efficiency and hardware portability become board-level topics, not just eng preferences. With Nvidia and AMD capacity both in play, a GPU-agnostic inference layer is the difference between duplicated stacks and one portable runtime. Modular’s MAX engine is built to deliver high-performance inference across accelerators so national-scale and tenant workloads (e.g., enterprise migrations onto HUMAIN) stay cost-controllable. We’d welcome a focused discussion on MAX for your AMD go-live path and broader orchestration goals. Is there a good owner on the infra/platform side for a working session this week?"
+      "category": "partnership",
+      "why": "Today’s reported $2.3B HUMAIN AI data-centre contract, plus IPO/$2.5B fund plans and live AMD Instinct capacity, is an exceptional infra-build trigger. Even without Reo, this is a high-urgency new-logo opportunity for GPU-agnostic inference software.",
+      "message": "Hi — saw the report that MIS valued HUMAIN’s AI-focused data-centre contract at roughly $2.3B, on top of your AMD Instinct systems coming online and broader IPO/fund plans. Builds of that scale usually force an early decision on the inference runtime layer—especially if you intend to stay hardware-flexible across NVIDIA and AMD.\n\nModular MAX is built for high-performance, portable inference so serving efficiency keeps pace as clusters land.\n\nOpen to a conversation this week with the team defining HUMAIN’s inference/orchestration stack to discuss how MAX could sit in the new capacity?"
+    },
+    {
+      "name": "DoorDash",
+      "category": "partnership",
+      "why": "Costco’s nationwide DoorDash delivery expansion landed today, and Reo shows strong developer engagement (84 events, 35 developers, High intent). Scale in grocery/retail logistics typically lifts ML/inference demand for ETA, routing, fraud, and in-app assistants.",
+      "message": "Hi — saw Costco expand nationwide delivery via DoorDash today. Step-changes in retail/grocery volume usually increase demand on the models behind ETA, dispatch, fraud, and merchant support—exactly where inference cost and latency start to matter operationally.\n\nModular MAX helps teams serve production LLM/ML workloads more efficiently so AI features can scale with order volume rather than with GPU spend.\n\nWould you or the team owning AI serving infrastructure be open to a short call this week to walk through where inference is becoming a bottleneck as the Costco footprint ramps?"
+    },
+    {
+      "name": "ElevenLabs",
+      "category": "leadership",
+      "why": "First CRO hire this week signals an enterprise GTM push, reinforced by UMG’s licensed AI music partnership and reported funding talks. High-volume voice/audio inference at ~$500M ARR scale is a direct Modular fit despite no Reo signal.",
+      "message": "Hi — congratulations on bringing on ElevenLabs’ first CRO as you push harder into enterprise voice. Paired with the Universal Music Group multi-year deal, that usually means new generative-audio products, tighter SLAs, and a sharper focus on serving cost as usage scales.\n\nModular MAX is an inference engine designed for high-throughput production workloads—relevant when character/audio-minute economics depend on how efficiently models run in production.\n\nWould the infra or ML platform team be open to a 25-minute discussion this week on throughput and deployment options as the enterprise and music products ramp?"
     },
     {
       "name": "SK Telecom",
       "category": "product_launch",
-      "why": "Today’s larger Ulsan AI data-center plans, on top of the new KKR/IMM-backed SK Horizon AI DC company, create a clear commercial owner for inference software; not in SF and a Together-displacable account.",
-      "message": "SK Group’s plan for a much larger AI data center in Ulsan—following SK Horizon’s launch with KKR and IMM—suggests you’re building a durable AI compute business, not just adding capacity for one assistant. New DC scale usually forces an early decision on inference runtime, utilization, and how telecom/agent workloads share the same fleet efficiently. Modular’s MAX inference engine helps extract more throughput and better cost curves from GPU clusters as sovereign and consumer AI traffic ramps. Since you’re already investing via Together and a dedicated AI DC vehicle, this is a natural moment to pressure-test alternatives. Would your SK Horizon or AI infra leads be open to a 30-minute technical intro this week?"
+      "why": "Same-day reports that Rebellions NPUs power four SKT AI services and process 4B+ tokens/day are an exceptional production-inference trigger. Reo is light, but token-scale serving on specialized accelerators is a strong Modular conversation this week.",
+      "message": "Hi — noticed coverage today that Rebellions NPUs are powering multiple SK Telecom AI services and processing more than 4 billion tokens a day. At that throughput, small gains in serving efficiency translate into meaningful capacity and cost outcomes, especially across mixed accelerator fleets.\n\nModular builds MAX to deliver high-performance inference with more flexibility across hardware—useful when telecom AI assistants and agents need both scale and predictable unit economics.\n\nCould we schedule a brief technical exchange this week with the team running those production AI services to compare notes on inference stack priorities?"
     },
     {
-      "name": "EliseAI",
+      "name": "Abridge",
       "category": "product_launch",
-      "why": "Apollo’s cross-role multifamily AI teammate launch plus active ~$300M / $3.7B raise talks point to agent-scale inference growth; not in SF and a strong new-logo proptech AI consumer.",
-      "message": "Apollo—an AI teammate spanning multifamily roles—plus reports of a sizable new raise at a higher valuation both point to broader agent coverage and higher production inference load. Property and resident workflows are latency-sensitive and conversation-heavy, so serving cost and reliability tend to become the constraint as ARR and product surface grow. Modular’s MAX engine is designed for scalable, low-latency LLM/voice inference when you’re expanding from narrow automations to always-on AI teammates. A short working session could map MAX against your current Baseten/frontier mix and where unit economics tighten post-raise. Open to connecting with your ML or platform owner this week?"
+      "why": "Mid-September launch of pre-bill claim review expands Abridge beyond ambient documentation, atop the WashU/BJC 4,000-clinician rollout and Altrina team add. Moderate Reo plus clear multi-product inference growth; not in SF.",
+      "message": "Hi — saw Abridge expand into mid-revenue-cycle with AI-powered pre-bill claim review, on the heels of rolling out to thousands of clinicians at WashU Medicine and BJC. New concurrent workloads (documentation plus CDI/coding) typically raise both peak inference demand and latency sensitivity in clinical settings.\n\nModular MAX helps production AI teams improve throughput and cost efficiency without rewriting model pipelines—relevant as note volume and revenue-cycle features grow together.\n\nWould your ML/infra leads be open to a short call this week on how you’re planning serving capacity for the new pre-bill product?"
     },
     {
-      "name": "Rime",
-      "category": "partnership",
-      "why": "This week’s Dialpad premier agentic TTS partnership puts Rime voice into global production phone-agent traffic; not in SF and a clean low-latency speech-serving wedge.",
-      "message": "Becoming Dialpad’s premier agentic text-to-speech provider is a meaningful distribution step—real-time phone agents punish both latency and cost if the TTS path isn’t tightly optimized. Enterprise IVR and agent voice workloads also tend to grow non-linearly once they’re embedded in a communications platform, which is when inference infra choices compound. Modular’s MAX engine focuses on high-throughput, low-latency serving for production speech and agent stacks. Happy to share how teams in similar TTS/agent deployments structure runtime and capacity planning after a channel win like Dialpad. Would a brief technical call with your eng/platform lead this week be useful?"
-    },
-    {
-      "name": "Perplexity",
+      "name": "GitLab",
       "category": "product_launch",
-      "why": "Portable Computer / local agent GA on Windows RTX shipped today, and Reo shows High intent (43 events, 12 developers)—exceptional enough to prioritize despite Partner status.",
-      "message": "Nvidia’s announcement that Perplexity’s local agent platform is available on Windows RTX PCs is a big distribution moment—and it usually raises hybrid serving questions (on-device vs. cloud, agent traffic spikes, runtime portability). As Comet and agent usage scale, inference efficiency across environments becomes as important as model quality. Modular’s MAX engine is built for high-performance inference that isn’t tied to a single GPU vendor path, which can complement an RTX-led edge rollout. We’re also seeing meaningful developer engagement from Perplexity on our side. If helpful, we can do a focused session on hybrid/agent serving tradeoffs with your infra team this week—worth a short sync?"
+      "why": "GitLab 19.4’s verified Duo Goals, agent controls, and AI cost transparency shipped this week—directly aligned with Modular’s cost/performance story. Not in SF; modest Reo still beats soft-news accounts.",
+      "message": "Hi — caught the GitLab 19.4 release covering verified Duo Goals with write approval, plus broader AI agent controls and cost transparency. When agent features become governed product surfaces, inference volume and spend visibility tend to rise together—exactly when runtime efficiency becomes a product issue, not just an infra one.\n\nModular MAX is focused on making LLM/code-assistant inference faster and cheaper in production, which can help Duo-style workloads scale without the cost curve dominating the narrative.\n\nOpen to a brief conversation this week with the Duo/platform team on serving performance and unit economics?"
     },
     {
-      "name": "Samsung",
-      "category": "other",
-      "why": "Reo signal is exceptional (High intent, HIGH developer stage, 457 events / 197 developers); coupled with acute power/cost pressure around AI compute, this is a rare eng-led opening despite a softer headline trigger.",
-      "message": "Coverage of Samsung and SK Hynix pushing back on KEPCO’s large prepaid power proposal is a reminder how quickly energy and capacity constraints shape AI roadmap decisions. At the same time, we’re seeing unusually strong Modular engagement from Samsung developers—hundreds of recent events—which often means teams are already evaluating runtimes for Galaxy AI / multimodal serving. Modular’s MAX inference engine is designed to improve performance per watt and tokens per dollar when cloud and on-device AI features scale together. A practical next step would be a short technical deep-dive with the group already exploring our stack. Can you point us to the right ML infra owner for a working session this week?"
+      "name": "Retool",
+      "category": "leadership",
+      "why": "CEO’s public story of a simple AI OOO responder burning ~$10k/day is a rare, direct cost-control trigger for an AI-native tools company. Moderate Reo and not in SF—ideal Modular wedge this week.",
+      "message": "Hi — read David’s account of a simple AI out-of-office responder racking up roughly $10,000 a day. That kind of runaway agent spend is becoming a board-level issue for product companies embedding LLMs into internal tools and customer workflows.\n\nModular MAX helps teams cut inference cost and improve throughput so AI features stay useful without unpredictable GPU bills—relevant both for Retool’s own AI surfaces and for customers building agentic apps on the platform.\n\nWould you be open to a short call this week with whoever owns AI infra/cost to walk through where spend is concentrating and whether a different serving stack would help?"
     },
     {
-      "name": "Cognition",
-      "category": "partnership",
-      "why": "This week’s GPT‑6 Astra integration so Devin can test its own work implies denser agentic coding loops and higher inference spend; Prospect (not Customer) with a clear production coding-agent wedge.",
-      "message": "Integrating GPT‑6 Astra so Devin can better test and validate its own work is a strong signal that agent loops—and therefore inference volume—are getting deeper, not thinner. Autonomous coding agents are especially sensitive to latency and cost because each task fans out into many model calls across planning, edit, and verification. Modular’s MAX engine is built to keep that serving path fast and economically sustainable as Devin usage grows across enterprise customers. Since you’re already on a mix of frontier and specialized coding models, a concrete comparison on agent serving efficiency could be timely. Would you or Steven’s team have 30 minutes this week to walk through a MAX evaluation?"
+      "name": "Lovable",
+      "category": "acquisition",
+      "why": "Sutro/SLang acquisition plus today’s dig enterprise partnership point to deeper codegen/runtime ambition and rising concurrent inference. SF Prospect (not Customer) with a clear this-week product-expansion trigger.",
+      "message": "Hi — saw Lovable acquire Sutro (SLang) and, separately, dig embedding Lovable to turn social intelligence into custom enterprise apps. Both moves usually mean more concurrent codegen and agent traffic, where latency and cost-per-generation start constraining product quality.\n\nModular MAX is an inference engine built for high-throughput production AI—useful when vibe-coding / app-generation platforms need to scale model serving without linear cost growth.\n\nWould Jay’s team or your ML/infra owners be open to a brief technical intro this week on how you’re planning inference capacity post-Sutro?"
     },
     {
-      "name": "Mistral AI",
-      "category": "partnership",
-      "why": "Today’s Samsung chip-infrastructure and Cloudera sovereign-AI partnerships land on top of the fresh $24B valuation round—direct cues for hardware-aware, enterprise serving scale despite Partner status.",
-      "message": "The Samsung partnership on chip infrastructure and the Cloudera collaboration on sovereign enterprise AI, coming right after the $24B valuation round, read like a scale-up of both hardware-aware serving and regulated deployments. That combination usually tightens the requirement for high-performance inference that stays controllable in enterprise/sovereign environments while ARR catches up to capacity commitments. Modular’s MAX engine is designed to improve throughput and cost efficiency for exactly those serving paths—including agent products that increase tokens and latency sensitivity. We’d be glad to run a focused session on MAX for your next wave of enterprise and hardware-partner workloads. Open to a working call with the inference/platform team this week?"
+      "name": "Cohere",
+      "category": "acquisition",
+      "why": "Aleph Alpha combination details are still landing this week (CEO comments today) alongside Model Vault encrypted inference—an exceptional stack-consolidation trigger. SF Partner (not Customer); worth prioritizing for serving unification and sovereign/enterprise inference.",
+      "message": "Hi — following Aidan’s latest comments on the Aleph Alpha combination and the Model Vault work encrypting inference so Cohere can’t see customer data. Post-combination enterprise platforms usually need a unified, high-throughput serving layer that still supports private/VPC and confidential-inference requirements.\n\nModular MAX is designed for performant, deployable inference—relevant as you consolidate stacks and scale Command workloads across regions and regulated buyers.\n\nHappy to reconnect with Adam’s team this week for a focused discussion on where Modular can help on throughput, portability, and confidential serving for the combined entity."
     }
   ]
 }
