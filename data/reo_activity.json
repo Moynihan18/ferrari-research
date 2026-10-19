@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:26:51.366Z",
+  "generated_at": "2026-10-19T18:32:09.424Z",
   "companies": [
     {
       "id": "deepseek",
@@ -18,15 +18,8 @@
     {
       "id": "moonshot-ai",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": null,
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": null,
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -95,43 +88,22 @@
     {
       "id": "upstage",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-13",
-        "total_events_90d": 10,
-        "open_roles": null,
-        "note": "5 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "anysphere-cursor",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-09-15",
-        "total_events_90d": 1,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "perplexity",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-08-12",
-        "total_events_90d": 21,
-        "open_roles": null,
-        "note": "8 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -144,71 +116,36 @@
     {
       "id": "cresta",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": "2026-04-29",
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "liner",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-04",
-        "total_events_90d": 2,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "decagon",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-07-09",
-        "total_events_90d": 2,
-        "open_roles": null,
-        "note": "2 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "jasper",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": "2026-04-07",
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "openevidence",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": null,
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": null,
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -221,15 +158,8 @@
     {
       "id": "abridge",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-11",
-        "total_events_90d": 8,
-        "open_roles": null,
-        "note": "2 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -242,57 +172,29 @@
     {
       "id": "eliseai",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-02",
-        "total_events_90d": 2,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "gamma",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": null,
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": null,
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "hebbia",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": null,
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": null,
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "descript",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-05",
-        "total_events_90d": 8,
-        "open_roles": null,
-        "note": "3 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -312,71 +214,36 @@
     {
       "id": "wispr-flow",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-07-22",
-        "total_events_90d": 7,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "zed-industries",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-09-26",
-        "total_events_90d": 9,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "retool",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-12",
-        "total_events_90d": 3,
-        "open_roles": null,
-        "note": "3 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "picnichealth",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": "2026-05-27",
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "sully-ai",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-11",
-        "total_events_90d": 2,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -396,57 +263,29 @@
     {
       "id": "ramp",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-08-19",
-        "total_events_90d": 104,
-        "open_roles": null,
-        "note": "32 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "genspark",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": null,
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": null,
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "lmarena",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": null,
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": null,
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "writer",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-12",
-        "total_events_90d": 9,
-        "open_roles": null,
-        "note": "3 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -459,15 +298,8 @@
     {
       "id": "heygen",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": "2026-05-10",
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -480,155 +312,78 @@
     {
       "id": "notion",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-07-08",
-        "total_events_90d": 1,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "uber",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-09-21",
-        "total_events_90d": 49,
-        "open_roles": null,
-        "note": "30 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "doordash",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-08-19",
-        "total_events_90d": 77,
-        "open_roles": null,
-        "note": "29 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "shopify",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-08-19",
-        "total_events_90d": 231,
-        "open_roles": null,
-        "note": "70 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "quora",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": "2026-05-21",
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "upwork",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-17",
-        "total_events_90d": 4,
-        "open_roles": null,
-        "note": "3 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "gitlab",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-11",
-        "total_events_90d": 2,
-        "open_roles": null,
-        "note": "2 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "samsung",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-09-21",
-        "total_events_90d": 319,
-        "open_roles": null,
-        "note": "137 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "salesforce",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-08-19",
-        "total_events_90d": 132,
-        "open_roles": null,
-        "note": "46 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "zoom",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "High",
-        "last_activity_date": "2026-08-12",
-        "total_events_90d": 23,
-        "open_roles": null,
-        "note": "10 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
       "id": "sk-telecom",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "HIGH",
-        "engagement_score": null,
-        "intent_level": "Low",
-        "last_activity_date": "2026-06-24",
-        "total_events_90d": 0,
-        "open_roles": null,
-        "note": "0 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     },
     {
@@ -676,15 +431,8 @@
     {
       "id": "washington-post",
       "reo": {
-        "found": true,
-        "customer_fit_score": null,
-        "developer_stage": "LOW",
-        "engagement_score": null,
-        "intent_level": "Moderate",
-        "last_activity_date": "2026-08-12",
-        "total_events_90d": 1,
-        "open_roles": null,
-        "note": "1 distinct developer(s) active in the last 90 days."
+        "found": false,
+        "note": "Domain not present in the configured Reo segment."
       }
     }
   ]
