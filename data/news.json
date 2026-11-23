@@ -1,4 +1,582 @@
 {
-  "generated_at": "2026-11-16T22:00:08.740Z",
-  "companies": []
+  "generated_at": "2026-11-23T13:05:17.000Z",
+  "companies": [
+    {
+      "id": "deepseek",
+      "news": [
+        {
+          "date": "2026-11-22",
+          "category": "product_launch",
+          "title": "DeepSeek Harness 0.2.3-alpha.1 adds Git plugin sources, in-app code review, and workplace connectors",
+          "source": "GitHub (deepseek-ai/deepseek-harness)",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.1",
+          "summary": "DeepSeek published a pre-release of DeepSeek Harness on November 22 with a plugin market that can install from Git repositories, an in-app GitHub/GitLab code-review page, an experimental agent timeline, and optional connectors for Linear, Notion, Feishu, WeCom, Tencent Meeting, and DingTalk. The drop also adds remote web-connection login and MCP OAuth for connector accounts.",
+          "sales_relevance": "A thicker coding-agent runtime on DeepSeek models raises tool-calling and serving complexity during the NVIDIA-to-Ascend migration, which is the portability conversation Modular sells."
+        },
+        {
+          "date": "2026-10-31",
+          "category": "product_launch",
+          "title": "DeepSeek open-sources dsh-superagent, a proactive coding-agent prototype",
+          "source": "GitHub (deepseek-ai/dsh-superagent-prototype)",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "summary": "DeepSeek published dsh-superagent as an MIT-licensed research prototype for DeepSeek Harness. It watches one GitHub repository (and optionally Feishu), opens work items when authorized, and typically replies with a pull request; DeepSeek labels it not an official product and says the public code differs from its internal version.",
+          "sales_relevance": "A proactive agent loop on DeepSeek models increases token volume and serving-complexity, and DeepSeek's NVIDIA-to-Ascend migration makes MAX's portable inference stack a timely pitch for whoever hosts this workload."
+        },
+        {
+          "date": "2026-10-16",
+          "category": "product_launch",
+          "title": "DeepSeek open-sources DeepInfer for NVIDIA SM100 and Huawei Ascend 950",
+          "source": "GitHub (deepseek-ai/DeepInfer)",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "summary": "DeepSeek released DeepInfer, the high-performance inference framework behind its production serving, under Apache 2.0. The first public drop targets DeepSeek-V4.1-Flash with kernels for NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs; KV cache and prefill/decode disaggregation are called out as still required for a full service.",
+          "sales_relevance": "Official dual-silicon serving code is the strongest proof point that DeepSeek will keep running the same models on NVIDIA and Ascend, which is exactly the portability Modular sells."
+        }
+      ]
+    },
+    {
+      "id": "z-ai-zhipu",
+      "news": [
+        {
+          "date": "2026-11-23",
+          "category": "product_launch",
+          "title": "Z.ai puts GLM-5.4 live on Coding Plan APIs (docs and weights still unpublished)",
+          "source": "models.dev (zhipuai/glm-5.4)",
+          "url": "https://github.com/anomalyco/models.dev/blob/main/models/zhipuai/glm-5.4.toml",
+          "summary": "Independent API catalogs recorded GLM-5.4 as callable on Z.ai and Zhipu Coding Plan endpoints on November 23, with a 1M-token context, vision/file inputs, tools, and reasoning controls. Pay-as-you-go APIs, the lab's model page, and open weights were not published at catalog time; live probes the same day listed glm-5.4 on /v1/models and completed chat completions.",
+          "sales_relevance": "A new multimodal GLM flagship on Z.ai's mixed-accelerator fleet is a serving-capacity event; Modular can offer one portable stack across the incompatible silicon Z.ai already runs."
+        },
+        {
+          "date": "2026-10-10",
+          "category": "product_launch",
+          "title": "Z.ai ships ZCode 3.15.1 with inline GenUI and expanded agent capabilities",
+          "source": "GitHub (zai-org/ZCode)",
+          "url": "https://github.com/zai-org/ZCode/commit/aac4755666d09fdcd70272fcf063c077a639015f",
+          "summary": "Z.ai's ZCode IDE/agent product received a 3.15.1 update that adds UI plugins, inline GenUI experiences, and broader desktop, remote-workspace, and agent features. The change is recorded in the official zai-org/ZCode repository.",
+          "sales_relevance": "Richer coding-agent UX on GLM models usually means more interactive tokens; Z.ai already mixes incompatible accelerators, so Modular can talk about one serving stack across that silicon mix."
+        }
+      ]
+    },
+    {
+      "id": "moonshot-ai",
+      "news": [
+        {
+          "date": "2026-11-04",
+          "category": "partnership",
+          "title": "vLLM ships day-0 serving for Moonshot's Kimi K3.1 Pro across NVIDIA, AMD, TPU, and Zhenwu",
+          "source": "vLLM",
+          "url": "https://github.com/vllm-project/vllm-project.github.io/blob/main/_posts/2026-11-04-kimi-k31-pro.md",
+          "summary": "vLLM announced day-0 support for Kimi K3.1 Pro, Moonshot's 2.8T-parameter (104B active) open-weight multimodal MoE with a 1M-token context and sparse DSA attention. The post reports serving paths on NVIDIA GPUs, AMD GPUs, Google TPUs, and Alibaba T-Head Zhenwu PPUs, including packed FP8/NVFP4 KV cache and fused low-latency decode.",
+          "sales_relevance": "A 2.8T sparse-attention model already running on four accelerator families is a direct opening to position MAX as a faster, cheaper, or more portable alternative to vLLM for Moonshot and its cloud partners."
+        },
+        {
+          "date": "2026-10-23",
+          "category": "product_launch",
+          "title": "Moonshot releases Kimi K3.1 Pro as an open-weight 1M-context multimodal model",
+          "source": "Moonshot AI",
+          "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+          "summary": "Moonshot launched Kimi K3.1 Pro on October 23 with open weights on Hugging Face and a hosted API. The model is described as a multimodal Kimi variant with a 1M-token context, always-on reasoning, and emphasis on coding, 3D creation, and financial research.",
+          "sales_relevance": "A new flagship open-weight model at Moonshot's 20k-GPU Alibaba-leased cluster is a serving-cost conversation; Modular can offer hardware-portable inference if Alibaba Cloud's stack becomes a bottleneck or a lock-in concern."
+        }
+      ]
+    },
+    {
+      "id": "black-forest-labs",
+      "news": [
+        {
+          "date": "2026-10-13",
+          "category": "product_launch",
+          "title": "Black Forest Labs releases FLUX 3 Image Klein, a 5.6B open-weights image model",
+          "source": "GitHub (black-forest-labs/flux-3-image-klein)",
+          "url": "https://github.com/black-forest-labs/flux-3-image-klein",
+          "summary": "Black Forest Labs published reference inference code and Kommunity-licensed weights for FLUX 3 Image Klein, a 5.6B image DiT for text-to-image, editing with up to 10 references, and bounding-box layout control. A distilled 16-step variant and a 50-step Klein Base ship together with a required prompt upsampler.",
+          "sales_relevance": "A new open image model from BFL, whose FLUX line launched with Together AI, creates demand for efficient diffusion serving that Modular can contrast with Together's stack."
+        }
+      ]
+    },
+    {
+      "id": "poolside",
+      "news": [
+        {
+          "date": "2026-10-31",
+          "category": "other",
+          "title": "Poolside shuts down hosted Platform inference; Laguna weights remain on Hugging Face",
+          "source": "OmniRoute / Poolside Platform",
+          "url": "https://github.com/cheaper-inference/OmniRoute/issues/17318",
+          "summary": "Poolside Platform displayed a banner that direct inference at inference.poolside.ai would end on 31 October 2026, with Laguna S 2.1 and Laguna XS 2.1 weights remaining downloadable from Hugging Face. Independent catalog maintainers confirmed the banner and that OpenRouter marked Poolside-hosted routes as going away the same day.",
+          "sales_relevance": "With NVIDIA already having taken Poolside's serving team, the hosted-inference sunset is a live opening to offer Modular as the way to keep Laguna weights in production on owned or partner GPUs."
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "news": [
+        {
+          "date": "2026-11-10",
+          "category": "product_launch",
+          "title": "ElevenLabs releases Scribe v3 and Scribe v3 Live speech-to-text",
+          "source": "ElevenLabs",
+          "url": "https://github.com/elevenlabs/skills/blob/main/speech-to-text/SKILL.md",
+          "summary": "ElevenLabs launched scribe_v3 for batch transcription and scribe_v3_live for realtime transcription on November 10, succeeding Scribe v2. The v3 models add 90+ languages, speaker diarization, word-level timestamps, turn prediction, and multilingual mode; LiveKit and the Vercel AI SDK began adding support the same week.",
+          "sales_relevance": "A new realtime STT generation raises concurrent audio-inference load; ElevenLabs already runs on Together, so Modular can pitch cheaper or more portable serving if STT volume becomes a cost line."
+        }
+      ]
+    },
+    {
+      "id": "humain",
+      "news": []
+    },
+    {
+      "id": "mistral-ai",
+      "news": [
+        {
+          "date": "2026-11-05",
+          "category": "product_launch",
+          "title": "Mistral Large 4 becomes generally available and takes the Large API aliases",
+          "source": "Mistral / community model tracker",
+          "url": "https://github.com/samouraiworld/awesome-mistral/blob/main/README.md",
+          "summary": "Mistral moved mistral-large-latest to Large 4 on November 5, marked the model generally available, and applied GA pricing of $0.70/$0.07/$2.10 per million input, cached-input, and output tokens. Large 3 and Medium 3.5 remain callable by pinned IDs but are deprecated with a 30 April 2027 retirement date.",
+          "sales_relevance": "GA plus a price cut on a frontier MoE is a serving-economics conversation: Modular can offer lower $/token or NVFP4/Blackwell efficiency against Mistral's own API and Fireworks/Together hosts."
+        },
+        {
+          "date": "2026-10-29",
+          "category": "product_launch",
+          "title": "Mistral open-weights Large 4 (Le Chonk) with an official NVFP4 Blackwell checkpoint",
+          "source": "vLLM",
+          "url": "https://github.com/vllm-project/vllm-project.github.io/blob/main/_posts/2026-10-29-mistral-large-4.md",
+          "summary": "Mistral released weights for an improved Large 4 ('Le Chonk'), including an NVFP4 checkpoint aimed at Blackwell GPUs, under the Mistral Ecosystem Open-Weight License. vLLM published day-0 serving notes covering the model's sparse-attention stack and built-in DSpark speculative decoding.",
+          "sales_relevance": "An official NVFP4 checkpoint is a hardware-specific serving artifact; Modular can compete on portable quantized serving if customers want Large 4 off Mistral's API or off a single GPU vendor."
+        },
+        {
+          "date": "2026-10-20",
+          "category": "product_launch",
+          "title": "Mistral launches Voxtral 3 transcription and realtime voice models",
+          "source": "Mistral changelog (community tracker)",
+          "url": "https://github.com/samouraiworld/awesome-mistral",
+          "summary": "Mistral put four proprietary Voxtral 3 audio models into public preview: Mini and Small Transcribe 3, Mini Transcribe Realtime 3, and TTS 3, plus a Voice Agents SDK that wires transcription, an LLM, tools, and speech. Telephony is described as enterprise-only at launch.",
+          "sales_relevance": "Realtime voice adds a latency-sensitive inference product beside Large 4; Modular can talk about one stack for text MoE and audio models as Mistral scales toward its 200MW commit."
+        }
+      ]
+    },
+    {
+      "id": "cohere",
+      "news": [
+        {
+          "date": "2026-11-04",
+          "category": "partnership",
+          "title": "Cohere Embed 5 and Rerank 5 become available on OpenRouter",
+          "source": "Cohere Docs",
+          "url": "https://github.com/cohere-ai/cohere-developer-experience/blob/main/fern/pages/changelog/2026-11-04-embed-rerank-v5-openrouter.mdx",
+          "summary": "Cohere's official changelog says Embed 5 and Rerank 5 (Pro and Fast variants) are now callable on OpenRouter's Embeddings and Rerank APIs with an existing OpenRouter key. Embed 5 accepts text, images, and mixed PDF-page inputs; Pro and Fast share an embedding space.",
+          "sales_relevance": "A new distribution channel for retrieval models is a serving-volume signal; Modular can still pitch dedicated, cheaper embedding/rerank inference for Cohere customers who outgrow OpenRouter or Together."
+        },
+        {
+          "date": "2026-10-21",
+          "category": "product_launch",
+          "title": "Cohere announces Rerank 5 models",
+          "source": "Cohere Docs",
+          "url": "https://github.com/cohere-ai/cohere-developer-experience/commits",
+          "summary": "Cohere published Rerank 5 launch documentation on October 21, introducing Pro and Fast ranking models aimed at complex queries and latency-sensitive workloads. The models later appeared on OpenRouter alongside Embed 5.",
+          "sales_relevance": "New rerankers are high-QPS, small-model inference; that is a cost-per-query conversation Modular can attach to Cohere's efficiency story around Command A+ on a single B200."
+        },
+        {
+          "date": "2026-09-30",
+          "category": "product_launch",
+          "title": "Cohere announces Embed 5 models",
+          "source": "Cohere Docs",
+          "url": "https://github.com/cohere-ai/cohere-developer-experience/commits",
+          "summary": "Cohere launched Embed 5 around September 30, with later docs describing Pro and Fast multimodal embedding models that share a vector space so corpora can be indexed with Pro and queried with Fast.",
+          "sales_relevance": "Multimodal embeddings increase both indexing batch jobs and online query QPS, which is a natural Modular insertion point versus Together-hosted Cohere endpoints."
+        }
+      ]
+    },
+    {
+      "id": "naver",
+      "news": []
+    },
+    {
+      "id": "sarvam-ai",
+      "news": [
+        {
+          "date": "2026-11-03",
+          "category": "product_launch",
+          "title": "Sarvam open-weights Prism, a 105B decision model with a 44ms median on B200",
+          "source": "Sarvam AI",
+          "url": "https://www.sarvam.ai/blogs/sarvam-prism",
+          "summary": "Sarvam released Prism, a LoRA of its 105B model that returns choice probabilities in one forward pass instead of generating tokens. Sarvam reports a 44ms median on an NVIDIA B200, Apache-2.0 FP8 weights that need about 120GB, and availability via the Sarvam API.",
+          "sales_relevance": "A 105B FP8 decision model with a sub-50ms SLA is a serving-efficiency deal; Sarvam's Yotta H100 allocation is time-boxed, so MAX on alternative GPUs is a concrete backup plan."
+        }
+      ]
+    },
+    {
+      "id": "g42-core42",
+      "news": [
+        {
+          "date": "2026-10-15",
+          "category": "product_launch",
+          "title": "MBZUAI IFM and Inception42 launch the Jais 3 Arabic model family",
+          "source": "IFM",
+          "url": "https://ifm.ai/blog/jais3/",
+          "summary": "The Institute of Foundation Models and G42's Inception42 released Jais 3, a native Arabic open-model family from 900M to 375B parameters plus Jais Speech ASR, with a 512K context window. Weights are on Hugging Face; the launch cites Cerebras collaboration and vLLM/SGLang support.",
+          "sales_relevance": "A 375B Arabic flagship from the G42 orbit, on top of Compass already shipping one model as four silicon-specific endpoints, is a portability pitch for Core42's vacant group-CTO conversation."
+        }
+      ]
+    },
+    {
+      "id": "upstage",
+      "news": []
+    },
+    {
+      "id": "anysphere-cursor",
+      "news": [
+        {
+          "date": "2026-11-06",
+          "category": "product_launch",
+          "title": "Cursor adds realtime voice calls with agents",
+          "source": "Cursor Changelog",
+          "url": "https://cursor.com/changelog",
+          "summary": "Cursor's November 6 changelog added realtime voice calls with agents: users can describe a change out loud, ask what an agent is working on, and hear progress while work continues. Independent Cursor-watch digests through mid-November still list that ship note as the latest first-party product headline.",
+          "sales_relevance": "Voice-in-the-loop coding agents add streaming ASR/TTS plus more agent tokens on top of Fireworks/Baseten serving; that is a latency and unit-cost opening for Modular."
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "news": [
+        {
+          "date": "2026-11-12",
+          "category": "product_launch",
+          "title": "Perplexity ships Decider v1.3 (Flash and 27B) with open weights and a Decisions API",
+          "source": "LiveKit (Perplexity plugin PR)",
+          "url": "https://github.com/livekit/agents/pull/8528",
+          "summary": "Perplexity released Decider v1.3, including pplx-decider-flash-v1.3 and a larger pplx-decider-v1.3 (~27B) for typed yes/no, choice, and score decisions, with a new locate span-extraction path. A Perplexity engineer\u2019s November 12 LiveKit plugin PR calls that the v1.3 launch day; Apache-2.0 weights subsequently appeared on Hugging Face as perplexity-ai/pplx-decider-v1.3 and perplexity-ai/pplx-decider-flash-v1.3.",
+          "sales_relevance": "Open-weight, sub-second decision models are a high-QPS serving workload that customers will self-host; Modular can pitch MAX versus ad-hoc vLLM/MLX ports of the same checkpoints."
+        },
+        {
+          "date": "2026-11-04",
+          "category": "product_launch",
+          "title": "Perplexity launches Teammates agents for Perplexity Computer (Max)",
+          "source": "Perplexity",
+          "url": "https://x.com/perplexity_ai/status/2117659447518740960",
+          "summary": "Perplexity announced Teammates, long-running agents inside Perplexity Computer that keep goals, history, and files between runs and can connect to Slack, GitHub, and Gmail. Coverage places web availability on November 4 for Max ($200/month), with a Mac app following on November 13.",
+          "sales_relevance": "Persistent computer-use agents are a step-change in token and tool-call volume on Fireworks-hosted models; Modular can talk about dedicated inference if Max usage concentrates cost."
+        }
+      ]
+    },
+    {
+      "id": "sourcegraph-amp",
+      "news": [
+        {
+          "date": "2026-10-22",
+          "category": "product_launch",
+          "title": "Sourcegraph Amp adds self-hosted orbs for agent compute",
+          "source": "Amp",
+          "url": "https://ampcode.com/news/self-hosted-orbs",
+          "summary": "Amp announced that orbs \u2014 the cloud machines where its coding agent runs tools \u2014 can be self-hosted on customer infrastructure while the agent loop and model inference stay on Amp. Official docs and example dispatchers cover Docker, Kubernetes, Modal, Vercel Sandbox, E2B, and others; the company said the feature is free for individuals and teams.",
+          "sales_relevance": "Self-hosted tool VMs while inference stays hosted is a wedge: customers who already want data residency for orbs are the same buyers Modular can ask to bring model serving in-house off Fireworks."
+        }
+      ]
+    },
+    {
+      "id": "cresta",
+      "news": []
+    },
+    {
+      "id": "liner",
+      "news": []
+    },
+    {
+      "id": "decagon",
+      "news": []
+    },
+    {
+      "id": "jasper",
+      "news": []
+    },
+    {
+      "id": "openevidence",
+      "news": []
+    },
+    {
+      "id": "mercor",
+      "news": []
+    },
+    {
+      "id": "abridge",
+      "news": []
+    },
+    {
+      "id": "clay",
+      "news": []
+    },
+    {
+      "id": "eliseai",
+      "news": []
+    },
+    {
+      "id": "gamma",
+      "news": []
+    },
+    {
+      "id": "hebbia",
+      "news": []
+    },
+    {
+      "id": "descript",
+      "news": []
+    },
+    {
+      "id": "ambience-healthcare",
+      "news": []
+    },
+    {
+      "id": "bland",
+      "news": []
+    },
+    {
+      "id": "wispr-flow",
+      "news": [
+        {
+          "date": "2026-09-24",
+          "category": "product_launch",
+          "title": "Wispr Flow publishes an official MCP plugin for meeting notes and transcripts",
+          "source": "Wispr AI GitHub",
+          "url": "https://github.com/Wispr-AI/wispr-flow-plugin",
+          "summary": "Wispr Flow released an official remote MCP server so Claude, ChatGPT, Gemini, Cursor, and other clients can search meeting notes, transcripts, scratchpad notes, and calendar events. Access is read-only via OAuth; HIPAA-covered accounts are excluded.",
+          "sales_relevance": "MCP distribution increases how often Wispr transcripts are pulled into other agents, which raises STT and summarization inference; Wispr is a Baseten customer Modular can try to win on that serving layer."
+        }
+      ]
+    },
+    {
+      "id": "zed-industries",
+      "news": [
+        {
+          "date": "2026-11-18",
+          "category": "product_launch",
+          "title": "Zed 1.30.0-pre adds GPT-6.1 Terra, agent thread-switcher keys, and a Git commit-message model picker",
+          "source": "Zed GitHub Releases",
+          "url": "https://github.com/zed-industries/zed/releases/tag/v1.30.0-pre",
+          "summary": "Zed's November 18 preview release adds GPT-6.1 Terra for the OpenAI provider, keyboard navigation in the Agent thread switcher, Extra High thinking for Gemini 4 Hydrogen, and a Git Panel picker for the model used to generate commit messages. Follow-up 1.30.2-pre on November 20 fixed prompt caching for reusable OpenAI system instructions on GPT-6.2 and later.",
+          "sales_relevance": "Zed keeps expanding first-party agent model choice on top of Baseten-hosted inference; that is a portable-serving conversation as they add more BYOK frontier models."
+        }
+      ]
+    },
+    {
+      "id": "retool",
+      "news": []
+    },
+    {
+      "id": "picnichealth",
+      "news": []
+    },
+    {
+      "id": "sully-ai",
+      "news": []
+    },
+    {
+      "id": "lovable",
+      "news": []
+    },
+    {
+      "id": "reducto",
+      "news": [
+        {
+          "date": "2026-11-04",
+          "category": "product_launch",
+          "title": "Reducto launches R-1 Mini and SageMaker self-hosted parsing",
+          "source": "GitHub (reductoai/reducto-python-sdk)",
+          "url": "https://github.com/reductoai/reducto-python-sdk/releases/tag/v0.26.0",
+          "summary": "Reducto's Python SDK 0.26.0 adds settings.model='r-1-mini', a lower-cost page parser that does not accept spreadsheets or on-prem, plus ReductoSageMaker clients that call an r-1 mini endpoint in the customer's AWS account so documents never go to Reducto. A cookbook documents the AWS Marketplace model package.",
+          "sales_relevance": "Self-hosted document parsing on SageMaker is an inference-in-the-VPC motion; Modular can offer a faster/cheaper engine than the Marketplace package for a Modal-using document pipeline."
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "news": []
+    },
+    {
+      "id": "genspark",
+      "news": []
+    },
+    {
+      "id": "lmarena",
+      "news": []
+    },
+    {
+      "id": "writer",
+      "news": []
+    },
+    {
+      "id": "patreon",
+      "news": []
+    },
+    {
+      "id": "heygen",
+      "news": [
+        {
+          "date": "2026-11-17",
+          "category": "product_launch",
+          "title": "HeyGen launches Avatar 6 and Avatar 6 Turbo talking-avatar models",
+          "source": "ComfyUI (HeyGen partner nodes)",
+          "url": "https://github.com/Comfy-Org/ComfyUI/pull/17793",
+          "summary": "HeyGen released Avatar 6 and a lower-latency Avatar 6 Turbo tier on November 17 for lip-synced talking-head video from a photo, a character reference, or a public avatar, driven by audio or text. ComfyUI merged official partner nodes the same day, and HeyGen's own Hyperframes CLI began defaulting look renders to the heygen-avatar-6 engine.",
+          "sales_relevance": "A new avatar-video generation stack is a GPU-heavy, latency-sensitive inference product; Modular can ask whether Avatar 6 Turbo's accelerated path stays on HeyGen silicon or could move to a portable serving layer."
+        }
+      ]
+    },
+    {
+      "id": "rime",
+      "news": []
+    },
+    {
+      "id": "notion",
+      "news": []
+    },
+    {
+      "id": "uber",
+      "news": []
+    },
+    {
+      "id": "doordash",
+      "news": [
+        {
+          "date": "2026-10-22",
+          "category": "other",
+          "title": "DoorDash engineers publish a multi-agent LLM system for feature-flag cleanup",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2610.31351",
+          "summary": "DoorDash researchers posted an arXiv paper describing a multi-agent LLM workflow used internally to clean up stale feature flags. The work is an engineering publication rather than a customer-facing product launch.",
+          "sales_relevance": "Internal multi-agent coding/ops workloads are a token-hungry inference use case at a Fireworks/Together-class consumer; Modular can ask which stack runs those agents."
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "news": []
+    },
+    {
+      "id": "quora",
+      "news": []
+    },
+    {
+      "id": "upwork",
+      "news": []
+    },
+    {
+      "id": "gitlab",
+      "news": [
+        {
+          "date": "2026-11-19",
+          "category": "product_launch",
+          "title": "GitLab 19.6 turns Orbit on by default in Duo Agent Platform",
+          "source": "GitLab documentation",
+          "url": "https://github.com/gitlabhq/orbit-knowledge-graph/blob/main/docs/docs-gitlab-com/agents/duo.md",
+          "summary": "GitLab 19.6, announced November 19, turns GitLab Orbit on by default for Duo Agent Platform agents and flows so they can query live GitLab data such as cross-project dependencies, pipeline inheritance, and vulnerability history without a separate install. Official history records Orbit moving from GA in 19.5 to default-on in 19.6.",
+          "sales_relevance": "Default-on graph-backed agents increase Duo inference on self-managed GitLab, where customers already run their own models; Modular can sell the serving layer behind those agents."
+        },
+        {
+          "date": "2026-10-15",
+          "category": "product_launch",
+          "title": "GitLab Orbit becomes generally available in GitLab 19.5 Duo Agent Platform",
+          "source": "GitLab documentation",
+          "url": "https://github.com/gitlabhq/orbit-knowledge-graph/blob/main/docs/docs-gitlab-com/agents/duo.md",
+          "summary": "GitLab docs record Orbit moving from beta in 19.1 to general availability in GitLab 19.5 (the October 2026 monthly release). Duo agents use the Orbit knowledge graph for cross-project dependencies, pipeline inheritance, and vulnerability history without a separate install.",
+          "sales_relevance": "GA graph-backed agents increase Duo inference on self-managed GitLab, where customers already run their own models; Modular can sell the serving layer behind those agents."
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "news": []
+    },
+    {
+      "id": "salesforce",
+      "news": [
+        {
+          "date": "2026-11-10",
+          "category": "product_launch",
+          "title": "Salesforce publishes Agentforce BYOC Python SDK 0.1.0",
+          "source": "PyPI",
+          "url": "https://pypi.org/project/sfdc-agentforce-byoc-python-sdk/",
+          "summary": "Salesforce released the Agentforce Bring Your Own Code Python SDK on November 10. It lets developers write agents as Python functions while LLM calls relay through the Agentforce runtime, with CLI tools for init, test, and deploy.",
+          "sales_relevance": "BYOC agents that still relay LLM calls through Salesforce are a serving conversation: customers who want their own models in Agentforce are the same buyers Modular targets versus Fireworks/Together."
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "news": [
+        {
+          "date": "2026-10-20",
+          "category": "product_launch",
+          "title": "Zoom documents live Voice Agent V2 and speech AI Services APIs",
+          "source": "GitHub (zoom/skills)",
+          "url": "https://github.com/zoom/skills/blob/main/skills/voice-agent/SKILL.md",
+          "summary": "Zoom's official skills repo documents Voice Agent V2 as a production WebSocket API for realtime microphone conversations, with listen/think/speak turns, barge-in, and function tools. The V2 contract was verified against live connections on 20 October 2026.",
+          "sales_relevance": "A first-party realtime voice-agent API is a latency-critical inference product; Modular can ask whether Zoom's think-step models stay on Zoom silicon or could move to a portable stack."
+        }
+      ]
+    },
+    {
+      "id": "sk-telecom",
+      "news": []
+    },
+    {
+      "id": "cognition",
+      "news": []
+    },
+    {
+      "id": "zomato",
+      "news": []
+    },
+    {
+      "id": "krea",
+      "news": [
+        {
+          "date": "2026-10-15",
+          "category": "product_launch",
+          "title": "Krea 3 image-editing model released",
+          "source": "Krea",
+          "url": "https://www.krea.ai/blog/introducing-krea-3",
+          "summary": "Krea launched Krea 3, a fast image-editing model positioned for product and character consistency, with a 15 October 2026 release date. Third-party model catalogs list it as closed-weight and later hosted on OpenRouter as K3 Edit.",
+          "sales_relevance": "A new closed image model increases Krea's GPU serving bill; Modular can offer cheaper image-edit inference if they are not locked to a single host."
+        }
+      ]
+    },
+    {
+      "id": "cartesia",
+      "news": [
+        {
+          "date": "2026-11-16",
+          "category": "product_launch",
+          "title": "Cartesia SDK 5.0 exposes managed agents as a first-class API surface",
+          "source": "Cartesia JS changelog",
+          "url": "https://github.com/cartesia-ai/cartesia-js/blob/main/CHANGELOG.md",
+          "summary": "Cartesia's JavaScript and Python SDKs shipped 5.0.0 on November 16, mapping client.agents to managed agents and adding AgentSummary.is_managed plus agent session and usage endpoints. Follow-up 5.1/5.2 releases the same week filled generation gaps for those agent APIs.",
+          "sales_relevance": "A managed-agents API on top of Sonic TTS concentrates realtime voice-agent inference; that is a cost-and-latency talk track for Cartesia or its voice-agent customers."
+        },
+        {
+          "date": "2026-10-20",
+          "category": "other",
+          "title": "Cartesia sunsets Sonic-2 and Sonic-Turbo TTS models",
+          "source": "Cartesia (via integrator reports)",
+          "url": "https://github.com/agno-agi/agno/issues/10738",
+          "summary": "Cartesia's API-changes notice set 20 October 2026 as the sunset date for sonic-2 and sonic-turbo, after which requests return a model_sunsetted error. Integrators were directed to sonic-3.6 at the same per-character price; Agno merged a default-model change the same day.",
+          "sales_relevance": "Forcing traffic onto Sonic 3.6 concentrates TTS inference on the newest model; that is a cost-and-latency talk track for Cartesia or its voice-agent customers."
+        }
+      ]
+    },
+    {
+      "id": "hedra",
+      "news": []
+    },
+    {
+      "id": "ai21-labs",
+      "news": []
+    },
+    {
+      "id": "washington-post",
+      "news": []
+    }
+  ]
 }
