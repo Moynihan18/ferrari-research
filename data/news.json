@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:09:16.000Z",
+  "generated_at": "2026-11-23T13:10:45.000Z",
   "companies": [
     {
       "id": "deepseek",
@@ -526,7 +526,26 @@
     },
     {
       "id": "notion",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-12",
+          "category": "product_launch",
+          "title": "Notion cookbook routes custom-block agent guidance through @notionhq/workers",
+          "source": "GitHub (makenotion/notion-cookbook)",
+          "url": "https://github.com/makenotion/notion-cookbook/pull/201",
+          "summary": "Official cookbook PR #201, merged November 12, stops shipping a forked custom-blocks guide and loads agent instructions from @notionhq/workers, including a loader skill and generated workers.md for Notion Worker templates.",
+          "sales_relevance": "Notion is shipping first-party agent skills and Worker templates, which means more model calls on custom-block and workspace-agent paths Modular could serve."
+        },
+        {
+          "date": "2026-11-04",
+          "category": "product_launch",
+          "title": "Official Claude Code and Cursor Notion plugins sync cookbook skills",
+          "source": "GitHub (makenotion/claude-code-notion-plugin)",
+          "url": "https://github.com/makenotion/claude-code-notion-plugin/commit/016c74ffc568920a385186fb9d2d9d2801e0be09",
+          "summary": "makenotion synced Notion Cookbook skills plus display metadata into the official Claude Code plugin (PR #31) on November 4. The plugin bundles Notion Skills with the Notion MCP server for one-click install.",
+          "sales_relevance": "Packaging MCP plus skills for Claude Code and Cursor expands Notion AI beyond in-app chat into coding-agent clients that still need hosted model inference."
+        }
+      ]
     },
     {
       "id": "uber",
@@ -536,19 +555,38 @@
       "id": "doordash",
       "news": [
         {
-          "date": "2026-10-22",
-          "category": "other",
-          "title": "DoorDash engineers publish a multi-agent LLM system for feature-flag cleanup",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2610.31351",
-          "summary": "DoorDash researchers posted an arXiv paper describing a multi-agent LLM workflow used internally to clean up stale feature flags. The work is an engineering publication rather than a customer-facing product launch.",
-          "sales_relevance": "Internal multi-agent coding/ops workloads are a token-hungry inference use case at a Fireworks/Together-class consumer; Modular can ask which stack runs those agents."
+          "date": "2026-11-10",
+          "category": "product_launch",
+          "title": "DoorDash publishes Order-Up-Bench for multi-turn speech ordering agents",
+          "source": "GitHub (doordash-oss/audio-benchmarks)",
+          "url": "https://github.com/doordash-oss/audio-benchmarks",
+          "summary": "On November 10 doordash-oss landed the initial open-source release of Order-Up-Bench: a harness that plays recorded customer clips, scores an agent’s cart-tool calls, and compares the final cart to the expected order, with adapters for OpenAI Realtime, Gemini Live, Grok Voice, Ultravox, and a Whisper+LLM+TTS cascade.",
+          "sales_relevance": "DoorDash is evaluating real-time speech agents for ordering; voice inference latency is a direct Modular MAX conversation."
         }
       ]
     },
     {
       "id": "shopify",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-18",
+          "category": "product_launch",
+          "title": "Shopify Sidekick catalog adds seven application/* app intent types",
+          "source": "GitHub (Shopify/app-intent-types)",
+          "url": "https://github.com/Shopify/app-intent-types/commit/632db054d4f94c002e56369b7df02043189fc0c6",
+          "summary": "Shopify’s public Sidekick app-intent-types catalog merged seven new application/* MIME-typed intents on November 18, covering product fees, invoices, packing slips, cart promotions, and related merchant-app actions.",
+          "sales_relevance": "More Sidekick intents mean more merchant-agent tool calls through Shopify’s assistant stack, which still needs LLM serving underneath."
+        },
+        {
+          "date": "2026-11-17",
+          "category": "product_launch",
+          "title": "Shopify AI Toolkit v2.4.0 updates Functions skills and ChatGPT starter prompts",
+          "source": "GitHub (Shopify/Shopify-AI-Toolkit)",
+          "url": "https://github.com/Shopify/Shopify-AI-Toolkit/releases/tag/v2.4.0",
+          "summary": "Shopify tagged AI Toolkit v2.4.0 on November 17: learn_shopify_api now states current Functions api_version values, Liquid validation works right after install, and the ChatGPT plugin starter prompts cover creating a store, 30-day sales, and custom-discount apps.",
+          "sales_relevance": "Shopify is distributing an official agent plugin across Claude Code, Codex, Cursor, and ChatGPT; those coding-agent sessions are inference load Modular can compete for."
+        }
+      ]
     },
     {
       "id": "quora",
@@ -556,7 +594,17 @@
     },
     {
       "id": "upwork",
-      "news": []
+      "news": [
+        {
+          "date": "2026-10-21",
+          "category": "other",
+          "title": "Upwork open-sources SWE-Clar, a coding-agent clarification benchmark",
+          "source": "GitHub (upwork/SWE-Clar)",
+          "url": "https://github.com/upwork/SWE-Clar",
+          "summary": "Upwork published SWE-Clar on October 21: a benchmark for whether coding agents clarify incomplete client requirements and then deliver working software, built from real Upwork jobs.",
+          "sales_relevance": "A first-party coding-agent eval is a buying signal that Upwork is comparing frontier coding models; Modular can talk eval-time and production serving."
+        }
+      ]
     },
     {
       "id": "gitlab",
@@ -583,11 +631,30 @@
     },
     {
       "id": "samsung",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-20",
+          "category": "product_launch",
+          "title": "Samsung tizen-agent-skills v1.7.0 adds agent handoff and dlog-analyzer updates",
+          "source": "GitHub (Samsung/tizen-agent-skills)",
+          "url": "https://github.com/Samsung/tizen-agent-skills/releases/tag/tizen-agent-skills-v1.7.0",
+          "summary": "Samsung tagged tizen-agent-skills v1.7.0 on November 20 with a Tizen agent handoff feature, architecture-specific dlog-analyzer builds, a --full token-budget opt-out, standalone setup scripts, and extra device-manager actions for Claude Code, Cline, Codex, Gemini CLI, and VS Code.",
+          "sales_relevance": "Samsung is standardizing Tizen/TV app work onto coding agents; those agent sessions still need model serving, including Gemini CLI paths."
+        }
+      ]
     },
     {
       "id": "salesforce",
       "news": [
+        {
+          "date": "2026-11-13",
+          "category": "product_launch",
+          "title": "Salesforce Zana 2.6.1 steadies Squads and remote Claude tools",
+          "source": "GitHub (salesforce/zana)",
+          "url": "https://github.com/salesforce/zana/releases/tag/v2.6.1",
+          "summary": "Zana 2.6.1 (November 13), Salesforce’s desktop app for coding-agent fleets and Agentforce Studio, puts setup in ordinary tabs, pauses Squad idle timeouts while waiting on a human, lets Personas limit MCP servers, and restores Claude tools on remote machines.",
+          "sales_relevance": "Squads plus remote Claude threads are concurrent agent inference; Salesforce is a Together-named Agentforce customer Modular can challenge on serving."
+        },
         {
           "date": "2026-11-10",
           "category": "product_launch",
@@ -602,6 +669,15 @@
     {
       "id": "zoom",
       "news": [
+        {
+          "date": "2026-11-03",
+          "category": "product_launch",
+          "title": "Zoom ships a Claude Code plugin for the Zoom MCP server",
+          "source": "GitHub (zoom/zoom-mcp-plugin-for-claude)",
+          "url": "https://github.com/zoom/zoom-mcp-plugin-for-claude",
+          "summary": "zoom/zoom-mcp-plugin-for-claude was created November 3. It connects Claude Code to Zoom’s MCP server so agents can search and act on meetings, recordings, notes, Docs, and Sheets.",
+          "sales_relevance": "Agentic search over Zoom content adds another LLM workload next to AI Companion; both need serving capacity."
+        },
         {
           "date": "2026-10-20",
           "category": "product_launch",
