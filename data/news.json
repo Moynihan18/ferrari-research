@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:05:17.000Z",
+  "generated_at": "2026-11-23T13:09:16.000Z",
   "companies": [
     {
       "id": "deepseek",
@@ -12,6 +12,15 @@
           "url": "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.3-alpha.1",
           "summary": "DeepSeek published a pre-release of DeepSeek Harness on November 22 with a plugin market that can install from Git repositories, an in-app GitHub/GitLab code-review page, an experimental agent timeline, and optional connectors for Linear, Notion, Feishu, WeCom, Tencent Meeting, and DingTalk. The drop also adds remote web-connection login and MCP OAuth for connector accounts.",
           "sales_relevance": "A thicker coding-agent runtime on DeepSeek models raises tool-calling and serving complexity during the NVIDIA-to-Ascend migration, which is the portability conversation Modular sells."
+        },
+        {
+          "date": "2026-11-13",
+          "category": "product_launch",
+          "title": "DeepSeek opens app-suite APIs for search, files, OCR, ASR, and TTS",
+          "source": "GitHub (deepseek-ai/chat-demo)",
+          "url": "https://github.com/deepseek-ai/chat-demo",
+          "summary": "DeepSeek opened DeepSeek App conversation features to developers on the existing Messages, Responses, and Chat Completions APIs for deepseek-flash, including server-side web search, file input, URL reading, and a safety-check parameter, plus standalone Search, Fetch, OCR, ASR, and TTS endpoints. It also open-sourced a static chat-demo client the same day that uses those APIs.",
+          "sales_relevance": "Search, files, and speech around deepseek-flash raise serving complexity beyond plain chat, which is a MAX conversation during the NVIDIA-to-Ascend port."
         },
         {
           "date": "2026-10-31",
@@ -138,6 +147,15 @@
           "sales_relevance": "GA plus a price cut on a frontier MoE is a serving-economics conversation: Modular can offer lower $/token or NVFP4/Blackwell efficiency against Mistral's own API and Fireworks/Together hosts."
         },
         {
+          "date": "2026-11-05",
+          "category": "product_launch",
+          "title": "Mistral Studio adds managed agents via the mistralai-agents SDK",
+          "source": "PyPI (mistralai-agents)",
+          "url": "https://pypi.org/project/mistralai-agents/",
+          "summary": "Mistral published mistralai-agents 1.1.0 on November 5 for Studio managed agents that can run in-process, self-hosted with agents serve, or Mistral-hosted with agents deploy. The same SDK still documents a workflow builder, evaluations, webhooks, tracing, and a managed search index.",
+          "sales_relevance": "Managed agents that can run in a customer VPC create a self-hosted Mistral runtime conversation Modular can attach to MAX."
+        },
+        {
           "date": "2026-10-29",
           "category": "product_launch",
           "title": "Mistral open-weights Large 4 (Le Chonk) with an official NVFP4 Blackwell checkpoint",
@@ -248,7 +266,7 @@
           "title": "Perplexity ships Decider v1.3 (Flash and 27B) with open weights and a Decisions API",
           "source": "LiveKit (Perplexity plugin PR)",
           "url": "https://github.com/livekit/agents/pull/8528",
-          "summary": "Perplexity released Decider v1.3, including pplx-decider-flash-v1.3 and a larger pplx-decider-v1.3 (~27B) for typed yes/no, choice, and score decisions, with a new locate span-extraction path. A Perplexity engineer\u2019s November 12 LiveKit plugin PR calls that the v1.3 launch day; Apache-2.0 weights subsequently appeared on Hugging Face as perplexity-ai/pplx-decider-v1.3 and perplexity-ai/pplx-decider-flash-v1.3.",
+          "summary": "Perplexity released Decider v1.3, including pplx-decider-flash-v1.3 and a larger pplx-decider-v1.3 (~27B) for typed yes/no, choice, and score decisions, with a new locate span-extraction path. A Perplexity engineer’s November 12 LiveKit plugin PR calls that the v1.3 launch day; Apache-2.0 weights subsequently appeared on Hugging Face as perplexity-ai/pplx-decider-v1.3 and perplexity-ai/pplx-decider-flash-v1.3.",
           "sales_relevance": "Open-weight, sub-second decision models are a high-QPS serving workload that customers will self-host; Modular can pitch MAX versus ad-hoc vLLM/MLX ports of the same checkpoints."
         },
         {
@@ -256,7 +274,7 @@
           "category": "product_launch",
           "title": "Perplexity launches Teammates agents for Perplexity Computer (Max)",
           "source": "Perplexity",
-          "url": "https://x.com/perplexity_ai/status/2117659447518740960",
+          "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
           "summary": "Perplexity announced Teammates, long-running agents inside Perplexity Computer that keep goals, history, and files between runs and can connect to Slack, GitHub, and Gmail. Coverage places web availability on November 4 for Max ($200/month), with a Mac app following on November 13.",
           "sales_relevance": "Persistent computer-use agents are a step-change in token and tool-call volume on Fireworks-hosted models; Modular can talk about dedicated inference if Max usage concentrates cost."
         }
@@ -271,14 +289,24 @@
           "title": "Sourcegraph Amp adds self-hosted orbs for agent compute",
           "source": "Amp",
           "url": "https://ampcode.com/news/self-hosted-orbs",
-          "summary": "Amp announced that orbs \u2014 the cloud machines where its coding agent runs tools \u2014 can be self-hosted on customer infrastructure while the agent loop and model inference stay on Amp. Official docs and example dispatchers cover Docker, Kubernetes, Modal, Vercel Sandbox, E2B, and others; the company said the feature is free for individuals and teams.",
+          "summary": "Amp announced that orbs — the cloud machines where its coding agent runs tools — can be self-hosted on customer infrastructure while the agent loop and model inference stay on Amp. Official docs and example dispatchers cover Docker, Kubernetes, Modal, Vercel Sandbox, E2B, and others; the company said the feature is free for individuals and teams.",
           "sales_relevance": "Self-hosted tool VMs while inference stays hosted is a wedge: customers who already want data residency for orbs are the same buyers Modular can ask to bring model serving in-house off Fireworks."
         }
       ]
     },
     {
       "id": "cresta",
-      "news": []
+      "news": [
+        {
+          "date": "2026-10-05",
+          "category": "partnership",
+          "title": "Anthropic publishes Cresta Conductor customer story on the Claude Agent SDK",
+          "source": "Anthropic / Claude",
+          "url": "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+          "summary": "Anthropic's October 5 customer story describes Cresta Conductor, a natural-language CX agent builder on the Claude Agent SDK. Cresta puts CX workflows, tools, and domain context on the SDK harness and reports roughly 2x faster initial deployments, with eval loops rerun on every model upgrade.",
+          "sales_relevance": "Cresta already runs many models for real-time CX; an SDK-based agent builder plus frequent model-upgrade evals is a multi-model, low-latency serving discussion for Modular."
+        }
+      ]
     },
     {
       "id": "liner",
@@ -294,11 +322,31 @@
     },
     {
       "id": "openevidence",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-15",
+          "category": "partnership",
+          "title": "Apple Health AI Usage Study launches with OpenEvidence",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+          "summary": "Apple opened enrollment on November 15 for the Apple Health AI Usage Study with OpenEvidence: a US iPhone study app for adults 21+ that asks medical questions, rates answers, and can optionally share HealthKit context. Coverage says Apple aims for up to 200,000 participants over 12+ months, that OpenEvidence deletes query and response data after 24 hours, and that Apple says study data will not be used to train models.",
+          "sales_relevance": "A consumer-scale Apple Health deployment of OpenEvidence’s clinical model is a high-trust, high-volume inference partnership that may need dedicated serving capacity."
+        }
+      ]
     },
     {
       "id": "mercor",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-10",
+          "category": "product_launch",
+          "title": "Mercor open-sources OpenWorldEngineer long-horizon agent benchmark",
+          "source": "GitHub (Mercor-Intelligence/OpenWorldEngineer)",
+          "url": "https://github.com/Mercor-Intelligence/OpenWorldEngineer",
+          "summary": "Mercor published OpenWorldEngineer, 26 long-horizon engineering tasks spanning ML kernels, CAD, aerospace, and scientific forecasting, with deterministic verifiers and a public leaderboard. The first-party repo was created November 10; tasks include GPU kernel speedups on NVIDIA B300 and H100.",
+          "sales_relevance": "Kernel and GPU-engineering eval tasks on B300/H100 signal Mercor is measuring agent performance on the same accelerators MAX targets."
+        }
+      ]
     },
     {
       "id": "abridge",
@@ -314,7 +362,17 @@
     },
     {
       "id": "gamma",
-      "news": []
+      "news": [
+        {
+          "date": "2026-10-09",
+          "category": "product_launch",
+          "title": "Official n8n node 0.6.0 adds Gamma 5 agent generation",
+          "source": "GitHub (gamma-app/n8n-nodes-gamma)",
+          "url": "https://github.com/gamma-app/n8n-nodes-gamma/releases/tag/0.6.0",
+          "summary": "Gamma published @gammatech/n8n-nodes-gamma 0.6.0 with Create with Gamma 5 (POST /v1.0/agent/generations), natural-language page edits, and search. A first-party commit on the same repo says Gamma 5 launched on 2026-10-06; MCP switches automatically, while API-key callers must use the new /v1.0/agent/* endpoints.",
+          "sales_relevance": "Gamma 5 agent jobs can run for tens of minutes, so Gamma is exposing a heavier generation stack that Modular can pitch for MAX serving."
+        }
+      ]
     },
     {
       "id": "hebbia",
@@ -374,11 +432,30 @@
     },
     {
       "id": "lovable",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-16",
+          "category": "product_launch",
+          "title": "Lovable ships Claude plugin 0.5.0 with 13 skills",
+          "source": "GitHub (lovablelabs/mcp)",
+          "url": "https://github.com/lovablelabs/mcp/pull/15",
+          "summary": "On November 16 Lovable merged official plugin 0.5.0 into lovablelabs/mcp, adding 13 Claude Code/Cowork skills (launch, hiring tracker, spreadsheet-to-app, Claude Design import, workspace review, and more) on top of the existing MCP server at mcp.lovable.dev. Skills ask before spending credits or publishing; the MCP config and /lovable:build commands are unchanged.",
+          "sales_relevance": "Agent-driven app builds from Claude will increase Lovable’s codegen inference load; Modular can sell cheaper, faster MAX serving for the build agent behind those skills."
+        }
+      ]
     },
     {
       "id": "reducto",
       "news": [
+        {
+          "date": "2026-11-14",
+          "category": "product_launch",
+          "title": "Reducto Python SDK 0.27.0 adds workload identity federation",
+          "source": "GitHub (reductoai/reducto-python-sdk)",
+          "url": "https://github.com/reductoai/reducto-python-sdk/releases/tag/v0.27.0",
+          "summary": "Released November 14. Clients can exchange Kubernetes, GCP, Azure, GitHub Actions, or AWS workload tokens at /oauth/token for short-lived access tokens (or set REDUCTO_IDENTITY_PROVIDER_ID). API-key auth is unchanged.",
+          "sales_relevance": "Enterprise auth without long-lived API keys is a self-host/VPC buying signal Modular can attach to private parse serving."
+        },
         {
           "date": "2026-11-04",
           "category": "product_launch",
@@ -396,7 +473,26 @@
     },
     {
       "id": "genspark",
-      "news": []
+      "news": [
+        {
+          "date": "2026-11-19",
+          "category": "product_launch",
+          "title": "Genspark GenOffice 0.13.615 ships Word-like Docs desktop",
+          "source": "GitHub (genspark-ai/genoffice)",
+          "url": "https://github.com/genspark-ai/genoffice/releases/tag/v0.13.615",
+          "summary": "Official GenOffice v0.13.615 stable installers posted November 19, signed with the GenSpark company certificate. Docs menus, ribbon, and dialogs follow Word for Mac, plus Compare/Combine, Zotero citations, Excel regex, in-place PDF OCR editing, and more accurate AI attachments for Word/Excel/PowerPoint.",
+          "sales_relevance": "A free AI office suite with local editors still calls Genspark’s agent stack for document AI; growing desktop usage is sustained multimodal inference demand Modular can serve."
+        },
+        {
+          "date": "2026-11-12",
+          "category": "product_launch",
+          "title": "GenOffice 0.13.18 adds legacy PowerPoint and MCP document tools",
+          "source": "GitHub (genspark-ai/genoffice)",
+          "url": "https://github.com/genspark-ai/genoffice/releases/tag/v0.13.18",
+          "summary": "v0.13.18 on November 12 opens PowerPoint 97-2003 .ppt files as editable .pptx, adds local MP4 export of decks, PDF sensitive-info find for redaction, and MCP convert_document/check_document tools.",
+          "sales_relevance": "MCP document conversion and redaction are agent workloads; Modular can ask where those tools run and whether MAX can cut latency or cost."
+        }
+      ]
     },
     {
       "id": "lmarena",
@@ -519,7 +615,17 @@
     },
     {
       "id": "sk-telecom",
-      "news": []
+      "news": [
+        {
+          "date": "2026-10-22",
+          "category": "partnership",
+          "title": "NVIDIA Dynamo v1.6.0 ships SK Telecom A.X-K2 vLLM serving recipes",
+          "source": "NVIDIA Dynamo GitHub releases",
+          "url": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0",
+          "summary": "NVIDIA's October 22 Dynamo v1.6.0 release notes credit SK Telecom engineers and add A.X-K2 vLLM recipes: FP8 H200 4xTP8 aggregated and 2P2D TP8 disaggregated layouts with KV-aware routing and EAGLE3, plus A.X-K2-NVFP4 B200 recipes. Recipes require a custom vllm-runtime container.",
+          "sales_relevance": "SKT is productionizing a large MoE on H200/B200 with disaggregated prefill-decode — a serving stack Modular MAX can compete with or complement if they want a second runtime besides Together/vLLM/Dynamo."
+        }
+      ]
     },
     {
       "id": "cognition",
@@ -532,6 +638,15 @@
     {
       "id": "krea",
       "news": [
+        {
+          "date": "2026-10-27",
+          "category": "product_launch",
+          "title": "ComfyUI 0.43.0 adds ultra-thinking mode to the Krea 3 partner node",
+          "source": "ComfyUI GitHub releases",
+          "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.43.0",
+          "summary": "ComfyUI 0.43.0, published October 27, includes partner-node PR #17260 adding an ultra-thinking mode to the Krea 3 Image node. That extends the October 15 Krea 3 API node for heavier reasoning/edit passes.",
+          "sales_relevance": "Krea is exposing heavier image-edit inference through ComfyUI, which is bursty GPU demand Modular can target versus Together."
+        },
         {
           "date": "2026-10-15",
           "category": "product_launch",
